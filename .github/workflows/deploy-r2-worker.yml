@@ -61,7 +61,7 @@ jobs:
           ZERO="0000000000000000000000000000000000000000"
 
           echo "Preflight: listing remote R2 buckets..."
-          wrangler r2 bucket list --remote >/tmp/r2-buckets.txt
+          wrangler r2 bucket list >/tmp/r2-buckets.txt
           if ! grep -q "\"name\": \"${R2_BUCKET}\"" /tmp/r2-buckets.txt; then
             echo "Configured R2 bucket not found in account: ${R2_BUCKET}"
             echo "Available buckets:"

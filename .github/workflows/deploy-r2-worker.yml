@@ -99,7 +99,7 @@ jobs:
             fi
           fi
 
-          if ! grep -q "\"name\": \"${R2_BUCKET}\"" /tmp/r2-buckets.txt; then
+          if ! grep -q "^name:.*${R2_BUCKET}$" /tmp/r2-buckets.txt; then
             echo "Configured R2 bucket not found in account: ${R2_BUCKET}"
             echo "Available buckets:"
             cat /tmp/r2-buckets.txt

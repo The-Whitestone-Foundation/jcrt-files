@@ -1,0 +1,32 @@
+[
+  {
+    "id": "archives-14.1-settle",
+    "type": "article-journal",
+    "title": "Miracles and Militants.",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/14.1/settle.pdf",
+    "author": [
+      {
+        "family": "Isaacson",
+        "given": "Timothy"
+      },
+      {
+        "family": "Settle",
+        "given": "Zachary Thomas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "season": "fall",
+    "volume": "14",
+    "issue": "1"
+  }
+]

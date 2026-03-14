@@ -1,0 +1,28 @@
+[
+  {
+    "id": "archives-14.2-trakikis",
+    "type": "article-journal",
+    "title": "Philiosophy Mashed Up and In Crisis",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/14.2/trakikis.pdf",
+    "author": [
+      {
+        "family": "Trakikis",
+        "given": "N.N."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "season": "spring",
+    "volume": "14",
+    "issue": "2"
+  }
+]

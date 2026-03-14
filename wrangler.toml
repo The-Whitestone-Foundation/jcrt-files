@@ -1,0 +1,14 @@
+name = "jcrt-files"
+main = "src/worker.js"
+compatibility_date = "2026-03-14"
+workers_dev = true
+
+# Add this route after DNS is in Cloudflare for jcrt.org zone.
+# [[routes]]
+# pattern = "files.jcrt.org/*"
+# custom_domain = true
+
+[[r2_buckets]]
+binding = "JCRT_FILES"
+bucket_name = "jcrt-files"
+preview_bucket_name = "jcrt-files"

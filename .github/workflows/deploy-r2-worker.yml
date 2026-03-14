@@ -1,0 +1,78 @@
+name: Deploy jcrt-files to R2 + Worker
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'images/**'
+      - 'archives/**'
+      - 'citations/**'
+      - 'docs/**'
+      - 'src/**'
+      - 'wrangler.toml'
+      - '.github/workflows/deploy-r2-worker.yml'
+
+concurrency:
+  group: deploy-jcrt-files-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Wrangler
+        run: npm install -g wrangler@4
+
+      - name: Upload changed/new files to R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_BUCKET: jcrt-files
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          TARGETS=(images archives citations docs)
+          ZERO="0000000000000000000000000000000000000000"
+
+          if [[ "${BEFORE_SHA}" == "$ZERO" ]] || ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)
+            mapfile -t DELETED < <(printf "")
+          else
+            mapfile -t CHANGED < <(git diff --name-only --diff-filter=ACMRT "$BEFORE_SHA" "$AFTER_SHA" -- "${TARGETS[@]}" || true)
+            mapfile -t DELETED < <(git diff --name-only --diff-filter=D "$BEFORE_SHA" "$AFTER_SHA" -- "${TARGETS[@]}" || true)
+          fi
+
+          echo "Changed/new files: ${#CHANGED[@]}"
+          echo "Deleted files: ${#DELETED[@]}"
+
+          for file in "${CHANGED[@]}"; do
+            [[ -f "$file" ]] || continue
+            echo "PUT $file"
+            wrangler r2 object put "$R2_BUCKET/$file" --file "$file"
+          done
+
+          for file in "${DELETED[@]}"; do
+            [[ -n "$file" ]] || continue
+            echo "DELETE $file"
+            wrangler r2 object delete "$R2_BUCKET/$file" || true
+          done
+
+      - name: Deploy Worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: wrangler deploy

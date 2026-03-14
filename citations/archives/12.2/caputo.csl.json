@@ -1,0 +1,32 @@
+[
+  {
+    "id": "archives-12.2-caputo",
+    "type": "article-journal",
+    "title": "Education as Event: a Conversation with John D. Caputo.",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/12.2/caputo.pdf",
+    "author": [
+      {
+        "family": "Caputo",
+        "given": "John D."
+      },
+      {
+        "family": "Dickinson",
+        "given": "T. Wilson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2012
+        ]
+      ]
+    },
+    "season": "fall",
+    "volume": "12",
+    "issue": "2"
+  }
+]

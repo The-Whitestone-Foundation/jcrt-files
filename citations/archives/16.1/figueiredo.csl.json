@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-16.1-figueiredo",
+    "type": "article-journal",
+    "title": "Introduction to the Journal of Cultural and Religious Theory Special Issue On",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/16.1/figueiredo/",
+    "author": [
+      {
+        "family": "Figueiredo",
+        "given": "Sergio C."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "season": "winter",
+    "volume": "16",
+    "issue": "1",
+    "page": "1-4"
+  }
+]

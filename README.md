@@ -1,4 +1,6 @@
-# jcrt-files
+[![Deploy jcrt-files to R2 + Worker](https://github.com/The-Whitestone-Foundation/jcrt-files/actions/workflows/deploy-r2-worker.yml/badge.svg?branch=main)](https://github.com/The-Whitestone-Foundation/jcrt-files/actions/workflows/deploy-r2-worker.yml)
+# jcrt-files // files.jcrt.org
+
 
 Asset delivery repository for JCRT.
 

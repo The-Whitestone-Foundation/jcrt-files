@@ -45,7 +45,8 @@ jobs:
 
       - name: Upload changed/new files to R2
         env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN_PRIMARY: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN_BACKUP: ${{ secrets.CLOUDFLARE_API_TOKEN_BACKUP }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: jcrt-files
           BEFORE_SHA: ${{ github.event.before }}
@@ -60,8 +61,32 @@ jobs:
           TARGETS=(images archives citations docs)
           ZERO="0000000000000000000000000000000000000000"
 
+          pick_working_token() {
+            local token_label="$1"
+            local token_value="$2"
+            if [[ -z "${token_value}" ]]; then
+              return 1
+            fi
+            export CLOUDFLARE_API_TOKEN="${token_value}"
+            if wrangler r2 bucket list >/tmp/r2-buckets.txt 2>/tmp/r2-preflight.err; then
+              echo "Cloudflare auth preflight passed using ${token_label}."
+              return 0
+            fi
+            return 1
+          }
+
           echo "Preflight: listing remote R2 buckets..."
-          wrangler r2 bucket list >/tmp/r2-buckets.txt
+          if ! pick_working_token "CLOUDFLARE_API_TOKEN" "${CLOUDFLARE_API_TOKEN_PRIMARY:-}"; then
+            echo "Primary Cloudflare token failed; trying backup token."
+            if ! pick_working_token "CLOUDFLARE_API_TOKEN_BACKUP" "${CLOUDFLARE_API_TOKEN_BACKUP:-}"; then
+              echo "No working Cloudflare API token found."
+              if [[ -s /tmp/r2-preflight.err ]]; then
+                sed -n '1,120p' /tmp/r2-preflight.err
+              fi
+              exit 1
+            fi
+          fi
+
           if ! grep -q "\"name\": \"${R2_BUCKET}\"" /tmp/r2-buckets.txt; then
             echo "Configured R2 bucket not found in account: ${R2_BUCKET}"
             echo "Available buckets:"

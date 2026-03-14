@@ -7,6 +7,10 @@ on:
         description: "Upload all tracked asset files (images/archives/citations/docs)"
         required: false
         default: "true"
+      prune_deletes:
+        description: "Delete removed files from remote R2 (slower)"
+        required: false
+        default: "false"
   push:
     branches: [main, master]
     paths:
@@ -47,6 +51,7 @@ jobs:
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
           FORCE_FULL_SYNC: ${{ github.event.inputs.full_sync }}
+          PRUNE_DELETES: ${{ github.event.inputs.prune_deletes }}
           EVENT_NAME: ${{ github.event_name }}
         shell: bash
         run: |
@@ -73,14 +78,18 @@ jobs:
           for file in "${CHANGED[@]}"; do
             [[ -f "$file" ]] || continue
             echo "PUT $file"
-            wrangler r2 object put "$R2_BUCKET/$file" --file "$file"
+            wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote
           done
 
-          for file in "${DELETED[@]}"; do
-            [[ -n "$file" ]] || continue
-            echo "DELETE $file"
-            wrangler r2 object delete "$R2_BUCKET/$file" || true
-          done
+          if [[ "${PRUNE_DELETES:-false}" == "true" ]]; then
+            for file in "${DELETED[@]}"; do
+              [[ -n "$file" ]] || continue
+              echo "DELETE $file"
+              wrangler r2 object delete "$R2_BUCKET/$file" --remote || true
+            done
+          else
+            echo "Skipping delete prune (PRUNE_DELETES=${PRUNE_DELETES:-false})."
+          fi
 
       - name: Deploy Worker
         env:

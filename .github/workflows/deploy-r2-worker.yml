@@ -47,6 +47,7 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          R2_JURISDICTION: ${{ secrets.CLOUDFLARE_R2_JURISDICTION }}
           R2_BUCKET: jcrt-files
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
@@ -59,6 +60,22 @@ jobs:
 
           TARGETS=(images archives citations docs)
           ZERO="0000000000000000000000000000000000000000"
+          JURISDICTION_ARGS=()
+          if [[ -n "${R2_JURISDICTION:-}" ]]; then
+            JURISDICTION_ARGS=(--jurisdiction "${R2_JURISDICTION}")
+            echo "Using R2 jurisdiction: ${R2_JURISDICTION}"
+          else
+            echo "No R2 jurisdiction override configured."
+          fi
+
+          echo "Preflight: listing remote R2 buckets..."
+          wrangler r2 bucket list --remote "${JURISDICTION_ARGS[@]}" >/tmp/r2-buckets.txt
+          if ! grep -q "\"name\": \"${R2_BUCKET}\"" /tmp/r2-buckets.txt; then
+            echo "Configured R2 bucket not found in account: ${R2_BUCKET}"
+            echo "Available buckets:"
+            cat /tmp/r2-buckets.txt
+            exit 1
+          fi
 
           if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${FORCE_FULL_SYNC}" != "false" ]]; then
             echo "Manual full sync requested; uploading all tracked target files."
@@ -78,14 +95,26 @@ jobs:
           for file in "${CHANGED[@]}"; do
             [[ -f "$file" ]] || continue
             echo "PUT $file"
-            wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote
+            ok=false
+            for attempt in 1 2 3; do
+              if wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote "${JURISDICTION_ARGS[@]}"; then
+                ok=true
+                break
+              fi
+              echo "PUT failed (attempt $attempt/3): $file"
+              sleep $((attempt * 2))
+            done
+            if [[ "$ok" != "true" ]]; then
+              echo "Giving up on upload: $file"
+              exit 1
+            fi
           done
 
           if [[ "${PRUNE_DELETES:-false}" == "true" ]]; then
             for file in "${DELETED[@]}"; do
               [[ -n "$file" ]] || continue
               echo "DELETE $file"
-              wrangler r2 object delete "$R2_BUCKET/$file" --remote || true
+              wrangler r2 object delete "$R2_BUCKET/$file" --remote "${JURISDICTION_ARGS[@]}" || true
             done
           else
             echo "Skipping delete prune (PRUNE_DELETES=${PRUNE_DELETES:-false})."

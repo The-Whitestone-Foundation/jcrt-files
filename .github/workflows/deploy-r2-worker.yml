@@ -46,6 +46,7 @@ jobs:
       - name: Upload changed/new files to R2
         env:
           CLOUDFLARE_API_TOKEN_PRIMARY: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_API_TOKEN_V2: ${{ secrets.CLOUDFLARE_API_TOKEN_V2 }}
           CLOUDFLARE_API_TOKEN_BACKUP: ${{ secrets.CLOUDFLARE_API_TOKEN_BACKUP }}
           CLOUDFLARE_API_TOKEN_R2_ACCOUNT: ${{ secrets.JCRT_R2_Account_Token }}
           CLOUDFLARE_API_TOKEN_R2_ACCOUNT_ALT: ${{ secrets.JCRT_R2_ACCOUNT_TOKEN }}
@@ -79,17 +80,20 @@ jobs:
 
           echo "Preflight: listing remote R2 buckets..."
           if ! pick_working_token "CLOUDFLARE_API_TOKEN" "${CLOUDFLARE_API_TOKEN_PRIMARY:-}"; then
-            echo "Primary Cloudflare token failed; trying backup token."
-            if ! pick_working_token "CLOUDFLARE_API_TOKEN_BACKUP" "${CLOUDFLARE_API_TOKEN_BACKUP:-}"; then
-              echo "Backup token failed; trying R2 account token."
-              if ! pick_working_token "JCRT_R2_Account_Token" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT:-}"; then
-                echo "R2 account token failed; trying alternate R2 token name."
-                if ! pick_working_token "JCRT_R2_ACCOUNT_TOKEN" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT_ALT:-}"; then
-                  echo "No working Cloudflare API token found."
-                  if [[ -s /tmp/r2-preflight.err ]]; then
-                    sed -n '1,120p' /tmp/r2-preflight.err
+            echo "Primary Cloudflare token failed; trying CLOUDFLARE_API_TOKEN_V2."
+            if ! pick_working_token "CLOUDFLARE_API_TOKEN_V2" "${CLOUDFLARE_API_TOKEN_V2:-}"; then
+              echo "V2 token failed; trying backup token."
+              if ! pick_working_token "CLOUDFLARE_API_TOKEN_BACKUP" "${CLOUDFLARE_API_TOKEN_BACKUP:-}"; then
+                echo "Backup token failed; trying R2 account token."
+                if ! pick_working_token "JCRT_R2_Account_Token" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT:-}"; then
+                  echo "R2 account token failed; trying alternate R2 token name."
+                  if ! pick_working_token "JCRT_R2_ACCOUNT_TOKEN" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT_ALT:-}"; then
+                    echo "No working Cloudflare API token found."
+                    if [[ -s /tmp/r2-preflight.err ]]; then
+                      sed -n '1,120p' /tmp/r2-preflight.err
+                    fi
+                    exit 1
                   fi
-                  exit 1
                 fi
               fi
             fi

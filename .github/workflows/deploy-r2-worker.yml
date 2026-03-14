@@ -2,6 +2,11 @@ name: Deploy jcrt-files to R2 + Worker
 
 on:
   workflow_dispatch:
+    inputs:
+      full_sync:
+        description: "Upload all tracked asset files (images/archives/citations/docs)"
+        required: false
+        default: "true"
   push:
     branches: [main, master]
     paths:
@@ -41,6 +46,8 @@ jobs:
           R2_BUCKET: jcrt-files
           BEFORE_SHA: ${{ github.event.before }}
           AFTER_SHA: ${{ github.sha }}
+          FORCE_FULL_SYNC: ${{ github.event.inputs.full_sync }}
+          EVENT_NAME: ${{ github.event_name }}
         shell: bash
         run: |
           set -euo pipefail
@@ -48,7 +55,11 @@ jobs:
           TARGETS=(images archives citations docs)
           ZERO="0000000000000000000000000000000000000000"
 
-          if [[ "${BEFORE_SHA}" == "$ZERO" ]] || ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+          if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${FORCE_FULL_SYNC}" != "false" ]]; then
+            echo "Manual full sync requested; uploading all tracked target files."
+            mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)
+            mapfile -t DELETED < <(printf "")
+          elif [[ "${BEFORE_SHA}" == "$ZERO" ]] || ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
             mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)
             mapfile -t DELETED < <(printf "")
           else

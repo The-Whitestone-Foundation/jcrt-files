@@ -47,6 +47,8 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN_PRIMARY: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_API_TOKEN_BACKUP: ${{ secrets.CLOUDFLARE_API_TOKEN_BACKUP }}
+          CLOUDFLARE_API_TOKEN_R2_ACCOUNT: ${{ secrets.JCRT_R2_Account_Token }}
+          CLOUDFLARE_API_TOKEN_R2_ACCOUNT_ALT: ${{ secrets.JCRT_R2_ACCOUNT_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           R2_BUCKET: jcrt-files
           BEFORE_SHA: ${{ github.event.before }}
@@ -79,11 +81,17 @@ jobs:
           if ! pick_working_token "CLOUDFLARE_API_TOKEN" "${CLOUDFLARE_API_TOKEN_PRIMARY:-}"; then
             echo "Primary Cloudflare token failed; trying backup token."
             if ! pick_working_token "CLOUDFLARE_API_TOKEN_BACKUP" "${CLOUDFLARE_API_TOKEN_BACKUP:-}"; then
-              echo "No working Cloudflare API token found."
-              if [[ -s /tmp/r2-preflight.err ]]; then
-                sed -n '1,120p' /tmp/r2-preflight.err
+              echo "Backup token failed; trying R2 account token."
+              if ! pick_working_token "JCRT_R2_Account_Token" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT:-}"; then
+                echo "R2 account token failed; trying alternate R2 token name."
+                if ! pick_working_token "JCRT_R2_ACCOUNT_TOKEN" "${CLOUDFLARE_API_TOKEN_R2_ACCOUNT_ALT:-}"; then
+                  echo "No working Cloudflare API token found."
+                  if [[ -s /tmp/r2-preflight.err ]]; then
+                    sed -n '1,120p' /tmp/r2-preflight.err
+                  fi
+                  exit 1
+                fi
               fi
-              exit 1
             fi
           fi
 

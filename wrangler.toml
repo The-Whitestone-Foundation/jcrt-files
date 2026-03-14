@@ -5,7 +5,7 @@ workers_dev = true
 
 # Add this route after DNS is in Cloudflare for jcrt.org zone.
 [[routes]]
-pattern = "files.jcrt.org/*"
+pattern = "files.jcrt.org"
 custom_domain = true
 
 [[r2_buckets]]

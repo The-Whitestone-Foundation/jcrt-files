@@ -43,7 +43,7 @@ jobs:
       - name: Install Wrangler
         run: npm install -g wrangler@4
 
-      - name: Upload changed/new files to R2
+      - name: Upload changed/new files to R2 and deploy Worker
         env:
           CLOUDFLARE_API_TOKEN_PRIMARY: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_API_TOKEN_V2: ${{ secrets.CLOUDFLARE_API_TOKEN_V2 }}
@@ -149,8 +149,5 @@ jobs:
             echo "Skipping delete prune (PRUNE_DELETES=${PRUNE_DELETES:-false})."
           fi
 
-      - name: Deploy Worker
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: wrangler deploy
+          echo "Deploying Worker using verified token..."
+          wrangler deploy

@@ -18,17 +18,19 @@ on:
       - 'archives/**'
       - 'citations/**'
       - 'docs/**'
+      - 'metadata/**'
       - 'src/**'
       - 'wrangler.toml'
       - '.github/workflows/deploy-r2-worker.yml'
 
 concurrency:
   group: deploy-jcrt-files-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -61,7 +63,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          TARGETS=(images archives citations docs)
+          TARGETS=(images archives citations docs metadata)
           ZERO="0000000000000000000000000000000000000000"
 
           pick_working_token() {
@@ -121,23 +123,16 @@ jobs:
           echo "Changed/new files: ${#CHANGED[@]}"
           echo "Deleted files: ${#DELETED[@]}"
 
-          for file in "${CHANGED[@]}"; do
-            [[ -f "$file" ]] || continue
-            echo "PUT $file"
-            ok=false
-            for attempt in 1 2 3; do
-              if wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote; then
-                ok=true
-                break
-              fi
-              echo "PUT failed (attempt $attempt/3): $file"
-              sleep $((attempt * 2))
-            done
-            if [[ "$ok" != "true" ]]; then
-              echo "Giving up on upload: $file"
-              exit 1
-            fi
-          done
+          if [[ ${#CHANGED[@]} -gt 0 ]]; then
+            printf "%s\n" "${CHANGED[@]}" | xargs -I{} -P8 bash -c '
+              file="$1"; [[ -f "$file" ]] || exit 0
+              for attempt in 1 2 3; do
+                wrangler r2 object put "'"$R2_BUCKET"'/$file" --file "$file" --remote 2>/dev/null && exit 0
+                sleep $((attempt * 2))
+              done
+              echo "FAILED: $file" >&2; exit 1
+            ' _ {}
+          fi
 
           if [[ "${PRUNE_DELETES:-false}" == "true" ]]; then
             for file in "${DELETED[@]}"; do

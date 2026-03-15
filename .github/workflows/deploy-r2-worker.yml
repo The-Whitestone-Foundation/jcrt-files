@@ -124,24 +124,30 @@ jobs:
           echo "Deleted files: ${#DELETED[@]}"
 
           if [[ ${#CHANGED[@]} -gt 0 ]]; then
-            # Write file list to temp file to avoid broken pipe with xargs
-            printf "%s\n" "${CHANGED[@]}" > /tmp/upload-list.txt
-            UPLOAD_FAILED=0
-            # Use -P2 to avoid Cloudflare rate limits; -P8 causes mass failures
-            cat /tmp/upload-list.txt | xargs -I{} -P2 bash -c '
-              file="$1"; [[ -f "$file" ]] || exit 0
+            TOTAL=${#CHANGED[@]}
+            SUCCESS=0
+            FAIL=0
+            for file in "${CHANGED[@]}"; do
+              [[ -f "$file" ]] || continue
+              ok=false
               for attempt in 1 2 3 4 5; do
-                if wrangler r2 object put "'"$R2_BUCKET"'/$file" --file "$file" --remote 2>&1; then
-                  echo "OK: $file"
-                  exit 0
+                if wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote 2>&1; then
+                  ok=true
+                  SUCCESS=$((SUCCESS + 1))
+                  echo "[$SUCCESS/$TOTAL] OK: $file"
+                  break
                 fi
-                echo "Retry $attempt/5: $file" >&2
-                sleep $((attempt * 3))
+                echo "Retry $attempt/5: $file"
+                sleep $((attempt * 2))
               done
-              echo "FAILED: $file" >&2; exit 1
-            ' _ {} || UPLOAD_FAILED=1
-            if [[ "$UPLOAD_FAILED" -ne 0 ]]; then
-              echo "WARNING: Some uploads failed, but continuing with deploy"
+              if [[ "$ok" != "true" ]]; then
+                FAIL=$((FAIL + 1))
+                echo "FAILED ($FAIL): $file"
+              fi
+            done
+            echo "Upload summary: $SUCCESS succeeded, $FAIL failed out of $TOTAL"
+            if [[ "$FAIL" -gt 0 ]]; then
+              echo "WARNING: $FAIL uploads failed, but continuing with deploy"
             fi
           fi
 

@@ -137,3 +137,9 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Citation signature markers (build cache)
+citations/**/.*.sig
+
+# macOS
+.DS_Store

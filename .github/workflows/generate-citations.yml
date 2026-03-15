@@ -1,0 +1,55 @@
+name: Generate Citations
+
+on:
+  workflow_dispatch:
+  repository_dispatch:
+    types: [generate-citations]
+
+concurrency:
+  group: generate-citations
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout jcrt-files
+        uses: actions/checkout@v4
+
+      - name: Checkout jcrt-v2 content
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/jcrt-v2
+          path: jcrt-v2
+          sparse-checkout: |
+            content/archives
+            content/religioustheory/posts
+            _data/legacy-ris-dates.json
+          sparse-checkout-cone-mode: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Generate citation files
+        run: node scripts/generate-citations.mjs ./jcrt-v2
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git add citations/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "$(git diff --cached --stat)"
+          fi
+
+      - name: Commit and push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: regenerate citation files"
+          git push

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-12.3-raschke",
+    "type": "article-journal",
+    "title": "Peter Sloterdijk as “First Philosopher” of Globalization",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/12.3/raschke.pdf",
+    "author": [
+      {
+        "family": "Raschke",
+        "given": "Carl"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "season": "spring",
+    "volume": "12",
+    "issue": "3",
+    "page": "1-19"
+  }
+]

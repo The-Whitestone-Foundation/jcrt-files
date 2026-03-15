@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-14.2-moser",
+    "type": "article-journal",
+    "title": "God and Epistemic Authority.",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/14.2/moser.pdf",
+    "author": [
+      {
+        "family": "Moser",
+        "given": "Paul K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "season": "spring",
+    "volume": "14",
+    "issue": "2",
+    "page": "414-424"
+  }
+]

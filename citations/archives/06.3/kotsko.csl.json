@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-06.3-kotsko",
+    "type": "article-journal",
+    "title": "Already Not Yet",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/06.3/kotsko.pdf",
+    "author": [
+      {
+        "family": "Kotsko",
+        "given": "Adam"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2005
+        ]
+      ]
+    },
+    "season": "fall",
+    "volume": "6",
+    "issue": "3",
+    "page": "87-95"
+  }
+]

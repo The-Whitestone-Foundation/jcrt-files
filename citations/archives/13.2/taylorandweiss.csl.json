@@ -1,0 +1,32 @@
+[
+  {
+    "id": "archives-13.2-taylorandweiss",
+    "type": "article-journal",
+    "title": "The Cultural Un/life of Zombies",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/13.2/taylorandweiss.pdf",
+    "author": [
+      {
+        "family": "Taylor",
+        "given": "Victor"
+      },
+      {
+        "family": "Weiss",
+        "given": "Dennis M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "season": "summer",
+    "volume": "13",
+    "issue": "2"
+  }
+]

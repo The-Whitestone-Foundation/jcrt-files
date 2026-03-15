@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-15.2-valente2",
+    "type": "article-journal",
+    "title": "There’s a Girl Inside.",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/15.2/valente2.pdf",
+    "author": [
+      {
+        "family": "Valente",
+        "given": "Joseph"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    },
+    "season": "spring",
+    "volume": "15",
+    "issue": "2",
+    "page": "16-21"
+  }
+]

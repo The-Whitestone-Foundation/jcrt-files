@@ -1,0 +1,74 @@
+{
+  "site": "JCRT",
+  "section": "blog",
+  "generated_at": "2026-03-15T05:41:30.014Z",
+  "item_count": 6,
+  "items": [
+    {
+      "id": "blog:blog/blackcat.md",
+      "section": "blog",
+      "title": "Black Cats",
+      "author": "john_dhoe , jon_jones",
+      "description": "The void blinks back",
+      "url": "https://jcrt.org/blog/blackcat/",
+      "date": "2025-01-04",
+      "source_path": "content/blog/blackcat.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    },
+    {
+      "id": "blog:blog/call-for-submissions.md",
+      "section": "blog",
+      "title": "Call for Submissions",
+      "author": "editors_religioustheory",
+      "description": "The Journal for Cultural and Religious Theory (JCRT) invites submissions for the JCRT.org blog on a rolling basis. JCRT is a peer-reviewed journal devoted to both disciplinary and interdisciplinary scholarship of a cutting-edge nature that engages the phenomenon of religious and cultural theory broadly construed.",
+      "url": "https://jcrt.org/blog/call-for-submissions/",
+      "date": "2026-03-03 #YYY-MM-DD",
+      "source_path": "content/blog/call-for-submissions.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    },
+    {
+      "id": "blog:blog/demo.md",
+      "section": "blog",
+      "title": "Title",
+      "author": "editors",
+      "description": "",
+      "url": "https://jcrt.org/blog/demo/",
+      "date": "2018-07-04 #YYY-MM-DD",
+      "source_path": "content/blog/demo.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    },
+    {
+      "id": "blog:blog/firstpost.md",
+      "section": "blog",
+      "title": "This is my first post.",
+      "author": "jon_jones",
+      "description": "This is a post on My Blog about agile frameworks.",
+      "url": "https://jcrt.org/blog/firstpost/",
+      "date": "2018-05-01",
+      "source_path": "content/blog/firstpost.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    },
+    {
+      "id": "blog:blog/secondpost.md",
+      "section": "blog",
+      "title": "This is my second post with a much longer title.",
+      "author": "john_dhoe",
+      "description": "This is a post on My Blog about leveraging agile frameworks.",
+      "url": "https://jcrt.org/blog/secondpost/",
+      "date": "2018-07-04",
+      "source_path": "content/blog/secondpost.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    },
+    {
+      "id": "blog:blog/thirdpost.md",
+      "section": "blog",
+      "title": "This is my third post.",
+      "author": "",
+      "description": "This is a post on My Blog about win-win survival strategies.",
+      "url": "https://jcrt.org/blog/thirdpost/",
+      "date": "2018-08-24",
+      "source_path": "content/blog/thirdpost.md",
+      "updated_at": "2026-03-15T05:41:30.014Z"
+    }
+  ]
+}

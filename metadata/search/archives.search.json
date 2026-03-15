@@ -1,0 +1,17 @@
+{
+  "site": "JCRT",
+  "section": "archives",
+  "generated_at": "2026-03-15T05:41:29.966Z",
+  "chunk_size_limit_bytes": 5242880,
+  "total_items": 821,
+  "new_items_added": 0,
+  "chunks": [
+    {
+      "file": "archives-01.search.json",
+      "url": "https://files.jcrt.org/metadata/search/json/archives-01.search.json",
+      "item_count": 821,
+      "size_bytes": 479446,
+      "lastmod": "2026-03-15"
+    }
+  ]
+}

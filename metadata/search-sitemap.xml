@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/archives.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/authors.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/blog.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/json/archives-01.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/json/authors-01.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/json/blog-01.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/json/religioustheory-01.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+  <url>
+    <loc>https://files.jcrt.org/metadata/search/religioustheory.search.json</loc>
+    <lastmod>2026-03-15</lastmod>
+  </url>
+</urlset>

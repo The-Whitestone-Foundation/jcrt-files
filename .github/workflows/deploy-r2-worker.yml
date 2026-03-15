@@ -127,14 +127,16 @@ jobs:
             # Write file list to temp file to avoid broken pipe with xargs
             printf "%s\n" "${CHANGED[@]}" > /tmp/upload-list.txt
             UPLOAD_FAILED=0
-            cat /tmp/upload-list.txt | xargs -I{} -P8 bash -c '
+            # Use -P2 to avoid Cloudflare rate limits; -P8 causes mass failures
+            cat /tmp/upload-list.txt | xargs -I{} -P2 bash -c '
               file="$1"; [[ -f "$file" ]] || exit 0
-              for attempt in 1 2 3; do
-                if wrangler r2 object put "'"$R2_BUCKET"'/$file" --file "$file" --remote 2>/dev/null; then
+              for attempt in 1 2 3 4 5; do
+                if wrangler r2 object put "'"$R2_BUCKET"'/$file" --file "$file" --remote 2>&1; then
                   echo "OK: $file"
                   exit 0
                 fi
-                sleep $((attempt * 2))
+                echo "Retry $attempt/5: $file" >&2
+                sleep $((attempt * 3))
               done
               echo "FAILED: $file" >&2; exit 1
             ' _ {} || UPLOAD_FAILED=1

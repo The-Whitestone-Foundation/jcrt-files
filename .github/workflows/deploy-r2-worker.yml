@@ -11,6 +11,10 @@ on:
         description: "Delete removed files from remote R2 (slower)"
         required: false
         default: "false"
+      target_dirs:
+        description: "Comma-separated dirs to sync (e.g. 'metadata,docs'). Empty = all targets."
+        required: false
+        default: ""
   push:
     branches: [main, master]
     paths:
@@ -30,7 +34,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 240
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -58,12 +62,19 @@ jobs:
           AFTER_SHA: ${{ github.sha }}
           FORCE_FULL_SYNC: ${{ github.event.inputs.full_sync }}
           PRUNE_DELETES: ${{ github.event.inputs.prune_deletes }}
+          TARGET_DIRS: ${{ github.event.inputs.target_dirs }}
           EVENT_NAME: ${{ github.event_name }}
         shell: bash
         run: |
           set -euo pipefail
 
-          TARGETS=(images archives citations docs metadata)
+          DEFAULT_TARGETS=(images archives citations docs metadata)
+          if [[ -n "${TARGET_DIRS:-}" ]]; then
+            IFS=',' read -ra TARGETS <<< "$TARGET_DIRS"
+            echo "Using custom targets: ${TARGETS[*]}"
+          else
+            TARGETS=("${DEFAULT_TARGETS[@]}")
+          fi
           ZERO="0000000000000000000000000000000000000000"
 
           pick_working_token() {

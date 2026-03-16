@@ -1,6 +1,7 @@
 function contentTypeFor(key) {
   const lower = key.toLowerCase();
   if (lower.endsWith('.pdf')) return 'application/pdf';
+  if (lower.endsWith('.ris')) return 'application/x-research-info-systems; charset=utf-8';
   if (lower.endsWith('.json')) return 'application/json; charset=utf-8';
   if (lower.endsWith('.xml')) return 'application/xml; charset=utf-8';
   if (lower.endsWith('.txt')) return 'text/plain; charset=utf-8';

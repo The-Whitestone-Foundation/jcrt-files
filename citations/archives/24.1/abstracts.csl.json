@@ -7,7 +7,7 @@
     "short-container-title": "JCRT",
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
-    "URL": "https://jcrt.org/archives/24.1/abstracts.pdf",
+    "URL": "https://jcrt.org/archives/24.1/abstracts/",
     "author": [
       {
         "literal": "editors"
@@ -23,6 +23,6 @@
     "season": "summer",
     "volume": "24",
     "issue": "1",
-    "page": "abstracts.pdf"
+    "page": "abstracts/"
   }
 ]

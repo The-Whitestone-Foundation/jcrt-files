@@ -31,8 +31,31 @@ function normalizeKey(pathname) {
   return key;
 }
 
+function applyCors(headers, request) {
+  const origin = request.headers.get('Origin');
+  const allowedOrigins = new Set([
+    'https://jcrt.org',
+    'https://files.jcrt.org',
+  ]);
+
+  if (origin && allowedOrigins.has(origin)) {
+    headers.set('Access-Control-Allow-Origin', origin);
+    headers.set('Vary', 'Origin');
+  }
+
+  headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
+  headers.set('Access-Control-Allow-Headers', 'Content-Type, Accept, Range');
+  headers.set('Access-Control-Expose-Headers', 'Content-Length, Content-Range, ETag');
+}
+
 export default {
   async fetch(request, env) {
+    if (request.method === 'OPTIONS') {
+      const headers = new Headers();
+      applyCors(headers, request);
+      return new Response(null, { status: 204, headers });
+    }
+
     if (request.method !== 'GET' && request.method !== 'HEAD') {
       return new Response('Method Not Allowed', { status: 405 });
     }
@@ -57,6 +80,7 @@ export default {
     headers.set('etag', object.httpEtag);
     headers.set('content-type', headers.get('content-type') || contentTypeFor(key));
     headers.set('cache-control', cacheControlFor(key));
+    applyCors(headers, request);
 
     if (request.method === 'HEAD') {
       return new Response(null, { status: 200, headers });

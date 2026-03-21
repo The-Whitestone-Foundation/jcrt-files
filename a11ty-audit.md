@@ -10,43 +10,29 @@
 | Metric | Count | % |
 |---|---|---|
 | **Total PDFs scanned** | 705 | 100% |
-| Fully accessible | 58 | 8% |
+| Fully accessible | 74 | 10% |
 | Totally inaccessible | 0 | 0% |
-| Not accessible (has issues) | 647 | 91% |
+| Not accessible (has issues) | 631 | 89% |
 
 ## Test Results
 
 | Test | Fail | Pass | Description |
 |---|---|---|---|
-| **Tagged** | 646 | 59 | Is the document tagged for assistive tech? |
-| **Title** | 646 | 59 | Has a title with DisplayDocTitle set? (WCAG 2.4.2) |
+| **Tagged** | 631 | 74 | Is the document tagged for assistive tech? |
+| **Title** | 0 | 705 | Has a title with DisplayDocTitle set? (WCAG 2.4.2) |
 | **Language** | 0 | 705 | Has a valid default language? (WCAG 3.1.1) |
-| **Bookmarks** | 99 | 606 | Has bookmarks for docs >20 pages? (WCAG 2.4.1) |
+| **Bookmarks** | 0 | 705 | Has bookmarks for docs >20 pages? (WCAG 2.4.1) |
 | **Empty Text** | 0 | 705 | Contains text (not just scanned images)? |
 | **Protected** | 0 | 705 | Blocks screen readers? |
 
 ## Remaining Issues by Category
 
-### Untagged PDFs (646 files)
+### Untagged PDFs (631 files)
 
 Most critical issue — screen readers cannot navigate these documents.
 
 | Issue | File | Pages |
 |---|---|---|
-| archives-04.3 | atchley.pdf | 5 |
-| archives-04.3 | azari.pdf | 15 |
-| archives-04.3 | caputo.pdf | 18 |
-| archives-04.3 | crockett.pdf | 8 |
-| archives-04.3 | livingston.pdf | 8 |
-| archives-04.3 | lokensgard.pdf | 9 |
-| archives-04.3 | macri.pdf | 2 |
-| archives-04.3 | michaud.pdf | 3 |
-| archives-04.3 | ream.pdf | 6 |
-| archives-04.3 | rennie.pdf | 8 |
-| archives-04.3 | saldino.pdf | 4 |
-| archives-04.3 | snyder.pdf | 11 |
-| archives-04.3 | thompson.pdf | 8 |
-| archives-04.3 | york.pdf | 16 |
 | archives-05.1 | bain-selbo.pdf | 5 |
 | archives-05.1 | fasching.pdf | 5 |
 | archives-05.1 | hale.pdf | 24 |
@@ -387,7 +373,6 @@ Most critical issue — screen readers cannot navigate these documents.
 | archives-14.1 | alvis.pdf | 13 |
 | archives-14.1 | fagenblat.pdf | 17 |
 | archives-14.1 | featherstone.pdf | 14 |
-| archives-14.1 | green.pdf | 22 |
 | archives-14.1 | lauri.pdf | 17 |
 | archives-14.1 | raschke.pdf | 7 |
 | archives-14.1 | renger.pdf | 14 |
@@ -680,175 +665,65 @@ Most critical issue — screen readers cannot navigate these documents.
 | archives-25.1 | rodgers-falk.pdf | 14 |
 | archives-25.1 | schwartzberg.pdf | 36 |
 
-### Missing/Broken Title (646 files)
-
-Document title missing or DisplayDocTitle flag not set.
-
-### Missing Bookmarks for Long Documents (99 files)
-
-Documents with >20 pages that lack bookmarks:
-
-| Issue | File | Pages |
-|---|---|---|
-| archives-05.1 | hale.pdf | 24 |
-| archives-05.1 | iyer.pdf | 26 |
-| archives-05.1 | juschka.pdf | 22 |
-| archives-05.1 | siebers.pdf | 25 |
-| archives-05.2 | caputo.pdf | 21 |
-| archives-05.2 | lambrianou.pdf | 21 |
-| archives-06.1 | johnson.pdf | 21 |
-| archives-06.1 | jones.pdf | 22 |
-| archives-06.2 | stanley.pdf | 24 |
-| archives-06.2 | waggoner.art.pdf | 21 |
-| archives-06.3 | hart.pdf | 27 |
-| archives-07.1 | gilgen.pdf | 21 |
-| archives-07.1 | singh.pdf | 28 |
-| archives-07.2 | siebers.pdf | 26 |
-| archives-08.1 | nichols.pdf | 22 |
-| archives-08.2 | bell.pdf | 26 |
-| archives-08.2 | bivins.pdf | 23 |
-| archives-08.2 | davis-hardt.pdf | 26 |
-| archives-08.3 | Planinc.pdf | 23 |
-| archives-09.1 | Celermajer.pdf | 21 |
-| archives-10.1 | Cauchi.pdf | 25 |
-| archives-10.1 | Mooney.pdf | 21 |
-| archives-10.1 | Simmons.pdf | 21 |
-| archives-10.2 | simon.pdf | 21 |
-| archives-10.3 | jaarsma.pdf | 26 |
-| archives-10.3 | stern&gimbel.pdf | 29 |
-| archives-11.1 | blanton.pdf | 26 |
-| archives-11.2 | caputo.pdf | 93 |
-| archives-11.2 | finer.pdf | 22 |
-| archives-11.2 | hagglund.pdf | 25 |
-| archives-11.2 | wood.pdf | 28 |
-| archives-12.1 | maltby.pdf | 29 |
-| archives-12.2 | caputo.pdf | 22 |
-| archives-12.2 | dickinson.pdf | 21 |
-| archives-12.3 | bedford.pdf | 29 |
-| archives-12.3 | smith.pdf | 36 |
-| archives-13.1 | dussel.pdf | 43 |
-| archives-13.1 | mendez.pdf | 21 |
-| archives-13.1 | taylor.pdf | 22 |
-| archives-13.2 | cisney.pdf | 24 |
-| archives-14.1 | green.pdf | 22 |
-| archives-14.1 | winters.pdf | 30 |
-| archives-14.2 | shuster.pdf | 26 |
-| archives-14.2 | weidler.pdf | 27 |
-| archives-15.1 | alvis.pdf | 21 |
-| archives-15.2 | siebers.pdf | 23 |
-| archives-16.2 | Bray.pdf | 21 |
-| archives-16.2 | Moody.pdf | 28 |
-| archives-16.3 | Congdon.pdf | 36 |
-| archives-16.3 | Davis.pdf | 23 |
-| archives-16.3 | Karlsen.pdf | 34 |
-| archives-16.3 | Osserman.pdf | 21 |
-| archives-17.1 | Fitzgerald.pdf | 28 |
-| archives-17.1 | Ogunnaike.pdf | 31 |
-| archives-17.1 | Richard.pdf | 32 |
-| archives-17.1 | Taylor.pdf | 32 |
-| archives-17.2 | Dodd.pdf | 25 |
-| archives-17.2 | Hart.pdf | 28 |
-| archives-17.2 | Rivera.pdf | 21 |
-| archives-17.3 | Rhodes.pdf | 31 |
-| archives-17.3 | Soni.pdf | 22 |
-| archives-18.1 | Burke2.pdf | 21 |
-| archives-18.1 | Cook1.pdf | 25 |
-| archives-18.3 | Burley.pdf | 25 |
-| archives-18.3 | Cisney.pdf | 24 |
-| archives-19.1 | McCullough.pdf | 22 |
-| archives-19.1 | Wolfson.pdf | 33 |
-| archives-19.2 | Maltby.pdf | 31 |
-| archives-20.1 | Conroy.pdf | 22 |
-| archives-20.1 | Maeshiro.pdf | 43 |
-| archives-20.1 | Reiser.pdf | 37 |
-| archives-20.1 | Urquidez.pdf | 23 |
-| archives-20.2 | Praise.pdf | 121 |
-| archives-20.3 | Cuda.pdf | 24 |
-| archives-20.3 | Klug.pdf | 21 |
-| archives-21.1 | Bakker.pdf | 22 |
-| archives-21.1 | Boulting.pdf | 21 |
-| archives-21.1 | Burkette.pdf | 22 |
-| archives-21.1 | Marinho.pdf | 33 |
-| archives-21.1 | Skof.pdf | 22 |
-| archives-21.2 | Macdonald.pdf | 28 |
-| archives-21.2 | Wood.pdf | 31 |
-| archives-21.3 | Bradley0.pdf | 30 |
-| archives-21.3 | Johnston.pdf | 34 |
-| archives-21.3 | Meganck.pdf | 23 |
-| archives-21.3 | Simon.pdf | 35 |
-| archives-22.1 | Patry.pdf | 22 |
-| archives-22.1 | Quell.pdf | 23 |
-| archives-22.1 | Wurts.pdf | 30 |
-| archives-22.2 | Hall.pdf | 23 |
-| archives-22.2 | Howes.pdf | 24 |
-| archives-22.2 | Keller.pdf | 23 |
-| archives-22.2 | Singh.pdf | 27 |
-| archives-23.1 | Kaur.pdf | 26 |
-| archives-23.2 | Raschke.pdf | 21 |
-| archives-23.2 | Sendag.pdf | 21 |
-| archives-25.1 | goudy.pdf | 34 |
-| archives-25.1 | postscript.pdf | 21 |
-| archives-25.1 | schwartzberg.pdf | 36 |
-
 ## Results by Issue
 
 | Issue | PDFs | Accessible | Inaccessible | Untagged | No Title | No Lang |
 |---|---|---|---|---|---|---|
-| archives-04.3 | 14 | 0 | 0 | 14 | 14 | 0 |
-| archives-05.1 | 11 | 0 | 0 | 11 | 11 | 0 |
-| archives-05.2 | 15 | 0 | 0 | 15 | 15 | 0 |
-| archives-05.3 | 18 | 0 | 0 | 18 | 18 | 0 |
-| archives-06.1 | 13 | 0 | 0 | 13 | 13 | 0 |
-| archives-06.2 | 13 | 0 | 0 | 13 | 13 | 0 |
-| archives-06.3 | 17 | 0 | 0 | 17 | 17 | 0 |
-| archives-07.1 | 16 | 0 | 0 | 16 | 16 | 0 |
-| archives-07.2 | 12 | 0 | 0 | 12 | 12 | 0 |
-| archives-08.1 | 19 | 0 | 0 | 19 | 19 | 0 |
-| archives-08.2 | 15 | 0 | 0 | 15 | 15 | 0 |
-| archives-08.3 | 14 | 0 | 0 | 14 | 14 | 0 |
-| archives-09.1 | 11 | 0 | 0 | 11 | 11 | 0 |
-| archives-09.2 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-09.3 | 20 | 0 | 0 | 19 | 20 | 0 |
-| archives-10.1 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-10.2 | 9 | 0 | 0 | 9 | 9 | 0 |
-| archives-10.3 | 15 | 0 | 0 | 15 | 15 | 0 |
-| archives-11.1 | 10 | 0 | 0 | 10 | 10 | 0 |
-| archives-11.2 | 14 | 0 | 0 | 14 | 14 | 0 |
-| archives-11.3 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-12.1 | 13 | 0 | 0 | 13 | 13 | 0 |
-| archives-12.2 | 17 | 0 | 0 | 17 | 17 | 0 |
-| archives-12.3 | 13 | 0 | 0 | 13 | 13 | 0 |
-| archives-13.1 | 14 | 1 | 0 | 13 | 13 | 0 |
-| archives-13.2 | 16 | 0 | 0 | 16 | 16 | 0 |
-| archives-14.1 | 13 | 0 | 0 | 13 | 13 | 0 |
-| archives-14.2 | 18 | 0 | 0 | 18 | 18 | 0 |
-| archives-15.1 | 9 | 0 | 0 | 9 | 9 | 0 |
-| archives-15.2 | 9 | 0 | 0 | 9 | 9 | 0 |
-| archives-16.1 | 11 | 0 | 0 | 11 | 11 | 0 |
-| archives-16.2 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-16.3 | 9 | 0 | 0 | 9 | 9 | 0 |
-| archives-17.1 | 11 | 0 | 0 | 11 | 11 | 0 |
-| archives-17.2 | 15 | 0 | 0 | 15 | 15 | 0 |
-| archives-17.3 | 12 | 0 | 0 | 12 | 12 | 0 |
-| archives-18.1 | 15 | 0 | 0 | 15 | 15 | 0 |
-| archives-18.2 | 19 | 0 | 0 | 19 | 19 | 0 |
-| archives-18.3 | 14 | 0 | 0 | 14 | 14 | 0 |
-| archives-19.1 | 17 | 0 | 0 | 17 | 17 | 0 |
-| archives-19.2 | 12 | 0 | 0 | 12 | 12 | 0 |
-| archives-19.3 | 9 | 0 | 0 | 9 | 9 | 0 |
-| archives-20.1 | 10 | 0 | 0 | 10 | 10 | 0 |
-| archives-20.2 | 2 | 0 | 0 | 2 | 2 | 0 |
-| archives-20.3 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-21.1 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-21.2 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-21.3 | 14 | 0 | 0 | 14 | 14 | 0 |
-| archives-22.1 | 8 | 0 | 0 | 8 | 7 | 0 |
-| archives-22.2 | 8 | 0 | 0 | 8 | 8 | 0 |
-| archives-23.1 | 12 | 0 | 0 | 12 | 12 | 0 |
-| archives-23.2 | 6 | 0 | 0 | 6 | 6 | 0 |
+| archives-04.3 | 14 | 14 | 0 | 0 | 0 | 0 |
+| archives-05.1 | 11 | 0 | 0 | 11 | 0 | 0 |
+| archives-05.2 | 15 | 0 | 0 | 15 | 0 | 0 |
+| archives-05.3 | 18 | 0 | 0 | 18 | 0 | 0 |
+| archives-06.1 | 13 | 0 | 0 | 13 | 0 | 0 |
+| archives-06.2 | 13 | 0 | 0 | 13 | 0 | 0 |
+| archives-06.3 | 17 | 0 | 0 | 17 | 0 | 0 |
+| archives-07.1 | 16 | 0 | 0 | 16 | 0 | 0 |
+| archives-07.2 | 12 | 0 | 0 | 12 | 0 | 0 |
+| archives-08.1 | 19 | 0 | 0 | 19 | 0 | 0 |
+| archives-08.2 | 15 | 0 | 0 | 15 | 0 | 0 |
+| archives-08.3 | 14 | 0 | 0 | 14 | 0 | 0 |
+| archives-09.1 | 11 | 0 | 0 | 11 | 0 | 0 |
+| archives-09.2 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-09.3 | 20 | 1 | 0 | 19 | 0 | 0 |
+| archives-10.1 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-10.2 | 9 | 0 | 0 | 9 | 0 | 0 |
+| archives-10.3 | 15 | 0 | 0 | 15 | 0 | 0 |
+| archives-11.1 | 10 | 0 | 0 | 10 | 0 | 0 |
+| archives-11.2 | 14 | 0 | 0 | 14 | 0 | 0 |
+| archives-11.3 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-12.1 | 13 | 0 | 0 | 13 | 0 | 0 |
+| archives-12.2 | 17 | 0 | 0 | 17 | 0 | 0 |
+| archives-12.3 | 13 | 0 | 0 | 13 | 0 | 0 |
+| archives-13.1 | 14 | 1 | 0 | 13 | 0 | 0 |
+| archives-13.2 | 16 | 0 | 0 | 16 | 0 | 0 |
+| archives-14.1 | 13 | 1 | 0 | 12 | 0 | 0 |
+| archives-14.2 | 18 | 0 | 0 | 18 | 0 | 0 |
+| archives-15.1 | 9 | 0 | 0 | 9 | 0 | 0 |
+| archives-15.2 | 9 | 0 | 0 | 9 | 0 | 0 |
+| archives-16.1 | 11 | 0 | 0 | 11 | 0 | 0 |
+| archives-16.2 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-16.3 | 9 | 0 | 0 | 9 | 0 | 0 |
+| archives-17.1 | 11 | 0 | 0 | 11 | 0 | 0 |
+| archives-17.2 | 15 | 0 | 0 | 15 | 0 | 0 |
+| archives-17.3 | 12 | 0 | 0 | 12 | 0 | 0 |
+| archives-18.1 | 15 | 0 | 0 | 15 | 0 | 0 |
+| archives-18.2 | 19 | 0 | 0 | 19 | 0 | 0 |
+| archives-18.3 | 14 | 0 | 0 | 14 | 0 | 0 |
+| archives-19.1 | 17 | 0 | 0 | 17 | 0 | 0 |
+| archives-19.2 | 12 | 0 | 0 | 12 | 0 | 0 |
+| archives-19.3 | 9 | 0 | 0 | 9 | 0 | 0 |
+| archives-20.1 | 10 | 0 | 0 | 10 | 0 | 0 |
+| archives-20.2 | 2 | 0 | 0 | 2 | 0 | 0 |
+| archives-20.3 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-21.1 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-21.2 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-21.3 | 14 | 0 | 0 | 14 | 0 | 0 |
+| archives-22.1 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-22.2 | 8 | 0 | 0 | 8 | 0 | 0 |
+| archives-23.1 | 12 | 0 | 0 | 12 | 0 | 0 |
+| archives-23.2 | 6 | 0 | 0 | 6 | 0 | 0 |
 | archives-24.1 | 11 | 11 | 0 | 0 | 0 | 0 |
 | archives-24.2 | 20 | 20 | 0 | 0 | 0 | 0 |
-| archives-25.1 | 10 | 0 | 0 | 10 | 10 | 0 |
+| archives-25.1 | 10 | 0 | 0 | 10 | 0 | 0 |
 | docs | 24 | 24 | 0 | 0 | 0 | 0 |
 | docs-ptt | 2 | 2 | 0 | 0 | 0 | 0 |
 

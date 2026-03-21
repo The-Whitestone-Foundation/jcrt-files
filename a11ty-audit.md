@@ -94,7 +94,8 @@
 | Creator | Count |
 |---|---|
 | Microsoft Word | 16 |
-| Word | 8 |
+| Word | 10 |
+| PDFCreator Version 0.8.0 | 1 |
 | Acrobat PDFMaker 9.0 for Word | 1 |
 | PDFpen | 1 |
 | PScript5.dll Version 5.2.2 | 1 |

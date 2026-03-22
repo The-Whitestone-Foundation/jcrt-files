@@ -11049,7 +11049,7 @@
     <documentType>article</documentType>
     <title language="eng">Peter Sloterdijk as “First Philosopher” of Globalization</title>
     <authors>
-      <author><name>Carl Raschke</name></author>
+      <author><name>Carl A. Raschke</name></author>
     </authors>
     <abstract language="eng">The article offers information on philosopher Peter Sloterdijk that includes absence in translations of Sloterdijk&apos;s philosophical teachings; consideration of Sloterdijk&apos;s teaching as pop-cultural; and assessment of phenomenology towards globalization conditions.</abstract>
     <fullTextUrl format="html">https://jcrt.org/archives/12.3/raschke/</fullTextUrl>
@@ -12968,7 +12968,7 @@
     <documentType>article</documentType>
     <title language="eng">What Gives? Force, Gift, and the Ongoing</title>
     <authors>
-      <author><name>Carl Raschke</name></author>
+      <author><name>Carl A. Raschke</name></author>
     </authors>
     <abstract language="eng">The article discusses the efforts of German philosopher Edmund Husserl to find the roots of philosophy, which he located in the transcendental method, in his book</abstract>
     <fullTextUrl format="html">https://jcrt.org/archives/15.1/raschke/</fullTextUrl>
@@ -13576,7 +13576,7 @@
     <documentType>article</documentType>
     <title language="eng">The Civic Humanities and the Crisis of Neoliberalism.</title>
     <authors>
-      <author><name>Carl Raschke</name></author>
+      <author><name>Carl A. Raschke</name></author>
     </authors>
     <fullTextUrl format="html">https://jcrt.org/archives/16.1/raschke/</fullTextUrl>
     <keywords language="eng">
@@ -14083,7 +14083,7 @@
     <documentType>article</documentType>
     <title language="eng">The End of Theology and the Event of Truth: an Introduction</title>
     <authors>
-      <author><name>Carl Raschke</name></author>
+      <author><name>Carl A. Raschke</name></author>
     </authors>
     <fullTextUrl format="html">https://jcrt.org/archives/16.3/raschke/</fullTextUrl>
     <keywords language="eng">
@@ -14178,7 +14178,7 @@
     <endPage>56</endPage>
     <publisherRecordId>caputo</publisherRecordId>
     <documentType>article</documentType>
-    <title language="eng">If There Is Such a Thing: Posse Ipsum, the Impossible, and Le Peut-ÊTre MÊMe Reading Catherine Keller’s Cloud of the Impossible.</title>
+    <title language="eng">If There Is Such A Thing: Posse Ipsum, The Impossible, And Le Peut-être Même Reading Catherine Keller’s Cloud Of The Impossible</title>
     <authors>
       <author><name>John D. Caputo</name></author>
     </authors>
@@ -14316,7 +14316,7 @@
     <documentType>article</documentType>
     <title language="eng">A Preface to the Genealogy of Neoliberalism.</title>
     <authors>
-      <author><name>Carl Raschke</name></author>
+      <author><name>Carl A. Raschke</name></author>
     </authors>
     <fullTextUrl format="html">https://jcrt.org/archives/17.1/raschke/</fullTextUrl>
     <keywords language="eng">
@@ -19672,24 +19672,6 @@
     <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
     <issn>15305228</issn>
     <publicationDate>2026-03-03</publicationDate>
-    <volume>28</volume>
-    <issue>2</issue>
-    <startPage>1</startPage>
-    <endPage>1</endPage>
-    <publisherRecordId>0000-demo</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Tester Again</title>
-    <authors>
-      <author><name>tesert</name></author>
-    </authors>
-    <fullTextUrl format="html">https://jcrt.org/archives/24.2/0000-demo/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate>2026-03-03</publicationDate>
     <volume>24</volume>
     <issue>2</issue>
     <startPage>1</startPage>
@@ -20183,159 +20165,5 @@
       <keyword>ecological-justice</keyword>
       <keyword>christian-colonialism</keyword>
     </keywords>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>brett-and-hill</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Brett And Hill</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/brett-and-hill/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>conclusion</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Conclusion</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/conclusion/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>d_errico</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">D&apos;Errico</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/d_errico/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>goudy</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Goudy</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/goudy/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>heath</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Heath</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/heath/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>miller</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Miller</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/miller/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>newcomb</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Newcomb</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/newcomb/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>rodgers-falk</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Rodgers Falk</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/rodgers-falk/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>24</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>schwartzberg</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Schwartzberg</title>
-    <fullTextUrl format="html">https://jcrt.org/archives/25.1/schwartzberg/</fullTextUrl>
-  </record>
-  <record>
-    <language>eng</language>
-    <publisher>Whitestone Publications</publisher>
-    <journalTitle>The Journal for Cultural and Religious Theory</journalTitle>
-    <issn>15305228</issn>
-    <publicationDate></publicationDate>
-    <volume>28</volume>
-    <issue>2</issue>
-    <startPage></startPage>
-    <endPage></endPage>
-    <publisherRecordId>tester-again</publisherRecordId>
-    <documentType>article</documentType>
-    <title language="eng">Tester again</title>
-    <authors>
-      <author><name>tesert</name></author>
-    </authors>
-    <abstract language="eng">Test Description</abstract>
-    <fullTextUrl format="html">https://jcrt.org/archives/28.2/tester-again/</fullTextUrl>
   </record>
 </records>

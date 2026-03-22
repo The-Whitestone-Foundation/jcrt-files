@@ -196,6 +196,8 @@ function readArchiveEntries() {
 			? `${BASE_URL}/archives/${issueSlug}/${pdfFile}`
 			: "";
 
+		const published = data.published !== false;
+
 		entries.push({
 			issue: issueSlug,
 			slug: fileSlug,
@@ -212,6 +214,7 @@ function readArchiveEntries() {
 			pdfUrl,
 			canonicalUrl,
 			sitemapIgnore,
+			published,
 		});
 	}
 
@@ -222,6 +225,7 @@ function readArchiveEntries() {
 // ── DOAJ XML ───────────────────────────────────────────────────────
 function generateDOAJ(entries) {
 	const filtered = entries.filter((e) => {
+		if (!e.published) return false;
 		if (DOAJ_SKIP_SLUGS.has(e.slug.toLowerCase())) return false;
 		if (!e.title) return false;
 		return true;
@@ -281,6 +285,7 @@ function generateDOAJ(entries) {
 function generateOAI(entries) {
 	const now = new Date().toISOString();
 	const filtered = entries.filter((e) => {
+		if (!e.published) return false;
 		if (e.sitemapIgnore) return false;
 		return true;
 	});
@@ -321,9 +326,12 @@ function generateOAI(entries) {
 			lines.push(`          <dc:date>${escXml(datestamp)}</dc:date>`);
 		}
 		lines.push(`          <dc:type>article</dc:type>`);
+		lines.push(`          <dc:format>text/html</dc:format>`);
 		lines.push(`          <dc:language>en</dc:language>`);
 		lines.push(`          <dc:identifier>${ISSN_DASH}</dc:identifier>`);
 		lines.push(`          <dc:identifier>${escXml(e.canonicalUrl)}</dc:identifier>`);
+		// Link to canonical page (with trailing slash)
+		lines.push(`          <dc:identifier.uri>${escXml(e.canonicalUrl)}</dc:identifier.uri>`);
 		if (e.pdfUrl) {
 			lines.push(`          <dc:relation>${escXml(e.pdfUrl)}</dc:relation>`);
 		}
@@ -335,6 +343,10 @@ function generateOAI(entries) {
 		}
 		lines.push(`          <dc:rights>${escXml(RIGHTS_TEXT)}</dc:rights>`);
 		lines.push(`          <dc:source>${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}</dc:source>`);
+		// Volume / issue / pages
+		if (e.volume) {
+			lines.push(`          <dcterms:bibliographicCitation>Vol. ${escXml(e.volume)}${e.issueNum ? ", No. " + escXml(e.issueNum) : ""}${e.sp ? ", pp. " + escXml(e.sp) + (e.ep ? "-" + escXml(e.ep) : "") : ""}</dcterms:bibliographicCitation>`);
+		}
 
 		lines.push(`        </oai_dc:dc>`);
 		lines.push(`      </metadata>`);

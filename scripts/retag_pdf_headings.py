@@ -116,6 +116,14 @@ def strip_quotes(value: str) -> str:
     return value
 
 
+BIBLIOGRAPHY_HEADINGS = {
+    normalize_compare("Bibliography"),
+    normalize_compare("References"),
+    normalize_compare("Works Cited"),
+    normalize_compare("Reference List"),
+}
+
+
 def parse_frontmatter(md_path: Path) -> dict[str, str]:
     text = md_path.read_text(encoding="utf-8")
     match = re.match(r"^---\s*\n(.*?)\n---", text, re.DOTALL)
@@ -552,6 +560,7 @@ def determine_heading_targets(
     }
 
     chosen_lines: set[tuple[int, str, int]] = set()
+    in_bibliography = False
     if title_block:
         for line in title_block:
             chosen_lines.add((line.page_index, line.normalized, line.top))
@@ -609,6 +618,11 @@ def determine_heading_targets(
             level = "H3"
 
         if level is None:
+            continue
+
+        if level == "H2":
+            in_bibliography = line.normalized in BIBLIOGRAPHY_HEADINGS
+        elif level == "H3" and in_bibliography:
             continue
 
         primary, auxiliary = choose_primary_mcids(pdf_line)

@@ -5,7 +5,7 @@
  * jcrt-v2 checkout and writes citation files into citations/ in this repo.
  *
  * Usage:
- *   node scripts/generate-citations.mjs [path/to/jcrt-v2]
+ *   node scripts/generate-citations.mjs [path/to/jcrt-v2] [--archives-only|--theory-only]
  *
  * If no path is given, defaults to ../jcrt-v2 (sibling directory).
  */
@@ -21,11 +21,17 @@ const ISSN = "1530-5228";
 const RT_TITLE = "Religious theory by JCRT";
 const BASE_URL = "https://jcrt.org";
 
+const CLI_ARGS = process.argv.slice(2);
+const FLAG_ARGS = new Set(CLI_ARGS.filter((arg) => arg.startsWith("--")));
+const PATH_ARG = CLI_ARGS.find((arg) => !arg.startsWith("--"));
+
 const REPO_ROOT = path.resolve(import.meta.dirname || path.dirname(new URL(import.meta.url).pathname));
 const FILES_ROOT = path.resolve(REPO_ROOT, "..");
-const JCRT_V2_ROOT = process.argv[2]
-	? path.resolve(process.argv[2])
+const JCRT_V2_ROOT = PATH_ARG
+	? path.resolve(PATH_ARG)
 	: path.resolve(FILES_ROOT, "..", "jcrt-v2");
+const RUN_ARCHIVES = !FLAG_ARGS.has("--theory-only");
+const RUN_THEORY = !FLAG_ARGS.has("--archives-only");
 
 const ARCHIVES_DIR = path.join(JCRT_V2_ROOT, "content", "archives");
 const THEORY_POSTS_DIR = path.join(JCRT_V2_ROOT, "content", "religioustheory", "posts");
@@ -77,6 +83,10 @@ function splitAuthors(value) {
 	return [s.trim()].filter(Boolean);
 }
 
+function isExplicitFalse(value) {
+	return String(value || "").trim().toLowerCase() === "false";
+}
+
 function parseYear(data) {
 	if (data?.year) { const m = String(data.year).match(/\d{4}/); if (m) return m[0]; }
 	if (data?.date) { const d = new Date(data.date); if (!isNaN(d.getTime())) return String(d.getUTCFullYear()); }
@@ -108,6 +118,9 @@ function parseAuthorName(author) {
 	if (raw.includes(",")) {
 		const [family, ...rest] = raw.split(",");
 		return { family: family.trim(), given: rest.join(",").trim() };
+	}
+	if (/[()]/.test(raw)) {
+		return { literal: raw };
 	}
 	const parts = raw.split(/\s+/);
 	if (parts.length === 1) return { literal: raw };
@@ -241,6 +254,7 @@ function generateArchiveCitations() {
 		if (!content.startsWith("---")) continue;
 
 		const data = parseFrontMatter(content);
+		if (isExplicitFalse(data.published)) continue;
 		const issueMeta = getIssueMeta(issueSlug);
 
 		const volume = normalizeNumStr(data.volume || issueMeta.volume || issueSlug.split(".")[0] || "");
@@ -249,15 +263,8 @@ function generateArchiveCitations() {
 		const year = parseYear(data) || parseYear(issueMeta);
 		const season = parseSeason(data) || parseSeason(issueMeta);
 
-		const pdfRaw = String(data.pdf || "").trim();
-		let pdfUrl = "";
-		if (pdfRaw) {
-			pdfUrl = /^https?:\/\//i.test(pdfRaw) ? pdfRaw
-				: pdfRaw.startsWith("/") ? `${BASE_URL}${pdfRaw}`
-				: `${BASE_URL}/archives/${issueSlug}/${pdfRaw}`;
-		}
 		const pageUrl = `${BASE_URL}/archives/${issueSlug}/${fileSlug}/`;
-		const url = pdfUrl || pageUrl;
+		const url = pageUrl;
 
 		const entry = {
 			title: String(data.title || fileSlug).trim(),
@@ -351,11 +358,15 @@ function generateTheoryCitations() {
 console.log(`[citations] Reading content from: ${JCRT_V2_ROOT}`);
 console.log(`[citations] Writing citations to: ${path.join(FILES_ROOT, "citations")}`);
 
-const archives = generateArchiveCitations();
-console.log(`[citations] Archives: total=${archives.total}, generated=${archives.generated}, skipped=${archives.skipped}`);
+const archives = RUN_ARCHIVES ? generateArchiveCitations() : { total: 0, generated: 0, skipped: 0 };
+if (RUN_ARCHIVES) {
+	console.log(`[citations] Archives: total=${archives.total}, generated=${archives.generated}, skipped=${archives.skipped}`);
+}
 
-const theory = generateTheoryCitations();
-console.log(`[citations] Theory: total=${theory.total}, generated=${theory.generated}, skipped=${theory.skipped}`);
+const theory = RUN_THEORY ? generateTheoryCitations() : { total: 0, generated: 0, skipped: 0 };
+if (RUN_THEORY) {
+	console.log(`[citations] Theory: total=${theory.total}, generated=${theory.generated}, skipped=${theory.skipped}`);
+}
 
 const totalGen = archives.generated + theory.generated;
 if (totalGen > 0) {

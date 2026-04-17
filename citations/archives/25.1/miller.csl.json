@@ -2,12 +2,18 @@
   {
     "id": "archives-25.1-miller",
     "type": "article-journal",
-    "title": "Miller",
+    "title": "The International Law of Colonialism: The Doctrine of Discovery",
     "container-title": "Journal for Cultural & Religious Theory",
     "short-container-title": "JCRT",
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/25.1/miller/",
+    "author": [
+      {
+        "family": "Miller",
+        "given": "Robert J."
+      }
+    ],
     "issued": {
       "date-parts": [
         [
@@ -15,8 +21,9 @@
         ]
       ]
     },
-    "season": "unknown",
-    "volume": "24",
-    "issue": "2"
+    "season": "spring",
+    "volume": "25",
+    "issue": "1",
+    "page": "61-67"
   }
 ]

@@ -1,25 +1,24 @@
 [
   {
-    "id": "archives-25.1-conclusion",
+    "id": "archives-25.1-postscript",
     "type": "article-journal",
-    "title": "Conclusion: Dismantling the Doctrine of Christian Discovery Cultivating Right Relations",
+    "title": "A Postscript: Sovereignty is Still the Issue",
     "container-title": "Journal for Cultural & Religious Theory",
     "short-container-title": "JCRT",
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
-    "URL": "https://jcrt.org/archives/25.1/conclusion/",
+    "URL": "https://jcrt.org/archives/25.1/postscript/",
     "author": [
-      {
-        "family": "Arnold",
-        "given": "Philip P."
-      },
-      {
-        "family": "Bigtree",
-        "given": "Sandra"
-      },
       {
         "family": "Brett",
         "given": "Adam DJ"
+      },
+      {
+        "literal": "Betty Hill (Lyons)"
+      },
+      {
+        "family": "Belmont",
+        "given": "Nethanial"
       }
     ],
     "issued": {
@@ -32,6 +31,6 @@
     "season": "spring",
     "volume": "25",
     "issue": "1",
-    "page": "137-139"
+    "page": "140-161"
   }
 ]

@@ -2,12 +2,18 @@
   {
     "id": "archives-25.1-goudy",
     "type": "article-journal",
-    "title": "Goudy",
+    "title": "Right & Respectful Relations: A Memoir of the Road to the Historic Yakama Nation Amicus Brief Challenging ‘Christian Discovery’ in Washington State V. Cougar Den",
     "container-title": "Journal for Cultural & Religious Theory",
     "short-container-title": "JCRT",
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/25.1/goudy/",
+    "author": [
+      {
+        "family": "Goudy",
+        "given": "Jode"
+      }
+    ],
     "issued": {
       "date-parts": [
         [
@@ -15,8 +21,9 @@
         ]
       ]
     },
-    "season": "unknown",
-    "volume": "24",
-    "issue": "2"
+    "season": "spring",
+    "volume": "25",
+    "issue": "1",
+    "page": "16-50"
   }
 ]

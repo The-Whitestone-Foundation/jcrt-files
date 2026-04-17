@@ -9,6 +9,7 @@ const METADATA_ROOT = path.join(FILES_REPO_ROOT, "metadata");
 const SEARCH_ROOT = path.join(METADATA_ROOT, "search");
 const SEARCH_JSON_ROOT = path.join(SEARCH_ROOT, "json");
 const SEARCH_SITEMAP_PATH = path.join(METADATA_ROOT, "search-sitemap.xml");
+const REQUESTED_SECTIONS = new Set(process.argv.slice(2));
 
 const MAX_BYTES_PER_CHUNK = 5 * 1024 * 1024;
 const FIELD_LIMIT = 1000;
@@ -146,6 +147,10 @@ function unquote(value) {
 	return v;
 }
 
+function isExplicitFalse(value) {
+	return String(value || "").trim().toLowerCase() === "false";
+}
+
 function walkFiles(dir) {
 	const out = [];
 	const stack = [dir];
@@ -166,6 +171,7 @@ function walkFiles(dir) {
 }
 
 function buildItem(sectionKey, sourcePath, frontmatter, body, toUrl) {
+	if (isExplicitFalse(frontmatter.published)) return null;
 	const title = limit(frontmatter.title || frontmatter.name || path.basename(sourcePath, ".md"));
 	const author = limit(frontmatter.author || frontmatter.name || "");
 	const descriptionSeed =
@@ -370,7 +376,10 @@ function buildSearchSitemap() {
 function main() {
 	fs.mkdirSync(SEARCH_JSON_ROOT, { recursive: true });
 	const summary = [];
-	for (const section of SECTIONS) {
+	const selectedSections = REQUESTED_SECTIONS.size > 0
+		? SECTIONS.filter((section) => REQUESTED_SECTIONS.has(section.key))
+		: SECTIONS;
+	for (const section of selectedSections) {
 		summary.push(writeSection(section));
 	}
 	const sitemapEntries = buildSearchSitemap();

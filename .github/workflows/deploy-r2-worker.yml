@@ -6,7 +6,7 @@ on:
       full_sync:
         description: "Upload all tracked asset files (images/archives/citations/docs)"
         required: false
-        default: "true"
+        default: "false"
       prune_deletes:
         description: "Delete removed files from remote R2 (slower)"
         required: false
@@ -15,6 +15,10 @@ on:
         description: "Comma-separated dirs to sync (e.g. 'metadata,docs'). Empty = all targets."
         required: false
         default: ""
+      deploy_worker:
+        description: "Force a Worker deploy even when only asset files changed."
+        required: false
+        default: "false"
   push:
     branches: [main, master]
     paths:
@@ -39,7 +43,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -63,12 +67,14 @@ jobs:
           FORCE_FULL_SYNC: ${{ github.event.inputs.full_sync }}
           PRUNE_DELETES: ${{ github.event.inputs.prune_deletes }}
           TARGET_DIRS: ${{ github.event.inputs.target_dirs }}
+          FORCE_DEPLOY_WORKER: ${{ github.event.inputs.deploy_worker }}
           EVENT_NAME: ${{ github.event_name }}
         shell: bash
         run: |
           set -euo pipefail
 
           DEFAULT_TARGETS=(images archives citations docs metadata)
+          UPLOAD_PARALLELISM=6
           if [[ -n "${TARGET_DIRS:-}" ]]; then
             IFS=',' read -ra TARGETS <<< "$TARGET_DIRS"
             echo "Using custom targets: ${TARGETS[*]}"
@@ -76,6 +82,8 @@ jobs:
             TARGETS=("${DEFAULT_TARGETS[@]}")
           fi
           ZERO="0000000000000000000000000000000000000000"
+          AFTER_REF="${AFTER_SHA:-$(git rev-parse HEAD)}"
+          BASE_REF=""
 
           pick_working_token() {
             local token_label="$1"
@@ -119,43 +127,89 @@ jobs:
             exit 1
           fi
 
-          if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${FORCE_FULL_SYNC}" != "false" ]]; then
+          if [[ "${EVENT_NAME}" == "workflow_dispatch" && "${FORCE_FULL_SYNC}" == "true" ]]; then
             echo "Manual full sync requested; uploading all tracked target files."
-            mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)
-            mapfile -t DELETED < <(printf "")
+          elif [[ "${EVENT_NAME}" == "workflow_dispatch" ]]; then
+            if git rev-parse "${AFTER_REF}^" >/dev/null 2>&1; then
+              BASE_REF="$(git rev-parse "${AFTER_REF}^")"
+              echo "Manual incremental sync from ${BASE_REF} to ${AFTER_REF}."
+            else
+              echo "No parent commit available for manual incremental sync; falling back to full sync."
+            fi
           elif [[ "${BEFORE_SHA}" == "$ZERO" ]] || ! git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            echo "No usable before SHA for push event; falling back to full sync."
+          else
+            BASE_REF="${BEFORE_SHA}"
+            echo "Push incremental sync from ${BASE_REF} to ${AFTER_REF}."
+          fi
+
+          if [[ -n "${BASE_REF}" ]]; then
+            mapfile -t CHANGED < <(git diff --name-only --diff-filter=ACMRT "${BASE_REF}" "${AFTER_REF}" -- "${TARGETS[@]}" || true)
+            mapfile -t DELETED < <(git diff --name-only --diff-filter=D "${BASE_REF}" "${AFTER_REF}" -- "${TARGETS[@]}" || true)
+          else
             mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)
             mapfile -t DELETED < <(printf "")
-          else
-            mapfile -t CHANGED < <(git diff --name-only --diff-filter=ACMRT "$BEFORE_SHA" "$AFTER_SHA" -- "${TARGETS[@]}" || true)
-            mapfile -t DELETED < <(git diff --name-only --diff-filter=D "$BEFORE_SHA" "$AFTER_SHA" -- "${TARGETS[@]}" || true)
+          fi
+
+          SHOULD_DEPLOY_WORKER="false"
+          if [[ "${FORCE_DEPLOY_WORKER:-false}" == "true" ]]; then
+            SHOULD_DEPLOY_WORKER="true"
+            echo "Worker deploy forced by workflow_dispatch input."
+          elif [[ -n "${BASE_REF}" ]]; then
+            mapfile -t WORKER_CHANGED < <(git diff --name-only "${BASE_REF}" "${AFTER_REF}" -- src wrangler.toml || true)
+            if [[ ${#WORKER_CHANGED[@]} -gt 0 ]]; then
+              SHOULD_DEPLOY_WORKER="true"
+            fi
+          elif [[ "${EVENT_NAME}" != "workflow_dispatch" ]]; then
+            SHOULD_DEPLOY_WORKER="true"
+            echo "No reliable diff base for push event; conservatively deploying Worker."
           fi
 
           echo "Changed/new files: ${#CHANGED[@]}"
           echo "Deleted files: ${#DELETED[@]}"
+          echo "Deploy Worker: ${SHOULD_DEPLOY_WORKER}"
 
           if [[ ${#CHANGED[@]} -gt 0 ]]; then
-            TOTAL=${#CHANGED[@]}
-            SUCCESS=0
-            FAIL=0
+            FILES_TO_UPLOAD=()
             for file in "${CHANGED[@]}"; do
               [[ -f "$file" ]] || continue
-              ok=false
-              for attempt in 1 2 3 4 5; do
-                if wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote 2>&1; then
-                  ok=true
-                  SUCCESS=$((SUCCESS + 1))
-                  echo "[$SUCCESS/$TOTAL] OK: $file"
-                  break
-                fi
-                echo "Retry $attempt/5: $file"
-                sleep $((attempt * 2))
-              done
-              if [[ "$ok" != "true" ]]; then
-                FAIL=$((FAIL + 1))
-                echo "FAILED ($FAIL): $file"
-              fi
+              FILES_TO_UPLOAD+=("$file")
             done
+
+            TOTAL=${#FILES_TO_UPLOAD[@]}
+            SUCCESS=0
+            FAIL=0
+            cat >/tmp/upload-r2-object.sh <<'EOF'
+          #!/usr/bin/env bash
+          set -euo pipefail
+          file="$1"
+          for attempt in 1 2 3 4 5; do
+            if wrangler r2 object put "$R2_BUCKET/$file" --file "$file" --remote >/dev/null 2>&1; then
+              printf 'OK|%s\n' "$file"
+              exit 0
+            fi
+            printf 'Retry %s/5: %s\n' "$attempt" "$file" >&2
+            sleep $((attempt * 2))
+          done
+          printf 'FAIL|%s\n' "$file"
+          EOF
+            chmod +x /tmp/upload-r2-object.sh
+
+            if [[ ${TOTAL} -gt 0 ]]; then
+              mapfile -t UPLOAD_RESULTS < <(printf '%s\0' "${FILES_TO_UPLOAD[@]}" | xargs -0 -r -n 1 -P "${UPLOAD_PARALLELISM}" /tmp/upload-r2-object.sh)
+              for result in "${UPLOAD_RESULTS[@]}"; do
+                case "$result" in
+                  OK\|*)
+                    SUCCESS=$((SUCCESS + 1))
+                    echo "[$SUCCESS/$TOTAL] OK: ${result#OK|}"
+                    ;;
+                  FAIL\|*)
+                    FAIL=$((FAIL + 1))
+                    echo "FAILED ($FAIL): ${result#FAIL|}"
+                    ;;
+                esac
+              done
+            fi
             echo "Upload summary: $SUCCESS succeeded, $FAIL failed out of $TOTAL"
             if [[ "$FAIL" -gt 0 ]]; then
               echo "WARNING: $FAIL uploads failed, but continuing with deploy"
@@ -172,5 +226,9 @@ jobs:
             echo "Skipping delete prune (PRUNE_DELETES=${PRUNE_DELETES:-false})."
           fi
 
-          echo "Deploying Worker using verified token..."
-          wrangler deploy
+          if [[ "${SHOULD_DEPLOY_WORKER}" == "true" ]]; then
+            echo "Deploying Worker using verified token..."
+            wrangler deploy
+          else
+            echo "Skipping Worker deploy; no Worker changes detected."
+          fi

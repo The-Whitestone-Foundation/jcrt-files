@@ -48,6 +48,27 @@ function applyCors(headers, request) {
   headers.set('Access-Control-Expose-Headers', 'Content-Length, Content-Range, ETag');
 }
 
+function preconditionStatus(request) {
+  if (request.headers.has('if-none-match') || request.headers.has('if-modified-since')) {
+    return 304;
+  }
+  return 412;
+}
+
+function applyRangeHeaders(object, headers) {
+  headers.set('accept-ranges', 'bytes');
+
+  const range = object.range;
+  if (!range || typeof range.offset !== 'number' || typeof range.length !== 'number') {
+    return false;
+  }
+
+  const end = range.offset + range.length - 1;
+  headers.set('content-length', String(range.length));
+  headers.set('content-range', `bytes ${range.offset}-${end}/${object.size}`);
+  return true;
+}
+
 export default {
   async fetch(request, env) {
     if (request.method === 'OPTIONS') {
@@ -81,11 +102,24 @@ export default {
     headers.set('content-type', headers.get('content-type') || contentTypeFor(key));
     headers.set('cache-control', cacheControlFor(key));
     applyCors(headers, request);
+    headers.set('accept-ranges', 'bytes');
 
-    if (request.method === 'HEAD') {
-      return new Response(null, { status: 200, headers });
+    const hasBody = 'body' in object && object.body !== undefined;
+    const isPartial = hasBody && request.headers.has('range') && applyRangeHeaders(object, headers);
+    let status = 200;
+
+    if (!hasBody) {
+      status = preconditionStatus(request);
+    } else if (isPartial) {
+      status = 206;
+    } else if (!headers.has('content-length') && typeof object.size === 'number') {
+      headers.set('content-length', String(object.size));
     }
 
-    return new Response(object.body, { status: 200, headers });
+    if (request.method === 'HEAD') {
+      return new Response(null, { status, headers });
+    }
+
+    return new Response(hasBody ? object.body : null, { status, headers });
   },
 };

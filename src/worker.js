@@ -3,6 +3,7 @@ function contentTypeFor(key) {
   if (lower.endsWith('.pdf')) return 'application/pdf';
   if (lower.endsWith('.ris')) return 'application/x-research-info-systems; charset=utf-8';
   if (lower.endsWith('.json')) return 'application/json; charset=utf-8';
+  if (lower.endsWith('.webmanifest')) return 'application/manifest+json; charset=utf-8';
   if (lower.endsWith('.xml')) return 'application/xml; charset=utf-8';
   if (lower.endsWith('.txt')) return 'text/plain; charset=utf-8';
   if (lower.endsWith('.html')) return 'text/html; charset=utf-8';
@@ -99,7 +100,12 @@ export default {
     const headers = new Headers();
     object.writeHttpMetadata(headers);
     headers.set('etag', object.httpEtag);
-    headers.set('content-type', headers.get('content-type') || contentTypeFor(key));
+    const detectedContentType = contentTypeFor(key);
+    const storedContentType = headers.get('content-type');
+    const storedMime = (storedContentType || '').split(';', 1)[0].trim().toLowerCase();
+    if (!storedContentType || storedMime === 'application/octet-stream' || key.toLowerCase().endsWith('.webmanifest')) {
+      headers.set('content-type', detectedContentType);
+    }
     headers.set('cache-control', cacheControlFor(key));
     applyCors(headers, request);
     headers.set('accept-ranges', 'bytes');

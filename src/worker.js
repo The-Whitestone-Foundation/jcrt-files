@@ -1,3 +1,15 @@
+const FILES_BASE_URL = 'https://files.jcrt.org';
+
+const LEGACY_CITATION_STEMS = new Map([
+  ['prewitt-davis', 'prewitt_davis'],
+  ['keller', 'keller_raschke'],
+  ['degaetano', 'gaetano'],
+  ['westin', 'westin_sedmak'],
+  ['hagedorn-and-staudigl', 'hagedorn_staudigl'],
+  ['featherstone', 'featherston'],
+  ['cook1', 'cook'],
+]);
+
 function contentTypeFor(key) {
   const lower = key.toLowerCase();
   if (lower.endsWith('.pdf')) return 'application/pdf';
@@ -27,9 +39,59 @@ function cacheControlFor(key) {
 }
 
 function normalizeKey(pathname) {
-  const key = pathname.replace(/^\/+/, '');
-  if (!key || key.includes('..')) return null;
+  let decoded = pathname;
+  try {
+    decoded = decodeURIComponent(pathname);
+  } catch {
+    decoded = pathname;
+  }
+
+  const key = decoded
+    .replace(/&apos;/gi, "'")
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/gi, '&')
+    .replace(/^\/+/, '');
+  if (key.includes('..')) return null;
   return key;
+}
+
+function redirectToCanonical(url, key) {
+  const target = new URL(FILES_BASE_URL);
+  target.pathname = `/${key}`;
+  return Response.redirect(target, 301);
+}
+
+function legacyCitationAlias(key) {
+  const match = key.match(/^(citations\/archives\/[^/]+\/)(.+?)(\.(?:ris|csl\.json))$/i);
+  if (!match) return null;
+
+  const [, prefix, stem, ext] = match;
+  const canonicalStem = LEGACY_CITATION_STEMS.get(stem.toLowerCase());
+  if (!canonicalStem || canonicalStem === stem) return null;
+
+  return `${prefix}${canonicalStem}${ext.toLowerCase()}`;
+}
+
+async function findCaseInsensitiveKey(bucket, key) {
+  const slashIndex = key.lastIndexOf('/');
+  const prefix = slashIndex === -1 ? '' : key.slice(0, slashIndex + 1);
+  const basename = slashIndex === -1 ? key : key.slice(slashIndex + 1);
+  const expectedLower = basename.toLowerCase();
+  let cursor;
+  const matches = [];
+
+  do {
+    const listed = await bucket.list({ prefix, cursor });
+    for (const object of listed.objects || []) {
+      const candidate = object.key.slice(prefix.length);
+      if (candidate.includes('/')) continue;
+      if (candidate.toLowerCase() === expectedLower) matches.push(object.key);
+      if (matches.length > 1) return null;
+    }
+    cursor = listed.truncated ? listed.cursor : undefined;
+  } while (cursor);
+
+  return matches.length === 1 ? matches[0] : null;
 }
 
 function applyCors(headers, request) {
@@ -84,8 +146,23 @@ export default {
 
     const url = new URL(request.url);
     const key = normalizeKey(url.pathname);
-    if (!key) {
+    if (key === '') {
+      return new Response('Gone', {
+        status: 410,
+        headers: {
+          'content-type': 'text/plain; charset=utf-8',
+          'x-robots-tag': 'noindex',
+        },
+      });
+    }
+
+    if (key === null) {
       return new Response('Not Found', { status: 404 });
+    }
+
+    const aliasKey = legacyCitationAlias(key);
+    if (aliasKey && aliasKey !== key) {
+      return redirectToCanonical(url, aliasKey);
     }
 
     const object = await env.JCRT_FILES.get(key, {
@@ -94,6 +171,11 @@ export default {
     });
 
     if (object === null) {
+      const canonicalKey = await findCaseInsensitiveKey(env.JCRT_FILES, key);
+      if (canonicalKey && canonicalKey !== key) {
+        return redirectToCanonical(url, canonicalKey);
+      }
+
       return new Response('Not Found', { status: 404 });
     }
 

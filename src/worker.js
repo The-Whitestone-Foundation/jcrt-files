@@ -61,6 +61,13 @@ function redirectToCanonical(url, key) {
   return Response.redirect(target, 301);
 }
 
+function archivePdfCanonicalLink(key) {
+  if (!/^archives\/[^/]+\/[^/]+\.pdf$/i.test(key)) return null;
+  const target = new URL(FILES_BASE_URL);
+  target.pathname = `/${key}`;
+  return `<${target.toString()}>; rel="canonical"`;
+}
+
 function legacyCitationAlias(key) {
   const match = key.match(/^(citations\/archives\/[^/]+\/)(.+?)(\.(?:ris|csl\.json))$/i);
   if (!match) return null;
@@ -189,6 +196,8 @@ export default {
       headers.set('content-type', detectedContentType);
     }
     headers.set('cache-control', cacheControlFor(key));
+    const canonicalLink = archivePdfCanonicalLink(key);
+    if (canonicalLink) headers.append('link', canonicalLink);
     applyCors(headers, request);
     headers.set('accept-ranges', 'bytes');
 

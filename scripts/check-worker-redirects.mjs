@@ -98,6 +98,12 @@ const cases = [
     location: "https://files.jcrt.org/archives/03.1/anderson.pdf",
   },
   {
+    name: "PDF canonical link header",
+    path: "/archives/03.1/anderson.pdf",
+    status: 200,
+    link: '<https://files.jcrt.org/archives/03.1/anderson.pdf>; rel="canonical"',
+  },
+  {
     name: "true missing file",
     path: "/citations/archives/99.9/not-real.ris",
     status: 404,
@@ -124,6 +130,13 @@ for (const testCase of cases) {
     const actual = response.headers.get("location");
     if (actual !== testCase.location) {
       failures.push(`${testCase.name}: expected ${testCase.location}, got ${actual || "<none>"}`);
+    }
+  }
+
+  if (testCase.link) {
+    const actual = response.headers.get("link");
+    if (actual !== testCase.link) {
+      failures.push(`${testCase.name}: expected Link ${testCase.link}, got ${actual || "<none>"}`);
     }
   }
 }

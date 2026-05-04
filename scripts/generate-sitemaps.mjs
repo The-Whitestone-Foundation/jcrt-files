@@ -191,10 +191,12 @@ function readArchiveEntries() {
 			dateStr = `${data.year}-01-01`;
 		}
 
-		const canonicalUrl = `${BASE_URL}/archives/${issueSlug}/${fileSlug}/`;
+		const pageUrl = `${BASE_URL}/archives/${issueSlug}/${fileSlug}/`;
 		const pdfUrl = pdfFile
-			? `${BASE_URL}/archives/${issueSlug}/${pdfFile}`
+			? `${FILES_URL}/archives/${issueSlug}/${pdfFile}`
 			: "";
+		const canonicalUrl = pdfUrl || pageUrl;
+		const canonicalFormat = pdfUrl ? "application/pdf" : "text/html";
 
 		const published = data.published !== false;
 
@@ -211,8 +213,10 @@ function readArchiveEntries() {
 			ep,
 			dateStr,
 			pdfFile,
+			pageUrl,
 			pdfUrl,
 			canonicalUrl,
+			canonicalFormat,
 			sitemapIgnore,
 			published,
 		});
@@ -264,7 +268,7 @@ function generateDOAJ(entries) {
 			lines.push(`    <abstract language="eng">${escXml(e.description)}</abstract>`);
 		}
 
-		lines.push(`    <fullTextUrl format="html">${escXml(e.canonicalUrl)}</fullTextUrl>`);
+		lines.push(`    <fullTextUrl format="${e.pdfUrl ? "pdf" : "html"}">${escXml(e.canonicalUrl)}</fullTextUrl>`);
 
 		if (e.keywords.length) {
 			lines.push(`    <keywords language="eng">`);
@@ -326,7 +330,7 @@ function generateOAI(entries) {
 			lines.push(`          <dc:date>${escXml(datestamp)}</dc:date>`);
 		}
 		lines.push(`          <dc:type>article</dc:type>`);
-		lines.push(`          <dc:format>text/html</dc:format>`);
+		lines.push(`          <dc:format>${escXml(e.canonicalFormat || "text/html")}</dc:format>`);
 		lines.push(`          <dc:language>en</dc:language>`);
 		lines.push(`          <dc:identifier>${ISSN_DASH}</dc:identifier>`);
 		lines.push(`          <dc:identifier>${escXml(e.canonicalUrl)}</dc:identifier>`);

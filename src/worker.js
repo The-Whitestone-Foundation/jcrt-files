@@ -38,6 +38,10 @@ function cacheControlFor(key) {
   return 'public, max-age=31536000, immutable';
 }
 
+function isImageAsset(key) {
+  return /\.(?:avif|gif|ico|jpe?g|png|svg|webp)$/i.test(key);
+}
+
 function normalizeKey(pathname) {
   let decoded = pathname;
   try {
@@ -194,6 +198,9 @@ export default {
     const storedMime = (storedContentType || '').split(';', 1)[0].trim().toLowerCase();
     if (!storedContentType || storedMime === 'application/octet-stream' || key.toLowerCase().endsWith('.webmanifest')) {
       headers.set('content-type', detectedContentType);
+    }
+    if (isImageAsset(key)) {
+      headers.set('x-robots-tag', 'noindex');
     }
     headers.set('cache-control', cacheControlFor(key));
     const canonicalLink = archivePdfCanonicalLink(key);

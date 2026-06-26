@@ -157,6 +157,25 @@ export default {
 
     const url = new URL(request.url);
     const key = normalizeKey(url.pathname);
+
+    if (key === 'robots.txt') {
+      const body = [
+        'User-agent: *',
+        'Allow: /archives/',
+        'Allow: /citations/',
+        'Allow: /docs/',
+        'Allow: /metadata/',
+        'Disallow: /images/',
+        '',
+        `Sitemap: ${FILES_BASE_URL}/metadata/csl-json-sitemap.xml`,
+        `Sitemap: ${FILES_BASE_URL}/metadata/ris-sitemap.xml`,
+      ].join('\n');
+      return new Response(body, {
+        status: 200,
+        headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'public, max-age=86400' },
+      });
+    }
+
     if (key === '') {
       return new Response('Gone', {
         status: 410,

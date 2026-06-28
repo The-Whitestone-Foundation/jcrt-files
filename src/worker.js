@@ -1,3 +1,6 @@
+import { verifyBot } from './botVerifier.js';
+import { isTrustedOrigin, wafInspect, blockResponse, INDEXING_BOT_RE } from './waf.js';
+
 const FILES_BASE_URL = 'https://files.jcrt.org';
 
 const LEGACY_CITATION_STEMS = new Map([
@@ -36,10 +39,6 @@ function cacheControlFor(key) {
   const lower = key.toLowerCase();
   if (lower.endsWith('.pdf')) return 'public, max-age=3600, s-maxage=86400';
   return 'public, max-age=31536000, immutable';
-}
-
-function isImageAsset(key) {
-  return /\.(?:avif|gif|ico|jpe?g|png|svg|webp)$/i.test(key);
 }
 
 function normalizeKey(pathname) {
@@ -107,16 +106,13 @@ async function findCaseInsensitiveKey(bucket, key) {
 
 function applyCors(headers, request) {
   const origin = request.headers.get('Origin');
-  const allowedOrigins = new Set([
-    'https://jcrt.org',
-    'https://files.jcrt.org',
-  ]);
 
-  if (origin && allowedOrigins.has(origin)) {
+  if (isTrustedOrigin(origin)) {
     headers.set('Access-Control-Allow-Origin', origin);
     headers.set('Vary', 'Origin');
   }
 
+  // R2 file-serving headers (byte-range, ETag) — kept separate from API CORS
   headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS');
   headers.set('Access-Control-Allow-Headers', 'Content-Type, Accept, Range');
   headers.set('Access-Control-Expose-Headers', 'Content-Length, Content-Range, ETag');
@@ -155,6 +151,19 @@ export default {
       return new Response('Method Not Allowed', { status: 405 });
     }
 
+    const ua = request.headers.get('User-Agent') ?? '';
+
+    // Known indexing bots bypass WAF entirely so crawlers are never blocked.
+    // IP verification still runs below via verifyBot() for trust-level headers.
+    if (!INDEXING_BOT_RE.test(ua)) {
+      const waf = wafInspect(request);
+      if (waf.blocked) return blockResponse(waf.status, waf.reason);
+    }
+
+    // Identify and verify known indexing bots; results are attached to the
+    // response as x-bot-* headers so Cloudflare Analytics / WAF can see them.
+    const botResult = await verifyBot(request);
+
     const url = new URL(request.url);
     const key = normalizeKey(url.pathname);
 
@@ -164,8 +173,8 @@ export default {
         'Allow: /archives/',
         'Allow: /citations/',
         'Allow: /docs/',
+        'Allow: /images/',
         'Allow: /metadata/',
-        'Disallow: /images/',
         '',
         `Sitemap: ${FILES_BASE_URL}/metadata/csl-json-sitemap.xml`,
         `Sitemap: ${FILES_BASE_URL}/metadata/ris-sitemap.xml`,
@@ -218,14 +227,17 @@ export default {
     if (!storedContentType || storedMime === 'application/octet-stream' || key.toLowerCase().endsWith('.webmanifest')) {
       headers.set('content-type', detectedContentType);
     }
-    if (isImageAsset(key)) {
-      headers.set('x-robots-tag', 'noindex');
-    }
     headers.set('cache-control', cacheControlFor(key));
     const canonicalLink = archivePdfCanonicalLink(key);
     if (canonicalLink) headers.append('link', canonicalLink);
     applyCors(headers, request);
     headers.set('accept-ranges', 'bytes');
+
+    if (botResult.allowed) {
+      headers.set('x-bot-allowed',   'true');
+      headers.set('x-bot-name',       botResult.botName);
+      headers.set('x-bot-verified',   botResult.verified ? 'true' : 'false');
+    }
 
     const hasBody = 'body' in object && object.body !== undefined;
     const isPartial = hasBody && request.headers.has('range') && applyRangeHeaders(object, headers);

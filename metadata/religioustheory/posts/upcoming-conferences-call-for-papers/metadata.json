@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/upcoming-conferences-call-for-papers/#article",
+  "name": "Conferences and CFPs – Upcoming",
+  "headline": "Conferences and CFPs – Upcoming",
+  "description": "Beyond Habermas? Critical Theory, Political Theology, and Interreligious Dialogue “Habermas’ postsecular perspective of socio-political integration has had a",
+  "url": "https://jcrt.org/religioustheory/posts/upcoming-conferences-call-for-papers/",
+  "inLanguage": "en",
+  "datePublished": "2016-02-26",
+  "dateModified": "2016-02-26",
+  "image": "https://jcrt.org/images/2016/02/william-pynchon.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/upcoming-conferences-call-for-papers/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "MSCBpx"
+}

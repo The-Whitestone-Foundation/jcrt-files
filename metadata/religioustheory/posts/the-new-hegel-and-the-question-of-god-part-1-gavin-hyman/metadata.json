@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/#article",
+  "name": "The “New Hegel” And The Question Of God, Part 1 (Gavin Hyman)",
+  "headline": "The “New Hegel” And The Question Of God, Part 1 (Gavin Hyman)",
+  "description": "Among recent developments in continental philosophy and religious thought, one of the most prominent has been a ‘return to Hegel.’ It has been exemplified in",
+  "url": "https://jcrt.org/religioustheory/posts/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/",
+  "inLanguage": "en",
+  "datePublished": "2019-05-24",
+  "dateModified": "2019-05-24",
+  "image": "https://jcrt.org/images/2019/05/hegel_by_kugler_retouched.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "WDSTKy"
+}

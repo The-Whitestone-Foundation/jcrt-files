@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/jesus-ghost-derrida-christianity-and-hauntology-part-3/#article",
+  "name": "Jesus’ Ghost – Derrida, Christianity, and “Hauntology”, Part 3",
+  "headline": "Jesus’ Ghost – Derrida, Christianity, and “Hauntology”, Part 3",
+  "description": "The following is Part 3 of a 3-part series by Victor Taylor on how one might reflect theologically on Jesus and the Christian message from a Derridean",
+  "url": "https://jcrt.org/religioustheory/posts/jesus-ghost-derrida-christianity-and-hauntology-part-3/",
+  "inLanguage": "en",
+  "datePublished": "2016-05-14",
+  "dateModified": "2016-05-14",
+  "image": "https://jcrt.org/images/2016/05/brain-facs.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/jesus-ghost-derrida-christianity-and-hauntology-part-3/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "UHMhsY"
+}

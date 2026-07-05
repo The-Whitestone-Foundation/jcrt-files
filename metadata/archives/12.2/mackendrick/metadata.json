@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/mackendrick/#article",
+  "name": "Slow Reading: Learning in the Time of the Body.",
+  "headline": "Slow Reading: Learning in the Time of the Body.",
+  "description": "The author calls attention to the fracturing of temporality caused by the distractions that go hand-in-hand with 21st century life, which she claims has had a detrimental impact on the ability of students to apply themselves to activities requiring close textual attention. Thus, she urges educators to adapt some of the practices of medieval monastic communities in the modern classroom by modeling to their students the pleasures involved in attending to texts in a focused yet sensual manner.",
+  "url": "https://jcrt.org/archives/12.2/mackendrick/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Karmen Mackendrick"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/mackendrick/"
+  },
+  "abstract": "The author calls attention to the fracturing of temporality caused by the distractions that go hand-in-hand with 21st century life, which she claims has had a detrimental impact on the ability of students to apply themselves to activities requiring close textual attention. Thus, she urges educators to adapt some of the practices of medieval monastic communities in the modern classroom by modeling to their students the pleasures involved in attending to texts in a focused yet sensual manner.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "bLFL5-",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "pagination": "106-121",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/mackendrick.pdf"
+  }
+}

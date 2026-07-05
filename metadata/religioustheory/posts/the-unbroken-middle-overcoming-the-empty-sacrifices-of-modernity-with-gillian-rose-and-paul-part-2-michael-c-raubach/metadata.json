@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-part-2-michael-c-raubach/#article",
+  "name": "The Unbroken Middle: Overcoming The Empty Sacrifices Of Modernity With Gillian Rose And Paul, Part 2 (Michael C. Raubach)",
+  "headline": "The Unbroken Middle: Overcoming The Empty Sacrifices Of Modernity With Gillian Rose And Paul, Part 2 (Michael C. Raubach)",
+  "description": "The following is the second of a two-part series. The first can be found here Is it not true, though, that many individuals of different races, creeds, and",
+  "url": "https://jcrt.org/religioustheory/posts/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-part-2-michael-c-raubach/",
+  "inLanguage": "en",
+  "datePublished": "2021-11-18",
+  "dateModified": "2021-11-18",
+  "image": "https://jcrt.org/images/2021/11/abrahams_sacrifice_the_sacrifice_of_isaac_met_dp888579-1119x642.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-unbroken-middle-overcoming-the-empty-sacrifices-of-modernity-with-gillian-rose-and-paul-part-2-michael-c-raubach/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "BUoOo4"
+}

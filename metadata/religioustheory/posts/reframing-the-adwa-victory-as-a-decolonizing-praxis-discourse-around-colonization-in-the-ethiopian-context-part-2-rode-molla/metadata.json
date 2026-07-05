@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla/#article",
+  "name": "Reframing The Adwa Victory As A Decolonizing Praxis – Discourse Around Colonization In The Ethiopian Context, Part 2 (Rode Molla)",
+  "headline": "Reframing The Adwa Victory As A Decolonizing Praxis – Discourse Around Colonization In The Ethiopian Context, Part 2 (Rode Molla)",
+  "description": "The following is the second of a two-part series. The first can be found here. Foucault, in his book, Discipline, and Punish, describes how the human body is",
+  "url": "https://jcrt.org/religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla/",
+  "inLanguage": "en",
+  "datePublished": "2020-02-04",
+  "dateModified": "2020-02-04",
+  "image": "https://jcrt.org/images/2020/02/1599px-ethiopian_mothers_with_babies.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/reframing-the-adwa-victory-as-a-decolonizing-praxis-discourse-around-colonization-in-the-ethiopian-context-part-2-rode-molla/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "jVgsYH"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/01.2/adcock/#article",
+  "name": "Xena Warrior Princess and the Texture of the Religious: Re-Imagining the Role of Popular Culture in Academic Discourse",
+  "headline": "Xena Warrior Princess and the Texture of the Religious: Re-Imagining the Role of Popular Culture in Academic Discourse",
+  "description": "Adcock - Xena Warrior Princess - JCRT 1.2",
+  "url": "https://jcrt.org/archives/01.2/adcock/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "David A Adcock"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/01.2/adcock/"
+  },
+  "abstract": "Adcock - Xena Warrior Princess - JCRT 1.2",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "jN40op"
+}

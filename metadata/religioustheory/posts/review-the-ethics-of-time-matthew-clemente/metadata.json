@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-the-ethics-of-time-matthew-clemente/#article",
+  "name": "Review – The Ethics Of Time (Matthew Clemente)",
+  "headline": "Review – The Ethics Of Time (Matthew Clemente)",
+  "description": "The Ethics of Time. Manoussakis, John. New York: Bloomsbury Press, 2017. ISBN: 9781474299169. Hardback. 232 pages. John Manoussakis’s latest book, The Ethics of",
+  "url": "https://jcrt.org/religioustheory/posts/review-the-ethics-of-time-matthew-clemente/",
+  "inLanguage": "en",
+  "datePublished": "2018-04-17",
+  "dateModified": "2018-04-17",
+  "image": "https://jcrt.org/images/2018/04/vasnetsov_samolet.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Matthew Clemente"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-the-ethics-of-time-matthew-clemente/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "dsA2DP"
+}

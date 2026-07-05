@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/16.2/armstrong/#article",
+  "name": "Of Flesh and Spirit: Race, Reproduction, and Sexual Difference in the Turn to Paul.",
+  "headline": "Of Flesh and Spirit: Race, Reproduction, and Sexual Difference in the Turn to Paul.",
+  "description": "",
+  "url": "https://jcrt.org/archives/16.2/armstrong/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Amaryah Armstrong"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/16.2/armstrong/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "EbjxZH",
+  "volumeNumber": "16",
+  "issueNumber": "2",
+  "pagination": "126-141",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/16.2/Armstrong.pdf"
+  }
+}

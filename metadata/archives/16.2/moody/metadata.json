@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/16.2/moody/#article",
+  "name": "What’s Missing in the Turn to Paul?: Identity and Difference in Postsecular Theology.",
+  "headline": "What’s Missing in the Turn to Paul?: Identity and Difference in Postsecular Theology.",
+  "description": "",
+  "url": "https://jcrt.org/archives/16.2/moody/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Katharine Sarah Moody"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/16.2/moody/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "VQSx1X",
+  "volumeNumber": "16",
+  "issueNumber": "2",
+  "pagination": "212-239",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/16.2/Moody.pdf"
+  }
+}

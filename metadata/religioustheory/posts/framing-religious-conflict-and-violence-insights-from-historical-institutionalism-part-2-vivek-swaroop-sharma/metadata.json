@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-2-vivek-swaroop-sharma/#article",
+  "name": "Framing Religious Conflict and Violence – Insights from Historical Institutionalism, Part 2 (Vivek Swaroop Sharma)",
+  "headline": "Framing Religious Conflict and Violence – Insights from Historical Institutionalism, Part 2 (Vivek Swaroop Sharma)",
+  "description": "The following is the second installment of a two-part series. The first installment can be found here. There are two important qualifications to the following",
+  "url": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-2-vivek-swaroop-sharma/",
+  "inLanguage": "en",
+  "datePublished": "2017-09-22",
+  "dateModified": "2017-09-22",
+  "image": "https://jcrt.org/images/images.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-2-vivek-swaroop-sharma/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "QepiZS"
+}

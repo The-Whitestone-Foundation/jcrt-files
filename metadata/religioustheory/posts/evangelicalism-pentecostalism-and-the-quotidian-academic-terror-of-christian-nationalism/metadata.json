@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/evangelicalism-pentecostalism-and-the-quotidian-academic-terror-of-christian-nationalism/#article",
+  "name": "Evangelicalism, Pentecostalism, And The Quotidian Academic Terror Of “Christian Nationalism”",
+  "headline": "Evangelicalism, Pentecostalism, And The Quotidian Academic Terror Of “Christian Nationalism”",
+  "description": "The following essay appeared recently in The New Polis. It is republished here because of its timeliness and importance. What exactly is Christian nationalism?",
+  "url": "https://jcrt.org/religioustheory/posts/evangelicalism-pentecostalism-and-the-quotidian-academic-terror-of-christian-nationalism/",
+  "inLanguage": "en",
+  "datePublished": "2023-02-23",
+  "dateModified": "2023-02-23",
+  "image": "https://jcrt.org/images/2023/02/american-flag-spanish-mission.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/evangelicalism-pentecostalism-and-the-quotidian-academic-terror-of-christian-nationalism/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "IK9VuM"
+}

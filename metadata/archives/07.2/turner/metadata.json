@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/07.2/turner/#article",
+  "name": "Derrida’s Bible: Reading a Page of Scripture with a Little Help from Derrida",
+  "headline": "Derrida’s Bible: Reading a Page of Scripture with a Little Help from Derrida",
+  "description": "",
+  "url": "https://jcrt.org/archives/07.2/turner/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Donald L Turner"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/07.2/turner/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "f3dZHS",
+  "volumeNumber": "7",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/07.2/turner.pdf"
+  }
+}

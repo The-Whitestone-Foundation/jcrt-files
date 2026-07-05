@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/19.3/lebovic/#article",
+  "name": "Benjamin: to the Rhythm of Theological Concepts",
+  "headline": "Benjamin: to the Rhythm of Theological Concepts",
+  "description": "",
+  "url": "https://jcrt.org/archives/19.3/lebovic/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Nitzan Lebovic"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/19.3/lebovic/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "7u01M5",
+  "volumeNumber": "19",
+  "issueNumber": "3",
+  "pagination": "428-435"
+}

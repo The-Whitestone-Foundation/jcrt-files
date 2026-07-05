@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson/#article",
+  "name": "What Black Disabled Bodies Can Teach Us About Environmental Justice (Robert Monson)",
+  "headline": "What Black Disabled Bodies Can Teach Us About Environmental Justice (Robert Monson)",
+  "description": "As early as 2014, governmental officials in the city of Flint, Michigan made a series of decisions that would prove to have deleterious effects on the people",
+  "url": "https://jcrt.org/religioustheory/posts/what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson/",
+  "inLanguage": "en",
+  "datePublished": "2024-07-10",
+  "dateModified": "2024-07-10",
+  "image": "https://jcrt.org/images/2024/07/disabled_bipoc_in_front_of_pride_flag.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "q5DuaW"
+}

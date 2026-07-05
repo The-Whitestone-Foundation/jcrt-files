@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-religious-roots-of-environmental-justice-call-for-papers-or-presentations-conference/#article",
+  "name": "The Religious Roots Of Environmental Justice – Call For Papers Or Presentations (Conference)",
+  "headline": "The Religious Roots Of Environmental Justice – Call For Papers Or Presentations (Conference)",
+  "description": "Where: Online (Zoom) – Registration Required Submission deadline for proposals: Friday, September 15, 2023 It highlights key arguments and implications",
+  "url": "https://jcrt.org/religioustheory/posts/the-religious-roots-of-environmental-justice-call-for-papers-or-presentations-conference/",
+  "inLanguage": "en",
+  "datePublished": "2023-07-13",
+  "dateModified": "2023-07-13",
+  "image": "https://jcrt.org/images/2023/07/ta_prohm_iii.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-religious-roots-of-environmental-justice-call-for-papers-or-presentations-conference/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "UNMipf"
+}

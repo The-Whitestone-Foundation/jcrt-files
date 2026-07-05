@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-3-neal-deroo/#article",
+  "name": "The Dangers Of Dealing With Derrida – Revisiting the Caputo-Hägglund Debate On The “Religious” Reading Of Deconstruction, Part 3 (Neal DeRoo)",
+  "headline": "The Dangers Of Dealing With Derrida – Revisiting the Caputo-Hägglund Debate On The “Religious” Reading Of Deconstruction, Part 3 (Neal DeRoo)",
+  "description": "The following is the third installment of a three-part series. The first one can be found here, the second here. But one could embrace another prevalence for",
+  "url": "https://jcrt.org/religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-3-neal-deroo/",
+  "inLanguage": "en",
+  "datePublished": "2018-07-11",
+  "dateModified": "2018-07-11",
+  "image": "https://jcrt.org/images/2018/07/img_1464-1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-dangers-of-dealing-with-derrida-revisiting-the-caputo-hagglund-debate-on-the-religious-reading-of-deconstruction-part-3-neal-deroo/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "M1-EfU"
+}

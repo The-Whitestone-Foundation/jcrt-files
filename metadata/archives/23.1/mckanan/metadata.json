@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/23.1/mckanan/#article",
+  "name": "Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice",
+  "headline": "Ancestral Devotion, New England Conservation, and the Challenge of Environmental Justice",
+  "description": "",
+  "url": "https://jcrt.org/archives/23.1/mckanan/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Mckanan"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/23.1/mckanan/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "mBFrD8",
+  "volumeNumber": "23",
+  "issueNumber": "1",
+  "pagination": "86-99",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/23.1/McKanan.pdf"
+  }
+}

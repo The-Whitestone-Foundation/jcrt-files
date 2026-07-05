@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/peters/#article",
+  "name": "Teaching for Social Justice: Creating a Context for Transformation.",
+  "headline": "Teaching for Social Justice: Creating a Context for Transformation.",
+  "description": "The author explains how she applies the principles of transformative pedagogy described in the writings of Brazilian educator Paulo Freire in teaching ethics to American college students. She relates that rather than striving to indoctrinate her students with her own values, she employs the spiral of theory and praxis to come up with experiential learning activities that will help them think about how their actions could have a positive or negative impact on the communities in which they live.",
+  "url": "https://jcrt.org/archives/12.2/peters/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rebecca Todd Peters"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/peters/"
+  },
+  "abstract": "The author explains how she applies the principles of transformative pedagogy described in the writings of Brazilian educator Paulo Freire in teaching ethics to American college students. She relates that rather than striving to indoctrinate her students with her own values, she employs the spiral of theory and praxis to come up with experiential learning activities that will help them think about how their actions could have a positive or negative impact on the communities in which they live.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "djDvd_",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "pagination": "215-227",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/peters.pdf"
+  }
+}

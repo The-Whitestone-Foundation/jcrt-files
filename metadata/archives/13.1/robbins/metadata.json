@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.1/robbins/#article",
+  "name": "Decoloniality and Crisis Introduction",
+  "headline": "Decoloniality and Crisis Introduction",
+  "description": "An introduction to a special issue on decoloniality and crisis is presented including articles on radical multiculturalism and decolonial feminism, the rendering of Latino/a immigrants, and the Christian logic of conversion.",
+  "url": "https://jcrt.org/archives/13.1/robbins/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Nikolay Karkov"
+    },
+    {
+      "@type": "Person",
+      "name": "Jeffrey W. Robbins"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.1/robbins/"
+  },
+  "abstract": "An introduction to a special issue on decoloniality and crisis is presented including articles on radical multiculturalism and decolonial feminism, the rendering of Latino/a immigrants, and the Christian logic of conversion.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "btRCGj",
+  "volumeNumber": "13",
+  "issueNumber": "1",
+  "pagination": "1-10",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.1/robbins.pdf"
+  }
+}

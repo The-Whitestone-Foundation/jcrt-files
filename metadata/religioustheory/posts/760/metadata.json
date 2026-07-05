@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/760/#article",
+  "name": "Review – Raising the Vegetal Question (Hollis Phelps)",
+  "headline": "Review – Raising the Vegetal Question (Hollis Phelps)",
+  "description": "Irigaray, Luce and Michael Marder, Through Vegetal Being: Two Philosophical Perspectives. New York, Columbia University Press, 2016 It highlights key",
+  "url": "https://jcrt.org/religioustheory/posts/760/",
+  "inLanguage": "en",
+  "datePublished": "2016-09-29",
+  "dateModified": "2016-09-29",
+  "image": "https://jcrt.org/images/2016/09/forest.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Hollis Phelps"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/760/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "bhDLVU"
+}

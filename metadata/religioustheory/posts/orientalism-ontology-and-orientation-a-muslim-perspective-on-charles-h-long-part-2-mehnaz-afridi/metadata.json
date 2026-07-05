@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi/#article",
+  "name": "Orientalism, Ontology, And Orientation – A Muslim Perspective On Charles H. Long, Part 2 (Mehnaz Afridi)",
+  "headline": "Orientalism, Ontology, And Orientation – A Muslim Perspective On Charles H. Long, Part 2 (Mehnaz Afridi)",
+  "description": "The following is the second of a two-part series. The first can be found here. The full article is published in the spring 2022 issue of the Journal for",
+  "url": "https://jcrt.org/religioustheory/posts/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi/",
+  "inLanguage": "en",
+  "datePublished": "2022-08-19",
+  "dateModified": "2022-08-19",
+  "image": "https://jcrt.org/images/2022/08/willmette_how.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "TE--r1"
+}

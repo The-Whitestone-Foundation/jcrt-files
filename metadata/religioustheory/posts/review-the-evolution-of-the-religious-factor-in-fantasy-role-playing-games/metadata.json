@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-the-evolution-of-the-religious-factor-in-fantasy-role-playing-games/#article",
+  "name": "Review – The Evolution of the Religious Factor in Fantasy Role-Playing Games (Jeffrey Scholes)",
+  "headline": "Review – The Evolution of the Religious Factor in Fantasy Role-Playing Games (Jeffrey Scholes)",
+  "description": "Laycock, Joseph P. Dangerous Games: What the Moral Panic over Role-Playing Games Says about Play, Religion, and Imagined Worlds ISBN-10: 0520284925. It",
+  "url": "https://jcrt.org/religioustheory/posts/review-the-evolution-of-the-religious-factor-in-fantasy-role-playing-games/",
+  "inLanguage": "en",
+  "datePublished": "2016-07-02",
+  "dateModified": "2016-07-02",
+  "image": "https://jcrt.org/images/2016/07/dragon-slayer.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-the-evolution-of-the-religious-factor-in-fantasy-role-playing-games/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "KR-gKn"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/sikhs-as-subalterns-voice-inequality-and-power-part-2-nirvikar-singh/#article",
+  "name": "Sikhs As Subalterns – Voice, Inequality, And Power, Part 2 (Nirvikar Singh)",
+  "headline": "Sikhs As Subalterns – Voice, Inequality, And Power, Part 2 (Nirvikar Singh)",
+  "description": "The following is the second installment of a three part series. The first can be found here. It is published as a catalogued .PDF in article in the latest issue",
+  "url": "https://jcrt.org/religioustheory/posts/sikhs-as-subalterns-voice-inequality-and-power-part-2-nirvikar-singh/",
+  "inLanguage": "en",
+  "datePublished": "2024-01-26",
+  "dateModified": "2024-01-26",
+  "image": "https://jcrt.org/images/2024/02/peace_symposium_between_sikhs_muslims_of_pakistan.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/sikhs-as-subalterns-voice-inequality-and-power-part-2-nirvikar-singh/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "uChYUe"
+}

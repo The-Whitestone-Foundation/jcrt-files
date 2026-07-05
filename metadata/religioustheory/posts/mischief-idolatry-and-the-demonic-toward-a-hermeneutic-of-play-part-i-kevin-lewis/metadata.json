@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis/#article",
+  "name": "Mischief, Idolatry, And The Demonic – Toward A Hermeneutic Of Play, Part I (Kevin Lewis)",
+  "headline": "Mischief, Idolatry, And The Demonic – Toward A Hermeneutic Of Play, Part I (Kevin Lewis)",
+  "description": "Biblical hermeneutics, studied reflection upon interpretation of scriptural passages, has not remained static in method or approach over the centuries",
+  "url": "https://jcrt.org/religioustheory/posts/mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis/",
+  "inLanguage": "en",
+  "datePublished": "2018-05-19",
+  "dateModified": "2018-05-19",
+  "image": "https://jcrt.org/images/2018/05/img_0921-1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/mischief-idolatry-and-the-demonic-toward-a-hermeneutic-of-play-part-i-kevin-lewis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "_sTc_8"
+}

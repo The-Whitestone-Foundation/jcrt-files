@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/simmons-intro/#article",
+  "name": "Introduction: the Dialogical Promise of Mashup Philosophy of Religion.",
+  "headline": "Introduction: the Dialogical Promise of Mashup Philosophy of Religion.",
+  "description": "An introduction is presented in which the editor discusses various reports within the issue on topics including the concept of mashup philosophy of religion, mashup music, and the challlenges that mashup philosophy might face as of March 2015.",
+  "url": "https://jcrt.org/archives/14.2/simmons-intro/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "J. Aaron Simmons"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/simmons-intro/"
+  },
+  "abstract": "An introduction is presented in which the editor discusses various reports within the issue on topics including the concept of mashup philosophy of religion, mashup music, and the challlenges that mashup philosophy might face as of March 2015.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "fh1ntW",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "204-210",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/simmons-intro.pdf"
+  }
+}

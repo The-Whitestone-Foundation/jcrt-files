@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/entheogens-spirituality-and-modern-myths-part-2-john-cuda/#article",
+  "name": "Entheogens, Spirituality, And Modern Myths, Part 2 (John Cuda)",
+  "headline": "Entheogens, Spirituality, And Modern Myths, Part 2 (John Cuda)",
+  "description": "The following is the second of a three-part series. The first can be found here. Symbolically, the idea of going beyond the edge of the ordinary world to",
+  "url": "https://jcrt.org/religioustheory/posts/entheogens-spirituality-and-modern-myths-part-2-john-cuda/",
+  "inLanguage": "en",
+  "datePublished": "2021-10-12",
+  "dateModified": "2021-10-12",
+  "image": "https://jcrt.org/images/2021/09/edward-howell-vltjdp8zy1c-unsplash.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/entheogens-spirituality-and-modern-myths-part-2-john-cuda/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "oWv7ry"
+}

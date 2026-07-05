@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/#article",
+  "name": "Hegel Contra God – Replying To Gavin Hyman’s “New Hegel”, Part 1 (Rebekah Howes)",
+  "headline": "Hegel Contra God – Replying To Gavin Hyman’s “New Hegel”, Part 1 (Rebekah Howes)",
+  "description": "The following is the first of a three-part series. The earlier article by Prof. Hyman to which the author replies can be found here It highlights key arguments",
+  "url": "https://jcrt.org/religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/",
+  "inLanguage": "en",
+  "datePublished": "2023-01-12",
+  "dateModified": "2023-01-12",
+  "image": "https://jcrt.org/images/2023/02/hegel_042.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "CumHrg"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-neoliberalismisnowhere-wendy-browns-undoing-the-demos-isaiah/#article",
+  "name": "Review – Neoliberalsm Is Nowhere – Wendy Brown’s Undoing the Demos (Isaiah Dylan Ellis)",
+  "headline": "Review – Neoliberalsm Is Nowhere – Wendy Brown’s Undoing the Demos (Isaiah Dylan Ellis)",
+  "description": "Brown, Wendy. Undoing the Demos: Neoliberalism’s Stealth Revolution. New York: Zone Books, 2015. ISBN-10: 1935408534. Hardcover Hardcover. It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-neoliberalismisnowhere-wendy-browns-undoing-the-demos-isaiah/",
+  "inLanguage": "en",
+  "datePublished": "2017-02-16",
+  "dateModified": "2017-02-16",
+  "image": "https://jcrt.org/images/2017/02/charles_hope-thatcher_tina.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Isaiah Dylan Ellis"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-neoliberalismisnowhere-wendy-browns-undoing-the-demos-isaiah/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "kHuAUO"
+}

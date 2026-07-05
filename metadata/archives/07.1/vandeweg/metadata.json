@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/07.1/vandeweg/#article",
+  "name": "Confidence Games: Money and Markets in a World without Redemption",
+  "headline": "Confidence Games: Money and Markets in a World without Redemption",
+  "description": "A review of Mark C. Taylor, Confidence Games: Money and Markets in a World Without Redemption. Chicago and London: The Chicago University Press, 2004. xx + 395 pp. $32.50 (cloth). ISBN: 0-2267-9166-1.",
+  "url": "https://jcrt.org/archives/07.1/vandeweg/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "R M Van de Weg"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/07.1/vandeweg/"
+  },
+  "abstract": "A review of Mark C. Taylor, Confidence Games: Money and Markets in a World Without Redemption. Chicago and London: The Chicago University Press, 2004. xx + 395 pp. $32.50 (cloth). ISBN: 0-2267-9166-1.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "MvXw5o",
+  "volumeNumber": "7",
+  "issueNumber": "1",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/07.1/vandeweg.pdf"
+  }
+}

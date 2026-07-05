@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho/#article",
+  "name": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 2 (Vinicius Marinho)",
+  "headline": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 2 (Vinicius Marinho)",
+  "description": "The following is the second of a three-part series. The first can be found here. The Ecclesial Endeavor to Define the Brazilian Soul: a Summa of the Colonial",
+  "url": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho/",
+  "inLanguage": "en",
+  "datePublished": "2021-08-09",
+  "dateModified": "2021-08-09",
+  "image": "https://jcrt.org/images/2021/08/800px-bororo004.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-2-vinicius-marinho/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "fQxiXt"
+}

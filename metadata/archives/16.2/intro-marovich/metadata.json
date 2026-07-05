@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/16.2/intro-marovich/#article",
+  "name": "Negotiating Terrain: Gender and the Postsecular?",
+  "headline": "Negotiating Terrain: Gender and the Postsecular?",
+  "description": "",
+  "url": "https://jcrt.org/archives/16.2/intro-marovich/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Beatrice Marovich"
+    },
+    {
+      "@type": "Person",
+      "name": "Alex Dubilet"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/16.2/intro-marovich/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "ua-z74",
+  "volumeNumber": "16",
+  "issueNumber": "2",
+  "pagination": "109-125",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/16.2/Intro-Marovich.pdf"
+  }
+}

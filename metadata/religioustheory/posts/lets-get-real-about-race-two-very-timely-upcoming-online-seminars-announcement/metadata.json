@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement/#article",
+  "name": "Let’s Get Real About Race – Two Very Timely Upcoming Online Seminars (Announcement)",
+  "headline": "Let’s Get Real About Race – Two Very Timely Upcoming Online Seminars (Announcement)",
+  "description": "It’s time to get real when we talk these days about race and racism. Ever since the murder of George Floyd in Minneapolis in the late spring of 2020 at the",
+  "url": "https://jcrt.org/religioustheory/posts/lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement/",
+  "inLanguage": "en",
+  "datePublished": "2021-08-23",
+  "dateModified": "2021-08-23",
+  "image": "https://jcrt.org/images/2021/08/race.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "OaeXCC"
+}

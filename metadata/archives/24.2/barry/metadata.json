@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/barry/#article",
+  "name": "Deconstructing the Erie Canal: Three Lessons for its Next Century",
+  "headline": "Deconstructing the Erie Canal: Three Lessons for its Next Century",
+  "description": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigeno",
+  "url": "https://jcrt.org/archives/24.2/barry/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Renée Barry"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/barry/"
+  },
+  "abstract": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigeno",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "pH-JYf",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "299-305",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/barry.pdf"
+  }
+}

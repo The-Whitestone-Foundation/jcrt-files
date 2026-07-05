@@ -1,0 +1,40 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/01.2/wyschogrod_raschke/#article",
+  "name": "Heterological History: a Conversation",
+  "headline": "Heterological History: a Conversation",
+  "description": "Wyschogrod & Raschke - Heterological History - JCRT 1.2 Edith Wyschogrod Rice University & Carl Raschke University of Denver",
+  "url": "https://jcrt.org/archives/01.2/wyschogrod_raschke/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Edith Wyschogrod"
+    },
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/01.2/wyschogrod_raschke/"
+  },
+  "abstract": "Wyschogrod & Raschke - Heterological History - JCRT 1.2 Edith Wyschogrod Rice University & Carl Raschke University of Denver",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "-XwQ5a"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/03.3/taylor/#article",
+  "name": "The City of K: Franz Kafka and Prague",
+  "headline": "The City of K: Franz Kafka and Prague",
+  "description": "Taylor - Encircling Kafka: A Review of the City of K. - JCRT 3.3",
+  "url": "https://jcrt.org/archives/03.3/taylor/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Victor Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/03.3/taylor/"
+  },
+  "abstract": "Taylor - Encircling Kafka: A Review of the City of K. - JCRT 3.3",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "pW4vZ6"
+}

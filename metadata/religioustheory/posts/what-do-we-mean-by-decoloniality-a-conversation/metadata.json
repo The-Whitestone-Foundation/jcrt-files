@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-conversation/#article",
+  "name": "What Do We Mean By “Decoloniality”? A Discussion, Part 1",
+  "headline": "What Do We Mean By “Decoloniality”? A Discussion, Part 1",
+  "description": "Part 1 records a keynote discussion defining decoloniality, foregrounding coloniality's persistence, divergent methods, and disputes over politics, knowledge",
+  "url": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-conversation/",
+  "inLanguage": "en",
+  "datePublished": "2021-04-26",
+  "dateModified": "2021-04-26",
+  "image": "https://jcrt.org/images/2021/05/tikal_mayan_ruins_2009.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-conversation/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "jEcduc"
+}

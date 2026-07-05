@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/01.2/long/#article",
+  "name": "Mircea Eliade and the Imagination of Matter",
+  "headline": "Mircea Eliade and the Imagination of Matter",
+  "description": "Long - Mircea Eliade and the Imagination of Matter - JCRT 1.2",
+  "url": "https://jcrt.org/archives/01.2/long/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Charles H Long"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/01.2/long/"
+  },
+  "abstract": "Long - Mircea Eliade and the Imagination of Matter - JCRT 1.2",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "fqpD6r"
+}

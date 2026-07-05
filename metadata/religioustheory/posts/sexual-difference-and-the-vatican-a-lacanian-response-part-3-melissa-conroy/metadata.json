@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-3-melissa-conroy/#article",
+  "name": "Sexual Difference And The Vatican – A Lacanian Response, Part 3 (Melissa Conroy)",
+  "headline": "Sexual Difference And The Vatican – A Lacanian Response, Part 3 (Melissa Conroy)",
+  "description": "The following is the second of a three-part series. The first can be found here, the second here. Likewise, Teresa de Lauretis argues that gender is best",
+  "url": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-3-melissa-conroy/",
+  "inLanguage": "en",
+  "datePublished": "2020-10-12",
+  "dateModified": "2020-10-12",
+  "image": "https://jcrt.org/images/2020/10/candi_ceto_lingam_and_yoni_1259.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-3-melissa-conroy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "xtq3VW"
+}

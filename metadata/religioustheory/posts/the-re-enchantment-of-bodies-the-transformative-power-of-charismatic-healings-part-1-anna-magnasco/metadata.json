@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-1-anna-magnasco/#article",
+  "name": "The Re-Enchantment Of Bodies – The Transformative Power Of Charismatic Healings, Part 1 (Anna Magnasco)",
+  "headline": "The Re-Enchantment Of Bodies – The Transformative Power Of Charismatic Healings, Part 1 (Anna Magnasco)",
+  "description": "Part 1 investigates charismatic healing as embodied practice, arguing that affect, ritual, and perception can reconfigure modern assumptions about agency and",
+  "url": "https://jcrt.org/religioustheory/posts/the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-1-anna-magnasco/",
+  "inLanguage": "en",
+  "datePublished": "2023-11-28",
+  "dateModified": "2023-11-28",
+  "image": "https://jcrt.org/images/2023/12/st_peter_and_st_john_healing_the_cripple_1841_wellcome_l0000122-1210x642.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-1-anna-magnasco/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "jAxVxC"
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/10.3/grieve-carlson/#article",
+  "name": "The Last Professors: the Corporate University and the Fate of the Humanities",
+  "headline": "The Last Professors: the Corporate University and the Fate of the Humanities",
+  "description": "",
+  "url": "https://jcrt.org/archives/10.3/grieve-carlson/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Gary Grieve-Carlson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/10.3/grieve-carlson/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "pmUQFk",
+  "volumeNumber": "10",
+  "issueNumber": "3",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/10.3/grieve-carlson.pdf"
+  }
+}

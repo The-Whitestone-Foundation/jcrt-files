@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-agambens-political-reading-of-the-trial-of-jesus/#article",
+  "name": "Review – Agamben’s Political Reading of the Trial of Jesus (Ryne Beddard)",
+  "headline": "Review – Agamben’s Political Reading of the Trial of Jesus (Ryne Beddard)",
+  "description": "Agamben, Giorgio. Pilate and Jesus (Meridian: Crossing Aesthetics). Translated by Adam Kotsko. Stanford: Stanford University Press, 2015 It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-agambens-political-reading-of-the-trial-of-jesus/",
+  "inLanguage": "en",
+  "datePublished": "2016-07-21",
+  "dateModified": "2016-07-21",
+  "image": "https://jcrt.org/images/2016/07/pontius-pilate.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ryne Beddard"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-agambens-political-reading-of-the-trial-of-jesus/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "395iOB"
+}

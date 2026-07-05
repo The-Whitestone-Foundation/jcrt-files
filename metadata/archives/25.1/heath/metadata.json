@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.1/heath/#article",
+  "name": "The Doctrine of Christian Discovery and Domination: How It Has Been Used by United States Courts to Deny Treaty Rights & Dismiss the Haudenosaunee Land Rights Cases",
+  "headline": "The Doctrine of Christian Discovery and Domination: How It Has Been Used by United States Courts to Deny Treaty Rights & Dismiss the Haudenosaunee Land Rights Cases",
+  "description": "Joseph J. Heath shows how U.S. courts use Christian Discovery to deny Haudenosaunee treaty and land rights, and calls for its repudiation in U.S. law.",
+  "url": "https://jcrt.org/archives/25.1/heath/",
+  "inLanguage": "en",
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-04-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joseph J. Heath"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.1/heath/"
+  },
+  "abstract": "Joseph J. Heath shows how U.S. courts use Christian Discovery to deny Haudenosaunee treaty and land rights, and calls for its repudiation in U.S. law.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "3sfbaI",
+  "volumeNumber": "25",
+  "issueNumber": "1",
+  "pagination": "51-60",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.1/heath.pdf"
+  }
+}

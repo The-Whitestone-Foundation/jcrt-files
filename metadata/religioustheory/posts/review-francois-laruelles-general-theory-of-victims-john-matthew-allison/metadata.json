@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-francois-laruelles-general-theory-of-victims-john-matthew-allison/#article",
+  "name": "Review – François Laruelle’s General Theory of Victims (John Matthew Allison)",
+  "headline": "Review – François Laruelle’s General Theory of Victims (John Matthew Allison)",
+  "description": "Laruelle, François. General Theory of Victims. Translated by Jessie Hock and Alex Dubilet. Malden, MA: Polity Press, 2015. ISBN-10: 0745679617 It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-francois-laruelles-general-theory-of-victims-john-matthew-allison/",
+  "inLanguage": "en",
+  "datePublished": "2016-11-17",
+  "dateModified": "2016-11-17",
+  "image": "https://jcrt.org/images/2016/11/middle-passage.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "John Matthew Allison"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-francois-laruelles-general-theory-of-victims-john-matthew-allison/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "WJDr0y"
+}

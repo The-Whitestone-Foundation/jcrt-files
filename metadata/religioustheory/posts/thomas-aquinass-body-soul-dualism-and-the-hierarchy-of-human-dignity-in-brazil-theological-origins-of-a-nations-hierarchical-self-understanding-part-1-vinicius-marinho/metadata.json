@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/#article",
+  "name": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity in Brazil –  Theological Origins Of A Nation’s Self-Understanding, Part 1 (Vinicius Marinho)",
+  "headline": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity in Brazil –  Theological Origins Of A Nation’s Self-Understanding, Part 1 (Vinicius Marinho)",
+  "description": "“Manda quem pode, obedece quem tem juízo” is an old Brazilian proverb. It synthetizes, in two clauses, the dominant value of the Brazilian political culture:",
+  "url": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/",
+  "inLanguage": "en",
+  "datePublished": "2021-08-03",
+  "dateModified": "2021-08-03",
+  "image": "https://jcrt.org/images/2021/08/menina_da_etnia_terena-1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-hierarchical-self-understanding-part-1-vinicius-marinho/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "SQr74x"
+}

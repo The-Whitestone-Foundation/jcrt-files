@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke/#article",
+  "name": "A Preface To The Genealogy of Neoliberalism, Part 1 (Carl Raschke)",
+  "headline": "A Preface To The Genealogy of Neoliberalism, Part 1 (Carl Raschke)",
+  "description": "The following is the first installment of a lecture delivered to the faculty and students of the Research Platform on Religion and Transformation from the",
+  "url": "https://jcrt.org/religioustheory/posts/a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke/",
+  "inLanguage": "en",
+  "datePublished": "2016-08-22",
+  "dateModified": "2016-08-22",
+  "image": "https://jcrt.org/images/2016/08/malabon-city.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "SPTDoF"
+}

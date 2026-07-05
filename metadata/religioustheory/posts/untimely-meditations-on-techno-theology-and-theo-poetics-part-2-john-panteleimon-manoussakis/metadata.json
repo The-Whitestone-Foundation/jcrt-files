@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/untimely-meditations-on-techno-theology-and-theo-poetics-part-2-john-panteleimon-manoussakis/#article",
+  "name": "Untimely Meditations on Techno-Theology and Theo-Poetics, Part 2 (John Panteleimon Manoussakis)",
+  "headline": "Untimely Meditations on Techno-Theology and Theo-Poetics, Part 2 (John Panteleimon Manoussakis)",
+  "description": "The following is the second half of the article. The first installment can be found here. Richard Kearney’s theopoetics offers an alternative to the",
+  "url": "https://jcrt.org/religioustheory/posts/untimely-meditations-on-techno-theology-and-theo-poetics-part-2-john-panteleimon-manoussakis/",
+  "inLanguage": "en",
+  "datePublished": "2017-04-01",
+  "dateModified": "2017-04-01",
+  "image": "https://jcrt.org/images/2017/04/under-den-linden.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/untimely-meditations-on-techno-theology-and-theo-poetics-part-2-john-panteleimon-manoussakis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "IjwjG0"
+}

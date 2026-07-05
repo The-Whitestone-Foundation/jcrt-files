@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/18.3/ruetenik/#article",
+  "name": "Jonathan Edwards and the Vegan Elect: an Unconventional Calvinist Reading.",
+  "headline": "Jonathan Edwards and the Vegan Elect: an Unconventional Calvinist Reading.",
+  "description": "",
+  "url": "https://jcrt.org/archives/18.3/ruetenik/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Tadd Ruetenik"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/18.3/ruetenik/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "vzgbB_",
+  "volumeNumber": "18",
+  "issueNumber": "3",
+  "pagination": "551-562",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/18.3/Ruetenik.pdf"
+  }
+}

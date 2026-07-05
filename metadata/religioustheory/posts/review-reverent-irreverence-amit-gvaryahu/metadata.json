@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-reverent-irreverence-amit-gvaryahu/#article",
+  "name": "Review – Reverent Irreverence (Amit Gvaryahu)",
+  "headline": "Review – Reverent Irreverence (Amit Gvaryahu)",
+  "description": "Pious Irreverence: Confronting God in Rabbinic Judaism. Weiss, Dov. Philadelphia: University of Pennsylvania Press, 2017. ISBN 9780812293050 Hardcover, ebook.",
+  "url": "https://jcrt.org/religioustheory/posts/review-reverent-irreverence-amit-gvaryahu/",
+  "inLanguage": "en",
+  "datePublished": "2018-04-05",
+  "dateModified": "2018-04-05",
+  "image": "https://jcrt.org/images/2018/03/alexej_von_jawlensky_-_the_old_jew_1893.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Amit Gvaryahu"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-reverent-irreverence-amit-gvaryahu/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "fFgWfQ"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker/#article",
+  "name": "Locating The Oceanic In Sylvia Wynter’s “Demonic Ground”, Part 3 (Justine M. Bakker)",
+  "headline": "Locating The Oceanic In Sylvia Wynter’s “Demonic Ground”, Part 3 (Justine M. Bakker)",
+  "description": "Part 3 concludes the series by synthesizing Wynter's oceanic analytics and drawing implications for contemporary religious theory, critique, and decolonial",
+  "url": "https://jcrt.org/religioustheory/posts/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker/",
+  "inLanguage": "en",
+  "datePublished": "2022-01-27",
+  "dateModified": "2022-01-27",
+  "image": "https://jcrt.org/images/2022/01/clouds_and_water_met_dp236116.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Eavyl-"
+}

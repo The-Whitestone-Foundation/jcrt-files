@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke/#article",
+  "name": "Religious Studies As The “State Religion” Of Neoliberalism, Part 1 (Carl Raschke)",
+  "headline": "Religious Studies As The “State Religion” Of Neoliberalism, Part 1 (Carl Raschke)",
+  "description": "“Neptunus alii per alia, poterunt intellegi qui qualesque sint, quoque eos nomine consuetudo nuncupaverit, hoc eos et venerari et colere debemus.” – Cicero",
+  "url": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke/",
+  "inLanguage": "en",
+  "datePublished": "2022-09-07",
+  "dateModified": "2022-09-07",
+  "image": "https://jcrt.org/images/2022/10/august_labicana_massimo_inv56230_n2.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "-fbS-U"
+}

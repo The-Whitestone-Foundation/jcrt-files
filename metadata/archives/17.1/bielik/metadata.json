@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.1/bielik/#article",
+  "name": "Love Strong as Death: Jews Against Heidegger, on the Issue of Finitude.",
+  "headline": "Love Strong as Death: Jews Against Heidegger, on the Issue of Finitude.",
+  "description": "",
+  "url": "https://jcrt.org/archives/17.1/bielik/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Agata Bielik-Robson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.1/bielik/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "rZ2QaR",
+  "volumeNumber": "17",
+  "issueNumber": "1",
+  "pagination": "17-36",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.1/Bielik.pdf"
+  }
+}

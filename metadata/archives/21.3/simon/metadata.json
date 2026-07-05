@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/21.3/simon/#article",
+  "name": "Mormonism and the White Possessive: Moving Critical Indigenous Studies Theory into the Religious Realm.",
+  "headline": "Mormonism and the White Possessive: Moving Critical Indigenous Studies Theory into the Religious Realm.",
+  "description": "",
+  "url": "https://jcrt.org/archives/21.3/simon/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Hemopereki Simon"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/21.3/simon/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "IVi_Ch",
+  "volumeNumber": "21",
+  "issueNumber": "3",
+  "pagination": "348-382",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/21.3/Simon.pdf"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/#article",
+  "name": "Beyond Religious Ideas – The Legacy Of Max Weber In Critical Theory And Critical Religion (Joel Harrison)",
+  "headline": "Beyond Religious Ideas – The Legacy Of Max Weber In Critical Theory And Critical Religion (Joel Harrison)",
+  "description": "This article was initially published in The New Polis, March 23, 2018. In his essay “The Failure of Nerve in the Academic Study of Religion,” Donald Wiebe",
+  "url": "https://jcrt.org/religioustheory/posts/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/",
+  "inLanguage": "en",
+  "datePublished": "2018-06-19",
+  "dateModified": "2018-06-19",
+  "image": "https://jcrt.org/images/2018/06/max-weber.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "4mz7Tb"
+}

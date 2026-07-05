@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-3-joshua-hall/#article",
+  "name": "Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual Practices, Part 3 (Joshua Hall)",
+  "headline": "Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual Practices, Part 3 (Joshua Hall)",
+  "description": "The following is the last of a three-part series.The first can be found here, the second here. Understandable fears to the contrary notwithstanding, a cult, by",
+  "url": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-3-joshua-hall/",
+  "inLanguage": "en",
+  "datePublished": "2023-04-10",
+  "dateModified": "2023-04-10",
+  "image": "https://jcrt.org/images/2023/04/screenshot-2023-04-09-at-10-45-25-pm.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-3-joshua-hall/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Aip7IG"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-the-origins-of-neoliberalism-a-racialized-review-adam-f-braun/#article",
+  "name": "Review – The Origins of Neoliberalism: A Racialized Review (Adam F. Braun)",
+  "headline": "Review – The Origins of Neoliberalism: A Racialized Review (Adam F. Braun)",
+  "description": "Leshem, Dotan. The Origins of Neoliberalism: Modeling the Economy from Jesus to Foucault. New York: Columbia University Press, 2016. ISBN-10: 0231177763",
+  "url": "https://jcrt.org/religioustheory/posts/review-the-origins-of-neoliberalism-a-racialized-review-adam-f-braun/",
+  "inLanguage": "en",
+  "datePublished": "2017-05-04",
+  "dateModified": "2017-05-04",
+  "image": "https://jcrt.org/images/2017/05/origins.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam F. Braun"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-the-origins-of-neoliberalism-a-racialized-review-adam-f-braun/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "hgYhIe"
+}

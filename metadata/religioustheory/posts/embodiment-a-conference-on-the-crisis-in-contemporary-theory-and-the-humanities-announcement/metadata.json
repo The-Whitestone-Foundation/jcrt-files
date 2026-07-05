@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/embodiment-a-conference-on-the-crisis-in-contemporary-theory-and-the-humanities-announcement/#article",
+  "name": "Embodiment – A Conference On The Crisis In Contemporary Theory And The Humanities (Announcement)",
+  "headline": "Embodiment – A Conference On The Crisis In Contemporary Theory And The Humanities (Announcement)",
+  "description": "You must register in advance (see below) whereupon you will automatically receive a participation link. If you are having trouble, please email us It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/embodiment-a-conference-on-the-crisis-in-contemporary-theory-and-the-humanities-announcement/",
+  "inLanguage": "en",
+  "datePublished": "2022-08-25",
+  "dateModified": "2022-08-25",
+  "image": "https://jcrt.org/images/2022/08/img_0123-2.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/embodiment-a-conference-on-the-crisis-in-contemporary-theory-and-the-humanities-announcement/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "uChzaq"
+}

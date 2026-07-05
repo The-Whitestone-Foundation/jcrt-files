@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-dialectic-of-divine-presence-and-absence-call-for-contributors-to-special-issue/#article",
+  "name": "Call for Contributors – The Dialectic of Divine Presence and Absence",
+  "headline": "Call for Contributors – The Dialectic of Divine Presence and Absence",
+  "description": "Since the philosopher Nietzsche announced the “death of God” over a century ago, the specter of divine absence has hovered over Western civilization It",
+  "url": "https://jcrt.org/religioustheory/posts/the-dialectic-of-divine-presence-and-absence-call-for-contributors-to-special-issue/",
+  "inLanguage": "en",
+  "datePublished": "2018-02-14",
+  "dateModified": "2018-02-14",
+  "image": "https://jcrt.org/images/2016/02/img_0554.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-dialectic-of-divine-presence-and-absence-call-for-contributors-to-special-issue/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "XOBqRR"
+}

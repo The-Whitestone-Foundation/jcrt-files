@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/20.1/urquidez/#article",
+  "name": "The Religious Significance of Miracles: Why Hume’s Critique of Miracles Is Superfluous.",
+  "headline": "The Religious Significance of Miracles: Why Hume’s Critique of Miracles Is Superfluous.",
+  "description": "",
+  "url": "https://jcrt.org/archives/20.1/urquidez/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Alberto Urquidez"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/20.1/urquidez/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "NWZm_k",
+  "volumeNumber": "20",
+  "issueNumber": "1",
+  "pagination": "144-166",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/20.1/Urquidez.pdf"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/#article",
+  "name": "“Damn It, He’s An Injun!” Christian Murder, Colonial Wealth, And Tanned Human Skin (Tink Tinker, wazhazhe udsethe), Part 1",
+  "headline": "“Damn It, He’s An Injun!” Christian Murder, Colonial Wealth, And Tanned Human Skin (Tink Tinker, wazhazhe udsethe), Part 1",
+  "description": "The following is the first of a three-part installment. The article in full originally appeared in The New Polis in January, 2019 It highlights key arguments",
+  "url": "https://jcrt.org/religioustheory/posts/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/",
+  "inLanguage": "en",
+  "datePublished": "2019-03-14",
+  "dateModified": "2019-03-14",
+  "image": "https://jcrt.org/images/2019/03/1600px-thumbnail.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/damn-it-hes-an-injun-christian-murder-colonial-wealth-and-tanned-human-skin-tink-tinker-wazhazhe-udsethe-part-1/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "DGJIVG"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/what-is-a-dispositif-part-2/#article",
+  "name": "What Is A Dispositif? – Part 2 (Gregg Lambert)",
+  "headline": "What Is A Dispositif? – Part 2 (Gregg Lambert)",
+  "description": "The following article by internationally known theory scholar Gregg Lambert is the second of a two-part series. The first part was published on July 11, 2016",
+  "url": "https://jcrt.org/religioustheory/posts/what-is-a-dispositif-part-2/",
+  "inLanguage": "en",
+  "datePublished": "2016-07-18",
+  "dateModified": "2016-07-18",
+  "image": "https://jcrt.org/images/2016/07/foucaults-pendulum.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/what-is-a-dispositif-part-2/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "o35RRF"
+}

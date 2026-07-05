@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-eugene-thackers-cosmic-pessimism/#article",
+  "name": "Review – Eugene Thacker’s “Cosmic Pessimism” (N.N. Trakakis)",
+  "headline": "Review – Eugene Thacker’s “Cosmic Pessimism” (N.N. Trakakis)",
+  "description": "Thacker, Eugene. Cosmic Pessimism. Minneapolis: Univocal Publishing, 2015. ISBN-10: 193756147X. E-book, paperback. 55 pages. It might be worth quoting from",
+  "url": "https://jcrt.org/religioustheory/posts/review-eugene-thackers-cosmic-pessimism/",
+  "inLanguage": "en",
+  "datePublished": "2016-10-27",
+  "dateModified": "2016-10-27",
+  "image": "https://jcrt.org/images/2016/10/cioran.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "N.N. Trakakis"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-eugene-thackers-cosmic-pessimism/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "JTH1Ww"
+}

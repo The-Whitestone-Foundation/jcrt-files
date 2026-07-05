@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/somayajula/#article",
+  "name": "Hindu Political Theology: Beyond Hindutva’s Political Monotheism",
+  "headline": "Hindu Political Theology: Beyond Hindutva’s Political Monotheism",
+  "description": "Somayajula reads Hindutva as political theology, showing how Hindu nationalism flattens religious diversity and urging a more inclusive Hindu identity.",
+  "url": "https://jcrt.org/archives/24.2/somayajula/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Pranay Somayajula"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/somayajula/"
+  },
+  "abstract": "Somayajula reads Hindutva as political theology, showing how Hindu nationalism flattens religious diversity and urging a more inclusive Hindu identity.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "RxcUd4",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "318-322",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/somayajula.pdf"
+  }
+}

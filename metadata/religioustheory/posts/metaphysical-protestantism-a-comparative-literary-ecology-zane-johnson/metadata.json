@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/metaphysical-protestantism-a-comparative-literary-ecology-zane-johnson/#article",
+  "name": "Metaphysical Protestantism-A Comparative Literary Ecology (Zane Johnson)",
+  "headline": "Metaphysical Protestantism-A Comparative Literary Ecology (Zane Johnson)",
+  "description": "The influence of religions on human attitudes toward the non-human, whether beneficent or deleterious, has been the subject of serious scholarly debate since at",
+  "url": "https://jcrt.org/religioustheory/posts/metaphysical-protestantism-a-comparative-literary-ecology-zane-johnson/",
+  "inLanguage": "en",
+  "datePublished": "2024-06-05",
+  "dateModified": "2024-06-05",
+  "image": "https://jcrt.org/images/2024/09/20210225-104958-clear-cut-forests_eugene-or_webextent0106.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/metaphysical-protestantism-a-comparative-literary-ecology-zane-johnson/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "840G4z"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho/#article",
+  "name": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 3 (Vinicius Marinho)",
+  "headline": "Thomas Aquinas’s Body-Soul Dualism And The Hierarchy Of Human Dignity In Brazil – Theological Origins Of A Nation’s Self-Understanding, Part 3 (Vinicius Marinho)",
+  "description": "The following is the second of a three-part series.The first can be found here, the second here. In sum, Boff proposes that a person is an indivisible body-soul",
+  "url": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho/",
+  "inLanguage": "en",
+  "datePublished": "2021-08-16",
+  "dateModified": "2021-08-16",
+  "image": "https://jcrt.org/images/2021/08/hagiasophia_dome_pixinn-net.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "5GwPEk"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/new-religions-in-brazil-a-game-between-relativism-and-fundamentalism-silas-guerriero/#article",
+  "name": "New Religions in Brazil – A Game Between Relativism and Fundamentalism (Silas Guerriero)",
+  "headline": "New Religions in Brazil – A Game Between Relativism and Fundamentalism (Silas Guerriero)",
+  "description": "Speaking of new religious movements in Brazil implies, above all, in defining what we refer to when we speak of “new religions.” We have already had an",
+  "url": "https://jcrt.org/religioustheory/posts/new-religions-in-brazil-a-game-between-relativism-and-fundamentalism-silas-guerriero/",
+  "inLanguage": "en",
+  "datePublished": "2018-03-10",
+  "dateModified": "2018-03-10",
+  "image": "https://jcrt.org/images/2018/03/iskcon_temple_bhubaneswar_lord_jagannath_balabhadra_subhadra.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/new-religions-in-brazil-a-game-between-relativism-and-fundamentalism-silas-guerriero/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "HLY3aj"
+}

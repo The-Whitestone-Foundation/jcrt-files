@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-badiou-and-gauchet-on-capitalism-and-democracy/#article",
+  "name": "Review – Badiou and Gauchet on Capitalism and Democracy",
+  "headline": "Review – Badiou and Gauchet on Capitalism and Democracy",
+  "description": "Badiou, Alain and Gauchet, Marcel. What Is To Be Done?: A Dialogue on Communism, Capitalism, and the Future of Democracy. Translated by Susan Spitzer",
+  "url": "https://jcrt.org/religioustheory/posts/review-badiou-and-gauchet-on-capitalism-and-democracy/",
+  "inLanguage": "en",
+  "datePublished": "2016-05-12",
+  "dateModified": "2016-05-12",
+  "image": "https://jcrt.org/images/2016/05/badiou-photo-thumb-large.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-badiou-and-gauchet-on-capitalism-and-democracy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "2izL3L"
+}

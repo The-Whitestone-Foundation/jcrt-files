@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/03.2/taylor/#article",
+  "name": "Desire and Mourning: Theology and the Literary Imagination",
+  "headline": "Desire and Mourning: Theology and the Literary Imagination",
+  "description": "Taylor - Desire and Mourning: Theology and the Literary Imagination - JCRT 3.2",
+  "url": "https://jcrt.org/archives/03.2/taylor/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Victor Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/03.2/taylor/"
+  },
+  "abstract": "Taylor - Desire and Mourning: Theology and the Literary Imagination - JCRT 3.2",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "rA0bkk"
+}

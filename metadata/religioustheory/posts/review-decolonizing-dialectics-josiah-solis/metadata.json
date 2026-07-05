@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-decolonizing-dialectics-josiah-solis/#article",
+  "name": "Review – Decolonizing Dialectics (Josiah Solis)",
+  "headline": "Review – Decolonizing Dialectics (Josiah Solis)",
+  "description": "Ciccariello-Maher, George. Decolonizing Dialectics. Durham NC: Duke University Press, 2017. 256 pages. ISBN-10: 0822362430 ISBN-10: 0822362430. It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-decolonizing-dialectics-josiah-solis/",
+  "inLanguage": "en",
+  "datePublished": "2018-11-30",
+  "dateModified": "2018-11-30",
+  "image": "https://jcrt.org/images/2018/12/img_3597.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-decolonizing-dialectics-josiah-solis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "renVw-"
+}

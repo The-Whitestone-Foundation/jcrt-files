@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/foucaults-disciplinary-society-and-the-community-rule-of-qumran-rebekah-gordon/#article",
+  "name": "Foucault’s Disciplinary Society And The Community Rule Of Qumran (Rebekah Gordon)",
+  "headline": "Foucault’s Disciplinary Society And The Community Rule Of Qumran (Rebekah Gordon)",
+  "description": "In his 1975 work Discipline and Punish, Michel Foucault uses the lens of prison and society to examine the ways in which power structures act upon the",
+  "url": "https://jcrt.org/religioustheory/posts/foucaults-disciplinary-society-and-the-community-rule-of-qumran-rebekah-gordon/",
+  "inLanguage": "en",
+  "datePublished": "2017-03-10",
+  "dateModified": "2017-03-10",
+  "image": "https://jcrt.org/images/2017/03/qumran-drawing.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/foucaults-disciplinary-society-and-the-community-rule-of-qumran-rebekah-gordon/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "f-XSxj"
+}

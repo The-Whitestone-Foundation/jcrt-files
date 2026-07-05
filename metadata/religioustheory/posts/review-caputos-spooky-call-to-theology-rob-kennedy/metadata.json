@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-caputos-spooky-call-to-theology-rob-kennedy/#article",
+  "name": "Review – Caputo’s “Spooky” Call To Theology (Rob Kennedy)",
+  "headline": "Review – Caputo’s “Spooky” Call To Theology (Rob Kennedy)",
+  "description": "Caputo, John D., Moody, Sarah, and DeLay, Tad., It Spooks: Living In Response To An Unheard Call. Rapid City SD: Shelter50 Publishing Collective, 2015",
+  "url": "https://jcrt.org/religioustheory/posts/review-caputos-spooky-call-to-theology-rob-kennedy/",
+  "inLanguage": "en",
+  "datePublished": "2017-05-15",
+  "dateModified": "2017-05-15",
+  "image": "https://jcrt.org/images/2017/05/ghost-story.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-caputos-spooky-call-to-theology-rob-kennedy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "7nkfn6"
+}

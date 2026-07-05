@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak/#article",
+  "name": "Trauma In Emmanuel Levinas’ Writing Body, Part 1 (Magdalena Sedmak)",
+  "headline": "Trauma In Emmanuel Levinas’ Writing Body, Part 1 (Magdalena Sedmak)",
+  "description": "The following is the first of a two part series. The entire article appears in Issue 22.1 of the Journal for Cultural and Religious Theory It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak/",
+  "inLanguage": "en",
+  "datePublished": "2023-06-15",
+  "dateModified": "2023-06-15",
+  "image": "https://jcrt.org/images/2023/07/1024px-hofmann_lehrbuch_brain_gunshot.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/trauma-in-emmanuel-levinas-writing-body-part-1-magdalena-sedmak/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "pPyvDG"
+}

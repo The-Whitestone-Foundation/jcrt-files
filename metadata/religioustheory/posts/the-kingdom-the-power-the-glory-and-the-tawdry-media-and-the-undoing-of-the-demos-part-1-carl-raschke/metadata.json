@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke/#article",
+  "name": "The Kingdom, The Power, The Glory, And The Tawdry – Media And The Undoing Of The Demos, Part 1 (Carl Raschke)",
+  "headline": "The Kingdom, The Power, The Glory, And The Tawdry – Media And The Undoing Of The Demos, Part 1 (Carl Raschke)",
+  "description": "This article appears in three installments. It was originally a paper given at the international conference “The Crisis of Representation” at Melk Conference",
+  "url": "https://jcrt.org/religioustheory/posts/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke/",
+  "inLanguage": "en",
+  "datePublished": "2017-07-04",
+  "dateModified": "2017-07-04",
+  "image": "https://jcrt.org/images/2017/07/img_1588.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "OJBABe"
+}

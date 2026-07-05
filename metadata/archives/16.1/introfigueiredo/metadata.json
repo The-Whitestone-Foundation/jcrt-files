@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/16.1/introfigueiredo/#article",
+  "name": "Introduction To The Journal Of Cultural And Religious Theory Special Issue On 'Civic Humanities'",
+  "headline": "Introduction To The Journal Of Cultural And Religious Theory Special Issue On 'Civic Humanities'",
+  "description": "",
+  "url": "https://jcrt.org/archives/16.1/introfigueiredo/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sergio C. Figueiredo"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/16.1/introfigueiredo/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "rDU_hk",
+  "volumeNumber": "16",
+  "issueNumber": "1",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/16.1/IntroFigueiredo.pdf"
+  }
+}

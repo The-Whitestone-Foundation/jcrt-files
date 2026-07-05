@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/10.3/barber&smith/#article",
+  "name": "Too Poor for Measure: Working with Negri on Poverty and Fabulation",
+  "headline": "Too Poor for Measure: Working with Negri on Poverty and Fabulation",
+  "description": "",
+  "url": "https://jcrt.org/archives/10.3/barber&smith/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Colucciello Barber"
+    },
+    {
+      "@type": "Person",
+      "name": "Anthony Paul Smith"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/10.3/barber&smith/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "0gQiE-",
+  "volumeNumber": "10",
+  "issueNumber": "3",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/10.3/barber&smith.pdf"
+  }
+}

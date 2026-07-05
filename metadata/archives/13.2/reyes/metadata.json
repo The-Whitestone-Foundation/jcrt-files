@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.2/reyes/#article",
+  "name": "Beyond the Metaphor: Gay Zombies and the Challenge to Homonormativity.",
+  "headline": "Beyond the Metaphor: Gay Zombies and the Challenge to Homonormativity.",
+  "description": "The article discusses the evolution of the zombie in mainstream and gay films, its challenge to the traditional identification of zombies and homosexuals, and gay zombies to show issues faced in coming out or accepting one's sexuality, and social violence experienced by most homosexuals.",
+  "url": "https://jcrt.org/archives/13.2/reyes/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Xavier Aldana Reyes"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.2/reyes/"
+  },
+  "abstract": "The article discusses the evolution of the zombie in mainstream and gay films, its challenge to the traditional identification of zombies and homosexuals, and gay zombies to show issues faced in coming out or accepting one's sexuality, and social violence experienced by most homosexuals.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "0z4dW2",
+  "volumeNumber": "13",
+  "issueNumber": "2",
+  "pagination": "1-12",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/reyes.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/schellenberg/#article",
+  "name": "A Shallow Species in Deep Time: Modernism, Postmodernism, and Our Place in the Potential History of Inquiry.",
+  "headline": "A Shallow Species in Deep Time: Modernism, Postmodernism, and Our Place in the Potential History of Inquiry.",
+  "description": "The article examines the role of deep time in motivating epistemic humility with regard to humans' place in time. Modernism and postmodernism are discussed which are two forms of the philosophy and situates them within the philosophy of religion. An overview of deep time is provided and explores the positive and negative aspects of modernism and post modernism. Also tackled are pessimism and optimism, intellectual humility and consilience, and continental and analytic religious philosophy.",
+  "url": "https://jcrt.org/archives/14.2/schellenberg/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "J. L. Schellenberg"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/schellenberg/"
+  },
+  "abstract": "The article examines the role of deep time in motivating epistemic humility with regard to humans' place in time. Modernism and postmodernism are discussed which are two forms of the philosophy and situates them within the philosophy of religion. An overview of deep time is provided and explores the positive and negative aspects of modernism and post modernism. Also tackled are pessimism and optimism, intellectual humility and consilience, and continental and analytic religious philosophy.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Ptxx-J",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "211-225",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/schellenberg.pdf"
+  }
+}

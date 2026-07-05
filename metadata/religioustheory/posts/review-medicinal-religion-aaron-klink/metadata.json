@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-medicinal-religion-aaron-klink/#article",
+  "name": "Review – Medicinal Religion (Aaron Klink)",
+  "headline": "Review – Medicinal Religion (Aaron Klink)",
+  "description": "Balboni, Michael J. and Peteet, John R. eds. Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice ISBN 9780190272432 Hardcover.",
+  "url": "https://jcrt.org/religioustheory/posts/review-medicinal-religion-aaron-klink/",
+  "inLanguage": "en",
+  "datePublished": "2018-08-02",
+  "dateModified": "2018-08-02",
+  "image": "https://jcrt.org/images/2018/07/style-meditation-state-colorful-world-0-4mp.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Aaron Klink"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-medicinal-religion-aaron-klink/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "eGbYJG"
+}

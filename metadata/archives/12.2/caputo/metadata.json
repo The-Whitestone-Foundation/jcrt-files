@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/caputo/#article",
+  "name": "Education as Event: a Conversation with John D. Caputo.",
+  "headline": "Education as Event: a Conversation with John D. Caputo.",
+  "description": "An interview with theologian and philosopher of religion John D. Caputo is presented. Caputo proposes a new framework for education built on the concept of the",
+  "url": "https://jcrt.org/archives/12.2/caputo/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "John D. Caputo"
+    },
+    {
+      "@type": "Person",
+      "name": "T. Wilson Dickinson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/caputo/"
+  },
+  "abstract": "An interview with theologian and philosopher of religion John D. Caputo is presented. Caputo proposes a new framework for education built on the concept of the",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "iY86aF",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/caputo.pdf"
+  }
+}

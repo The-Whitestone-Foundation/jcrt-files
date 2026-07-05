@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-futurity-of-god-part-2-lenart-skof/#article",
+  "name": "The Futurity Of God, Part 2 (Lenart Škof)",
+  "headline": "The Futurity Of God, Part 2 (Lenart Škof)",
+  "description": "The following is the second of a two-part series. The first can be found here. In a chapter titled “The Magic of Being Mormon”, Stephen H It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/the-futurity-of-god-part-2-lenart-skof/",
+  "inLanguage": "en",
+  "datePublished": "2021-12-16",
+  "dateModified": "2021-12-16",
+  "image": "https://jcrt.org/images/2021/12/800px-apophysis_cyclone.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-futurity-of-god-part-2-lenart-skof/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "W0z237"
+}

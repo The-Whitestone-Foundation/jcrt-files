@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-neurotheological-nuances-joshua-canzona/#article",
+  "name": "Review – Neurotheological Nuances (Joshua Canzona)",
+  "headline": "Review – Neurotheological Nuances (Joshua Canzona)",
+  "description": "Neurotheology: How Science Can Enlighten Us About Spirituality. Newberg, Andrew. New York: Columbia University Press, 2018. ISBN 9780231179041. Hardback",
+  "url": "https://jcrt.org/religioustheory/posts/review-neurotheological-nuances-joshua-canzona/",
+  "inLanguage": "en",
+  "datePublished": "2018-08-22",
+  "dateModified": "2018-08-22",
+  "image": "https://jcrt.org/images/2018/08/munch-the-scream.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joshua Canzona"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-neurotheological-nuances-joshua-canzona/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "AUxvuS"
+}

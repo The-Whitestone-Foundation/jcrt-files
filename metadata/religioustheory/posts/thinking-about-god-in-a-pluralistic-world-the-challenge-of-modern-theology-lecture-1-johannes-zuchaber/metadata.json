@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/#article",
+  "name": "Thinking About God In A Pluralistic World – The Challenge of Modern Theology, Lecture 1 (Johannes Zachhuber)",
+  "headline": "Thinking About God In A Pluralistic World – The Challenge of Modern Theology, Lecture 1 (Johannes Zachhuber)",
+  "description": "The following is the first lecture in an eight lecture series. A couple of days ago, I read a column in a national newspaper whose title had a strange",
+  "url": "https://jcrt.org/religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/",
+  "inLanguage": "en",
+  "datePublished": "2018-05-12",
+  "dateModified": "2018-05-12",
+  "image": "https://jcrt.org/images/2018/05/christian-mosaic.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/thinking-about-god-in-a-pluralistic-world-the-challenge-of-modern-theology-lecture-1-johannes-zuchaber/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "A5zdcO"
+}

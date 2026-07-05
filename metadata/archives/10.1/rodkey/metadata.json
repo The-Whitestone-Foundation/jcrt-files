@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/10.1/rodkey/#article",
+  "name": "Johnny Cash and the Great American Contradiction: Christianity and the Battle for the Soul of a Nation",
+  "headline": "Johnny Cash and the Great American Contradiction: Christianity and the Battle for the Soul of a Nation",
+  "description": "",
+  "url": "https://jcrt.org/archives/10.1/rodkey/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Christopher D Rodkey"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/10.1/rodkey/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "qgJMv0",
+  "volumeNumber": "10",
+  "issueNumber": "1",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/10.1/Rodkey.pdf"
+  }
+}

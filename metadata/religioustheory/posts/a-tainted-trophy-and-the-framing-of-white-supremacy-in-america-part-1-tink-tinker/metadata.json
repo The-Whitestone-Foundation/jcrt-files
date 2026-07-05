@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/#article",
+  "name": "A Tainted Trophy And The Framing Of White Supremacy In America, Part 1 (Tink Tinker)",
+  "headline": "A Tainted Trophy And The Framing Of White Supremacy In America, Part 1 (Tink Tinker)",
+  "description": "The following is the first of a three-part series. The entire article appears in the fall 2022 issue of The New Polis Journal It highlights key arguments",
+  "url": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/",
+  "inLanguage": "en",
+  "datePublished": "2022-10-15",
+  "dateModified": "2022-10-15",
+  "image": "https://jcrt.org/images/2022/11/1600px-john_wesley_preaching_to_native_american_indians-_engraving-_wellcome_v0006867-1210x642.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "5pvnAQ"
+}

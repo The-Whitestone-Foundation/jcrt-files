@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/nahar/#article",
+  "name": "Using the Doctrine of Discovery to Increase Shared Language and Conceptual Frameworks Between Black and Indigenous Feminist Organizing",
+  "headline": "Using the Doctrine of Discovery to Increase Shared Language and Conceptual Frameworks Between Black and Indigenous Feminist Organizing",
+  "description": "Nahar argues Doctrine of Discovery can build shared language between Black and Indigenous feminisms, strengthening solidarity against settler colonial power.",
+  "url": "https://jcrt.org/archives/24.2/nahar/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sarah Nahar"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/nahar/"
+  },
+  "abstract": "Nahar argues Doctrine of Discovery can build shared language between Black and Indigenous feminisms, strengthening solidarity against settler colonial power.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "mLuu3R",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "244-263",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/nahar.pdf"
+  }
+}

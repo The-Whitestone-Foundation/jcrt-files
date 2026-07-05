@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.1/rodgers-falk/#article",
+  "name": "An Intergenerational and Perpetual Imperium of Domination and Subjugation of Indigenous Peoples: The Doctrine of Christian Discovery and Royal Supremacy",
+  "headline": "An Intergenerational and Perpetual Imperium of Domination and Subjugation of Indigenous Peoples: The Doctrine of Christian Discovery and Royal Supremacy",
+  "description": "Phillip Rodgers-Falk argues that native title and colonial sovereignty preserve Indigenous subordination through terra nullius and racial hierarchies.",
+  "url": "https://jcrt.org/archives/25.1/rodgers-falk/",
+  "inLanguage": "en",
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-04-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Phillip Rodgers-Falk"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.1/rodgers-falk/"
+  },
+  "abstract": "Phillip Rodgers-Falk argues that native title and colonial sovereignty preserve Indigenous subordination through terra nullius and racial hierarchies.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "EAeglE",
+  "volumeNumber": "25",
+  "issueNumber": "1",
+  "pagination": "85-99",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.1/rodgers-falk.pdf"
+  }
+}

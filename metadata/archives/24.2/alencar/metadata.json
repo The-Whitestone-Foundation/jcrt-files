@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/alencar/#article",
+  "name": "Silencing the Doctrine of Discovery – The Brazilian Process: Accidental Discoveries, Secret Manuscripts, Imaginary Lines and Myths",
+  "headline": "Silencing the Doctrine of Discovery – The Brazilian Process: Accidental Discoveries, Secret Manuscripts, Imaginary Lines and Myths",
+  "description": "Alencar traces how the Doctrine of Discovery shaped Brazil through church-backed silence, racial myths, and colonial violence, urging decolonial accountability.",
+  "url": "https://jcrt.org/archives/24.2/alencar/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Telma Alencar"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/alencar/"
+  },
+  "abstract": "Alencar traces how the Doctrine of Discovery shaped Brazil through church-backed silence, racial myths, and colonial violence, urging decolonial accountability.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "mxmVFU",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "1-15",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/alencar.pdf"
+  }
+}

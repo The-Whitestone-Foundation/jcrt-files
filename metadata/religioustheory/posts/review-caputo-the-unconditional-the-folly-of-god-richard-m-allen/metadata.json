@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-caputo-the-unconditional-the-folly-of-god-richard-m-allen/#article",
+  "name": "Review – Caputo, The Unconditional, The Folly of God (Richard M. Allen)",
+  "headline": "Review – Caputo, The Unconditional, The Folly of God (Richard M. Allen)",
+  "description": "Caputo, John D. The Folly of God: A Theology of the Unconditional. Salem, OR: Polebridge Press, 2016. ISBN-10: 1598151711. Paperback, e-book Paperback, e-book.",
+  "url": "https://jcrt.org/religioustheory/posts/review-caputo-the-unconditional-the-folly-of-god-richard-m-allen/",
+  "inLanguage": "en",
+  "datePublished": "2016-10-13",
+  "dateModified": "2016-10-13",
+  "image": "https://jcrt.org/images/2016/10/paul.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Richard M. Allen"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-caputo-the-unconditional-the-folly-of-god-richard-m-allen/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "FyJqwU"
+}

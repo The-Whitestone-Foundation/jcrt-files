@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/dickinson-intro/#article",
+  "name": "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor.",
+  "headline": "Teaching with Fear and Trembling: the Trial of Abraham, the Reader, and the Professor.",
+  "description": "The author suggests that teaching Danish philosopher Søren Kierkegaard's 1832 book",
+  "url": "https://jcrt.org/archives/12.2/dickinson-intro/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "T. Wilson Dickinson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/dickinson-intro/"
+  },
+  "abstract": "The author suggests that teaching Danish philosopher Søren Kierkegaard's 1832 book",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "V6DFn9",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "pagination": "85-105",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/dickinson-intro.pdf"
+  }
+}

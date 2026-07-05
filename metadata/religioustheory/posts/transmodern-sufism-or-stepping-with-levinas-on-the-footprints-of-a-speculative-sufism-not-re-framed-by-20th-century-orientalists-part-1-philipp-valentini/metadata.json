@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/transmodern-sufism-or-stepping-with-levinas-on-the-footprints-of-a-speculative-sufism-not-re-framed-by-20th-century-orientalists-part-1-philipp-valentini/#article",
+  "name": "Transmodern Sufism, Or Stepping With Levinas On The Footprints Of A Speculative Sufism Not Re-Framed By 20th Century Orientalists, Part 1 (Philipp Valentini)",
+  "headline": "Transmodern Sufism, Or Stepping With Levinas On The Footprints Of A Speculative Sufism Not Re-Framed By 20th Century Orientalists, Part 1 (Philipp Valentini)",
+  "description": "I am wondering if the agony of years Could be traced to the seed of an hour If the roots that spread out in the swamp Ran too deep for the issuing",
+  "url": "https://jcrt.org/religioustheory/posts/transmodern-sufism-or-stepping-with-levinas-on-the-footprints-of-a-speculative-sufism-not-re-framed-by-20th-century-orientalists-part-1-philipp-valentini/",
+  "inLanguage": "en",
+  "datePublished": "2018-09-06",
+  "dateModified": "2018-09-06",
+  "image": "https://jcrt.org/images/2018/09/dervish-ceremony.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/transmodern-sufism-or-stepping-with-levinas-on-the-footprints-of-a-speculative-sufism-not-re-framed-by-20th-century-orientalists-part-1-philipp-valentini/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "-JRUai"
+}

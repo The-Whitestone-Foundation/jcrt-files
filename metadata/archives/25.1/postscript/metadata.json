@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.1/postscript/#article",
+  "name": "A Postscript: Sovereignty is Still the Issue",
+  "headline": "A Postscript: Sovereignty is Still the Issue",
+  "description": "This postscript argues Indigenous nations need full sovereignty, rejecting settler carve-outs and urging a healing return to precolonial lifeways now.",
+  "url": "https://jcrt.org/archives/25.1/postscript/",
+  "inLanguage": "en",
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-04-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam DJ Brett"
+    },
+    {
+      "@type": "Person",
+      "name": "Betty Hill (Lyons)"
+    },
+    {
+      "@type": "Person",
+      "name": "Nethanial Belmont"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.1/postscript/"
+  },
+  "abstract": "This postscript argues Indigenous nations need full sovereignty, rejecting settler carve-outs and urging a healing return to precolonial lifeways now.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "V0XX0X",
+  "volumeNumber": "25",
+  "issueNumber": "1",
+  "pagination": "129-153",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.1/postscript.pdf"
+  }
+}

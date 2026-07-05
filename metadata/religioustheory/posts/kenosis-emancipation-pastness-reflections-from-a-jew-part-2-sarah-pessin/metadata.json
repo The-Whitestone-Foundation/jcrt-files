@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin/#article",
+  "name": "Kenosis, Emancipation, Pastness – Reflections From A Jew, Part 2 (Sarah Pessin)",
+  "headline": "Kenosis, Emancipation, Pastness – Reflections From A Jew, Part 2 (Sarah Pessin)",
+  "description": "Emphasized in a temporalized modality, and bringing together elements of our phenomenological and political reflections above, we may specifically unpack the",
+  "url": "https://jcrt.org/religioustheory/posts/kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin/",
+  "inLanguage": "en",
+  "datePublished": "2019-07-01",
+  "dateModified": "2019-07-01",
+  "image": "https://jcrt.org/images/2019/07/1599px-jewish_star_star_of_david_6002048043.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "JQdQGq"
+}

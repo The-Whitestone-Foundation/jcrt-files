@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/britt/#article",
+  "name": "Psalm Recitation and Post-Secular Time: Augustine, the Ipod, and Psalm 90.",
+  "headline": "Psalm Recitation and Post-Secular Time: Augustine, the Ipod, and Psalm 90.",
+  "description": "The author encourages Biblical scholars to take into closer consideration the traditions of recitation and reception of the Book of Psalms, especially Psalm 90, in order for them to gain a more nuanced understanding of how these psalms imagine the nature of time itself. He observes how the Psalms are an anthology arranged according to different traditions of recitation and practice, and adds that St. Augustine used psalm recitation as an analogy to describe the workings of time and memory.",
+  "url": "https://jcrt.org/archives/12.2/britt/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Brian Britt"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/britt/"
+  },
+  "abstract": "The author encourages Biblical scholars to take into closer consideration the traditions of recitation and reception of the Book of Psalms, especially Psalm 90, in order for them to gain a more nuanced understanding of how these psalms imagine the nature of time itself. He observes how the Psalms are an anthology arranged according to different traditions of recitation and practice, and adds that St. Augustine used psalm recitation as an analogy to describe the workings of time and memory.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "djRLCR",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "pagination": "122-147",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/britt.pdf"
+  }
+}

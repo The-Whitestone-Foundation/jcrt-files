@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.1/v_squez/#article",
+  "name": "From Colonialism to Neo-Liberal Capitalism: Latino/a Immigrants in the U.S. and the New Biopolitics.",
+  "headline": "From Colonialism to Neo-Liberal Capitalism: Latino/a Immigrants in the U.S. and the New Biopolitics.",
+  "description": "The article explores the emergence of a transnational regime of subjectivation and population management based from Michel Foucault's work on governmentality and biopolitics and Giorgio Agamben's on normalization of the state of exception.",
+  "url": "https://jcrt.org/archives/13.1/v_squez/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Manuel A. VÁSquez"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.1/v_squez/"
+  },
+  "abstract": "The article explores the emergence of a transnational regime of subjectivation and population management based from Michel Foucault's work on governmentality and biopolitics and Giorgio Agamben's on normalization of the state of exception.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Bsi6Yz",
+  "volumeNumber": "13",
+  "issueNumber": "1",
+  "pagination": "81-100"
+}

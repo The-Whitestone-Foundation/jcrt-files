@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-secularizing-ethos-and-the-end-of-biblical-authority-how-todays-evangelicals-abandoned-evangelicalism/#article",
+  "name": "The Secularizing Ethos and the End of Biblical Authority – How Today’s Evangelicals Abandoned Evangelicalism",
+  "headline": "The Secularizing Ethos and the End of Biblical Authority – How Today’s Evangelicals Abandoned Evangelicalism",
+  "description": "So reads the title of a recent article in the Los Angeles Review of Books. The author, Jim Hinch, begins his piece with the conversion story of A. J J.",
+  "url": "https://jcrt.org/religioustheory/posts/the-secularizing-ethos-and-the-end-of-biblical-authority-how-todays-evangelicals-abandoned-evangelicalism/",
+  "inLanguage": "en",
+  "datePublished": "2016-03-02",
+  "dateModified": "2016-03-02",
+  "image": "https://jcrt.org/images/2016/03/illustrations_to_dantes_divine_comedy_object_44_butlin_812-42_the_baffled_devils_fighting.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-secularizing-ethos-and-the-end-of-biblical-authority-how-todays-evangelicals-abandoned-evangelicalism/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "XvkLzK"
+}

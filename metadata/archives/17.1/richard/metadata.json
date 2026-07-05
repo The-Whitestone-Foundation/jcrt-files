@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.1/richard/#article",
+  "name": "Dreaming Innocence in America: Paul Tillich’s Radical Theology of Liberation.",
+  "headline": "Dreaming Innocence in America: Paul Tillich’s Radical Theology of Liberation.",
+  "description": "",
+  "url": "https://jcrt.org/archives/17.1/richard/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Alan Jay Richard"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.1/richard/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Ufj7yO",
+  "volumeNumber": "17",
+  "issueNumber": "1",
+  "pagination": "126-156",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.1/Richard.pdf"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/trakakis/#article",
+  "name": "Philosophy Mashed-up and in Crisis.",
+  "headline": "Philosophy Mashed-up and in Crisis.",
+  "description": "The article presents the author's views on the meta-philosophy of mash-up philosophy of religion (PoR) based on the concept of mashup music. He explores his experience of undertaking a meta-philosophical journey as well as the failure of mash-up philosophy to address issues facing philosophy. Other topics include the auditing culture, the use of neoliberal principles in higher education, and the need for modern philosophers to practice outide conventional institutional boundaries.",
+  "url": "https://jcrt.org/archives/14.2/trakakis/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "N. N. Trakakis"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/trakakis/"
+  },
+  "abstract": "The article presents the author's views on the meta-philosophy of mash-up philosophy of religion (PoR) based on the concept of mashup music. He explores his experience of undertaking a meta-philosophical journey as well as the failure of mash-up philosophy to address issues facing philosophy. Other topics include the auditing culture, the use of neoliberal principles in higher education, and the need for modern philosophers to practice outide conventional institutional boundaries.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "yNTCF-",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "287-298"
+}

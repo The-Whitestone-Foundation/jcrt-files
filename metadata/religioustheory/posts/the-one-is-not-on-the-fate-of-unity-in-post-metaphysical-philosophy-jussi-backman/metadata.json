@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman/#article",
+  "name": "The One Is Not – On the Fate Of Unity in Post-Metaphysical Philosophy (Jussi Backman)",
+  "headline": "The One Is Not – On the Fate Of Unity in Post-Metaphysical Philosophy (Jussi Backman)",
+  "description": "A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans",
+  "url": "https://jcrt.org/religioustheory/posts/the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman/",
+  "inLanguage": "en",
+  "datePublished": "2017-05-09",
+  "dateModified": "2017-05-09",
+  "image": "https://jcrt.org/images/2017/05/aristotle-metaphysics.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "kgkfvD"
+}

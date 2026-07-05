@@ -11,6 +11,7 @@ const TRACKED_KEYS = new Set([
   "citations/archives/18.1/cook.ris",
   "citations/archives/09.2/d'amato.csl.json",
   "archives/03.1/anderson.pdf",
+  "metadata/archives/24.2/introduction/metadata.json",
 ]);
 
 const env = {
@@ -104,6 +105,18 @@ const cases = [
     link: '<https://files.jcrt.org/archives/03.1/anderson.pdf>; rel="canonical"',
   },
   {
+    name: "metadata JSON-LD content type",
+    path: "/metadata/archives/24.2/introduction/metadata.json",
+    status: 200,
+    contentType: "application/ld+json; charset=utf-8",
+  },
+  {
+    name: "missing metadata returns JSON 404",
+    path: "/metadata/archives/99.9/not-real/metadata.json",
+    status: 404,
+    contentType: "application/json; charset=utf-8",
+  },
+  {
     name: "true missing file",
     path: "/citations/archives/99.9/not-real.ris",
     status: 404,
@@ -137,6 +150,13 @@ for (const testCase of cases) {
     const actual = response.headers.get("link");
     if (actual !== testCase.link) {
       failures.push(`${testCase.name}: expected Link ${testCase.link}, got ${actual || "<none>"}`);
+    }
+  }
+
+  if (testCase.contentType) {
+    const actual = response.headers.get("content-type");
+    if (actual !== testCase.contentType) {
+      failures.push(`${testCase.name}: expected Content-Type ${testCase.contentType}, got ${actual || "<none>"}`);
     }
   }
 }

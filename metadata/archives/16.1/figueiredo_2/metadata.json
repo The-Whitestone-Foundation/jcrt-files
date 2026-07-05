@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/16.1/figueiredo_2/#article",
+  "name": "Theopraxesis and the Future of H’mmm in the University: an Interview with Gregory L. Ulmer.",
+  "headline": "Theopraxesis and the Future of H’mmm in the University: an Interview with Gregory L. Ulmer.",
+  "description": "",
+  "url": "https://jcrt.org/archives/16.1/figueiredo_2/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sergio C. Figueiredo"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/16.1/figueiredo_2/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "YS10SK",
+  "volumeNumber": "16",
+  "issueNumber": "1"
+}

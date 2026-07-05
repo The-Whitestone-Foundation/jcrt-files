@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/gschwandtner/#article",
+  "name": "Faith: Belief or Practice?",
+  "headline": "Faith: Belief or Practice?",
+  "description": "The article presents the author's views on faith with regard to whether it is belief or practice and situates it within the philosophy of religion. The differences between analytical and continental methods of philosophical analysis are discussed as well as faith as a social phenomenon. Other topics include religious language, the conflict between faith and reason, and the features of saintliness.",
+  "url": "https://jcrt.org/archives/14.2/gschwandtner/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Christina M. Gschwandtner"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/gschwandtner/"
+  },
+  "abstract": "The article presents the author's views on faith with regard to whether it is belief or practice and situates it within the philosophy of religion. The differences between analytical and continental methods of philosophical analysis are discussed as well as faith as a social phenomenon. Other topics include religious language, the conflict between faith and reason, and the features of saintliness.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Ve0o_Z",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "299-318",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/gschwandtner.pdf"
+  }
+}

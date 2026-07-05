@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/notations-the-european-refugee-crisis-and-more/#article",
+  "name": "“Notations” – Call for Contributors",
+  "headline": "“Notations” – Call for Contributors",
+  "description": "In addition to reviews and commentaries, the new JCRT feature “religious theory” (jcrt.org/religioustheory), updated regularly, will publish in an ongoing",
+  "url": "https://jcrt.org/religioustheory/posts/notations-the-european-refugee-crisis-and-more/",
+  "inLanguage": "en",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
+  "image": "https://jcrt.org/images/2016/02/951986_stock-photo-music-notes-on-old-paper-sheet-to-use-for-the-background-2.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/notations-the-european-refugee-crisis-and-more/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "x2HmFz"
+}

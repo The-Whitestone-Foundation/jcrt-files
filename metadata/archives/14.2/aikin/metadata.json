@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/aikin/#article",
+  "name": "God and Argument.",
+  "headline": "God and Argument.",
+  "description": "The article presents the author's views on debates on God's existence as of 2015 with regard to why they have persisted and have not been concluded, highlighting philosopher Paul Moser's opinion on the issue. He states that there have been numerous debates on God's existence which is the most significant philosophical issue. Two cynical theories on the issue are explored as well as the arguments of theists and atheists. Other topics include the argument that God is worthy of worship.",
+  "url": "https://jcrt.org/archives/14.2/aikin/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Scott F. Aikin"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/aikin/"
+  },
+  "abstract": "The article presents the author's views on debates on God's existence as of 2015 with regard to why they have persisted and have not been concluded, highlighting philosopher Paul Moser's opinion on the issue. He states that there have been numerous debates on God's existence which is the most significant philosophical issue. Two cynical theories on the issue are explored as well as the arguments of theists and atheists. Other topics include the argument that God is worthy of worship.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "uWAqux",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "407-413",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/aikin.pdf"
+  }
+}

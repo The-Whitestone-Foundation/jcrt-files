@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/23.1/massaro/#article",
+  "name": "The Environmental Ethics of Pope Francis: Parsing Key Terms and Claims in Laudato Si",
+  "headline": "The Environmental Ethics of Pope Francis: Parsing Key Terms and Claims in Laudato Si",
+  "description": "",
+  "url": "https://jcrt.org/archives/23.1/massaro/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Thomas Massaro"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/23.1/massaro/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "tAdYbo",
+  "volumeNumber": "23",
+  "issueNumber": "1",
+  "pagination": "65-73",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/23.1/Massaro.pdf"
+  }
+}

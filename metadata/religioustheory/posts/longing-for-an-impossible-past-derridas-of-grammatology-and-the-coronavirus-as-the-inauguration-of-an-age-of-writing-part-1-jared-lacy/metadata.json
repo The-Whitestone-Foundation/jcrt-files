@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/#article",
+  "name": "Longing For An Impossible Past – Derrida’s Of Grammatology And The Coronavirus As The Inauguration Of An Age Of Writing, Part 1 (Jared Lacy)",
+  "headline": "Longing For An Impossible Past – Derrida’s Of Grammatology And The Coronavirus As The Inauguration Of An Age Of Writing, Part 1 (Jared Lacy)",
+  "description": "As we witness the aftermath of the initial responses to the ongoing COVID-19 pandemic — the failures and successes of the various shelter-in-place orders and a",
+  "url": "https://jcrt.org/religioustheory/posts/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/",
+  "inLanguage": "en",
+  "datePublished": "2020-06-17",
+  "dateModified": "2020-06-17",
+  "image": "https://jcrt.org/images/2020/06/hieroglyphics_in_an_egyptian_temple.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/longing-for-an-impossible-past-derridas-of-grammatology-and-the-coronavirus-as-the-inauguration-of-an-age-of-writing-part-1-jared-lacy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "EJDCRd"
+}

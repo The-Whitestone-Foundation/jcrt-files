@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/trinkauskaite/#article",
+  "name": "Baltic Religion: The Sacred Things",
+  "headline": "Baltic Religion: The Sacred Things",
+  "description": "Trinkauskaite explores Baltic sacred traditions and sutartinės, linking domestic deities and revivalist practice to collective ethics beyond hierarchy.",
+  "url": "https://jcrt.org/archives/24.2/trinkauskaite/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eglutė Trinkauskaitė"
+    },
+    {
+      "@type": "Person",
+      "name": "Ellen B. Cutler"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/trinkauskaite/"
+  },
+  "abstract": "Trinkauskaite explores Baltic sacred traditions and sutartinės, linking domestic deities and revivalist practice to collective ethics beyond hierarchy.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "5UYU6g",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "306-316",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/trinkauskaite.pdf"
+  }
+}

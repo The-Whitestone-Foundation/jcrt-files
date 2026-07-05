@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/#article",
+  "name": "Body Erotic – John Boswell’s History Of Eurochristian Sexuality And The Case For Transcendental Somatics, Part 2 (Kieryn Wurts)",
+  "headline": "Body Erotic – John Boswell’s History Of Eurochristian Sexuality And The Case For Transcendental Somatics, Part 2 (Kieryn Wurts)",
+  "description": "The following is the second of a three-part series. The first can be found here. Social constructionist theory developed as an answer to essentialist theories",
+  "url": "https://jcrt.org/religioustheory/posts/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/",
+  "inLanguage": "en",
+  "datePublished": "2023-05-08",
+  "dateModified": "2023-05-08",
+  "image": "https://jcrt.org/images/2023/05/jerusalem_gay_pride_parade_05-1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "cOMJ1x"
+}

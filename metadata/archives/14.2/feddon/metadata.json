@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/feddon/#article",
+  "name": "To “Let Religion Itself Speak:” Feuerbach and Religious Consciousness in Modern Culture",
+  "headline": "To “Let Religion Itself Speak:” Feuerbach and Religious Consciousness in Modern Culture",
+  "description": "The article presents the author's views on philosopher Ludwig Feuerbach's opinion on religious conciousness in modern culture. Feuerbach's model of religious consciousness is explored which reportedly also demonstrates self-consciousness based on religious feeling. Other topics include the book",
+  "url": "https://jcrt.org/archives/14.2/feddon/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Christy Flanagan-Feddon"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/feddon/"
+  },
+  "abstract": "The article presents the author's views on philosopher Ludwig Feuerbach's opinion on religious conciousness in modern culture. Feuerbach's model of religious consciousness is explored which reportedly also demonstrates self-consciousness based on religious feeling. Other topics include the book",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "g4WGgi",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "338-349",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/feddon.pdf"
+  }
+}

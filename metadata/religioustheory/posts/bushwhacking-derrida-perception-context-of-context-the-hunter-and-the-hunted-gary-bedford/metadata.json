@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford/#article",
+  "name": "Bushwhacking Derrida – “Perception” – “Context of Context”, “The Hunter And The Hunted” (Gary Bedford)",
+  "headline": "Bushwhacking Derrida – “Perception” – “Context of Context”, “The Hunter And The Hunted” (Gary Bedford)",
+  "description": "After Derrida, how can philosophy continue to think critically, and for our task here, ontologically2…? Can a critique of the context of perception via its",
+  "url": "https://jcrt.org/religioustheory/posts/bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford/",
+  "inLanguage": "en",
+  "datePublished": "2020-08-10",
+  "dateModified": "2020-08-10",
+  "image": "https://jcrt.org/images/2020/08/screen-shot-2020-08-17-at-5-00-03-pm.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "-0on-R"
+}

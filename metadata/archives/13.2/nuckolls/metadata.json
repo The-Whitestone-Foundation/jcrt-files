@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.2/nuckolls/#article",
+  "name": "The Walking Dead as Conservative Cultural Critique.",
+  "headline": "The Walking Dead as Conservative Cultural Critique.",
+  "description": "The article explores the television (TV) series",
+  "url": "https://jcrt.org/archives/13.2/nuckolls/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Charles Nuckolls"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.2/nuckolls/"
+  },
+  "abstract": "The article explores the television (TV) series",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "NYtiQm",
+  "volumeNumber": "13",
+  "issueNumber": "2",
+  "pagination": "102-110",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/nuckolls.pdf"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.2/weiss_taylor/#article",
+  "name": "The Cultural UN/Life of Zombies.",
+  "headline": "The Cultural UN/Life of Zombies.",
+  "description": "An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films",
+  "url": "https://jcrt.org/archives/13.2/weiss_taylor/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "DENNIS M. WEISS"
+    },
+    {
+      "@type": "Person",
+      "name": "Victor Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.2/weiss_taylor/"
+  },
+  "abstract": "An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "dlSK6S",
+  "volumeNumber": "13",
+  "issueNumber": "2",
+  "pagination": "i-vi"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/02.2/elias/#article",
+  "name": "Ekphrastic Plastic Fragments: Mark C. Taylor in and Out of Context",
+  "headline": "Ekphrastic Plastic Fragments: Mark C. Taylor in and Out of Context",
+  "description": "Elias - Ekphrastic Plastic Fragments - JCRT 2.2",
+  "url": "https://jcrt.org/archives/02.2/elias/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Camelia Elias"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/02.2/elias/"
+  },
+  "abstract": "Elias - Ekphrastic Plastic Fragments - JCRT 2.2",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "tXINkd"
+}

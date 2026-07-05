@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean/#article",
+  "name": "Collective Desire and the Pathology of the Individual, Part 2 (Jodi Dean)",
+  "headline": "Collective Desire and the Pathology of the Individual, Part 2 (Jodi Dean)",
+  "description": "The following is the second installment of a two-part series. The first installment was published on October 10 and can be accessed here It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean/",
+  "inLanguage": "en",
+  "datePublished": "2016-10-19",
+  "dateModified": "2016-10-19",
+  "image": "https://jcrt.org/images/2016/10/proudhon-children.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "fOPQ3f"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/schilbrack/#article",
+  "name": "The Weird Place of God Debates in the Academic Study of Religions.",
+  "headline": "The Weird Place of God Debates in the Academic Study of Religions.",
+  "description": "The article presents the author's views on the debates about God's existence in the academic study of religions, highlighting the possible mash-ups between the philosophy of religion and other disciplines. He critiques the articles by Scott F. Aikin and Paul K. Moser on the philosophy of religion which are published within the issue. Also discussed are the advantages and disadvantages of mash-ups.",
+  "url": "https://jcrt.org/archives/14.2/schilbrack/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Kevin Schilbrack"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/schilbrack/"
+  },
+  "abstract": "The article presents the author's views on the debates about God's existence in the academic study of religions, highlighting the possible mash-ups between the philosophy of religion and other disciplines. He critiques the articles by Scott F. Aikin and Paul K. Moser on the philosophy of religion which are published within the issue. Also discussed are the advantages and disadvantages of mash-ups.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "u9C6sj",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "424-429",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/schilbrack.pdf"
+  }
+}

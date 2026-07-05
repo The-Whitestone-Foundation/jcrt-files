@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-1-fraser-macdonald/#article",
+  "name": "Rapture Music – Intensity And Eschatology Within Christian Revival Movements, Part 1 (Fraser Macdonald)",
+  "headline": "Rapture Music – Intensity And Eschatology Within Christian Revival Movements, Part 1 (Fraser Macdonald)",
+  "description": "The following is the first of a three-part series. The full article is also available in the Spring 2022 issue of the Journal for Cultural and Religious Theory",
+  "url": "https://jcrt.org/religioustheory/posts/rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-1-fraser-macdonald/",
+  "inLanguage": "en",
+  "datePublished": "2022-07-04",
+  "dateModified": "2022-07-04",
+  "image": "https://jcrt.org/images/2022/08/iaptdbras.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-1-fraser-macdonald/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "LPyVpU"
+}

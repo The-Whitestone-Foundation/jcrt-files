@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk/#article",
+  "name": "Review – Jean-Pierre Couture Brings To Life The Ongoing Oeuvre of Peter Sloterdijk",
+  "headline": "Review – Jean-Pierre Couture Brings To Life The Ongoing Oeuvre of Peter Sloterdijk",
+  "description": "Couture, Jean-Pierre. Sloterdijk (Key Contemporary Thinkers). Boston: Polity, 2015. 208 pages. ISBN-10: 0745663818. Hardback, paperback, e-book, 208 pages",
+  "url": "https://jcrt.org/religioustheory/posts/review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk/",
+  "inLanguage": "en",
+  "datePublished": "2016-04-15",
+  "dateModified": "2016-04-15",
+  "image": "https://jcrt.org/images/2016/04/open_no09_djong_02_walkingcity.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-jean-pierre-couture-brings-to-life-for-first-time-the-entire-works-of-sloterdijk/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "VdwiSX"
+}

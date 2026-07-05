@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.1/taylor/#article",
+  "name": "Decolonizing Mass Incarceration: “Flesh Will Wear Out Chains”",
+  "headline": "Decolonizing Mass Incarceration: “Flesh Will Wear Out Chains”",
+  "description": "The author argues that the kind of flesh of people who bear the chains of U.S. mass incarceration is a flesh that takes itself as vulnerable human being, but which transforms its vulnerable agonism into artistic practices into modes of collective organization.",
+  "url": "https://jcrt.org/archives/13.1/taylor/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Mark Lewis Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.1/taylor/"
+  },
+  "abstract": "The author argues that the kind of flesh of people who bear the chains of U.S. mass incarceration is a flesh that takes itself as vulnerable human being, but which transforms its vulnerable agonism into artistic practices into modes of collective organization.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "eo2eBd",
+  "volumeNumber": "13",
+  "issueNumber": "1",
+  "pagination": "121-142",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.1/taylor.pdf"
+  }
+}

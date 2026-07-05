@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-a-darker-grittier-deleuze/#article",
+  "name": "Review – A Darker, Grittier Deleuze (Timothy Snediker)",
+  "headline": "Review – A Darker, Grittier Deleuze (Timothy Snediker)",
+  "description": "Culp, Andrew. Dark Deleuze (Forerunners: Ideas First). Minneapolis: University of Minnesota Press, 2016. ISBN 10: 1517901332 Paperback, e-book It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-a-darker-grittier-deleuze/",
+  "inLanguage": "en",
+  "datePublished": "2016-08-04",
+  "dateModified": "2016-08-04",
+  "image": "https://jcrt.org/images/2016/07/gilles-deleuze-dr.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Timothy Snediker"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-a-darker-grittier-deleuze/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "CYAOOI"
+}

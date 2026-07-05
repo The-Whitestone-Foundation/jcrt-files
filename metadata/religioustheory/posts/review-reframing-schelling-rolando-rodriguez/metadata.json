@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-reframing-schelling-rolando-rodriguez/#article",
+  "name": "Review – Reframing Schelling (Rolando Rodriguez)",
+  "headline": "Review – Reframing Schelling (Rolando Rodriguez)",
+  "description": "Daniel Whistler, Schelling’s Theory of Symbolic Language: Forming the System of Identity (Oxford, UK: Oxford University Press, 2013), 261 ppgs + xi",
+  "url": "https://jcrt.org/religioustheory/posts/review-reframing-schelling-rolando-rodriguez/",
+  "inLanguage": "en",
+  "datePublished": "2017-11-04",
+  "dateModified": "2017-11-04",
+  "image": "https://jcrt.org/images/2017/11/220px-nb_pinacoteca_stieler_friedrich_wilhelm_joseph_von_schelling.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rolando Rodriguez"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-reframing-schelling-rolando-rodriguez/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "CByjR-"
+}

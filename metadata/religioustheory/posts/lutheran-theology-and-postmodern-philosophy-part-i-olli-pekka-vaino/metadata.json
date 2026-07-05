@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino/#article",
+  "name": "Lutheran Theology And Postmodern Philosophy, Part I (Olli-Pekka Vaino)",
+  "headline": "Lutheran Theology And Postmodern Philosophy, Part I (Olli-Pekka Vaino)",
+  "description": "Recently, Martin Luther and the Lutheran Reformation has received heavy criticism in various theological and philosophical circles It highlights key arguments",
+  "url": "https://jcrt.org/religioustheory/posts/lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino/",
+  "inLanguage": "en",
+  "datePublished": "2018-05-01",
+  "dateModified": "2018-05-01",
+  "image": "https://jcrt.org/images/2018/01/luther95theses.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/lutheran-theology-and-postmodern-philosophy-part-i-olli-pekka-vaino/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "07qG1C"
+}

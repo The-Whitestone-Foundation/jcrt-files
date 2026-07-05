@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/15.2/valente/#article",
+  "name": "Is the Au in Autism the Au in Autonomy?",
+  "headline": "Is the Au in Autism the Au in Autonomy?",
+  "description": "The author discusses how culture can sentimentalize autism as disabled stereotype, as liberal myth of individualism, and as the after image of ego ideal.",
+  "url": "https://jcrt.org/archives/15.2/valente/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joseph Valente"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/15.2/valente/"
+  },
+  "abstract": "The author discusses how culture can sentimentalize autism as disabled stereotype, as liberal myth of individualism, and as the after image of ego ideal.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "IIYuAy",
+  "volumeNumber": "15",
+  "issueNumber": "2",
+  "pagination": "71-84",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/15.2/valente.pdf"
+  }
+}

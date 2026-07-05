@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/#article",
+  "name": "Geschlecht III – Authentic Faith, Religion, And Politics In Derrida’s Readings of Heidegger’s “Geist”, Part 1 (Jake Sirota)",
+  "headline": "Geschlecht III – Authentic Faith, Religion, And Politics In Derrida’s Readings of Heidegger’s “Geist”, Part 1 (Jake Sirota)",
+  "description": "Jacques Derrida’s prolonged and intimate proximity to the thought of Martin Heidegger has played a significant role in the understanding and debate of Derrida’s",
+  "url": "https://jcrt.org/religioustheory/posts/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/",
+  "inLanguage": "en",
+  "datePublished": "2022-02-07",
+  "dateModified": "2022-02-07",
+  "image": "https://jcrt.org/images/2022/02/abraham-abulafia_artwork.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/geschlecht-iii-authentic-faith-religion-and-politics-in-derridas-readings-of-heideggers-geist-part-1-jake-sirota/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "faA1hh"
+}

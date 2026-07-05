@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber/#article",
+  "name": "The Critique Of Theism – Kant, Hegel, Feuerbach, Nietzsche, Lecture 2 (Johannes Zachhuber)",
+  "headline": "The Critique Of Theism – Kant, Hegel, Feuerbach, Nietzsche, Lecture 2 (Johannes Zachhuber)",
+  "description": "The following is the second lecture in an eight-lecture series. The first can be found here. I introduced these lectures last week by pointing out the unique",
+  "url": "https://jcrt.org/religioustheory/posts/the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber/",
+  "inLanguage": "en",
+  "datePublished": "2018-06-09",
+  "dateModified": "2018-06-09",
+  "image": "https://jcrt.org/images/2018/06/img_0310.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "ue41sn"
+}

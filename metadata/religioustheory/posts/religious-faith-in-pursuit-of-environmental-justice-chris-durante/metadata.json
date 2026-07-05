@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/religious-faith-in-pursuit-of-environmental-justice-chris-durante/#article",
+  "name": "Religious Faith In Pursuit of Environmental Justice (Chris Durante)",
+  "headline": "Religious Faith In Pursuit of Environmental Justice (Chris Durante)",
+  "description": "In recent years, the world’s religions, including the Abrahamic faiths as well as Hinduism, Buddhism, Taoism and various indigenous forms of spirituality, have",
+  "url": "https://jcrt.org/religioustheory/posts/religious-faith-in-pursuit-of-environmental-justice-chris-durante/",
+  "inLanguage": "en",
+  "datePublished": "2024-07-25",
+  "dateModified": "2024-07-25",
+  "image": "https://jcrt.org/images/2024/09/2018-09-06_riseclimate-421.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "J.C. Smith"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/religious-faith-in-pursuit-of-environmental-justice-chris-durante/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "NVNwCZ"
+}

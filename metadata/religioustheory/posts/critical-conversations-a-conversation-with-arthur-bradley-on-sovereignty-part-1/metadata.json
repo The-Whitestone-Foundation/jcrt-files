@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-a-conversation-with-arthur-bradley-on-sovereignty-part-1/#article",
+  "name": "Critical Conversations – A Conversation With Arthur Bradley On Sovereignty, Part 1",
+  "headline": "Critical Conversations – A Conversation With Arthur Bradley On Sovereignty, Part 1",
+  "description": "The following is the first part of a transcript of one of our ongoing “Critical Conversations” with distinguished British political philosopher Arthur Bradley",
+  "url": "https://jcrt.org/religioustheory/posts/critical-conversations-a-conversation-with-arthur-bradley-on-sovereignty-part-1/",
+  "inLanguage": "en",
+  "datePublished": "2022-05-27",
+  "dateModified": "2022-05-27",
+  "image": "https://jcrt.org/images/2022/06/leviathan_-_hobbes_leviathan_1651_title_page_-_bl.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-a-conversation-with-arthur-bradley-on-sovereignty-part-1/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "J-3QaO"
+}

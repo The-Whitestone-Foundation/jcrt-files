@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-whither-philosophy-of-religion-benjamin-steele-fisher/#article",
+  "name": "Review—Whither Philosophy of Religion? (Benjamin Steele-Fisher)",
+  "headline": "Review—Whither Philosophy of Religion? (Benjamin Steele-Fisher)",
+  "description": "Religion and European Philosophy: Key Thinkers from Kant to Zizek. Edited by Philip Goodchild and Hollis Phelps. New York: Routledge, 2017 It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-whither-philosophy-of-religion-benjamin-steele-fisher/",
+  "inLanguage": "en",
+  "datePublished": "2017-10-27",
+  "dateModified": "2017-10-27",
+  "image": "https://jcrt.org/images/2017/10/wordcloud.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Benjamin Steele-Fisher"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-whither-philosophy-of-religion-benjamin-steele-fisher/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "ptTL03"
+}

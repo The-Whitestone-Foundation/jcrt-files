@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/admitting-a-certain-fear-of-zizeks-theology-a-modest-plea-for-a-deleuzian-reading-of-the-death-of-god-elijah-prewitt-davis/#article",
+  "name": "Admitting A Certain Fear of Zizek’s Theology – A Modest Plea For A Deleuzian Reading Of The Death Of God (Elijah Prewitt-Davis)",
+  "headline": "Admitting A Certain Fear of Zizek’s Theology – A Modest Plea For A Deleuzian Reading Of The Death Of God (Elijah Prewitt-Davis)",
+  "description": "I am told by Zizek—as well as Hegelian friends—that any attempt to argue or disagree with Hegel fits nicely within his dialectical scheme It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/admitting-a-certain-fear-of-zizeks-theology-a-modest-plea-for-a-deleuzian-reading-of-the-death-of-god-elijah-prewitt-davis/",
+  "inLanguage": "en",
+  "datePublished": "2018-04-09",
+  "dateModified": "2018-04-09",
+  "image": "https://jcrt.org/images/2018/04/horror.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/admitting-a-certain-fear-of-zizeks-theology-a-modest-plea-for-a-deleuzian-reading-of-the-death-of-god-elijah-prewitt-davis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "8rchaD"
+}

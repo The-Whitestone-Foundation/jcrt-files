@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/moser/#article",
+  "name": "God and Epistemic Authority.",
+  "headline": "God and Epistemic Authority.",
+  "description": "The article presents the author's views on God and epistemic authority. He explores human beings' fabrication of gods for various reasons which include to reflect their imperfect traits. God's epistemic authority is discussed as well as how it can benefit an epistemiology of people's understanding of God. Other topics include epistemic idolatry, curative knowledge, and God's characterstics.",
+  "url": "https://jcrt.org/archives/14.2/moser/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Paul K. Moser"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/moser/"
+  },
+  "abstract": "The article presents the author's views on God and epistemic authority. He explores human beings' fabrication of gods for various reasons which include to reflect their imperfect traits. God's epistemic authority is discussed as well as how it can benefit an epistemiology of people's understanding of God. Other topics include epistemic idolatry, curative knowledge, and God's characterstics.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "gCs5G3",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "414-424",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/moser.pdf"
+  }
+}

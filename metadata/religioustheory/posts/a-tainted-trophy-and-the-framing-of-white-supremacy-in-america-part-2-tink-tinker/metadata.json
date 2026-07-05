@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker/#article",
+  "name": "A Tainted Trophy And The Framing Of White Supremacy In America, Part 2 (Tink Tinker)",
+  "headline": "A Tainted Trophy And The Framing Of White Supremacy In America, Part 2 (Tink Tinker)",
+  "description": "The following is the third of a three-part series. The first can be found here. The entire article appears in the fall 2022 issue of The New Polis Journal",
+  "url": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker/",
+  "inLanguage": "en",
+  "datePublished": "2022-10-31",
+  "dateModified": "2022-10-31",
+  "image": "https://jcrt.org/images/2022/11/native-american-women.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-2-tink-tinker/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "qFvI5b"
+}

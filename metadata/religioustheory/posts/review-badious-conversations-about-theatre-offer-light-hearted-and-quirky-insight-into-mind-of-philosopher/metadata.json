@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher/#article",
+  "name": "Review – Badiou’s Conversations About Theatre Offer Light-Hearted And Quirky Insight Into Mind Of Philosopher (Ryne Beddard)",
+  "headline": "Review – Badiou’s Conversations About Theatre Offer Light-Hearted And Quirky Insight Into Mind Of Philosopher (Ryne Beddard)",
+  "description": "Badiou, Alain (with Nicolas Truong). In Praise of Theatre. New York: Polity, 2015. ISBN 10: 978-0-7456-8697-4. Hardback, paperback, e-book It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher/",
+  "inLanguage": "en",
+  "datePublished": "2016-06-13",
+  "dateModified": "2016-06-13",
+  "image": "https://jcrt.org/images/2016/06/dec_18_the-tank-robots_0108.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-badious-conversations-about-theatre-offer-light-hearted-and-quirky-insight-into-mind-of-philosopher/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "QWnVMJ"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/#article",
+  "name": "Framing Religious Conflict and Violence – Insights from Historical Institutionalism, Part 1 (Vivek Swaroop Sharma)",
+  "headline": "Framing Religious Conflict and Violence – Insights from Historical Institutionalism, Part 1 (Vivek Swaroop Sharma)",
+  "description": "Killing hundreds of people in the name of “cow protection” would, at first glance, appear to be a headline drawn from a Monty Python skit It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/",
+  "inLanguage": "en",
+  "datePublished": "2017-09-12",
+  "dateModified": "2017-09-12",
+  "image": "https://jcrt.org/images/2017/09/7e40f143e74c385ee290c7e279d9897f.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/framing-religious-conflict-and-violence-insights-from-historical-institutionalism-part-1-vivek-swaroop-sharma/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "qJJjBR"
+}

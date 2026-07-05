@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel/#article",
+  "name": "Hanging Garlands Of Flowers On The Chains That Bind – Soft Totalitarianism and Techno-Rationality (Jeff Appel)",
+  "headline": "Hanging Garlands Of Flowers On The Chains That Bind – Soft Totalitarianism and Techno-Rationality (Jeff Appel)",
+  "description": "This article was originally a paper delivered at the conference “Reclaiming the Unconscious – On The Intersection of Psychoanalysis With the Humanities,”",
+  "url": "https://jcrt.org/religioustheory/posts/hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel/",
+  "inLanguage": "en",
+  "datePublished": "2016-11-02",
+  "dateModified": "2016-11-02",
+  "image": "https://jcrt.org/images/2016/11/bd7ff1a1c6e460bf8e87a4fa0ee90199.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "wodqXz"
+}

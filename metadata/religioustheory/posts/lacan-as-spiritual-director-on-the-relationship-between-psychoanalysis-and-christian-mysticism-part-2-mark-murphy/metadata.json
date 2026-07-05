@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy/#article",
+  "name": "Lacan As “Spiritual Director” – On The Relationship Between Psychoanalysis And Christian Mysticism, Part 2 (Mark Murphy)",
+  "headline": "Lacan As “Spiritual Director” – On The Relationship Between Psychoanalysis And Christian Mysticism, Part 2 (Mark Murphy)",
+  "description": "The following is the second installment of a three-part series. The first can be found here. What Does Lacan Mean When He Says That Spiritual Direction is a",
+  "url": "https://jcrt.org/religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy/",
+  "inLanguage": "en",
+  "datePublished": "2018-08-08",
+  "dateModified": "2018-08-08",
+  "image": "https://jcrt.org/images/2018/08/img_1270.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "XlIyGO"
+}

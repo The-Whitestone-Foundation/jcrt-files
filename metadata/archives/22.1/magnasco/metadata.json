@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/22.1/magnasco/#article",
+  "name": "The Re-Enchantment of Bodies: the Transformative Power of Charismatic Healings in the “World of Phenomena”",
+  "headline": "The Re-Enchantment of Bodies: the Transformative Power of Charismatic Healings in the “World of Phenomena”",
+  "description": "",
+  "url": "https://jcrt.org/archives/22.1/magnasco/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Anna-Maria Magnasco"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/22.1/magnasco/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "SoL3O1",
+  "volumeNumber": "22",
+  "issueNumber": "1",
+  "pagination": "169-183",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/22.1/Magnasco.pdf"
+  }
+}

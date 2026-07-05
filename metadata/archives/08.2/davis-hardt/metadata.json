@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/08.2/davis-hardt/#article",
+  "name": "A Conversation with Michael Hardt",
+  "headline": "A Conversation with Michael Hardt",
+  "description": "",
+  "url": "https://jcrt.org/archives/08.2/davis-hardt/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Michael Hardt"
+    },
+    {
+      "@type": "Person",
+      "name": "Creston Davis"
+    },
+    {
+      "@type": "Person",
+      "name": "Christopher W Haley"
+    },
+    {
+      "@type": "Person",
+      "name": "Jason Craig"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/08.2/davis-hardt/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "c2ZFXh",
+  "volumeNumber": "8",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/08.2/davis-hardt.pdf"
+  }
+}

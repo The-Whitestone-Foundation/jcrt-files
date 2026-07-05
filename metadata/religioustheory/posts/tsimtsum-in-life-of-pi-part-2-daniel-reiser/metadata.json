@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-2-daniel-reiser/#article",
+  "name": "Tsimtsum In Life Of Pi, Part 2 (Daniel Reiser)",
+  "headline": "Tsimtsum In Life Of Pi, Part 2 (Daniel Reiser)",
+  "description": "The following is the second of a four-part series. The first can be found here. Hasidism, which translated Kabbalah into psychological categories, was a target",
+  "url": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-2-daniel-reiser/",
+  "inLanguage": "en",
+  "datePublished": "2020-12-08",
+  "dateModified": "2020-12-08",
+  "image": "https://jcrt.org/images/2020/12/scheme_of_christian_kabbalism_from_heinrich_khunrath_amphiteatrum_sapientiae_aeternae_met_dp820686-1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-2-daniel-reiser/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "1LpHMT"
+}

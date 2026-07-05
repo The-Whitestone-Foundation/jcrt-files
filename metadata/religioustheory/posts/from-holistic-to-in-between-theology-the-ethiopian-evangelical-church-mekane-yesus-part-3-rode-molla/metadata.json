@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-3-rode-molla/#article",
+  "name": "From Holistic To In-Between Theology – The Ethiopian Evangelical Church Mekane Yesus, Part 3 (Rode Molla)",
+  "headline": "From Holistic To In-Between Theology – The Ethiopian Evangelical Church Mekane Yesus, Part 3 (Rode Molla)",
+  "description": "The comparison between evangelical Christianity and EOC Christianity is their approach to the language. The Westerners use the mother tongue to translate",
+  "url": "https://jcrt.org/religioustheory/posts/from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-3-rode-molla/",
+  "inLanguage": "en",
+  "datePublished": "2022-05-18",
+  "dateModified": "2022-05-18",
+  "image": "https://jcrt.org/images/2022/06/tigray_near_yeha_ethiopia.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/from-holistic-to-in-between-theology-the-ethiopian-evangelical-church-mekane-yesus-part-3-rode-molla/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "S8Zwdx"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.2/flavin/#article",
+  "name": "The Watching Dead: the Panoptic Gaze and Ideologic Zombies.",
+  "headline": "The Watching Dead: the Panoptic Gaze and Ideologic Zombies.",
+  "description": "The article explores the image of zombies in postmodern zombie films and literature, heightened state of awareness of the living watching themselves and the dead closely to become a form of panoticism, and constant surveillance to mirror social discipline and control evolution in a carceral system.",
+  "url": "https://jcrt.org/archives/13.2/flavin/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Christopher M. Flavin"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.2/flavin/"
+  },
+  "abstract": "The article explores the image of zombies in postmodern zombie films and literature, heightened state of awareness of the living watching themselves and the dead closely to become a form of panoticism, and constant surveillance to mirror social discipline and control evolution in a carceral system.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "w3Ct42",
+  "volumeNumber": "13",
+  "issueNumber": "2",
+  "pagination": "82-95",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/flavin.pdf"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/antinomian-flesh-part-3-david-kline/#article",
+  "name": "Antinomian Flesh, Part 3 (David Kline)",
+  "headline": "Antinomian Flesh, Part 3 (David Kline)",
+  "description": "The following is the third of a three-part series. The first can be found here, the second here. Both before nomos and therefore its condition of enactment, the",
+  "url": "https://jcrt.org/religioustheory/posts/antinomian-flesh-part-3-david-kline/",
+  "inLanguage": "en",
+  "datePublished": "2020-11-09",
+  "dateModified": "2020-11-09",
+  "image": "https://jcrt.org/images/2020/11/toni_morrison_2008-2.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/antinomian-flesh-part-3-david-kline/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "pD4VLK"
+}

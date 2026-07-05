@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/introduction/#article",
+  "name": "Introduction",
+  "headline": "Introduction",
+  "description": "Introduction to a global volume on Christian Discovery, linking law, religion, and pedagogy, with Indigenous sovereignty and decolonial justice today.",
+  "url": "https://jcrt.org/archives/24.2/introduction/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philip P. Arnold"
+    },
+    {
+      "@type": "Person",
+      "name": "Sandra Bigtree"
+    },
+    {
+      "@type": "Person",
+      "name": "Adam DJ Brett"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/introduction/"
+  },
+  "abstract": "Introduction to a global volume on Christian Discovery, linking law, religion, and pedagogy, with Indigenous sovereignty and decolonial justice today.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "aNHgC7",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "208-213",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/introduction.pdf"
+  }
+}

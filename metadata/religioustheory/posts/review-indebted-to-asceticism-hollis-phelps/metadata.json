@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-indebted-to-asceticism-hollis-phelps/#article",
+  "name": "Review – Indebted to Asceticism (Hollis Phelps)",
+  "headline": "Review – Indebted to Asceticism (Hollis Phelps)",
+  "description": "Stimilli, Elettra. The Debt of the Living: Ascesis and Capitalism. Translated by Arianna Bove. Albany: SUNY Press, 2017. ISBN 9781438464152 It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/review-indebted-to-asceticism-hollis-phelps/",
+  "inLanguage": "en",
+  "datePublished": "2017-11-14",
+  "dateModified": "2017-11-14",
+  "image": "https://jcrt.org/images/2017/11/elettra-stimilli.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Hollis Phelps"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-indebted-to-asceticism-hollis-phelps/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "EZ-wLb"
+}

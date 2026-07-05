@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-jodi-dean/#article",
+  "name": "Collective Desire and the Pathology of the Individual, Part 1 (Jodi Dean)",
+  "headline": "Collective Desire and the Pathology of the Individual, Part 1 (Jodi Dean)",
+  "description": "An interesting strand of contemporary theory designates the specificity of capitalism with the qualifier “cognitive.” I do not write under this term, although I",
+  "url": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-jodi-dean/",
+  "inLanguage": "en",
+  "datePublished": "2016-10-10",
+  "dateModified": "2016-10-10",
+  "image": "https://jcrt.org/images/2016/10/robotics.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/collective-desire-and-the-pathology-of-the-individual-jodi-dean/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "4fN9H1"
+}

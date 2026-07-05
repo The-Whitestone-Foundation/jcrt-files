@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-announcement/#article",
+  "name": "Critical Conversations – American Indian Worldview And The Twinned Cosmos Of Indigenous America (Announcement)",
+  "headline": "Critical Conversations – American Indian Worldview And The Twinned Cosmos Of Indigenous America (Announcement)",
+  "description": "Participants are invited to join us live in the fifth of a monthly series of “Critical Conversations” (Zoom webinars) with eminent scholars from around the",
+  "url": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-announcement/",
+  "inLanguage": "en",
+  "datePublished": "2020-11-18",
+  "dateModified": "2020-11-18",
+  "image": "https://jcrt.org/images/2020/11/legend.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-announcement/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "ZTNIc_"
+}

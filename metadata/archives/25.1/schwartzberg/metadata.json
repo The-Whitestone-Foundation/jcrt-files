@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.1/schwartzberg/#article",
+  "name": "An Appeal to the American People—Overturning “Federal Indian Law”",
+  "headline": "An Appeal to the American People—Overturning “Federal Indian Law”",
+  "description": "Steven J. Schwartzberg urges Americans to overturn Federal Indian Law by confronting the colonial assumptions that still shape U.S. jurisprudence now.",
+  "url": "https://jcrt.org/archives/25.1/schwartzberg/",
+  "inLanguage": "en",
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-04-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Steven J. Schwartzberg"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.1/schwartzberg/"
+  },
+  "abstract": "Steven J. Schwartzberg urges Americans to overturn Federal Indian Law by confronting the colonial assumptions that still shape U.S. jurisprudence now.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "J1rTNl",
+  "volumeNumber": "25",
+  "issueNumber": "1",
+  "pagination": "100-136",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.1/schwartzberg.pdf"
+  }
+}

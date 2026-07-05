@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff/#article",
+  "name": "Review – Ontic Flows: From Digital Humanities to Posthumanities (Dean Dettloff)",
+  "headline": "Review – Ontic Flows: From Digital Humanities to Posthumanities (Dean Dettloff)",
+  "description": "Bernico, Matt, and Kölke, Manuela (Eds.). Ontic Flows: From Digital Humanities to Posthumanities. New York: Atropos Press, 2016. ISBN-10: 1940813085 It",
+  "url": "https://jcrt.org/religioustheory/posts/review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff/",
+  "inLanguage": "en",
+  "datePublished": "2017-05-25",
+  "dateModified": "2017-05-25",
+  "image": "https://jcrt.org/images/2017/05/img_1445.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Dean Dettloff"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-ontic-flows-from-digital-humanities-to-posthumanities-dean-dettloff/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "R5-cIF"
+}

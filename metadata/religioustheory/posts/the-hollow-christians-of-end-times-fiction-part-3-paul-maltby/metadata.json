@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-3-paul-maltby/#article",
+  "name": "The Hollow Christians Of End Times Fiction, Part 3 (Paul Maltby)",
+  "headline": "The Hollow Christians Of End Times Fiction, Part 3 (Paul Maltby)",
+  "description": "The following is the third of a three-part series. The first can be found here, the second here. End Times fiction must be distinguished from other literary",
+  "url": "https://jcrt.org/religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-3-paul-maltby/",
+  "inLanguage": "en",
+  "datePublished": "2020-03-03",
+  "dateModified": "2020-03-03",
+  "image": "https://jcrt.org/images/2020/03/apocalypse-albert_goodwin.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-3-paul-maltby/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "VNx8BR"
+}

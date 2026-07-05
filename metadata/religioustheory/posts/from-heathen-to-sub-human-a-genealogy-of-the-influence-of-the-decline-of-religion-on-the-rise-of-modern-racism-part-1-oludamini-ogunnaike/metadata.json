@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/#article",
+  "name": "From Heathen to Sub-Human – A Genealogy of the Influence of the Decline of Religion on the Rise of Modern Racism, Part 1 (Oludamini Ogunnaike)",
+  "headline": "From Heathen to Sub-Human – A Genealogy of the Influence of the Decline of Religion on the Rise of Modern Racism, Part 1 (Oludamini Ogunnaike)",
+  "description": "The following is the first part of an article that appeared in July 2016 in Open Theology 2:2016 785-203. It is republished here with the permission of the",
+  "url": "https://jcrt.org/religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/",
+  "inLanguage": "en",
+  "datePublished": "2016-09-19",
+  "dateModified": "2016-09-19",
+  "image": "https://jcrt.org/images/2016/09/absalom-jones_peale.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/from-heathen-to-sub-human-a-genealogy-of-the-influence-of-the-decline-of-religion-on-the-rise-of-modern-racism-part-1-oludamini-ogunnaike/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "B8PieP"
+}

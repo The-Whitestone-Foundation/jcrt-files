@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-pilgrimage-and-world-a-review-of-joseph-riveras-the-contemplative-self-after-michel-henry-michael-saunders/#article",
+  "name": "Review – The Contemplative Self after Michel Henry (Michael Saunders)",
+  "headline": "Review – The Contemplative Self after Michel Henry (Michael Saunders)",
+  "description": "Rivera, Joseph. The Contemplative Self After Michel Henry: A Phenomenological Theology. Notre Dame: Notre Dame Press, 2015. ISBN-10: 0268040605. 408 pages",
+  "url": "https://jcrt.org/religioustheory/posts/review-pilgrimage-and-world-a-review-of-joseph-riveras-the-contemplative-self-after-michel-henry-michael-saunders/",
+  "inLanguage": "en",
+  "datePublished": "2017-06-29",
+  "dateModified": "2017-06-29",
+  "image": "https://jcrt.org/images/2017/06/t-henry.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Michael Saunders"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-pilgrimage-and-world-a-review-of-joseph-riveras-the-contemplative-self-after-michel-henry-michael-saunders/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "d-xDbR"
+}

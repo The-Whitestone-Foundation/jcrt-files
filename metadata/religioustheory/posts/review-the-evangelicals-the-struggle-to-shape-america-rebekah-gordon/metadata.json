@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon/#article",
+  "name": "Review – The Evangelicals: The Struggle to Shape America (Rebekah Gordon)",
+  "headline": "Review – The Evangelicals: The Struggle to Shape America (Rebekah Gordon)",
+  "description": "Fitzgerald, Francis. The Evangelicals: The Struggle to Shape America. New York City, New York: Simon & Schuster, 2017. ISBN-10: 1439131333. Hardcover",
+  "url": "https://jcrt.org/religioustheory/posts/review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon/",
+  "inLanguage": "en",
+  "datePublished": "2017-10-13",
+  "dateModified": "2017-10-13",
+  "image": "https://jcrt.org/images/2017/10/pastors-daughter.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Rebekah Gordon"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "urxF6L"
+}

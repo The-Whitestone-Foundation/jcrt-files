@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis/#article",
+  "name": "The Place Of Das Ding – Psychoanalysis, Phenomenology, Religion, Part 2 (John Panteleimon Manoussakis)",
+  "headline": "The Place Of Das Ding – Psychoanalysis, Phenomenology, Religion, Part 2 (John Panteleimon Manoussakis)",
+  "description": "The following is the second installment of a two-part series. The first part can be found here. The foregoing has been an effort to inscribe das Ding within a",
+  "url": "https://jcrt.org/religioustheory/posts/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis/",
+  "inLanguage": "en",
+  "datePublished": "2017-02-21",
+  "dateModified": "2017-02-21",
+  "image": "https://jcrt.org/images/2017/02/the-thing-max-res.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-place-of-das-ding-psychoanalysis-phenomenology-religion-part-2-john-panteleimon-manoussakis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "2TzjSG"
+}

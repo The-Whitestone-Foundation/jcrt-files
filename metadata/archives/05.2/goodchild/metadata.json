@@ -1,0 +1,71 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/05.2/goodchild/#article",
+  "name": "The Return of the Prophet: a Dialogue",
+  "headline": "The Return of the Prophet: a Dialogue",
+  "description": "",
+  "url": "https://jcrt.org/archives/05.2/goodchild/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Richard Crudhington"
+    },
+    {
+      "@type": "Person",
+      "name": "Fiona Cranny"
+    },
+    {
+      "@type": "Person",
+      "name": "Sandra Burnup"
+    },
+    {
+      "@type": "Person",
+      "name": "Tom Eagle"
+    },
+    {
+      "@type": "Person",
+      "name": "David Dandy"
+    },
+    {
+      "@type": "Person",
+      "name": "Charlotte Merriman"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Cocksworth"
+    },
+    {
+      "@type": "Person",
+      "name": "Philip Goodchild"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/05.2/goodchild/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "n2pvDO",
+  "volumeNumber": "5",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/05.2/goodchild.pdf"
+  }
+}

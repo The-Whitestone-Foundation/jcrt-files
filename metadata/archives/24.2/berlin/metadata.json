@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/berlin/#article",
+  "name": "Unselling the Classroom: Confronting History and Ourselves",
+  "headline": "Unselling the Classroom: Confronting History and Ourselves",
+  "description": "Berlin urges teachers to confront settler colonialism and white supremacy by centering Indigenous history critical pedagogy, and accountability today.",
+  "url": "https://jcrt.org/archives/24.2/berlin/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Elaina Berlin"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/berlin/"
+  },
+  "abstract": "Berlin urges teachers to confront settler colonialism and white supremacy by centering Indigenous history critical pedagogy, and accountability today.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "1vLPwr",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "354-362",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/berlin.pdf"
+  }
+}

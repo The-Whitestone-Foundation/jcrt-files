@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/notations-the-unacculturable-refugee-flux-spurs-crisis-of-european-belief/#article",
+  "name": "NOTATIONS – The “Unacculturable” – Refugee Flux Spurs Crisis of European Belief",
+  "headline": "NOTATIONS – The “Unacculturable” – Refugee Flux Spurs Crisis of European Belief",
+  "description": "This Notations piece analyzes how refugee discourse destabilizes European self-understanding, linking cultural panic, theological residue, and political",
+  "url": "https://jcrt.org/religioustheory/posts/notations-the-unacculturable-refugee-flux-spurs-crisis-of-european-belief/",
+  "inLanguage": "en",
+  "datePublished": "2016-03-06",
+  "dateModified": "2016-03-06",
+  "image": "https://jcrt.org/images/2016/03/syrian-refugees.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/notations-the-unacculturable-refugee-flux-spurs-crisis-of-european-belief/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "daSSmk"
+}

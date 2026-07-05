@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.2/hagedorn_staudigl/#article",
+  "name": "On Secularism and Its Discontents: Charting Pathways with a Phenomenology of Religion.",
+  "headline": "On Secularism and Its Discontents: Charting Pathways with a Phenomenology of Religion.",
+  "description": "It was in Vienna where, nearly 90 years ago, Sigmund Freud's groundbreaking critique of modern civilization appeared. Civilization and Its Discontents, as it was entitled in the English translation, became one of the 20th century's seminal books and indeed has significantly shaped the modern worldview and selfunderstanding. The discontents-in plural form-about which it speaks can easily be reduced to one single finding: modern man is unhappy. Unhappiness is the consequence of man's life within t",
+  "url": "https://jcrt.org/archives/17.2/hagedorn_staudigl/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ludger Hagedorn"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Staudigl"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.2/hagedorn_staudigl/"
+  },
+  "abstract": "It was in Vienna where, nearly 90 years ago, Sigmund Freud's groundbreaking critique of modern civilization appeared. Civilization and Its Discontents, as it was entitled in the English translation, became one of the 20th century's seminal books and indeed has significantly shaped the modern worldview and selfunderstanding. The discontents-in plural form-about which it speaks can easily be reduced to one single finding: modern man is unhappy. Unhappiness is the consequence of man's life within t",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Y-0iTB",
+  "volumeNumber": "17",
+  "issueNumber": "2",
+  "pagination": "238-253",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.2/Hagedorn-and-Staudigl.pdf"
+  }
+}

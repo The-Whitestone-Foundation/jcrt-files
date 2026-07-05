@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/#article",
+  "name": "Religion And Mental Health – The Therapuetic Value Of The Teachings of Jesus, Part 2 (Thomas Roberts and Delbert Hayden)",
+  "headline": "Religion And Mental Health – The Therapuetic Value Of The Teachings of Jesus, Part 2 (Thomas Roberts and Delbert Hayden)",
+  "description": "The following is the second part in a two-part installment. You can find the first part here. Maintaining a State of Hope and Taking a Transcendent Perspective",
+  "url": "https://jcrt.org/religioustheory/posts/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/",
+  "inLanguage": "en",
+  "datePublished": "2018-10-09",
+  "dateModified": "2018-10-09",
+  "image": "https://jcrt.org/images/2018/10/entry_of_jesus.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "fwjR6w"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/conference-on-religion-and-bioethics-call-for-proposals/#article",
+  "name": "Conference on Religion and Bioethics – Call for Proposals",
+  "headline": "Conference on Religion and Bioethics – Call for Proposals",
+  "description": "This call for proposals frames a conference on religion and bioethics, inviting interdisciplinary work on ethics, theology, policy, and emerging The argument",
+  "url": "https://jcrt.org/religioustheory/posts/conference-on-religion-and-bioethics-call-for-proposals/",
+  "inLanguage": "en",
+  "datePublished": "2024-09-26",
+  "dateModified": "2024-09-26",
+  "image": "https://jcrt.org/images/2024/09/human_genome.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/conference-on-religion-and-bioethics-call-for-proposals/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "IbLns9"
+}

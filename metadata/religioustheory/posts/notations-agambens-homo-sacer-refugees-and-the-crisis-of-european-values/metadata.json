@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/#article",
+  "name": "NOTATIONS – Agamben’s Homo Sacer, Refugees, and the Crisis of European Values",
+  "headline": "NOTATIONS – Agamben’s Homo Sacer, Refugees, and the Crisis of European Values",
+  "description": "This Notations essay reads refugee politics through Agamben's Homo Sacer, examining sovereignty, exception, and the moral crisis revealed by Europe's border",
+  "url": "https://jcrt.org/religioustheory/posts/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/",
+  "inLanguage": "en",
+  "datePublished": "2016-03-03",
+  "dateModified": "2016-03-03",
+  "image": "https://jcrt.org/images/2016/03/refugee_march_hungary_2015-09-04_02.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "u8zwXi"
+}

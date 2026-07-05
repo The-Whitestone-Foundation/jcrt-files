@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.2/mensch/#article",
+  "name": "The Intertwining of Binding and Unbinding in the Religions of the Book.",
+  "headline": "The Intertwining of Binding and Unbinding in the Religions of the Book.",
+  "description": "The religions of the book, Islam, Christianity, and Judaism, all accept the Mosaic Pentateuch. They thus share the belief, expressed in Genesis, in a God who fashioned the world. From this belief they draw two very different lessons. The first is a universal claim drawn from the conception of a unique creator of the universe. They assert that the laws that express his creative will are all-encompassing. Philosophically, this translates into a sense that things are",
+  "url": "https://jcrt.org/archives/17.2/mensch/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "James Mensch"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.2/mensch/"
+  },
+  "abstract": "The religions of the book, Islam, Christianity, and Judaism, all accept the Mosaic Pentateuch. They thus share the belief, expressed in Genesis, in a God who fashioned the world. From this belief they draw two very different lessons. The first is a universal claim drawn from the conception of a unique creator of the universe. They assert that the laws that express his creative will are all-encompassing. Philosophically, this translates into a sense that things are",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "knQrjZ",
+  "volumeNumber": "17",
+  "issueNumber": "2",
+  "pagination": "446-454",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.2/Mensch.pdf"
+  }
+}

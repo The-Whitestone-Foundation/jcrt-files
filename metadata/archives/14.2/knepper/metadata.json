@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/knepper/#article",
+  "name": "Is Mashup the Right Metaphor?",
+  "headline": "Is Mashup the Right Metaphor?",
+  "description": "The article examines mashups as a metaphor for conceptualizing philosophy of religion (PoR). The limitations of the mashup metaphor is explored as well as a critical inquiry method neglected by the mashup metaphor. It offers information on mashup music and proposes a metaphor that fosters productive thinking of PoR. Other topics include the diversity of religious phenomena, the analytic and continental modes of inquiry, and modern PoR.",
+  "url": "https://jcrt.org/archives/14.2/knepper/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Timothy D. Knepper"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/knepper/"
+  },
+  "abstract": "The article examines mashups as a metaphor for conceptualizing philosophy of religion (PoR). The limitations of the mashup metaphor is explored as well as a critical inquiry method neglected by the mashup metaphor. It offers information on mashup music and proposes a metaphor that fosters productive thinking of PoR. Other topics include the diversity of religious phenomena, the analytic and continental modes of inquiry, and modern PoR.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "ssIEUV",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "277-286",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/knepper.pdf"
+  }
+}

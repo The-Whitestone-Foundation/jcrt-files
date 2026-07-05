@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/09.3/bain-selbo/#article",
+  "name": "Two Reviews: Macintyre’s the Tasks of Philosophy and Ethics and Politics",
+  "headline": "Two Reviews: Macintyre’s the Tasks of Philosophy and Ethics and Politics",
+  "description": "\"Review of Alasdair MacIntyre, The Tasks of Philosophy: Selected Essays, Volume 1. New York: Cambridge University Press, 2006. xiv + 230 pp. $74.00 (cloth); $24.99 (paper). ISBN: 978-0521854375 Alasdair MacIntyre, Ethics and Politics: Selected Essays, Volume 2. New York: Cambridge University Press, 2006. xii + 239 pp. $74.00 (cloth); $25.99 (paper). ISBN: 9780521670623\"",
+  "url": "https://jcrt.org/archives/09.3/bain-selbo/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Eric Bain-Selbo"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/09.3/bain-selbo/"
+  },
+  "abstract": "\"Review of Alasdair MacIntyre, The Tasks of Philosophy: Selected Essays, Volume 1. New York: Cambridge University Press, 2006. xiv + 230 pp. $74.00 (cloth); $24.99 (paper). ISBN: 978-0521854375 Alasdair MacIntyre, Ethics and Politics: Selected Essays, Volume 2. New York: Cambridge University Press, 2006. xii + 239 pp. $74.00 (cloth); $25.99 (paper). ISBN: 9780521670623\"",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "rJe-kP",
+  "volumeNumber": "9",
+  "issueNumber": "3",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/09.3/bain-selbo.pdf"
+  }
+}

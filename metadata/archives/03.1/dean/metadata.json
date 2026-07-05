@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/03.1/dean/#article",
+  "name": "The Primal Roots of American Philosophy: Pragmatism, Phenomenology, and Native American Thought",
+  "headline": "The Primal Roots of American Philosophy: Pragmatism, Phenomenology, and Native American Thought",
+  "description": "Dean - The Archaeology of American Thought - JCRT 3.1",
+  "url": "https://jcrt.org/archives/03.1/dean/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "William D Dean"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/03.1/dean/"
+  },
+  "abstract": "Dean - The Archaeology of American Thought - JCRT 3.1",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "yU7aKL"
+}

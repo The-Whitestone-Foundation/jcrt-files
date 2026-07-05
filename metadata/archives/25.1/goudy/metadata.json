@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.1/goudy/#article",
+  "name": "Right & Respectful Relations: A Memoir of the Road to the Historic Yakama Nation Amicus Brief Challenging ‘Christian Discovery’ in Washington State V. Cougar Den",
+  "headline": "Right & Respectful Relations: A Memoir of the Road to the Historic Yakama Nation Amicus Brief Challenging ‘Christian Discovery’ in Washington State V. Cougar Den",
+  "description": "Jode Goudy recounts how the Yakama Nation built a historic amicus brief, connecting treaty rights, sovereignty, and opposition to Christian Discovery.",
+  "url": "https://jcrt.org/archives/25.1/goudy/",
+  "inLanguage": "en",
+  "datePublished": "2026-04-16",
+  "dateModified": "2026-04-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jode Goudy"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.1/goudy/"
+  },
+  "abstract": "Jode Goudy recounts how the Yakama Nation built a historic amicus brief, connecting treaty rights, sovereignty, and opposition to Christian Discovery.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "drvB0y",
+  "volumeNumber": "25",
+  "issueNumber": "1",
+  "pagination": "16-50",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.1/goudy.pdf"
+  }
+}

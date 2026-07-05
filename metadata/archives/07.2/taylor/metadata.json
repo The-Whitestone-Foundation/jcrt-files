@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/07.2/taylor/#article",
+  "name": "A Conversation with Jean-Luc Marion",
+  "headline": "A Conversation with Jean-Luc Marion",
+  "description": "This conversation with Jean-Luc Marion took place at The Johns Hopkins University Humanities Center in the Spring of 2005. The JCRT editors express their thanks to Hent de Vries for arranging the meeting and to Jean-Luc Marion for generously agreeing to join our conversation.",
+  "url": "https://jcrt.org/archives/07.2/taylor/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Victor Taylor"
+    },
+    {
+      "@type": "Person",
+      "name": "Jean-Luc Marion"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/07.2/taylor/"
+  },
+  "abstract": "This conversation with Jean-Luc Marion took place at The Johns Hopkins University Humanities Center in the Spring of 2005. The JCRT editors express their thanks to Hent de Vries for arranging the meeting and to Jean-Luc Marion for generously agreeing to join our conversation.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "K6UTSt",
+  "volumeNumber": "7",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/07.2/taylor.pdf"
+  }
+}

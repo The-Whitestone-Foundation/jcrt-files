@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.1/fagenblat/#article",
+  "name": "The Thing That Scares Me Most: Heidegger’s Anti-Semitism and the Return to Zion.",
+  "headline": "The Thing That Scares Me Most: Heidegger’s Anti-Semitism and the Return to Zion.",
+  "description": "The article focuses on the aspects of the antisemitism of European philosopher Martin Heidegger and the return to the Zionism, a movement which look towards the creation of the Jewish state in Palestine.",
+  "url": "https://jcrt.org/archives/14.1/fagenblat/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Michael Fagenblat"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.1/fagenblat/"
+  },
+  "abstract": "The article focuses on the aspects of the antisemitism of European philosopher Martin Heidegger and the return to the Zionism, a movement which look towards the creation of the Jewish state in Palestine.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "RrFUIJ",
+  "volumeNumber": "14",
+  "issueNumber": "1",
+  "pagination": "8-24",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.1/fagenblat.pdf"
+  }
+}

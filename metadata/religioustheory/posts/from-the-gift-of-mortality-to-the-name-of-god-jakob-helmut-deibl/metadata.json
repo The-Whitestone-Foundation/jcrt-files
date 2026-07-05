@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/from-the-gift-of-mortality-to-the-name-of-god-jakob-helmut-deibl/#article",
+  "name": "From The Gift Of Mortality To The Name Of God (Jakob Helmut Deibl)",
+  "headline": "From The Gift Of Mortality To The Name Of God (Jakob Helmut Deibl)",
+  "description": "The following is a continuation of a series of articles corresponding to chapters of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus",
+  "url": "https://jcrt.org/religioustheory/posts/from-the-gift-of-mortality-to-the-name-of-god-jakob-helmut-deibl/",
+  "inLanguage": "en",
+  "datePublished": "2019-09-23",
+  "dateModified": "2019-09-23",
+  "image": "https://jcrt.org/images/2019/09/paolo_uccello_cacciata_dal_paradiso_terrestre_e_storie_di_caino_e_abele_1430-40_ca-_09_caino_e_abele_bambini.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/from-the-gift-of-mortality-to-the-name-of-god-jakob-helmut-deibl/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Beqg4m"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/#article",
+  "name": "The Image of God and Our Vocation of the Soil, Part 1 (Mick Pope)",
+  "headline": "The Image of God and Our Vocation of the Soil, Part 1 (Mick Pope)",
+  "description": "Earth history has entered a new geological era known as the Anthropocene. The commonly agreed origin of this era was the 1950s with the “Great Acceleration,” a",
+  "url": "https://jcrt.org/religioustheory/posts/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/",
+  "inLanguage": "en",
+  "datePublished": "2024-05-03",
+  "dateModified": "2024-05-03",
+  "image": "https://jcrt.org/images/2024/09/eckelrade-wegkruis_linderweg-eckelraderweg.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-image-of-god-and-our-vocation-of-the-soil-mike-pope/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "haHtfr"
+}

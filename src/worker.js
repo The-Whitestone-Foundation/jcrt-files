@@ -15,6 +15,7 @@ const LEGACY_CITATION_STEMS = new Map([
 
 function contentTypeFor(key) {
   const lower = key.toLowerCase();
+  if (lower.startsWith('metadata/') && lower.endsWith('.json')) return 'application/ld+json; charset=utf-8';
   if (lower.endsWith('.pdf')) return 'application/pdf';
   if (lower.endsWith('.ris')) return 'application/x-research-info-systems; charset=utf-8';
   if (lower.endsWith('.json')) return 'application/json; charset=utf-8';
@@ -37,6 +38,7 @@ function contentTypeFor(key) {
 
 function cacheControlFor(key) {
   const lower = key.toLowerCase();
+  if (lower.startsWith('metadata/') && lower.endsWith('.json')) return 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800';
   if (lower.endsWith('.pdf')) return 'public, max-age=3600, s-maxage=86400';
   return 'public, max-age=31536000, immutable';
 }
@@ -213,6 +215,16 @@ export default {
       const canonicalKey = await findCaseInsensitiveKey(env.JCRT_FILES, key);
       if (canonicalKey && canonicalKey !== key) {
         return redirectToCanonical(url, canonicalKey);
+      }
+
+      if (key.startsWith('metadata/') && key.endsWith('.json')) {
+        return new Response(JSON.stringify({ error: 'Not Found', key }), {
+          status: 404,
+          headers: {
+            'content-type': 'application/json; charset=utf-8',
+            'cache-control': 'public, max-age=300',
+          },
+        });
       }
 
       return new Response('Not Found', { status: 404 });

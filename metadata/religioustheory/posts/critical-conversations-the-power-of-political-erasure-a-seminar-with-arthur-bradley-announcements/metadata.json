@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-the-power-of-political-erasure-a-seminar-with-arthur-bradley-announcements/#article",
+  "name": "Critical Conversations – The Power Of “Political Erasure”, A Seminar With Arthur Bradley (Announcements)",
+  "headline": "Critical Conversations – The Power Of “Political Erasure”, A Seminar With Arthur Bradley (Announcements)",
+  "description": "Sign up for this online seminar with distinguished British political philosopher Arthur Bradley on the compelling and most timely issue of “political erasure.“",
+  "url": "https://jcrt.org/religioustheory/posts/critical-conversations-the-power-of-political-erasure-a-seminar-with-arthur-bradley-announcements/",
+  "inLanguage": "en",
+  "datePublished": "2022-03-02",
+  "dateModified": "2022-03-02",
+  "image": "https://jcrt.org/images/2022/03/guernica_museum_sofia_queen_on_july_2018-rotated.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-the-power-of-political-erasure-a-seminar-with-arthur-bradley-announcements/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Trcr2f"
+}

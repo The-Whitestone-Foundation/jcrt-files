@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.1/dussel/#article",
+  "name": "Anti-Cartesian Meditations: on the Orign of the Philosophical Anti-Discourse of Modernity.",
+  "headline": "Anti-Cartesian Meditations: on the Orign of the Philosophical Anti-Discourse of Modernity.",
+  "description": "The article discusses the origin of the philosophical anti-discourse of modernity.",
+  "url": "https://jcrt.org/archives/13.1/dussel/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Enrique Dussel"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.1/dussel/"
+  },
+  "abstract": "The article discusses the origin of the philosophical anti-discourse of modernity.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "6CJTcz",
+  "volumeNumber": "13",
+  "issueNumber": "1",
+  "pagination": "11-53",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.1/dussel.pdf"
+  }
+}

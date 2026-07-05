@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim/#article",
+  "name": "Review – New Trends In The Theory And Methods For Studying Religion (David Kim)",
+  "headline": "Review – New Trends In The Theory And Methods For Studying Religion (David Kim)",
+  "description": "Kovács, Ábrahám, and James L. Cox, Editors. New Trends and Recurring Issues in the Study of Religion: Context and Overview. Budapest: L’Harmattan, 2014",
+  "url": "https://jcrt.org/religioustheory/posts/review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim/",
+  "inLanguage": "en",
+  "datePublished": "2016-12-29",
+  "dateModified": "2016-12-29",
+  "image": "https://jcrt.org/images/2016/12/clock.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "meLG6l"
+}

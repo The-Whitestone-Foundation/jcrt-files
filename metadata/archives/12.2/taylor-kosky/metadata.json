@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/taylor-kosky/#article",
+  "name": "Recalling Our Vocation: a Conversation About Teaching with Mark C. Taylor.",
+  "headline": "Recalling Our Vocation: a Conversation About Teaching with Mark C. Taylor.",
+  "description": "An interview with U.S. educator and philosopher of religion Mark C. Taylor on the continuing relevance of pedagogy in the 21st century is presented. Taylor observes that the existing model for university, first conceived by German philosopher Immanuel Kant, is becoming obsolete with the increasing cost of higher education. However, he believes that liberal arts education is more valuable than ever since it allows students to learn more about cultures and traditions different from their own.",
+  "url": "https://jcrt.org/archives/12.2/taylor-kosky/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Mark C. Taylor"
+    },
+    {
+      "@type": "Person",
+      "name": "Jeffrey Kosky"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/taylor-kosky/"
+  },
+  "abstract": "An interview with U.S. educator and philosopher of religion Mark C. Taylor on the continuing relevance of pedagogy in the 21st century is presented. Taylor observes that the existing model for university, first conceived by German philosopher Immanuel Kant, is becoming obsolete with the increasing cost of higher education. However, he believes that liberal arts education is more valuable than ever since it allows students to learn more about cultures and traditions different from their own.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "tGcGQO",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/taylor-kosky.pdf"
+  }
+}

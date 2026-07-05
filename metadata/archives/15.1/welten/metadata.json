@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/15.1/welten/#article",
+  "name": "Jean-Paul Sartre, Notebooks for an Ethics: the Ontology of the Gift.",
+  "headline": "Jean-Paul Sartre, Notebooks for an Ethics: the Ontology of the Gift.",
+  "description": "The article examines some passages on the gift as they appear in the book",
+  "url": "https://jcrt.org/archives/15.1/welten/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ruud Welten"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/15.1/welten/"
+  },
+  "abstract": "The article examines some passages on the gift as they appear in the book",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "yMfkP7",
+  "volumeNumber": "15",
+  "issueNumber": "1",
+  "pagination": "3-15",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/15.1/welten.pdf"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/#article",
+  "name": "The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict, Part 1 (Brigid Burke)",
+  "headline": "The Mythology of Afterlife Beliefs and Their Impact on Religious Conflict, Part 1 (Brigid Burke)",
+  "description": "The question of whether there is life after death, and what that life might be like, is probably one of religion’s oldest questions It highlights key arguments",
+  "url": "https://jcrt.org/religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/",
+  "inLanguage": "en",
+  "datePublished": "2017-11-01",
+  "dateModified": "2017-11-01",
+  "image": "https://jcrt.org/images/2017/10/afterlife.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "PJ4TGD"
+}

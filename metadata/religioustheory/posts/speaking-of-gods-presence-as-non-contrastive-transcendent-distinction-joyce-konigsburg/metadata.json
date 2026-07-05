@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg/#article",
+  "name": "Speaking Of God’s Presence As Non-Contrastive Transcendent Distinction (Joyce Konigsburg)",
+  "headline": "Speaking Of God’s Presence As Non-Contrastive Transcendent Distinction (Joyce Konigsburg)",
+  "description": "To speak or not to speak of God is an important yet rather uncomfortable question that participants encounter during interreligious and interdisciplinary",
+  "url": "https://jcrt.org/religioustheory/posts/speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg/",
+  "inLanguage": "en",
+  "datePublished": "2019-07-28",
+  "dateModified": "2019-07-28",
+  "image": "https://jcrt.org/images/2019/08/964px-angel_of_the_divine_presence_bringing_eve_to_adam_the_creation_of_eve-__and_she_shall_be_called_woman_recto_sketch_for_the_same_verso_met_dp805381.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "s2SBXf"
+}

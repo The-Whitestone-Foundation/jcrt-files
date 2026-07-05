@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/loewen/#article",
+  "name": "Prolegomena to Any Future Mashups with the Philosophy of Religion.",
+  "headline": "Prolegomena to Any Future Mashups with the Philosophy of Religion.",
+  "description": "An essay is presented on modern English-language philosophy of religion (PoR) with regard to its possible mashup with other disciplines and as a specialized discussion within philosophy. Topics include critical thinking, a mousetrap analogy that supports the theory that a theistic God exists, and the need for PoR to be transformed and reject classical theism. Also discussed are typical introductory religious studies classroom and introductory approaches of books and scholarly journals.",
+  "url": "https://jcrt.org/archives/14.2/loewen/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Nathan R. B. Loewen"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/loewen/"
+  },
+  "abstract": "An essay is presented on modern English-language philosophy of religion (PoR) with regard to its possible mashup with other disciplines and as a specialized discussion within philosophy. Topics include critical thinking, a mousetrap analogy that supports the theory that a theistic God exists, and the need for PoR to be transformed and reject classical theism. Also discussed are typical introductory religious studies classroom and introductory approaches of books and scholarly journals.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "j1a4Kp",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/loewen.pdf"
+  }
+}

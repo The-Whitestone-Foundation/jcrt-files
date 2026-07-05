@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/01.1/kavka/#article",
+  "name": "The Prayers and Tears of Jacques Derrida: Religion without Religion",
+  "headline": "The Prayers and Tears of Jacques Derrida: Religion without Religion",
+  "description": "Kavka - Rationality of Derrida's Religion - JCRT 1.1 The Rationality of Derrida's \"Religion without Religion\": A Phenomenological Gift for John D. Caputo ====================================================================================================",
+  "url": "https://jcrt.org/archives/01.1/kavka/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Martin Kavka"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/01.1/kavka/"
+  },
+  "abstract": "Kavka - Rationality of Derrida's Religion - JCRT 1.1 The Rationality of Derrida's \"Religion without Religion\": A Phenomenological Gift for John D. Caputo ====================================================================================================",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "vxdU4I"
+}

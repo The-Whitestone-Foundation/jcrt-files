@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/exposing-the-pitfalls-of-constructive-theology-on-the-state-of-islamic-studies-today-daniel-tutt/#article",
+  "name": "Review – Aaron Hughes’ ‘Islam and the Tyranny of Authenticity’ (Daniel Tutt)",
+  "headline": "Review – Aaron Hughes’ ‘Islam and the Tyranny of Authenticity’ (Daniel Tutt)",
+  "description": "Hughes, Aaron. Islam and the Tyranny of Authenticity: An Inquiry into Disciplinary Apologetics and Self-Deception. London: Equinox Publishing, 2016 It",
+  "url": "https://jcrt.org/religioustheory/posts/exposing-the-pitfalls-of-constructive-theology-on-the-state-of-islamic-studies-today-daniel-tutt/",
+  "inLanguage": "en",
+  "datePublished": "2016-09-22",
+  "dateModified": "2016-09-22",
+  "image": "https://jcrt.org/images/2016/09/hajj.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Tutt"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/exposing-the-pitfalls-of-constructive-theology-on-the-state-of-islamic-studies-today-daniel-tutt/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "j_DyTt"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-digital-technologies-and-religion-in-the-postmodern-era/#article",
+  "name": "Review – Digital Technologies and Religion in the Postmodern Era (Albert McClure)",
+  "headline": "Review – Digital Technologies and Religion in the Postmodern Era (Albert McClure)",
+  "description": "Han, Sam. Technologies of Religion: Spheres of the Sacred in a Post-Secular Modernity. Routledge Research in Information Technology and Society 19 142 pages.",
+  "url": "https://jcrt.org/religioustheory/posts/review-digital-technologies-and-religion-in-the-postmodern-era/",
+  "inLanguage": "en",
+  "datePublished": "2016-07-14",
+  "dateModified": "2016-07-14",
+  "image": "https://jcrt.org/images/2016/07/internet-handshake.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Albert McClure"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-digital-technologies-and-religion-in-the-postmodern-era/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "oPsJ-7"
+}

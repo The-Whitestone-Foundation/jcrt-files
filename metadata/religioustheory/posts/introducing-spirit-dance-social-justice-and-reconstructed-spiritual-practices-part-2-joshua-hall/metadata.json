@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall/#article",
+  "name": "Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual Practices, Part 2 (Joshua Hall)",
+  "headline": "Introducing Spirit/Dance – Social Justice And Reconstructed Spiritual Practices, Part 2 (Joshua Hall)",
+  "description": "The following is the second of a three-part series. The first can be found here. As to the purpose of this spirit dancing, Kopenawa constantly emphasizes that",
+  "url": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall/",
+  "inLanguage": "en",
+  "datePublished": "2023-03-31",
+  "dateModified": "2023-03-31",
+  "image": "https://jcrt.org/images/2023/04/800px-mongol_shaman_just_before_rituals.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "WWTsVd"
+}

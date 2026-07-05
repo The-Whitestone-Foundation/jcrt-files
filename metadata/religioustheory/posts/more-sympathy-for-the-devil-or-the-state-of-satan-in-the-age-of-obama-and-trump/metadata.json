@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump/#article",
+  "name": "More Sympathy for the Devil, or The State of Satan in The Age of Obama and Trump",
+  "headline": "More Sympathy for the Devil, or The State of Satan in The Age of Obama and Trump",
+  "description": "Fifty years ago this weekend in the year 1966, according to lore and legend, San Francisco showman, musician, and self-professed huckster Howard Stanton Levey",
+  "url": "https://jcrt.org/religioustheory/posts/more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump/",
+  "inLanguage": "en",
+  "datePublished": "2016-05-01",
+  "dateModified": "2016-05-01",
+  "image": "https://jcrt.org/images/2016/03/satan-comedy.gif",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "oI7GQs"
+}

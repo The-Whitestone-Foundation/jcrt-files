@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/god-as-person-and-trinity-lecture-7-johannes-zachhuber/#article",
+  "name": "God As Person and Trinity, Lecture 7 (Johannes Zachhuber)",
+  "headline": "God As Person and Trinity, Lecture 7 (Johannes Zachhuber)",
+  "description": "The following is the seventh lecture in an eight-lecture series. The most recent one can be found here. The possibility that God is person has often been",
+  "url": "https://jcrt.org/religioustheory/posts/god-as-person-and-trinity-lecture-7-johannes-zachhuber/",
+  "inLanguage": "en",
+  "datePublished": "2019-04-10",
+  "dateModified": "2019-04-10",
+  "image": "https://jcrt.org/images/2019/04/800px-holy_trinity_column_-_top.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/god-as-person-and-trinity-lecture-7-johannes-zachhuber/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "vPK2fo"
+}

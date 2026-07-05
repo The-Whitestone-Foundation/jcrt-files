@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-2-alan-jay-richard/#article",
+  "name": "Dreaming Innocence in America – Paul Tillich’s Radical Theology of Liberation, Part 2 (Alan Jay Richard)",
+  "headline": "Dreaming Innocence in America – Paul Tillich’s Radical Theology of Liberation, Part 2 (Alan Jay Richard)",
+  "description": "The following is the second installment of a multi-part series. The first installment can be accessed here. As Tillich argues in the second dissertation, Kant",
+  "url": "https://jcrt.org/religioustheory/posts/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-2-alan-jay-richard/",
+  "inLanguage": "en",
+  "datePublished": "2016-11-21",
+  "dateModified": "2016-11-21",
+  "image": "https://jcrt.org/images/2016/11/double_vac_line_front_view.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-2-alan-jay-richard/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "5MLLEB"
+}

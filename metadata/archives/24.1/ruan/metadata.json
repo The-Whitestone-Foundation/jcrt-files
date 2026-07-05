@@ -1,0 +1,48 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.1/ruan/#article",
+  "name": "The Violence of Classification and Ethics of Suicide: a Reflection on Qiu Jin’s Death",
+  "headline": "The Violence of Classification and Ethics of Suicide: a Reflection on Qiu Jin’s Death",
+  "description": "",
+  "url": "https://jcrt.org/archives/24.1/ruan/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Genn Ruan"
+    },
+    {
+      "@type": "Person",
+      "name": "Xiaoqian Zhang"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.1/ruan/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "Fs-YT2",
+  "volumeNumber": "24",
+  "issueNumber": "1",
+  "pagination": "138-156",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.1/Ruan.pdf"
+  }
+}

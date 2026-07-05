@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/newest-titles-for-review-freud-nussbaum-angst-the-crucified-god-etc/#article",
+  "name": "Newest Titles For Review – Freud, Nussbaum, Angst, The Crucified God, Etc.",
+  "headline": "Newest Titles For Review – Freud, Nussbaum, Angst, The Crucified God, Etc.",
+  "description": "Religious Theory has just added new titles for which we are looking for reviewers (listed below). If you would like to review one of them, please send an email",
+  "url": "https://jcrt.org/religioustheory/posts/newest-titles-for-review-freud-nussbaum-angst-the-crucified-god-etc/",
+  "inLanguage": "en",
+  "datePublished": "2017-01-27",
+  "dateModified": "2017-01-27",
+  "image": "https://jcrt.org/images/2017/01/martha-nussbaum.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/newest-titles-for-review-freud-nussbaum-angst-the-crucified-god-etc/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "p1iNhu"
+}

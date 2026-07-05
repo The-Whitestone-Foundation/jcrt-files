@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.2/heo/#article",
+  "name": "Three Classroom Readings of ‘Ethnographic Practice’ in Religious Studies.",
+  "headline": "Three Classroom Readings of ‘Ethnographic Practice’ in Religious Studies.",
+  "description": "The author looks at several models of ethnographic practices of fieldwork and writing and their possible contributions to religious studies. She notes that American anthropologist Clifford Geertz favored a cultural-interpretivist approach to ethnography, while French philosopher Michel de Certeau observes that the value of ethnographic writing lies in its re-inscription of alterity. She also mentions the",
+  "url": "https://jcrt.org/archives/12.2/heo/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Angie Heo"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.2/heo/"
+  },
+  "abstract": "The author looks at several models of ethnographic practices of fieldwork and writing and their possible contributions to religious studies. She notes that American anthropologist Clifford Geertz favored a cultural-interpretivist approach to ethnography, while French philosopher Michel de Certeau observes that the value of ethnographic writing lies in its re-inscription of alterity. She also mentions the",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "CVj0y9",
+  "volumeNumber": "12",
+  "issueNumber": "2",
+  "pagination": "187-195",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.2/heo.pdf"
+  }
+}

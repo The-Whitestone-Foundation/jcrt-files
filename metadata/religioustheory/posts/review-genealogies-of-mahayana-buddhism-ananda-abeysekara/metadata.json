@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-genealogies-of-mahayana-buddhism-ananda-abeysekara/#article",
+  "name": "Review – Genealogies Of Mahayana Buddhism (Ananda Abeysekara)",
+  "headline": "Review – Genealogies Of Mahayana Buddhism (Ananda Abeysekara)",
+  "description": "Joseph Walser, Genealogies of Mahāyāna Buddhism: Emptiness, Power, and the Question of Origin. Oxford and New York: Routledge, 2018. 288 pages. IBSN: 978-1-13-895556-1.",
+  "url": "https://jcrt.org/religioustheory/posts/review-genealogies-of-mahayana-buddhism-ananda-abeysekara/",
+  "inLanguage": "en",
+  "datePublished": "2019-10-23",
+  "dateModified": "2019-10-23",
+  "image": "https://jcrt.org/images/bhutan-3639580_960_720.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ananda Abeysekara"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-genealogies-of-mahayana-buddhism-ananda-abeysekara/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Izrxzp"
+}

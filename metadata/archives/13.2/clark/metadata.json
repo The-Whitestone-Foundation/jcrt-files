@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/13.2/clark/#article",
+  "name": "Doing the Zombie Glitch; Haptic Undeadliness as a Political Theory.",
+  "headline": "Doing the Zombie Glitch; Haptic Undeadliness as a Political Theory.",
+  "description": "The article discusses the early zombie films of filmmaker George Romero and loss of blatant and the affective materiality by zombies due to use of digital effects in the series",
+  "url": "https://jcrt.org/archives/13.2/clark/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Simon Clark"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/13.2/clark/"
+  },
+  "abstract": "The article discusses the early zombie films of filmmaker George Romero and loss of blatant and the affective materiality by zombies due to use of digital effects in the series",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "DuA9hF",
+  "volumeNumber": "13",
+  "issueNumber": "2",
+  "pagination": "38-47",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/clark.pdf"
+  }
+}

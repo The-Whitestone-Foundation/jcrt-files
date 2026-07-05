@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/18.3/mccracken/#article",
+  "name": "A Note on Pre-Positions: Methodology in the Continental Philosophy of Religion.",
+  "headline": "A Note on Pre-Positions: Methodology in the Continental Philosophy of Religion.",
+  "description": "",
+  "url": "https://jcrt.org/archives/18.3/mccracken/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Lucas McCracken"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/18.3/mccracken/"
+  },
+  "abstract": "",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "mQqA7h",
+  "volumeNumber": "18",
+  "issueNumber": "3",
+  "pagination": "429-525",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/18.3/McCracken.pdf"
+  }
+}

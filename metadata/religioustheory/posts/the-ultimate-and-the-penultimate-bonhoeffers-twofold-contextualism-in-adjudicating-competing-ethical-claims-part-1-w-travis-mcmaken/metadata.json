@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/#article",
+  "name": "The Ultimate And The Penultimate – Bonhoeffer’s Twofold Contextualism In Adjudicating Competing Ethical Claims, Part 1 (W. Travis McMaken)",
+  "headline": "The Ultimate And The Penultimate – Bonhoeffer’s Twofold Contextualism In Adjudicating Competing Ethical Claims, Part 1 (W. Travis McMaken)",
+  "description": "The following is the first of a two-part series. The life and work of Dietrich Bonhoeffer quickly captured the imagination of theologians, clergy, and lay",
+  "url": "https://jcrt.org/religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/",
+  "inLanguage": "en",
+  "datePublished": "2020-08-17",
+  "dateModified": "2020-08-17",
+  "image": "https://jcrt.org/images/2020/08/dietrich_bonhoeffer_und_wilhelm_rott_um_1938.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-ultimate-and-the-penultimate-bonhoeffers-twofold-contextualism-in-adjudicating-competing-ethical-claims-part-1-w-travis-mcmaken/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "DSv9Pn"
+}

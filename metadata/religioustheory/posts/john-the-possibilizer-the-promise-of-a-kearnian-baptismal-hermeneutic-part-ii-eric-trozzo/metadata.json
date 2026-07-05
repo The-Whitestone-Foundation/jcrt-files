@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo/#article",
+  "name": "John the Possibilizer: The Promise of a Kearnian Baptismal Hermeneutic, Part II (Eric Trozzo)",
+  "headline": "John the Possibilizer: The Promise of a Kearnian Baptismal Hermeneutic, Part II (Eric Trozzo)",
+  "description": "The following is the second part in a two-part installment. The first part can be found here. In Kearnian terms, then, the John portrayed by Luke is one who has",
+  "url": "https://jcrt.org/religioustheory/posts/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo/",
+  "inLanguage": "en",
+  "datePublished": "2018-01-28",
+  "dateModified": "2018-01-28",
+  "image": "https://jcrt.org/images/2018/01/24054189-a75190ba-640.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "ha_9Lf"
+}

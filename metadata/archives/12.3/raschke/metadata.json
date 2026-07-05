@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.3/raschke/#article",
+  "name": "Peter Sloterdijk as “First Philosopher” of Globalization",
+  "headline": "Peter Sloterdijk as “First Philosopher” of Globalization",
+  "description": "The article offers information on philosopher Peter Sloterdijk that includes absence in translations of Sloterdijk's philosophical teachings; consideration of Sloterdijk's teaching as pop-cultural; and assessment of phenomenology towards globalization conditions.",
+  "url": "https://jcrt.org/archives/12.3/raschke/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.3/raschke/"
+  },
+  "abstract": "The article offers information on philosopher Peter Sloterdijk that includes absence in translations of Sloterdijk's philosophical teachings; consideration of Sloterdijk's teaching as pop-cultural; and assessment of phenomenology towards globalization conditions.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "hrq-Ee",
+  "volumeNumber": "12",
+  "issueNumber": "3",
+  "pagination": "1-19",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.3/raschke.pdf"
+  }
+}

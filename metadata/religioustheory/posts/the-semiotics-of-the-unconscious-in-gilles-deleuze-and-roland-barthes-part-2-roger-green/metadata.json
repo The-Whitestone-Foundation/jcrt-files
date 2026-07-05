@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-part-2-roger-green/#article",
+  "name": "The Semiotics of the Unconscious in Gilles Deleuze and Roland Barthes, Part 2 (Roger Green)",
+  "headline": "The Semiotics of the Unconscious in Gilles Deleuze and Roland Barthes, Part 2 (Roger Green)",
+  "description": "The following is the second of a two-part series. The first installment, published on Dec. 19, 2016, can be found here. In Writing Degree Zero, Barthes suggests",
+  "url": "https://jcrt.org/religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-part-2-roger-green/",
+  "inLanguage": "en",
+  "datePublished": "2016-12-26",
+  "dateModified": "2016-12-26",
+  "image": "https://jcrt.org/images/2016/12/selfport.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-semiotics-of-the-unconscious-in-gilles-deleuze-and-roland-barthes-part-2-roger-green/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Pss_Ec"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-judith-butler-and-the-different-senses-of-the-subject-matthew-waggoner/#article",
+  "name": "Review – Judith Butler And The Different “Senses” Of The Subject (Matthew Waggoner)",
+  "headline": "Review – Judith Butler And The Different “Senses” Of The Subject (Matthew Waggoner)",
+  "description": "Note: This review is also published simultaneously in the PDF special issue of JCRT 16.1. Butler, Judith. Senses of the Subject Senses of the Subject.",
+  "url": "https://jcrt.org/religioustheory/posts/review-judith-butler-and-the-different-senses-of-the-subject-matthew-waggoner/",
+  "inLanguage": "en",
+  "datePublished": "2017-01-09",
+  "dateModified": "2017-01-09",
+  "image": "https://jcrt.org/images/2017/01/20897035259_73d12d6fb3_b.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-judith-butler-and-the-different-senses-of-the-subject-matthew-waggoner/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "HSU1NL"
+}

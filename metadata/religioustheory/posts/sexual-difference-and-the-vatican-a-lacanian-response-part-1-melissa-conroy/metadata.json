@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/#article",
+  "name": "Sexual Difference And The Vatican – A Lacanian Response, Part 1 (Melissa Conroy)",
+  "headline": "Sexual Difference And The Vatican – A Lacanian Response, Part 1 (Melissa Conroy)",
+  "description": "In June 2019 the Congregation for Catholic Education released a document entitled “Male and Female He Created Them: Towards a Path of Dialogue on the Question",
+  "url": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/",
+  "inLanguage": "en",
+  "datePublished": "2020-09-28",
+  "dateModified": "2020-09-28",
+  "image": "https://jcrt.org/images/2020/10/pair_of_mandarin_ducks.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/sexual-difference-and-the-vatican-a-lacanian-response-part-1-melissa-conroy/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "kxK27E"
+}

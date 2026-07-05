@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/15.2/betcher/#article",
+  "name": "Crip/Tography: Disability Theology in the Ruins of God.",
+  "headline": "Crip/Tography: Disability Theology in the Ruins of God.",
+  "description": "The article offers the author's insights regarding the Crip/tography or the disability theology in the ruins of God and mentions its nostalgia for Jesus as Healer.",
+  "url": "https://jcrt.org/archives/15.2/betcher/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Sharon V. Betcher"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/15.2/betcher/"
+  },
+  "abstract": "The article offers the author's insights regarding the Crip/tography or the disability theology in the ruins of God and mentions its nostalgia for Jesus as Healer.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "O2hvhO",
+  "volumeNumber": "15",
+  "issueNumber": "2",
+  "pagination": "98-115",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/15.2/betcher.pdf"
+  }
+}

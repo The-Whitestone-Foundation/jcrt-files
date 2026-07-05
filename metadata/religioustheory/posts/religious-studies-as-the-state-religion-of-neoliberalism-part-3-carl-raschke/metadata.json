@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-part-3-carl-raschke/#article",
+  "name": "Religious Studies As The “State Religion” Of Neoliberalism, Part 3 (Carl Raschke)",
+  "headline": "Religious Studies As The “State Religion” Of Neoliberalism, Part 3 (Carl Raschke)",
+  "description": "The following is the last of a three-part series. The first can be found here , the second here. A genealogy of the neoliberalization, together with the",
+  "url": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-part-3-carl-raschke/",
+  "inLanguage": "en",
+  "datePublished": "2022-10-05",
+  "dateModified": "2022-10-05",
+  "image": "https://jcrt.org/images/2022/10/tellus_-_ara_pacis.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-part-3-carl-raschke/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "mrU-Lc"
+}

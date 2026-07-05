@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-transcript-barbara-alice-mann-onondawaga-bear-clan-and-tink-tinker-wazhazhe-osage-nation/#article",
+  "name": "Critical Conversations  – American Indian Worldview And The Twinned Cosmos Of Indigenous America  (Barbara Alice Mann, Onondawaga, Bear Clan And Tink Tinker, Wazhazhe, Osage Nation, Eagle Clan)",
+  "headline": "Critical Conversations  – American Indian Worldview And The Twinned Cosmos Of Indigenous America  (Barbara Alice Mann, Onondawaga, Bear Clan And Tink Tinker, Wazhazhe, Osage Nation, Eagle Clan)",
+  "description": "The following is the video and transcript of the fifth “Critical Conversation”, a monthly Zoom seminar with advance registration sponsored by Whitestone",
+  "url": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-transcript-barbara-alice-mann-onondawaga-bear-clan-and-tink-tinker-wazhazhe-osage-nation/",
+  "inLanguage": "en",
+  "datePublished": "2021-01-22",
+  "dateModified": "2021-01-22",
+  "image": "https://jcrt.org/images/2021/01/1133px-1949_hudson_mound_builders_2831253030.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-american-indian-worldview-and-the-twinned-cosmos-of-indigenous-america-transcript-barbara-alice-mann-onondawaga-bear-clan-and-tink-tinker-wazhazhe-osage-nation/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Xk44tB"
+}

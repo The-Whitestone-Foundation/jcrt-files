@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-i-oleg-komkov/#article",
+  "name": "The Vertical Form – The Iconological Dimension in 20th Century Russian Religious Aesthetics and Literary Criticism, Part I (Oleg Komkov)",
+  "headline": "The Vertical Form – The Iconological Dimension in 20th Century Russian Religious Aesthetics and Literary Criticism, Part I (Oleg Komkov)",
+  "description": "The following is the first part in a two-part installment. This article is an attempt to highlight and reflect on several interrelated issues that seem to be",
+  "url": "https://jcrt.org/religioustheory/posts/the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-i-oleg-komkov/",
+  "inLanguage": "en",
+  "datePublished": "2018-03-21",
+  "dateModified": "2018-03-21",
+  "image": "https://jcrt.org/images/2018/03/umberto_boccioni_1913_dynamism_of_a_cyclist_dinamismo_di_un_ciclista_oil_on_canvas_70_x_95_cm_gianni_mattioli_collection_on_long-term_loan_to_the_peggy_gugg.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-vertical-form-iconological-dimension-in-20th-century-russian-religious-aesthetics-and-literary-criticism-part-i-oleg-komkov/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "pGwmyA"
+}

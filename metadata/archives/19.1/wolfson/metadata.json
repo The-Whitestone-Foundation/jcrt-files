@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/19.1/wolfson/#article",
+  "name": "Apotheosis of the Nothing in Altizer’s Kenotic Atheology.",
+  "headline": "Apotheosis of the Nothing in Altizer’s Kenotic Atheology.",
+  "description": "Even what we have left undone weaves the fabric of the entire future: even nothingness itself is a master weaver and a woman spinning webs.",
+  "url": "https://jcrt.org/archives/19.1/wolfson/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Elliot R. Wolfson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/19.1/wolfson/"
+  },
+  "abstract": "Even what we have left undone weaves the fabric of the entire future: even nothingness itself is a master weaver and a woman spinning webs.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "U6KRNp",
+  "volumeNumber": "19",
+  "issueNumber": "1",
+  "pagination": "52-84",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/19.1/Wolfson.pdf"
+  }
+}

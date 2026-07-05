@@ -1,0 +1,52 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/24.2/preface/#article",
+  "name": "A Preface to Challenging the Justifications of Domination Through Religion: “We Were Planting Corn, and They Were Planting Crosses”",
+  "headline": "A Preface to Challenging the Justifications of Domination Through Religion: “We Were Planting Corn, and They Were Planting Crosses”",
+  "description": "Preface to a special issue examining Christian Discovery’s role in white supremacy, law, and education, with decolonial paths grounded in Indigenous justice.",
+  "url": "https://jcrt.org/archives/24.2/preface/",
+  "inLanguage": "en",
+  "datePublished": "2026-03-03",
+  "dateModified": "2026-03-03",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philip P. Arnold"
+    },
+    {
+      "@type": "Person",
+      "name": "Sandra Bigtree"
+    },
+    {
+      "@type": "Person",
+      "name": "Adam DJ Brett"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/24.2/preface/"
+  },
+  "abstract": "Preface to a special issue examining Christian Discovery’s role in white supremacy, law, and education, with decolonial paths grounded in Indigenous justice.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "wclGoo",
+  "volumeNumber": "24",
+  "issueNumber": "2",
+  "pagination": "186-207",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/24.2/preface.pdf"
+  }
+}

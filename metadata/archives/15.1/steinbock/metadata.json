@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/15.1/steinbock/#article",
+  "name": "Heidegger, Machination, and the Jewish Question: the Problem of the Gift.",
+  "headline": "Heidegger, Machination, and the Jewish Question: the Problem of the Gift.",
+  "description": "The article examines the explication by German philosopher Martin Heidegger (1889-1976) of giving and the gift in the context of overcoming metaphysics and calculative thinking and mentions topics such as machination, National Socialism, and Adolf Hitler.",
+  "url": "https://jcrt.org/archives/15.1/steinbock/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Anthony J. Steinbock"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/15.1/steinbock/"
+  },
+  "abstract": "The article examines the explication by German philosopher Martin Heidegger (1889-1976) of giving and the gift in the context of overcoming metaphysics and calculative thinking and mentions topics such as machination, National Socialism, and Adolf Hitler.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "t6prql",
+  "volumeNumber": "15",
+  "issueNumber": "1",
+  "pagination": "72-89",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/15.1/steinbock.pdf"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/greco/#article",
+  "name": "Dispositions, Habits and Virtues: Comments on Mulder and Kelly.",
+  "headline": "Dispositions, Habits and Virtues: Comments on Mulder and Kelly.",
+  "description": "The article presents the author's views on dispositions, habits and virtues, highlighting the essays by Jack Mulder on philosopher Soren Kierkegaard's heritage on continental philosophy and Michael Kelly on the differences between emulation and envy. Also discussed are philosopher Aristotle's beliefs on habit and virtue, Mulder's claim that love is not a static property, and Kierkegaard's argument that love is unconditional.",
+  "url": "https://jcrt.org/archives/14.2/greco/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "John Greco"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/greco/"
+  },
+  "abstract": "The article presents the author's views on dispositions, habits and virtues, highlighting the essays by Jack Mulder on philosopher Soren Kierkegaard's heritage on continental philosophy and Michael Kelly on the differences between emulation and envy. Also discussed are philosopher Aristotle's beliefs on habit and virtue, Mulder's claim that love is not a static property, and Kierkegaard's argument that love is unconditional.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "CdY-N7",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "pagination": "402-406",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/greco.pdf"
+  }
+}

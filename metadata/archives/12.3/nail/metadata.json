@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.3/nail/#article",
+  "name": "Zapatismo and the Global Origins of Occupy.",
+  "headline": "Zapatismo and the Global Origins of Occupy.",
+  "description": "The article focuses on analysis of Occupy protest movement initiation conditions that includes consideration of theorist over an origin of the movement through alter-globalization movements; analysis of practical influence of Zapatistas over Occupy; and analysis of horizontalism conditions.",
+  "url": "https://jcrt.org/archives/12.3/nail/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Thomas Nail"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.3/nail/"
+  },
+  "abstract": "The article focuses on analysis of Occupy protest movement initiation conditions that includes consideration of theorist over an origin of the movement through alter-globalization movements; analysis of practical influence of Zapatistas over Occupy; and analysis of horizontalism conditions.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "aG6aw4",
+  "volumeNumber": "12",
+  "issueNumber": "3",
+  "pagination": "20-38",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.3/nail.pdf"
+  }
+}

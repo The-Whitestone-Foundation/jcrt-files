@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-on-decoloniality-with-walter-mignolo-announcement/#article",
+  "name": "Critical Conversations – “On Decoloniality” With Walter Mignolo (Announcement)",
+  "headline": "Critical Conversations – “On Decoloniality” With Walter Mignolo (Announcement)",
+  "description": "An earlier version of this posting had the date listed as “December,” which would imply the webinar had already occurred It highlights key arguments and",
+  "url": "https://jcrt.org/religioustheory/posts/critical-conversations-on-decoloniality-with-walter-mignolo-announcement/",
+  "inLanguage": "en",
+  "datePublished": "2020-12-29",
+  "dateModified": "2020-12-29",
+  "image": "https://jcrt.org/images/2020/12/wmignolo.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/critical-conversations-on-decoloniality-with-walter-mignolo-announcement/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "atExNt"
+}

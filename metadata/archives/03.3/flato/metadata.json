@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/03.3/flato/#article",
+  "name": "Christianity in Jewish Terms",
+  "headline": "Christianity in Jewish Terms",
+  "description": "Flato - Book Profile: Christianity in Jewish Terms - JCRT 3.3",
+  "url": "https://jcrt.org/archives/03.3/flato/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Jason M Flato"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/03.3/flato/"
+  },
+  "abstract": "Flato - Book Profile: Christianity in Jewish Terms - JCRT 3.3",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "OxVA93"
+}

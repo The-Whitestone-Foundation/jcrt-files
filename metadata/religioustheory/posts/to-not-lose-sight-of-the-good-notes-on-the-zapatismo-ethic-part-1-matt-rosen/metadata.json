@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-1-matt-rosen/#article",
+  "name": "To Not Lose Sight Of The Good – Notes On The Zapatismo Ethic, Part 1 (Matt Rosen)",
+  "headline": "To Not Lose Sight Of The Good – Notes On The Zapatismo Ethic, Part 1 (Matt Rosen)",
+  "description": "On the first of January 1994, as the North American Free Trade Agreement (NAFTA) went into effect, the Ejército Zapatista de Liberación Nacional (Zapatista Army",
+  "url": "https://jcrt.org/religioustheory/posts/to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-1-matt-rosen/",
+  "inLanguage": "en",
+  "datePublished": "2020-01-14",
+  "dateModified": "2020-01-14",
+  "image": "https://jcrt.org/images/2020/01/zapatismo_picture_marcos.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/to-not-lose-sight-of-the-good-notes-on-the-zapatismo-ethic-part-1-matt-rosen/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Xm0sQg"
+}

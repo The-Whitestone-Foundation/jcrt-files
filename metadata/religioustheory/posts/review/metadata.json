@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review/#article",
+  "name": "Review – Theologies of the Boss (James Cochran)",
+  "headline": "Review – Theologies of the Boss (James Cochran)",
+  "description": "Yadin-Israel, Azzan. The Grace of God and the Grace of Man: The Theologies of Bruce Springsteen. Highland Park: Lingua Press, 2016. ISBN-10: 0692718516",
+  "url": "https://jcrt.org/religioustheory/posts/review/",
+  "inLanguage": "en",
+  "datePublished": "2017-03-02",
+  "dateModified": "2017-03-02",
+  "image": "https://jcrt.org/images/2017/03/young-bruce.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "James Cochran"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "H8CrpI"
+}

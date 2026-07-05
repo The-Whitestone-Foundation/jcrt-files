@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.2/Omurchadha/#article",
+  "name": "A Phenomenology of the Infinite: Horizon, Faith, Love.",
+  "headline": "A Phenomenology of the Infinite: Horizon, Faith, Love.",
+  "description": "The essential relation of the infinite to the finite, suggested already in the word itself, has troubled philosophical thinking at least since Descartes. To speak of the finite and the infinite is already to speak of horizon: the horizon of understanding, the horizon as limitation, the horizon as opening towards and beyond the finite objects of perception and knowledge. From Descartes to Levinas the infinite is the moment of the divine which both implies and problematizes all horizons. The infin",
+  "url": "https://jcrt.org/archives/17.2/Omurchadha/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Felix Ó Murchadha"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.2/Omurchadha/"
+  },
+  "abstract": "The essential relation of the infinite to the finite, suggested already in the word itself, has troubled philosophical thinking at least since Descartes. To speak of the finite and the infinite is already to speak of horizon: the horizon of understanding, the horizon as limitation, the horizon as opening towards and beyond the finite objects of perception and knowledge. From Descartes to Levinas the infinite is the moment of the divine which both implies and problematizes all horizons. The infin",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "w-fBUN",
+  "volumeNumber": "17",
+  "issueNumber": "2",
+  "pagination": "339-352",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.2/OMurchadha.pdf"
+  }
+}

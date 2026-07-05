@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1/#article",
+  "name": "Spiritual Erotics, Part 1 – Affect Theory and the Transformation of Machismo Among Latino Pentecostal Men",
+  "headline": "Spiritual Erotics, Part 1 – Affect Theory and the Transformation of Machismo Among Latino Pentecostal Men",
+  "description": "From time to time Religious Theory (RT) invites well-known academic authors to outline current book projects that have not yet been published S. It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1/",
+  "inLanguage": "en",
+  "datePublished": "2016-03-30",
+  "dateModified": "2016-03-30",
+  "image": "https://jcrt.org/images/2016/03/20120503nw1179.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "V6aI3o"
+}

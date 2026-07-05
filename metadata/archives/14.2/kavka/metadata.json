@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/14.2/kavka/#article",
+  "name": "Humanizing Philosophy of Religion: on Language in Levinas and Sellars.",
+  "headline": "Humanizing Philosophy of Religion: on Language in Levinas and Sellars.",
+  "description": "An essay is presented on the philosophy of religion (PoR) with regard to two orientations to the subject. These orientations are the claim that the PoR's purpose is to promote a set of absolute moral norms and the claim that the field aims to determine whether religious communities' practices are true. Also explored are the tendency of the PoR to enable a thinking subject to make true claims, the mashup PoR, and the canon of modern PoR.",
+  "url": "https://jcrt.org/archives/14.2/kavka/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Martin Kavka"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/14.2/kavka/"
+  },
+  "abstract": "An essay is presented on the philosophy of religion (PoR) with regard to two orientations to the subject. These orientations are the claim that the PoR's purpose is to promote a set of absolute moral norms and the claim that the field aims to determine whether religious communities' practices are true. Also explored are the tendency of the PoR to enable a thinking subject to make true claims, the mashup PoR, and the canon of modern PoR.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "7s0GwF",
+  "volumeNumber": "14",
+  "issueNumber": "2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/14.2/kavka.pdf"
+  }
+}

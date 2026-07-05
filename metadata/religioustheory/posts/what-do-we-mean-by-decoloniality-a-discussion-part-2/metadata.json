@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-discussion-part-2/#article",
+  "name": "What Do We Mean By “Decoloniality”? A Discussion, Part 2",
+  "headline": "What Do We Mean By “Decoloniality”? A Discussion, Part 2",
+  "description": "Part 2 continues the keynote discussion on decoloniality, elaborating disagreements over praxis, universality, and strategy while clarifying points of shared",
+  "url": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-discussion-part-2/",
+  "inLanguage": "en",
+  "datePublished": "2021-05-03",
+  "dateModified": "2021-05-03",
+  "image": "https://jcrt.org/images/2021/05/800px-la_conquista_del_colorado.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-discussion-part-2/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "yPQW3T"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/#article",
+  "name": "Philosophy As Love – Unblocking The Road From Athens To Jerusalem, Part 1 (Erik Meganck)",
+  "headline": "Philosophy As Love – Unblocking The Road From Athens To Jerusalem, Part 1 (Erik Meganck)",
+  "description": "Philo-sophy literally means “love of wisdom.” But this can be read in more than one way. There is the well-known objective genitive, proposing that philosophers",
+  "url": "https://jcrt.org/religioustheory/posts/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/",
+  "inLanguage": "en",
+  "datePublished": "2022-11-29",
+  "dateModified": "2022-11-29",
+  "image": "https://jcrt.org/images/2022/12/1600px-platos_symposium_met_dp888791.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "ne3ZIb"
+}

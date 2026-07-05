@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-3-daniel-reiser/#article",
+  "name": "Tsimtsum In Life Of Pi, Part 3 (Daniel Reiser)",
+  "headline": "Tsimtsum In Life Of Pi, Part 3 (Daniel Reiser)",
+  "description": "The following is the third of a four-part series. The first can be found here, the second here. Beyond the question of metaphor and reality, the greatest",
+  "url": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-3-daniel-reiser/",
+  "inLanguage": "en",
+  "datePublished": "2020-12-15",
+  "dateModified": "2020-12-15",
+  "image": "https://jcrt.org/images/2020/12/rabbi_pinchas_hakohen_lintup.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-3-daniel-reiser/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "yv2kZI"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/#article",
+  "name": "Reorientation In The Field – Why Religion Matters, Part 1 (Wendy Felese)",
+  "headline": "Reorientation In The Field – Why Religion Matters, Part 1 (Wendy Felese)",
+  "description": "The following is the first of a two-part series. It was originally published at a 2019 conference in Athens, Greece.1 When teaching classes like World Religions",
+  "url": "https://jcrt.org/religioustheory/posts/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/",
+  "inLanguage": "en",
+  "datePublished": "2021-03-15",
+  "dateModified": "2021-03-15",
+  "image": "https://jcrt.org/images/2021/03/inuit-kleidung_1.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "sC3_3K"
+}

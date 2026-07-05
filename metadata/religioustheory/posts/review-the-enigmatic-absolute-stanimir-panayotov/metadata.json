@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-the-enigmatic-absolute-stanimir-panayotov/#article",
+  "name": "Review – The Enigmatic Absolute (Stanimir Panayotov)",
+  "headline": "Review – The Enigmatic Absolute (Stanimir Panayotov)",
+  "description": "Joshua Ramey and Matthew S. Haar Farris (Eds.), Speculation, Heresy, and Gnosis in Contemporary Philosophy of Religion: The Enigmatic Absolute 299 pages.",
+  "url": "https://jcrt.org/religioustheory/posts/review-the-enigmatic-absolute-stanimir-panayotov/",
+  "inLanguage": "en",
+  "datePublished": "2019-02-22",
+  "dateModified": "2019-02-22",
+  "image": "https://jcrt.org/images/2019/02/dewang-gupta-636342-unsplash.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Stanimir Panayotov"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-the-enigmatic-absolute-stanimir-panayotov/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "-_w0Ik"
+}

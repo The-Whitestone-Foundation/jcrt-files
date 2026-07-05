@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/#article",
+  "name": "Tsimtsum In Life Of Pi, Part 1 (Daniel Reiser)",
+  "headline": "Tsimtsum In Life Of Pi, Part 1 (Daniel Reiser)",
+  "description": "Yann Martel’s 2001 bestselling novel Life of Pi, later released in 2012 as a prize-winning box office hit, addresses themes such as religion, faith It",
+  "url": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/",
+  "inLanguage": "en",
+  "datePublished": "2020-11-25",
+  "dateModified": "2020-11-25",
+  "image": "https://jcrt.org/images/2020/11/1600px-life_of_pi_30790302401.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/tsimtsum-in-life-of-pi-part-1-daniel-reiser/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "t6j0u6"
+}

@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/01.3/weiss/#article",
+  "name": "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics",
+  "headline": "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics",
+  "description": "Weiss - Posthuman Pleasures - JCRT 1.3",
+  "url": "https://jcrt.org/archives/01.3/weiss/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Dennis M Weiss"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/01.3/weiss/"
+  },
+  "abstract": "Weiss - Posthuman Pleasures - JCRT 1.3",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "rdTpAM"
+}

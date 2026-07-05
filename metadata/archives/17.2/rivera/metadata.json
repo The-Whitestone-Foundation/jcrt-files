@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/17.2/rivera/#article",
+  "name": "Spiritual Exercises in a Secular Age: Prospects for a Theological Reduction.",
+  "headline": "Spiritual Exercises in a Secular Age: Prospects for a Theological Reduction.",
+  "description": "Phenomenology, as a particular idiom or style of philosophical reflection, is one not wholly free of theological supposition. Perhaps the learned consensus in the academy today is that philosophical discourse, without first abandoning its judicious commitment to rigor and principled reason, never may have meaningful and fruitful interchange with theology. In many contemporary French currents of phenomenology that flow through to the wider discourse of philosophy of religion there have been stron",
+  "url": "https://jcrt.org/archives/17.2/rivera/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joseph Rivera"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/17.2/rivera/"
+  },
+  "abstract": "Phenomenology, as a particular idiom or style of philosophical reflection, is one not wholly free of theological supposition. Perhaps the learned consensus in the academy today is that philosophical discourse, without first abandoning its judicious commitment to rigor and principled reason, never may have meaningful and fruitful interchange with theology. In many contemporary French currents of phenomenology that flow through to the wider discourse of philosophy of religion there have been stron",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "yobmzP",
+  "volumeNumber": "17",
+  "issueNumber": "2",
+  "pagination": "307-327",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/17.2/Rivera.pdf"
+  }
+}

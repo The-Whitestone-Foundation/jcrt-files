@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-giorgio-agamben-and-the-theory-of-civil-war-kalpokas/#article",
+  "name": "Review – Giorgio Agamben and the Theory of Civil War (Ignas Kalpokas)",
+  "headline": "Review – Giorgio Agamben and the Theory of Civil War (Ignas Kalpokas)",
+  "description": "Agamben, Giorgio. Stasis: Civil War as a Political Paradigm (Meridian: Crossing Aesthetics). Translated by Nicholas Heron Translated by Nicholas Heron.",
+  "url": "https://jcrt.org/religioustheory/posts/review-giorgio-agamben-and-the-theory-of-civil-war-kalpokas/",
+  "inLanguage": "en",
+  "datePublished": "2016-08-11",
+  "dateModified": "2016-08-11",
+  "image": "https://jcrt.org/images/2016/08/agamben.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Ignas Kalpokas"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-giorgio-agamben-and-the-theory-of-civil-war-kalpokas/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "e2d7yh"
+}

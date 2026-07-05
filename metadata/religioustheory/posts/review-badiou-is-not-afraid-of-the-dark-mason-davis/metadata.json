@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/review-badiou-is-not-afraid-of-the-dark-mason-davis/#article",
+  "name": "Review – Badiou Is Not Afraid of The Dark (Mason Davis)",
+  "headline": "Review – Badiou Is Not Afraid of The Dark (Mason Davis)",
+  "description": "Badiou, Alain. Black: The Brilliance of a Non-Color. Translated by Susan Spitzer. New Jersey: Polity, 2016. ISBN-10: 1509512071. Hardcover, paperback, e-book",
+  "url": "https://jcrt.org/religioustheory/posts/review-badiou-is-not-afraid-of-the-dark-mason-davis/",
+  "inLanguage": "en",
+  "datePublished": "2017-02-02",
+  "dateModified": "2017-02-02",
+  "image": "https://jcrt.org/images/2017/02/badiou.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Mason Davis"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/review-badiou-is-not-afraid-of-the-dark-mason-davis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "sjE2_n"
+}

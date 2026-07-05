@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/#article",
+  "name": "Traversing W.H. Auden’s Religious And Aesthetic States, Part 1 (Raji Singh Soni)",
+  "headline": "Traversing W.H. Auden’s Religious And Aesthetic States, Part 1 (Raji Singh Soni)",
+  "description": "The following is part one of an article that will be published in three successive installments. TRINCULO Servant-monster! The folly of this island!",
+  "url": "https://jcrt.org/religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/",
+  "inLanguage": "en",
+  "datePublished": "2017-07-28",
+  "dateModified": "2017-07-28",
+  "image": "https://jcrt.org/images/2017/07/pda44.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "2SryJK"
+}

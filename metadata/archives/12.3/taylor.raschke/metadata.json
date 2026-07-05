@@ -1,0 +1,47 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/12.3/taylor.raschke/#article",
+  "name": "From Alchemy to Revolution: a Conversation with Carl A. Raschke.",
+  "headline": "From Alchemy to Revolution: a Conversation with Carl A. Raschke.",
+  "description": "An interview of University of Denver's professor Carl A. Raschke that includes depiction of postmodern approaches in deconstruction literature; collaboration of diferent literary discourses in the",
+  "url": "https://jcrt.org/archives/12.3/taylor.raschke/",
+  "inLanguage": "en",
+  "datePublished": "1970-01-01",
+  "dateModified": "1970-01-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    },
+    {
+      "@type": "Person",
+      "name": "Victor Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/12.3/taylor.raschke/"
+  },
+  "abstract": "An interview of University of Denver's professor Carl A. Raschke that includes depiction of postmodern approaches in deconstruction literature; collaboration of diferent literary discourses in the",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "b8TNnu",
+  "volumeNumber": "12",
+  "issueNumber": "3",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/12.3/taylor.raschke.pdf"
+  }
+}

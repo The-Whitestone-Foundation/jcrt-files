@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane/#article",
+  "name": "Religious Sacrificial Sympathy- How Man Became More Valuable Than Beast (Kevin S. Grane)",
+  "headline": "Religious Sacrificial Sympathy- How Man Became More Valuable Than Beast (Kevin S. Grane)",
+  "description": "The religious attitude of the West today demonstrates a consumerist ethos that would have been deeply foreign to the religious discourse of old It highlights",
+  "url": "https://jcrt.org/religioustheory/posts/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane/",
+  "inLanguage": "en",
+  "datePublished": "2024-03-15",
+  "dateModified": "2024-03-15",
+  "image": "https://jcrt.org/images/2024/09/3725.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "pChT7U"
+}

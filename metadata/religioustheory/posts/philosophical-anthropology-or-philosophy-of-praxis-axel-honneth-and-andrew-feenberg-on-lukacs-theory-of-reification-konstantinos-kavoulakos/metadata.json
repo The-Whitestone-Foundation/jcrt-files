@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos/#article",
+  "name": "Philosophical Anthropology or Philosophy of Praxis? Axel Honneth and Andrew Feenberg on Lukács’ Theory of Reification (Konstantinos Kavoulakos)",
+  "headline": "Philosophical Anthropology or Philosophy of Praxis? Axel Honneth and Andrew Feenberg on Lukács’ Theory of Reification (Konstantinos Kavoulakos)",
+  "description": "Axel Honneth’s Reification. A New Look at an Old Idea (2008) and Andrew Feenberg’s Philosophy of Praxis (2014) represent two recent publications, which give a",
+  "url": "https://jcrt.org/religioustheory/posts/philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos/",
+  "inLanguage": "en",
+  "datePublished": "2017-03-15",
+  "dateModified": "2017-03-15",
+  "image": "https://jcrt.org/images/2017/03/lukacs-and-woman.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "95GXHB"
+}

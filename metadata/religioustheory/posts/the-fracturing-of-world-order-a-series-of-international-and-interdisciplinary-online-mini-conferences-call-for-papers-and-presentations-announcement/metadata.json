@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement/#article",
+  "name": "The Fracturing Of World Order – A Series of International and Interdisciplinary Online Mini-Conferences, Call For Papers And Presentations (Announcement)",
+  "headline": "The Fracturing Of World Order – A Series of International and Interdisciplinary Online Mini-Conferences, Call For Papers And Presentations (Announcement)",
+  "description": "The Journal for Cultural and Religious Theory and The New Polis in collaboration with representatives of the University of Denver announces a call for papers",
+  "url": "https://jcrt.org/religioustheory/posts/the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement/",
+  "inLanguage": "en",
+  "datePublished": "2022-03-10",
+  "dateModified": "2022-03-10",
+  "image": "https://jcrt.org/images/2022/03/crack-3364707_1280.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "editors"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "plYDeU"
+}

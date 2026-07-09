@@ -112,6 +112,8 @@ function applyCors(headers, request) {
   if (isTrustedOrigin(origin)) {
     headers.set('Access-Control-Allow-Origin', origin);
     headers.set('Vary', 'Origin');
+  } else {
+    headers.set('Access-Control-Allow-Origin', '*');
   }
 
   // R2 file-serving headers (byte-range, ETag) — kept separate from API CORS

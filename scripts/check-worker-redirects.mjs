@@ -12,6 +12,7 @@ const TRACKED_KEYS = new Set([
   "citations/archives/09.2/d'amato.csl.json",
   "archives/03.1/anderson.pdf",
   "metadata/archives/24.2/introduction/metadata.json",
+  "images/logos/site.webmanifest",
 ]);
 
 const env = {
@@ -111,6 +112,14 @@ const cases = [
     contentType: "application/ld+json; charset=utf-8",
   },
   {
+    name: "manifest allows deploy-preview CORS",
+    path: "/images/logos/site.webmanifest",
+    origin: "https://6a4f26f9215a240008997215--jcrt.netlify.app",
+    status: 200,
+    contentType: "application/manifest+json; charset=utf-8",
+    cors: "*",
+  },
+  {
     name: "missing metadata returns JSON 404",
     path: "/metadata/archives/99.9/not-real/metadata.json",
     status: 404,
@@ -131,7 +140,10 @@ const cases = [
 const failures = [];
 
 for (const testCase of cases) {
-  const request = new Request(`https://files.jcrt.org${testCase.path}`, { method: "GET" });
+  const request = new Request(`https://files.jcrt.org${testCase.path}`, {
+    method: "GET",
+    headers: testCase.origin ? { Origin: testCase.origin } : {},
+  });
   const response = await worker.fetch(request, env);
 
   if (response.status !== testCase.status) {
@@ -157,6 +169,13 @@ for (const testCase of cases) {
     const actual = response.headers.get("content-type");
     if (actual !== testCase.contentType) {
       failures.push(`${testCase.name}: expected Content-Type ${testCase.contentType}, got ${actual || "<none>"}`);
+    }
+  }
+
+  if (testCase.cors) {
+    const actual = response.headers.get("access-control-allow-origin");
+    if (actual !== testCase.cors) {
+      failures.push(`${testCase.name}: expected CORS ${testCase.cors}, got ${actual || "<none>"}`);
     }
   }
 }

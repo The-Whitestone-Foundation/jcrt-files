@@ -7,8 +7,8 @@
   "description": "Nothing whatsoever finally distinguishes death and life or crucifixion and resurrection, for crucifixion and resurrection are one event, and are that one event which is the full and final incarnation of I AM. Now I AM perishes as absolute otherness, and perishes as such in that final and total act which is the ultimate actualization of the eternal act of God, an actualization which is the ultimate actualization of life and death, and thus an eschatological actualization of the life and death of ",
   "url": "https://jcrt.org/archives/19.1/dise/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2020-01-01",
+  "dateModified": "2020-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/19.1/Dise.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Incarnation",
+      "termCode": "fst00968453",
+      "url": "https://id.worldcat.org/fast/968453",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Thomas, J. J.",
+      "termCode": "fst01474140",
+      "url": "https://id.worldcat.org/fast/1474140",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    }
+  ]
 }

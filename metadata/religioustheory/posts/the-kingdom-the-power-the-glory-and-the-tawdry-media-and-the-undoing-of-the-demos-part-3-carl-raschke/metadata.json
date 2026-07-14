@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "9M14K2"
+  "identifier": "9M14K2",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Capitalism",
+      "termCode": "fst00846425",
+      "url": "https://id.worldcat.org/fast/846425",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political science",
+      "termCode": "fst01069781",
+      "url": "https://id.worldcat.org/fast/1069781",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political theology",
+      "termCode": "fst01069899",
+      "url": "https://id.worldcat.org/fast/1069899",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

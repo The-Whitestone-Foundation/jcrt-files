@@ -31,5 +31,31 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "vfR2So"
+  "identifier": "vfR2So",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical race theory",
+      "termCode": "fst02022968",
+      "url": "https://id.worldcat.org/fast/2022968",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge, Theory of",
+      "termCode": "fst00988194",
+      "url": "https://id.worldcat.org/fast/988194",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "An essay is presented on the views of three philosophers on the relationship between being a linguistic agent and an ethical agent with regard to the philosophy of religion. These philosophers are Donald Davidson, Stanley Cavell, and Emmanuel Levinas. Other topics include how understanding language needs community conceptualization, the relationship between language and ethics, and skepticism.",
   "url": "https://jcrt.org/archives/14.2/shuster/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/shuster.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Skepticism",
+      "termCode": "fst01119940",
+      "url": "https://id.worldcat.org/fast/1119940",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

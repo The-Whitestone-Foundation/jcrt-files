@@ -7,8 +7,8 @@
   "description": "Since its inception, phenomenology has been a forceful power against scientism and positivism. For this reason, among others, it has the capacity to give us tools to develop nuanced understandings of religion and to see beyond what Heidegger called onto-theology, i.e., the understanding of the divine as a highest being and as an object of thought on the one hand, and on the other hand, being as a generality. But it has not given us the same nuanced understanding of the secular society. Perhaps t",
   "url": "https://jcrt.org/archives/17.2/bornemark/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,43 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/17.2/Bornemark.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Phenomenology",
+      "termCode": "fst01060522",
+      "url": "https://id.worldcat.org/fast/1060522",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Scientism",
+      "termCode": "fst01108891",
+      "url": "https://id.worldcat.org/fast/1108891",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Secularism",
+      "termCode": "fst01110732",
+      "url": "https://id.worldcat.org/fast/1110732",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

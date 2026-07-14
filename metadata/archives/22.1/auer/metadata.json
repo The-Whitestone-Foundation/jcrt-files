@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/22.1/auer/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2023-01-01",
+  "dateModified": "2023-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,103 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/22.1/Auer.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Choice (Psychology)",
+      "termCode": "fst00858327",
+      "url": "https://id.worldcat.org/fast/858327",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Death",
+      "termCode": "fst00888613",
+      "url": "https://id.worldcat.org/fast/888613",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Health",
+      "termCode": "fst00952743",
+      "url": "https://id.worldcat.org/fast/952743",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Medicine Philosophy",
+      "termCode": "fst01015007",
+      "url": "https://id.worldcat.org/fast/1015007",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophical anthropology",
+      "termCode": "fst01060766",
+      "url": "https://id.worldcat.org/fast/1060766",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Quality of life",
+      "termCode": "fst01085009",
+      "url": "https://id.worldcat.org/fast/1085009",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Risk assessment",
+      "termCode": "fst01098146",
+      "url": "https://id.worldcat.org/fast/1098146",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social history",
+      "termCode": "fst01122498",
+      "url": "https://id.worldcat.org/fast/1122498",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "The misery of the 20 th century has indelibly rendered evil the least academic of problems in transforming its enigma into one of the more urgent questions for philosophical reflection in our times, and for some, for all time. As widely acknowledged, the phenomenon of evil poses a fundamental challenge for philosophy as well as theology. Significant is less the acknowledgment of this challenge per se, but the manner in which this challenge is accepted and met:",
   "url": "https://jcrt.org/archives/17.2/dewarren/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/17.2/DeWarren.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "National socialism",
+      "termCode": "fst01033761",
+      "url": "https://id.worldcat.org/fast/1033761",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theology",
+      "termCode": "fst01149559",
+      "url": "https://id.worldcat.org/fast/1149559",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

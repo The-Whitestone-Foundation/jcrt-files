@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "gHpOUq"
+  "identifier": "gHpOUq",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Community",
+      "termCode": "fst00870635",
+      "url": "https://id.worldcat.org/fast/870635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontology",
+      "termCode": "fst01045995",
+      "url": "https://id.worldcat.org/fast/1045995",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Reviews",
+      "termCode": "fst01423760",
+      "url": "https://id.worldcat.org/fast/1423760",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "form-genre"
+      }
+    }
+  ]
 }

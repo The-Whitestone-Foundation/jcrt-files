@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/06.1/brogan/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2004-01-01",
+  "dateModified": "2004-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,79 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/06.1/brogan.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Judaism and philosophy",
+      "termCode": "fst00984437",
+      "url": "https://id.worldcat.org/fast/984437",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Judaism Study and teaching",
+      "termCode": "fst00984412",
+      "url": "https://id.worldcat.org/fast/984412",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mauritius",
+      "termCode": "fst01205325",
+      "url": "https://id.worldcat.org/fast/1205325",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Other (Philosophy)",
+      "termCode": "fst01048904",
+      "url": "https://id.worldcat.org/fast/1048904",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious ethics",
+      "termCode": "fst01094052",
+      "url": "https://id.worldcat.org/fast/1094052",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theology Methodology",
+      "termCode": "fst01149580",
+      "url": "https://id.worldcat.org/fast/1149580",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

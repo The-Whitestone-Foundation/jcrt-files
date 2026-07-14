@@ -31,5 +31,55 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "YBZSdl"
+  "identifier": "YBZSdl",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Hospitality",
+      "termCode": "fst00961114",
+      "url": "https://id.worldcat.org/fast/961114",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Multiculturalism",
+      "termCode": "fst01028836",
+      "url": "https://id.worldcat.org/fast/1028836",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion and literature",
+      "termCode": "fst01093839",
+      "url": "https://id.worldcat.org/fast/1093839",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Toleration",
+      "termCode": "fst01152232",
+      "url": "https://id.worldcat.org/fast/1152232",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

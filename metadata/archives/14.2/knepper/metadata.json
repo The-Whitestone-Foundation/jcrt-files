@@ -7,8 +7,8 @@
   "description": "The article examines mashups as a metaphor for conceptualizing philosophy of religion (PoR). The limitations of the mashup metaphor is explored as well as a critical inquiry method neglected by the mashup metaphor. It offers information on mashup music and proposes a metaphor that fosters productive thinking of PoR. Other topics include the diversity of religious phenomena, the analytic and continental modes of inquiry, and modern PoR.",
   "url": "https://jcrt.org/archives/14.2/knepper/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,43 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/knepper.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical thinking",
+      "termCode": "fst00883692",
+      "url": "https://id.worldcat.org/fast/883692",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Metaphor",
+      "termCode": "fst01018283",
+      "url": "https://id.worldcat.org/fast/1018283",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

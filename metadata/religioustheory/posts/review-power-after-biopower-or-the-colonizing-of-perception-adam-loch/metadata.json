@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "TE21C-"
+  "identifier": "TE21C-",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Logic",
+      "termCode": "fst01002014",
+      "url": "https://id.worldcat.org/fast/1002014",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perception",
+      "termCode": "fst01057622",
+      "url": "https://id.worldcat.org/fast/1057622",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Reviews",
+      "termCode": "fst01423760",
+      "url": "https://id.worldcat.org/fast/1423760",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "form-genre"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/18.1/spickard/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,5 +35,43 @@
   "identifier": "qkwrYv",
   "volumeNumber": "18",
   "issueNumber": "1",
-  "pagination": "138-155"
+  "pagination": "138-155",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethnology",
+      "termCode": "fst00916106",
+      "url": "https://id.worldcat.org/fast/916106",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Journalism",
+      "termCode": "fst00984032",
+      "url": "https://id.worldcat.org/fast/984032",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social advocacy",
+      "termCode": "fst01122271",
+      "url": "https://id.worldcat.org/fast/1122271",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

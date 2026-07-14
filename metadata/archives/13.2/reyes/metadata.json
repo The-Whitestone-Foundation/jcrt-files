@@ -7,8 +7,8 @@
   "description": "The article discusses the evolution of the zombie in mainstream and gay films, its challenge to the traditional identification of zombies and homosexuals, and gay zombies to show issues faced in coming out or accepting one's sexuality, and social violence experienced by most homosexuals.",
   "url": "https://jcrt.org/archives/13.2/reyes/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2014-01-01",
+  "dateModified": "2014-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/13.2/reyes.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Homosexuality in motion pictures",
+      "termCode": "fst00959829",
+      "url": "https://id.worldcat.org/fast/959829",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Zombie films",
+      "termCode": "fst01184593",
+      "url": "https://id.worldcat.org/fast/1184593",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

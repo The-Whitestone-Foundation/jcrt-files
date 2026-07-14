@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "7cLIQT"
+  "identifier": "7cLIQT",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Community",
+      "termCode": "fst00870635",
+      "url": "https://id.worldcat.org/fast/870635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Justice",
+      "termCode": "fst00985122",
+      "url": "https://id.worldcat.org/fast/985122",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sikhism",
+      "termCode": "fst01118413",
+      "url": "https://id.worldcat.org/fast/1118413",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

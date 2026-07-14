@@ -7,8 +7,8 @@
   "description": "An essay is presented on modern English-language philosophy of religion (PoR) with regard to its possible mashup with other disciplines and as a specialized discussion within philosophy. Topics include critical thinking, a mousetrap analogy that supports the theory that a theistic God exists, and the need for PoR to be transformed and reject classical theism. Also discussed are typical introductory religious studies classroom and introductory approaches of books and scholarly journals.",
   "url": "https://jcrt.org/archives/14.2/loewen/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,79 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/loewen.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical thinking",
+      "termCode": "fst00883692",
+      "url": "https://id.worldcat.org/fast/883692",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "God",
+      "termCode": "fst00944037",
+      "url": "https://id.worldcat.org/fast/944037",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy",
+      "termCode": "fst01060777",
+      "url": "https://id.worldcat.org/fast/1060777",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Scholarly periodicals",
+      "termCode": "fst01106855",
+      "url": "https://id.worldcat.org/fast/1106855",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theism",
+      "termCode": "fst01149471",
+      "url": "https://id.worldcat.org/fast/1149471",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

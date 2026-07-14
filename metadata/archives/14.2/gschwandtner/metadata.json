@@ -7,8 +7,8 @@
   "description": "The article presents the author's views on faith with regard to whether it is belief or practice and situates it within the philosophy of religion. The differences between analytical and continental methods of philosophical analysis are discussed as well as faith as a social phenomenon. Other topics include religious language, the conflict between faith and reason, and the features of saintliness.",
   "url": "https://jcrt.org/archives/14.2/gschwandtner/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/gschwandtner.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Analysis (Philosophy)",
+      "termCode": "fst00808323",
+      "url": "https://id.worldcat.org/fast/808323",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Faith",
+      "termCode": "fst01198492",
+      "url": "https://id.worldcat.org/fast/1198492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Logic",
+      "termCode": "fst01002014",
+      "url": "https://id.worldcat.org/fast/1002014",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Saints",
+      "termCode": "fst01103658",
+      "url": "https://id.worldcat.org/fast/1103658",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

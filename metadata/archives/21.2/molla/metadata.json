@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/21.2/molla/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2022-01-01",
+  "dateModified": "2022-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,67 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/21.2/Molla.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "African-instituted churches",
+      "termCode": "fst01775610",
+      "url": "https://id.worldcat.org/fast/1775610",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Christianity and culture",
+      "termCode": "fst00859660",
+      "url": "https://id.worldcat.org/fast/859660",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethiopia",
+      "termCode": "fst01205830",
+      "url": "https://id.worldcat.org/fast/1205830",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Evangelical Church Mekane Yesus",
+      "termCode": "fst00624398",
+      "url": "https://id.worldcat.org/fast/624398",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theology, Doctrinal",
+      "termCode": "fst01149617",
+      "url": "https://id.worldcat.org/fast/1149617",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

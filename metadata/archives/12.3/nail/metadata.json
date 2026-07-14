@@ -7,8 +7,8 @@
   "description": "The article focuses on analysis of Occupy protest movement initiation conditions that includes consideration of theorist over an origin of the movement through alter-globalization movements; analysis of practical influence of Zapatistas over Occupy; and analysis of horizontalism conditions.",
   "url": "https://jcrt.org/archives/12.3/nail/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2013-01-01",
+  "dateModified": "2013-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.3/nail.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Anti-globalization movement",
+      "termCode": "fst00810338",
+      "url": "https://id.worldcat.org/fast/810338",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ejército Zapatista de Liberación Nacional (Mexico)",
+      "termCode": "fst00699014",
+      "url": "https://id.worldcat.org/fast/699014",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    }
+  ]
 }

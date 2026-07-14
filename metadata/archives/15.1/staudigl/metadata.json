@@ -7,8 +7,8 @@
   "description": "The article examines the deconstructive focus of French philosopher Jacques Derrida (1930-2004) on the gift's purity and the aporia this entails and the discussion of primacy of givenness in phenomenology of religion.",
   "url": "https://jcrt.org/archives/15.1/staudigl/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/15.1/staudigl.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Gifts, Spiritual",
+      "termCode": "fst00942667",
+      "url": "https://id.worldcat.org/fast/942667",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

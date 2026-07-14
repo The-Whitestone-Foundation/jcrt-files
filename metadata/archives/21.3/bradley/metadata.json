@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/21.3/bradley/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2022-01-01",
+  "dateModified": "2022-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,5 +35,43 @@
   "identifier": "_eBZ2y",
   "volumeNumber": "21",
   "issueNumber": "3",
-  "pagination": "436-439"
+  "pagination": "436-439",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Crypto-Jews",
+      "termCode": "fst01765216",
+      "url": "https://id.worldcat.org/fast/1765216",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political science Philosophy",
+      "termCode": "fst01069819",
+      "url": "https://id.worldcat.org/fast/1069819",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Violence Philosophy",
+      "termCode": "fst01167235",
+      "url": "https://id.worldcat.org/fast/1167235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

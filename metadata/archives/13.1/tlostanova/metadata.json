@@ -7,8 +7,8 @@
   "description": "The author shows the decolonial option as a pluriverse wherein even the colonial itself and the legacy of imperialism must be interrogated according to specific contours and locales.",
   "url": "https://jcrt.org/archives/13.1/tlostanova/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2014-01-01",
+  "dateModified": "2014-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/13.1/tlostanova.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Colonies",
+      "termCode": "fst00868456",
+      "url": "https://id.worldcat.org/fast/868456",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Imperialism",
+      "termCode": "fst00968126",
+      "url": "https://id.worldcat.org/fast/968126",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

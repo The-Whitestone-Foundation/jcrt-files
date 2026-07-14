@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/08.1/mejido/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2006-01-01",
+  "dateModified": "2006-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -34,5 +34,67 @@
   },
   "identifier": "x8juwY",
   "volumeNumber": "8",
-  "issueNumber": "1"
+  "issueNumber": "1",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Frankfurt school of sociology",
+      "termCode": "fst00933734",
+      "url": "https://id.worldcat.org/fast/933734",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "History Religious aspects Christianity",
+      "termCode": "fst00958274",
+      "url": "https://id.worldcat.org/fast/958274",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Liberation theology",
+      "termCode": "fst00997211",
+      "url": "https://id.worldcat.org/fast/997211",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis and religion",
+      "termCode": "fst01081280",
+      "url": "https://id.worldcat.org/fast/1081280",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

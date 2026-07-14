@@ -31,5 +31,31 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "s2SBXf"
+  "identifier": "s2SBXf",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Creation",
+      "termCode": "fst00882382",
+      "url": "https://id.worldcat.org/fast/882382",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophical theology",
+      "termCode": "fst01060773",
+      "url": "https://id.worldcat.org/fast/1060773",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

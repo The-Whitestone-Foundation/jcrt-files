@@ -7,8 +7,8 @@
   "description": "An essay is presented on the philosophy of religion (PoR) with regard to two orientations to the subject. These orientations are the claim that the PoR's purpose is to promote a set of absolute moral norms and the claim that the field aims to determine whether religious communities' practices are true. Also explored are the tendency of the PoR to enable a thinking subject to make true claims, the mashup PoR, and the canon of modern PoR.",
   "url": "https://jcrt.org/archives/14.2/kavka/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/kavka.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Humanism, Religious",
+      "termCode": "fst00963530",
+      "url": "https://id.worldcat.org/fast/963530",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious communities",
+      "termCode": "fst01093964",
+      "url": "https://id.worldcat.org/fast/1093964",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

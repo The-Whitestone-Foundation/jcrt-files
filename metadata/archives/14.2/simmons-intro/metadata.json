@@ -7,8 +7,8 @@
   "description": "An introduction is presented in which the editor discusses various reports within the issue on topics including the concept of mashup philosophy of religion, mashup music, and the challlenges that mashup philosophy might face as of March 2015.",
   "url": "https://jcrt.org/archives/14.2/simmons-intro/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/simmons-intro.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

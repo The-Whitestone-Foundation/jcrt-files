@@ -7,8 +7,8 @@
   "description": "The author explains how she applies the principles of transformative pedagogy described in the writings of Brazilian educator Paulo Freire in teaching ethics to American college students. She relates that rather than striving to indoctrinate her students with her own values, she employs the spiral of theory and praxis to come up with experiential learning activities that will help them think about how their actions could have a positive or negative impact on the communities in which they live.",
   "url": "https://jcrt.org/archives/12.2/peters/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2012-01-01",
+  "dateModified": "2012-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,163 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.2/peters.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Active learning",
+      "termCode": "fst00796275",
+      "url": "https://id.worldcat.org/fast/796275",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Brazil",
+      "termCode": "fst01206830",
+      "url": "https://id.worldcat.org/fast/1206830",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "College students",
+      "termCode": "fst00867976",
+      "url": "https://id.worldcat.org/fast/867976",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Experimental methods",
+      "termCode": "fst00902632",
+      "url": "https://id.worldcat.org/fast/902632",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Philosophy",
+      "termCode": "fst00902721",
+      "url": "https://id.worldcat.org/fast/902721",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Educational anthropology",
+      "termCode": "fst00903334",
+      "url": "https://id.worldcat.org/fast/903334",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Educational sociology",
+      "termCode": "fst00903596",
+      "url": "https://id.worldcat.org/fast/903596",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Experiential learning",
+      "termCode": "fst00918393",
+      "url": "https://id.worldcat.org/fast/918393",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Liberation theology",
+      "termCode": "fst00997211",
+      "url": "https://id.worldcat.org/fast/997211",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Moral education",
+      "termCode": "fst01026058",
+      "url": "https://id.worldcat.org/fast/1026058",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social change",
+      "termCode": "fst01122310",
+      "url": "https://id.worldcat.org/fast/1122310",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social justice",
+      "termCode": "fst01122603",
+      "url": "https://id.worldcat.org/fast/1122603",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Transformative learning",
+      "termCode": "fst01743611",
+      "url": "https://id.worldcat.org/fast/1743611",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

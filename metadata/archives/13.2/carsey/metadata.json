@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/13.2/carsey/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2014-01-01",
+  "dateModified": "2014-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,5 +35,19 @@
   "identifier": "VNS5gY",
   "volumeNumber": "13",
   "issueNumber": "2",
-  "pagination": "132-137"
+  "pagination": "132-137",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Women Religion",
+      "termCode": "fst01176908",
+      "url": "https://id.worldcat.org/fast/1176908",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "5GwPEk"
+  "identifier": "5GwPEk",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Dignity",
+      "termCode": "fst00893760",
+      "url": "https://id.worldcat.org/fast/893760",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

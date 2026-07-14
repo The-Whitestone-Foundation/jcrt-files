@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "t6j0u6"
+  "identifier": "t6j0u6",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Hasidism",
+      "termCode": "fst00951808",
+      "url": "https://id.worldcat.org/fast/951808",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/21.3/simon/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2022-01-01",
+  "dateModified": "2022-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/21.3/Simon.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Church of Jesus Christ of Latter-day Saints",
+      "termCode": "fst00549691",
+      "url": "https://id.worldcat.org/fast/549691",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethnohistory",
+      "termCode": "fst00916090",
+      "url": "https://id.worldcat.org/fast/916090",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

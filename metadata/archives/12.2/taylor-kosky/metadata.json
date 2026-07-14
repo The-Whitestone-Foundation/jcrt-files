@@ -7,8 +7,8 @@
   "description": "An interview with U.S. educator and philosopher of religion Mark C. Taylor on the continuing relevance of pedagogy in the 21st century is presented. Taylor observes that the existing model for university, first conceived by German philosopher Immanuel Kant, is becoming obsolete with the increasing cost of higher education. However, he believes that liberal arts education is more valuable than ever since it allows students to learn more about cultures and traditions different from their own.",
   "url": "https://jcrt.org/archives/12.2/taylor-kosky/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2012-01-01",
+  "dateModified": "2012-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -43,5 +43,163 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.2/taylor-kosky.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Apprentices",
+      "termCode": "fst00811788",
+      "url": "https://id.worldcat.org/fast/811788",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education",
+      "termCode": "fst00902499",
+      "url": "https://id.worldcat.org/fast/902499",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Finance",
+      "termCode": "fst00902637",
+      "url": "https://id.worldcat.org/fast/902637",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Philosophy",
+      "termCode": "fst00902721",
+      "url": "https://id.worldcat.org/fast/902721",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Study and teaching",
+      "termCode": "fst00902796",
+      "url": "https://id.worldcat.org/fast/902796",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education, Higher",
+      "termCode": "fst00903005",
+      "url": "https://id.worldcat.org/fast/903005",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Educational technology",
+      "termCode": "fst00903623",
+      "url": "https://id.worldcat.org/fast/903623",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Educators",
+      "termCode": "fst00903702",
+      "url": "https://id.worldcat.org/fast/903702",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Teacher-student relationships",
+      "termCode": "fst01144236",
+      "url": "https://id.worldcat.org/fast/1144236",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "United States",
+      "termCode": "fst01204155",
+      "url": "https://id.worldcat.org/fast/1204155",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Universities and colleges",
+      "termCode": "fst01161597",
+      "url": "https://id.worldcat.org/fast/1161597",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Universities and colleges Evaluation",
+      "termCode": "fst01161730",
+      "url": "https://id.worldcat.org/fast/1161730",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Vocation",
+      "termCode": "fst01168466",
+      "url": "https://id.worldcat.org/fast/1168466",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

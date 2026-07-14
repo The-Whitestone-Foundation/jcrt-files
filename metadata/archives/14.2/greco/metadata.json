@@ -7,8 +7,8 @@
   "description": "The article presents the author's views on dispositions, habits and virtues, highlighting the essays by Jack Mulder on philosopher Soren Kierkegaard's heritage on continental philosophy and Michael Kelly on the differences between emulation and envy. Also discussed are philosopher Aristotle's beliefs on habit and virtue, Mulder's claim that love is not a static property, and Kierkegaard's argument that love is unconditional.",
   "url": "https://jcrt.org/archives/14.2/greco/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/greco.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Disposition (Philosophy)",
+      "termCode": "fst00895370",
+      "url": "https://id.worldcat.org/fast/895370",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Envy",
+      "termCode": "fst00913583",
+      "url": "https://id.worldcat.org/fast/913583",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Habit",
+      "termCode": "fst00950030",
+      "url": "https://id.worldcat.org/fast/950030",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Virtues",
+      "termCode": "fst01167724",
+      "url": "https://id.worldcat.org/fast/1167724",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

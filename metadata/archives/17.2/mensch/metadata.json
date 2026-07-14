@@ -7,8 +7,8 @@
   "description": "The religions of the book, Islam, Christianity, and Judaism, all accept the Mosaic Pentateuch. They thus share the belief, expressed in Genesis, in a God who fashioned the world. From this belief they draw two very different lessons. The first is a universal claim drawn from the conception of a unique creator of the universe. They assert that the laws that express his creative will are all-encompassing. Philosophically, this translates into a sense that things are",
   "url": "https://jcrt.org/archives/17.2/mensch/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/17.2/Mensch.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Bible. Genesis",
+      "termCode": "fst01808046",
+      "url": "https://id.worldcat.org/fast/1808046",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

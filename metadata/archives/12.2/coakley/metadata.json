@@ -7,8 +7,8 @@
   "description": "An interview with American theologian Sarah Coakley on how spiritual practices like silent prayer inform her pedagogical practice is presented. Coakley shares that while she tries to make time for silent prayer amidst her numerous teaching commitments, such practices must not be included as a requirement in theological courses. Citing George Steiner's comments on the eroticism inherent in the teacher-student relationship, she warns theology teachers to be on guard against self-aggrandizement.",
   "url": "https://jcrt.org/archives/12.2/coakley/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2012-01-01",
+  "dateModified": "2012-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -43,5 +43,91 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.2/coakley.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Education Philosophy",
+      "termCode": "fst00902721",
+      "url": "https://id.worldcat.org/fast/902721",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Erotica",
+      "termCode": "fst00915007",
+      "url": "https://id.worldcat.org/fast/915007",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Prayer",
+      "termCode": "fst01074680",
+      "url": "https://id.worldcat.org/fast/1074680",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious educators",
+      "termCode": "fst01094048",
+      "url": "https://id.worldcat.org/fast/1094048",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Silence",
+      "termCode": "fst01118516",
+      "url": "https://id.worldcat.org/fast/1118516",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spiritual exercises",
+      "termCode": "fst01130077",
+      "url": "https://id.worldcat.org/fast/1130077",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "United States",
+      "termCode": "fst01204155",
+      "url": "https://id.worldcat.org/fast/1204155",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    }
+  ]
 }

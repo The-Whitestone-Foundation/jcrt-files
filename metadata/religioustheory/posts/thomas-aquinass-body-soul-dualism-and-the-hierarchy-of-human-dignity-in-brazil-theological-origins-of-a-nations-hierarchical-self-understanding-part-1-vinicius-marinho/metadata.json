@@ -31,5 +31,31 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "SQr74x"
+  "identifier": "SQr74x",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Dignity",
+      "termCode": "fst00893760",
+      "url": "https://id.worldcat.org/fast/893760",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postcolonialism",
+      "termCode": "fst01073032",
+      "url": "https://id.worldcat.org/fast/1073032",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

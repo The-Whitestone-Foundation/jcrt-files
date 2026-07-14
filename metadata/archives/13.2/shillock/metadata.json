@@ -7,8 +7,8 @@
   "description": "An essay on the association of zombies with commercials, particularly in the television (TV) series",
   "url": "https://jcrt.org/archives/13.2/shillock/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2014-01-01",
+  "dateModified": "2014-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/13.2/shillock.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Walking dead (Kirkman, Robert)",
+      "termCode": "fst01938236",
+      "url": "https://id.worldcat.org/fast/1938236",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Zombies in popular culture",
+      "termCode": "fst01919529",
+      "url": "https://id.worldcat.org/fast/1919529",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

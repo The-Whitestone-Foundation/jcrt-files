@@ -7,8 +7,8 @@
   "description": "Vahanian - Rebellious No - JCRT 1.2",
   "url": "https://jcrt.org/archives/01.2/nvahanian/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2000-01-01",
+  "dateModified": "2000-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -34,5 +34,43 @@
   },
   "identifier": "HiJKhL",
   "volumeNumber": "1",
-  "issueNumber": "2"
+  "issueNumber": "2",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Cosmology",
+      "termCode": "fst00880600",
+      "url": "https://id.worldcat.org/fast/880600",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Emotions",
+      "termCode": "fst00908819",
+      "url": "https://id.worldcat.org/fast/908819",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Language and languages Philosophy",
+      "termCode": "fst00992193",
+      "url": "https://id.worldcat.org/fast/992193",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

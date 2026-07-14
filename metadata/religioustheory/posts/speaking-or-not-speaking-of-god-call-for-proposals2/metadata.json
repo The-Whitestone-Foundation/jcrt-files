@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "bVH1hs"
+  "identifier": "bVH1hs",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Dialectic",
+      "termCode": "fst00892462",
+      "url": "https://id.worldcat.org/fast/892462",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "Author Note: The authors of this article take the position that the Judeo-Christian heritage is dominated by the teachings of Jesus. Consequently, all Christian belief systems reflect similar ideas about the nature of reality. This Christian philosophy of life shapes attitudes that believers have about themselves, their relationship with others, and appropriate responses to crises and adversity. By analyzing the teachings of Jesus, seven main themes emerged. The authors are able to show that all",
   "url": "https://jcrt.org/archives/18.3/roberts_hayden/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2019-01-01",
+  "dateModified": "2019-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -44,5 +44,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/18.3/robertsandhayden.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Christian philosophy",
+      "termCode": "fst01746483",
+      "url": "https://id.worldcat.org/fast/1746483",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mental health",
+      "termCode": "fst01016339",
+      "url": "https://id.worldcat.org/fast/1016339",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

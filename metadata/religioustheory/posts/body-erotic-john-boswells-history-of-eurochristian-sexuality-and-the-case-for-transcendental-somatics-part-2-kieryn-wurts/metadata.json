@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "cOMJ1x"
+  "identifier": "cOMJ1x",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "History",
+      "termCode": "fst00958235",
+      "url": "https://id.worldcat.org/fast/958235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sex",
+      "termCode": "fst01114160",
+      "url": "https://id.worldcat.org/fast/1114160",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gender studies",
+      "termCode": "homoit0000579",
+      "url": "https://homosaurus.org/v5/homoit0000579",
+      "inDefinedTermSet": "https://homosaurus.org/v5",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

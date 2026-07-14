@@ -31,5 +31,31 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "haHtfr"
+  "identifier": "haHtfr",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Creation",
+      "termCode": "fst00882382",
+      "url": "https://id.worldcat.org/fast/882382",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Holiness",
+      "termCode": "fst00958754",
+      "url": "https://id.worldcat.org/fast/958754",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

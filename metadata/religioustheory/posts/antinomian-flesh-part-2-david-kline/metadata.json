@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "TX7MMM"
+  "identifier": "TX7MMM",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Race Religious aspects",
+      "termCode": "fst01086444",
+      "url": "https://id.worldcat.org/fast/1086444",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

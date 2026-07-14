@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "e1tnx5"
+  "identifier": "e1tnx5",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Imagination",
+      "termCode": "fst00967585",
+      "url": "https://id.worldcat.org/fast/967585",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

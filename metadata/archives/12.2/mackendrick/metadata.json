@@ -7,8 +7,8 @@
   "description": "The author calls attention to the fracturing of temporality caused by the distractions that go hand-in-hand with 21st century life, which she claims has had a detrimental impact on the ability of students to apply themselves to activities requiring close textual attention. Thus, she urges educators to adapt some of the practices of medieval monastic communities in the modern classroom by modeling to their students the pleasures involved in attending to texts in a focused yet sensual manner.",
   "url": "https://jcrt.org/archives/12.2/mackendrick/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2012-01-01",
+  "dateModified": "2012-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.2/mackendrick.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Classroom environment",
+      "termCode": "fst00863720",
+      "url": "https://id.worldcat.org/fast/863720",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Education",
+      "termCode": "fst00902499",
+      "url": "https://id.worldcat.org/fast/902499",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Educators",
+      "termCode": "fst00903702",
+      "url": "https://id.worldcat.org/fast/903702",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Students",
+      "termCode": "fst01136041",
+      "url": "https://id.worldcat.org/fast/1136041",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

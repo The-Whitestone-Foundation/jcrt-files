@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/18.1/sharma/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,5 +35,31 @@
   "identifier": "kQ8mML",
   "volumeNumber": "18",
   "issueNumber": "1",
-  "pagination": "121-137"
+  "pagination": "121-137",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Bharatiya Janata Party",
+      "termCode": "fst00572840",
+      "url": "https://id.worldcat.org/fast/572840",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Institutionalism (Religion)",
+      "termCode": "fst00974321",
+      "url": "https://id.worldcat.org/fast/974321",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

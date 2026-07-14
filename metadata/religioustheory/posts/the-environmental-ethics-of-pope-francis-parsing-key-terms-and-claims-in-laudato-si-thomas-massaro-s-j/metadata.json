@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "jScoJy"
+  "identifier": "jScoJy",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ecology",
+      "termCode": "fst00901476",
+      "url": "https://id.worldcat.org/fast/901476",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

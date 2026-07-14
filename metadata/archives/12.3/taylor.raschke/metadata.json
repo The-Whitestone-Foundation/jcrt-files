@@ -7,8 +7,8 @@
   "description": "An interview of University of Denver's professor Carl A. Raschke that includes depiction of postmodern approaches in deconstruction literature; collaboration of diferent literary discourses in the",
   "url": "https://jcrt.org/archives/12.3/taylor.raschke/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2013-01-01",
+  "dateModified": "2013-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -43,5 +43,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.3/taylor.raschke.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism (Literature)",
+      "termCode": "fst01073181",
+      "url": "https://id.worldcat.org/fast/1073181",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

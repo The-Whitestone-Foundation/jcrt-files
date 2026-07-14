@@ -7,8 +7,8 @@
   "description": "Liebe deinen Nächsten. Love your neighbor. The 2013 FPÖ candidate for chancellor of Austria, H.C. Strache, was sharply criticized for the politicization of the command of love in the service of a political agenda that insinuated the governmental",
   "url": "https://jcrt.org/archives/17.2/alvis/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2018-01-01",
+  "dateModified": "2018-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,31 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/17.2/Alvis.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Love",
+      "termCode": "fst01002769",
+      "url": "https://id.worldcat.org/fast/1002769",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Politics, Practical",
+      "termCode": "fst01069977",
+      "url": "https://id.worldcat.org/fast/1069977",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

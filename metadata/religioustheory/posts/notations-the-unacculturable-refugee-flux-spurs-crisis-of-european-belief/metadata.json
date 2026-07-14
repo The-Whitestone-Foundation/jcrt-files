@@ -31,5 +31,19 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "daSSmk"
+  "identifier": "daSSmk",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Reality",
+      "termCode": "fst01091244",
+      "url": "https://id.worldcat.org/fast/1091244",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

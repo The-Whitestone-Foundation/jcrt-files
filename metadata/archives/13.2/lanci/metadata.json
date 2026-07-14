@@ -7,8 +7,8 @@
   "description": "An essay on the collapse of civilization featured in contemporary zombie narratives and emergence of fast zombies, based on the analysis of neoliberal economics by the late philosopher Michel Foucault, in films",
   "url": "https://jcrt.org/archives/13.2/lanci/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2014-01-01",
+  "dateModified": "2014-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/13.2/lanci.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Zombies",
+      "termCode": "fst01184595",
+      "url": "https://id.worldcat.org/fast/1184595",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

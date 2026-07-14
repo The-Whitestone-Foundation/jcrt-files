@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "cN1e_S"
+  "identifier": "cN1e_S",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Anthropology of religion",
+      "termCode": "fst01738842",
+      "url": "https://id.worldcat.org/fast/1738842",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Music",
+      "termCode": "fst01030269",
+      "url": "https://id.worldcat.org/fast/1030269",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Worship",
+      "termCode": "fst01181450",
+      "url": "https://id.worldcat.org/fast/1181450",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -7,8 +7,8 @@
   "description": "The article examines the role of deep time in motivating epistemic humility with regard to humans' place in time. Modernism and postmodernism are discussed which are two forms of the philosophy and situates them within the philosophy of religion. An overview of deep time is provided and explores the positive and negative aspects of modernism and post modernism. Also tackled are pessimism and optimism, intellectual humility and consilience, and continental and analytic religious philosophy.",
   "url": "https://jcrt.org/archives/14.2/schellenberg/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +40,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/schellenberg.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Humility",
+      "termCode": "fst00963699",
+      "url": "https://id.worldcat.org/fast/963699",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Modernism (Christian theology)",
+      "termCode": "fst01024448",
+      "url": "https://id.worldcat.org/fast/1024448",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pessimism",
+      "termCode": "fst01058963",
+      "url": "https://id.worldcat.org/fast/1058963",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

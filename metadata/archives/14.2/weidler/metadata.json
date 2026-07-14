@@ -7,8 +7,8 @@
   "description": "An essay is presented on philosopher Slavoj Žižek's promotion of the need to examine the ethical aspects of religious online communication and on professor Robert Glenn Howard's case study, Digital Jesus. It compares both philosophers views on religious online communication and examines the role mashup philosophy of religion on the use of religious language in faith and politics. Also discussed is the nexus between immoralism, extremism, literalism, and dogmatism.",
   "url": "https://jcrt.org/archives/14.2/weidler/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,5 +39,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.2/weidler.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophers",
+      "termCode": "fst01060746",
+      "url": "https://id.worldcat.org/fast/1060746",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

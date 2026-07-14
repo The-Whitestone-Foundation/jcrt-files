@@ -31,5 +31,43 @@
     "name": "Religious Theory",
     "url": "https://jcrt.org/religioustheory/"
   },
-  "identifier": "oI7GQs"
+  "identifier": "oI7GQs",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Cults",
+      "termCode": "fst00884980",
+      "url": "https://id.worldcat.org/fast/884980",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Panic",
+      "termCode": "fst01052112",
+      "url": "https://id.worldcat.org/fast/1052112",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Satanism",
+      "termCode": "fst01105622",
+      "url": "https://id.worldcat.org/fast/1105622",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

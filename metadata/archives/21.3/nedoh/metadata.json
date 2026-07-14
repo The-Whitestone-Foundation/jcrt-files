@@ -7,8 +7,8 @@
   "description": "",
   "url": "https://jcrt.org/archives/21.3/nedoh/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2022-01-01",
+  "dateModified": "2022-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,5 +35,55 @@
   "identifier": "KRCoS1",
   "volumeNumber": "21",
   "issueNumber": "3",
-  "pagination": "440-447"
+  "pagination": "440-447",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Memory (Philosophy)",
+      "termCode": "fst01015945",
+      "url": "https://id.worldcat.org/fast/1015945",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nothing (Philosophy)",
+      "termCode": "fst01039602",
+      "url": "https://id.worldcat.org/fast/1039602",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political theology",
+      "termCode": "fst01069899",
+      "url": "https://id.worldcat.org/fast/1069899",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social psychology",
+      "termCode": "fst01122816",
+      "url": "https://id.worldcat.org/fast/1122816",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

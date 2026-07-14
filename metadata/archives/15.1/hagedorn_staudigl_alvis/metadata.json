@@ -7,8 +7,8 @@
   "description": "An introduction is presented in which the editor discusses various reports within the issue on philosophy and religion that were discussed at the conference",
   "url": "https://jcrt.org/archives/15.1/hagedorn_staudigl_alvis/",
   "inLanguage": "en",
-  "datePublished": "1970-01-01",
-  "dateModified": "1970-01-01",
+  "datePublished": "2015-01-01",
+  "dateModified": "2015-01-01",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -43,5 +43,31 @@
   "identifier": "uEegTG",
   "volumeNumber": "15",
   "issueNumber": "1",
-  "pagination": "1-2"
+  "pagination": "1-2",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Austria",
+      "termCode": "fst01204901",
+      "url": "https://id.worldcat.org/fast/1204901",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy Religion",
+      "termCode": "fst01060802",
+      "url": "https://id.worldcat.org/fast/1060802",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

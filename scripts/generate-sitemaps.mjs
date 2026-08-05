@@ -40,7 +40,7 @@ const JOURNAL_TITLE_DOAJ = "The Journal for Cultural and Religious Theory";
 const JOURNAL_TITLE_OAI = "Journal for Cultural &amp; Religious Theory";
 const DOAJ_SKIP_SLUGS = new Set(["index", "author-bios", "table-of-contents", "abstracts"]);
 const RIGHTS_TEXT =
-	"Copyright held by the author(s). Articles are licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.";
+	"Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/";
 
 // ── Helpers ────────────────────────────────────────────────────────
 function parseFrontMatter(content) {
@@ -110,6 +110,12 @@ function splitKeywords(value) {
 	return String(value).split(",").map((k) => k.trim()).filter(Boolean);
 }
 
+function controlledSubjectLabels(value) {
+	return (Array.isArray(value) ? value : [])
+		.filter((subject) => subject?.scheme === "FAST" && subject.label)
+		.map((subject) => String(subject.label).trim());
+}
+
 function toISODate(dateVal) {
 	if (!dateVal) return "";
 	if (dateVal instanceof Date) {
@@ -177,6 +183,7 @@ function readArchiveEntries() {
 		const { sp, ep } = parsePages(data.pages);
 		const authors = splitAuthors(data.author);
 		const keywords = splitKeywords(data.keywords);
+		const subjects = controlledSubjectLabels(data.subjects);
 		const description = String(data.description || data.abstract || "").trim();
 		const title = String(data.title || "").trim();
 		const pdfFile = String(data.pdf || "").trim();
@@ -206,6 +213,7 @@ function readArchiveEntries() {
 			title,
 			authors,
 			keywords,
+			subjects,
 			description,
 			volume,
 			issueNum: issue,
@@ -316,7 +324,7 @@ function generateOAI(entries) {
 		lines.push(`      <metadata>`);
 		lines.push(`        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"`);
 		lines.push(`                   xmlns:dc="http://purl.org/dc/elements/1.1/"`);
-		lines.push(`                   xmlns:dcterms="http://purl.org/dc/terms/"`);
+		lines.push(`                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"`);
 		lines.push(`                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">`);
 
 		if (e.title) {
@@ -334,23 +342,18 @@ function generateOAI(entries) {
 		lines.push(`          <dc:language>en</dc:language>`);
 		lines.push(`          <dc:identifier>${ISSN_DASH}</dc:identifier>`);
 		lines.push(`          <dc:identifier>${escXml(e.canonicalUrl)}</dc:identifier>`);
-		// Link to canonical page (with trailing slash)
-		lines.push(`          <dc:identifier.uri>${escXml(e.canonicalUrl)}</dc:identifier.uri>`);
 		if (e.pdfUrl) {
 			lines.push(`          <dc:relation>${escXml(e.pdfUrl)}</dc:relation>`);
 		}
 		if (e.description) {
 			lines.push(`          <dc:description>${escXml(e.description)}</dc:description>`);
 		}
-		for (const kw of e.keywords) {
-			lines.push(`          <dc:subject>${escXml(kw)}</dc:subject>`);
+		for (const subject of [...new Set([...e.keywords, ...e.subjects])]) {
+			lines.push(`          <dc:subject>${escXml(subject)}</dc:subject>`);
 		}
 		lines.push(`          <dc:rights>${escXml(RIGHTS_TEXT)}</dc:rights>`);
-		lines.push(`          <dc:source>${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}</dc:source>`);
-		// Volume / issue / pages
-		if (e.volume) {
-			lines.push(`          <dcterms:bibliographicCitation>Vol. ${escXml(e.volume)}${e.issueNum ? ", No. " + escXml(e.issueNum) : ""}${e.sp ? ", pp. " + escXml(e.sp) + (e.ep ? "-" + escXml(e.ep) : "") : ""}</dcterms:bibliographicCitation>`);
-		}
+		const citation = e.volume ? `, Vol. ${e.volume}${e.issueNum ? ", No. " + e.issueNum : ""}${e.sp ? ", pp. " + e.sp + (e.ep ? "-" + e.ep : "") : ""}` : "";
+		lines.push(`          <dc:source>${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}${escXml(citation)}</dc:source>`);
 
 		lines.push(`        </oai_dc:dc>`);
 		lines.push(`      </metadata>`);

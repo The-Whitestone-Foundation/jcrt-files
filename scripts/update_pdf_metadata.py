@@ -17,20 +17,26 @@ from xml.sax.saxutils import escape
 
 import yaml
 from pypdf import PdfReader, PdfWriter
+from pypdf.generic import (
+    ArrayObject,
+    BooleanObject,
+    DecodedStreamObject,
+    DictionaryObject,
+    NameObject,
+    NumberObject,
+    TextStringObject,
+)
 
 COPYRIGHT_NOTICE = (
-    "Copyright \u00a9 held by the author(s). All rights reserved. "
-    "This text may be used and shared in accordance with the fair-use provisions "
-    "of U.S. copyright law. Any use of this text in other ways requires the consent "
-    "of the author and the publisher, the Journal for Cultural and Religious Theory, "
-    "and must cite publication in this journal."
+    "Copyright \u00a9 held by the author(s). Published in the Journal for Cultural "
+    "and Religious Theory."
 )
 COPYRIGHT_URL = "https://jcrt.org/copyright/"
 JOURNAL_NAME = "The Journal for Cultural and Religious Theory"
 PUBLISHER = "Whitestone Publications"
 ISSN = "1530-5228"
 DEFAULT_ARCHIVE_BASE_URL = "https://jcrt.org/archives/24.2"
-DEFAULT_KEYWORDS = ["Religion", "Philosophly", "And Cultural Theory"]
+DEFAULT_KEYWORDS = ["Religion", "Philosophy", "Cultural theory"]
 
 XMP_TEMPLATE = """\
 <?xpacket begin="\ufeff" id="W5M0MpCehiHzreSzNTczkc9d"?>
@@ -39,6 +45,7 @@ XMP_TEMPLATE = """\
     <rdf:Description rdf:about=""
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
+        xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/"
         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/">
       <dc:title><rdf:Alt><rdf:li xml:lang="x-default">{title}</rdf:li></rdf:Alt></dc:title>
       <dc:creator><rdf:Seq>{author_seq}</rdf:Seq></dc:creator>
@@ -53,6 +60,7 @@ XMP_TEMPLATE = """\
       <dc:relation><rdf:Bag><rdf:li>{permalink}</rdf:li></rdf:Bag></dc:relation>
       <xmpRights:WebStatement>{copyright_url}</xmpRights:WebStatement>
       <xmpRights:Marked>True</xmpRights:Marked>
+      <pdfuaid:part>1</pdfuaid:part>
       <prism:publicationName>{journal_name}</prism:publicationName>
       <prism:issn>{issn}</prism:issn>
       <prism:url>{permalink}</prism:url>
@@ -133,7 +141,8 @@ def normalize_keyword(value: Any) -> str:
         return ""
     text = re.sub(r"[-_]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
-    return text.title()
+    normalized = text.title()
+    return {"Philosophly": "Philosophy", "And Cultural Theory": "Cultural theory"}.get(normalized, normalized)
 
 
 def parse_existing_keywords(value: Any) -> list[str]:
@@ -171,6 +180,16 @@ def merge_keywords(existing_value: Any, frontmatter_value: Any) -> list[str]:
         merged.append(keyword)
         seen.add(key)
     return merged or list(DEFAULT_KEYWORDS)
+
+
+def controlled_subjects(value: Any) -> list[str]:
+    if not isinstance(value, list):
+        return []
+    return [
+        clean_text(item.get("label"))
+        for item in value
+        if isinstance(item, dict) and item.get("scheme") == "FAST" and item.get("label")
+    ]
 
 
 def format_pub_date(value: Any) -> str:
@@ -218,6 +237,11 @@ def collect_article_metadata(
         or clean_text(existing_meta.get("/Subject"))
     )
     keywords = merge_keywords(existing_meta.get("/Keywords"), frontmatter.get("keywords"))
+    seen_keywords = {keyword.casefold() for keyword in keywords}
+    for subject in controlled_subjects(frontmatter.get("subjects")):
+        if subject.casefold() not in seen_keywords:
+            keywords.append(subject)
+            seen_keywords.add(subject.casefold())
     volume = clean_text(frontmatter.get("volume")) or clean_text(existing_meta.get("/Volume"))
     issue = clean_text(frontmatter.get("issue")) or clean_text(existing_meta.get("/Issue"))
     start_page, end_page = parse_pages(frontmatter.get("pages"))
@@ -292,12 +316,106 @@ def build_info_metadata(meta: ArticleMetadata) -> dict[str, str]:
     return info
 
 
+def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | None = None) -> None:
+    mark_info = writer._root_object.get("/MarkInfo")
+    if hasattr(mark_info, "get_object"):
+        mark_info = mark_info.get_object()
+    if isinstance(mark_info, DictionaryObject) and mark_info.get("/Marked"):
+        return
+
+    struct_root = DictionaryObject({NameObject("/Type"): NameObject("/StructTreeRoot")})
+    struct_root_ref = writer._add_object(struct_root)
+    document = DictionaryObject({
+        NameObject("/Type"): NameObject("/StructElem"),
+        NameObject("/S"): NameObject("/Document"),
+        NameObject("/P"): struct_root_ref,
+        NameObject("/K"): ArrayObject(),
+    })
+    document_ref = writer._add_object(document)
+    struct_root[NameObject("/K")] = ArrayObject([document_ref])
+    parent_numbers = ArrayObject()
+
+    transcript = PdfReader(str(transcript_pdf)) if transcript_pdf else None
+    font_ref = None
+    if transcript:
+        # ponytail: this handwritten scan has a human transcript; use it when OCR cannot read the script.
+        font_ref = writer._add_object(DictionaryObject({
+            NameObject("/Type"): NameObject("/Font"),
+            NameObject("/Subtype"): NameObject("/Type1"),
+            NameObject("/BaseFont"): NameObject("/Helvetica"),
+            NameObject("/Encoding"): NameObject("/WinAnsiEncoding"),
+        }))
+
+    for index, page in enumerate(writer.pages):
+        contents = reader.pages[index].get_contents()
+        data = contents.get_data() if contents is not None else b""
+        if transcript and index < len(transcript.pages):
+            resources = page.get("/Resources")
+            if hasattr(resources, "get_object"):
+                resources = resources.get_object()
+            if not isinstance(resources, DictionaryObject):
+                resources = DictionaryObject()
+                page[NameObject("/Resources")] = resources
+            fonts = resources.get("/Font")
+            if hasattr(fonts, "get_object"):
+                fonts = fonts.get_object()
+            if not isinstance(fonts, DictionaryObject):
+                fonts = DictionaryObject()
+                resources[NameObject("/Font")] = fonts
+            fonts[NameObject("/JCRTTranscript")] = font_ref
+            encoded = []
+            for line in (transcript.pages[index].extract_text() or "").splitlines():
+                value = line.strip()[:240].encode("cp1252", "replace").replace(b"\\", b"\\\\").replace(b"(", b"\\(").replace(b")", b"\\)")
+                if value:
+                    encoded.append(b"(" + value + b") Tj T*")
+            top = max(1, int(float(page.mediabox.height)) - 1)
+            prefix = f"\nBT /JCRTTranscript 1 Tf 3 Tr 1 0 0 1 1 {top} Tm 1 TL\n".encode()
+            data += prefix + b"\n".join(encoded) + b"\nET\n"
+        stream = DecodedStreamObject()
+        stream.set_data(b"/P <</MCID 0>> BDC\n" + data + b"\nEMC\n")
+        page[NameObject("/Contents")] = writer._add_object(stream)
+        page[NameObject("/StructParents")] = NumberObject(index)
+        paragraph = DictionaryObject({
+            NameObject("/Type"): NameObject("/StructElem"),
+            NameObject("/S"): NameObject("/P"),
+            NameObject("/P"): document_ref,
+            NameObject("/Pg"): page.indirect_reference,
+            NameObject("/K"): NumberObject(0),
+        })
+        paragraph_ref = writer._add_object(paragraph)
+        document[NameObject("/K")].append(paragraph_ref)
+        parent_numbers.extend([NumberObject(index), ArrayObject([paragraph_ref])])
+
+    parent_tree = DictionaryObject({NameObject("/Nums"): parent_numbers})
+    struct_root[NameObject("/ParentTree")] = writer._add_object(parent_tree)
+    struct_root[NameObject("/ParentTreeNextKey")] = NumberObject(len(writer.pages))
+    writer._root_object[NameObject("/StructTreeRoot")] = struct_root_ref
+    writer._root_object[NameObject("/MarkInfo")] = DictionaryObject({NameObject("/Marked"): BooleanObject(True)})
+
+
 def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata) -> None:
     reader = PdfReader(str(source_pdf))
+    try:
+        has_outline = bool(reader.outline)
+    except Exception:
+        has_outline = False
     writer = PdfWriter()
     writer.clone_document_from_reader(reader)
+    candidate = source_pdf.with_name("duncan-transcription.pdf")
+    transcript = candidate if source_pdf.stem.casefold() == "scans" and candidate.exists() else None
+    ensure_tagged(writer, reader, transcript)
     writer.add_metadata(build_info_metadata(meta))
     writer.xmp_metadata = build_xmp(meta)
+    writer._root_object[NameObject("/Lang")] = TextStringObject("en-US")
+    viewer = writer._root_object.get("/ViewerPreferences")
+    if hasattr(viewer, "get_object"):
+        viewer = viewer.get_object()
+    if not isinstance(viewer, DictionaryObject):
+        viewer = DictionaryObject()
+        writer._root_object[NameObject("/ViewerPreferences")] = viewer
+    viewer[NameObject("/DisplayDocTitle")] = BooleanObject(True)
+    if not has_outline and reader.pages:
+        writer.add_outline_item(meta.title, 0)
 
     tmp_path = dest_pdf.with_name(f"{dest_pdf.stem}.tmp.pdf")
     with tmp_path.open("wb") as fh:
@@ -317,9 +435,23 @@ def process_pdf(
     slug = source_pdf.stem
     dest_pdf_path = archive_dir / source_pdf.name
     existing_pdf_path = existing_metadata_dir / source_pdf.name
-    md_path = content_dir / f"{slug}.md"
-    if not md_path.exists():
-        raise FileNotFoundError(f"missing canonical markdown for {source_pdf.name}: {md_path}")
+    markdown = sorted(content_dir.glob("*.md"))
+    md_path = next((path for path in markdown if path.stem.casefold() == slug.casefold()), None)
+    if md_path is None and slug.casefold() == "table-of-contents" and (content_dir / "index.njk").exists():
+        md_path = content_dir / "index.njk"
+    if md_path is None:
+        matches = [
+            path
+            for path in markdown
+            if Path(str(parse_frontmatter(path).get("pdf") or "")).name.casefold() == source_pdf.name.casefold()
+        ]
+        md_path = matches[0] if matches else None
+    if md_path is None:
+        pdf_title = clean_text(load_existing_metadata(existing_pdf_path).get("/Title")).casefold()
+        matches = [path for path in markdown if clean_text(parse_frontmatter(path).get("title")).casefold() == pdf_title]
+        md_path = matches[0] if matches else None
+    if md_path is None:
+        raise FileNotFoundError(f"missing canonical markdown for {source_pdf.name} in {content_dir}")
 
     meta = collect_article_metadata(slug, md_path, existing_pdf_path, citations_dir, archive_base_url)
     print(f"[update] {source_pdf.name}")

@@ -10,7 +10,8 @@
     "abstract": "The following is the third installment of a three-part series. The first can be found here. The second one can be found here The second one can be found here.",
     "author": [
       {
-        "literal": "editors"
+        "family": "Murphy",
+        "given": "Mark"
       }
     ],
     "issued": {

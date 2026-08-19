@@ -10,7 +10,8 @@
     "abstract": "The following is the last of a three-part series. The first can be found here, the second here. It will appear as a full article in the Fall 2021 issue of the",
     "author": [
       {
-        "literal": "editors"
+        "family": "Klug",
+        "given": "Florian"
       }
     ],
     "issued": {

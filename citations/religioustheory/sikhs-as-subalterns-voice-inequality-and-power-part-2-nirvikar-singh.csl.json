@@ -10,7 +10,8 @@
     "abstract": "The following is the second installment of a three part series. The first can be found here. It is published as a catalogued .PDF in article in the latest issue",
     "author": [
       {
-        "literal": "editors"
+        "family": "Singh",
+        "given": "Nirvikar"
       }
     ],
     "issued": {

@@ -10,7 +10,12 @@
     "abstract": "The following is the video and transcript of the fifth “Critical Conversation”, a monthly Zoom seminar with advance registration sponsored by Whitestone",
     "author": [
       {
-        "literal": "editors"
+        "family": "Mann",
+        "given": "Barbara Alice"
+      },
+      {
+        "family": "Tinker",
+        "given": "Tink"
       }
     ],
     "issued": {

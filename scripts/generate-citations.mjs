@@ -182,7 +182,7 @@ function walkMd(dir) {
 function makeArchiveRIS(e) {
 	return [
 		"TY  - JOUR", `TI  - ${escRIS(e.title)}`,
-		...(e.authors.length ? e.authors.map((a) => `AU  - ${escRIS(a)}`) : ["AU  - "]),
+		...(e.authors.length ? e.authors.map((a) => `AU  - ${escRIS(risAuthor(a))}`) : ["AU  - "]),
 		`T2  - ${JOURNAL_TITLE}`,
 		`DA  - ${e.py ? `${e.py}/${e.season || "unknown"}//` : ""}`,
 		`PY  - ${e.py || e.year}`, `VL  - ${escRIS(e.volume)}`, `IS  - ${escRIS(e.issue)}`,

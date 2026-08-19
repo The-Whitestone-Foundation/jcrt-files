@@ -9,6 +9,11 @@ concurrency:
   group: generate-citations
   cancel-in-progress: true
 
+# The job commits the regenerated citation files back to this repo. The org
+# default for GITHUB_TOKEN is read-only, so the push needs this explicitly.
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest

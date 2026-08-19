@@ -10,7 +10,12 @@
     "abstract": "The following is an interview with the famed Continental philosopher Giorgio Agamben conducted by journalist Antonio Gnolio It highlights key arguments",
     "author": [
       {
-        "literal": "editors"
+        "family": "Gnolio",
+        "given": "Antonio"
+      },
+      {
+        "family": "Govrin",
+        "given": "Ido"
       }
     ],
     "issued": {

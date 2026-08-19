@@ -10,7 +10,12 @@
     "abstract": "*The following is the introductory article for the Spring 2018 issue (Vol. 17, No. 2) of the Journal for Cultural and Religious Theory It highlights key",
     "author": [
       {
-        "literal": "editors"
+        "family": "Hagerdorn",
+        "given": "Ludger"
+      },
+      {
+        "family": "Staudigl",
+        "given": "Michael"
       }
     ],
     "issued": {

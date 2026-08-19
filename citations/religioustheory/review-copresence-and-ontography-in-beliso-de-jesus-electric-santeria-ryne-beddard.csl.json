@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-copresence-and-ontography-in-beliso-de-jesus-electric-santeria-ryne-beddard",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-copresence-and-ontography-in-beliso-de-jesus-electric-santeria-ryne-beddard/",
+    "abstract": "* Beliso-De Jesús, Aisha M. Electric Santería: Racial and Sexual Assemblages of Transnational Religion. New York: Columbia University Press, 2015 It highlights",
     "author": [
       {
-        "literal": "Books"
+        "family": "Beddard",
+        "given": "Ryne"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2017
+          2017,
+          3,
+          17
         ]
       ]
     }

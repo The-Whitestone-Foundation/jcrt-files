@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-reorientation-in-the-field-why-religion-matters-part-1-wendy-felese",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Reorientation In The Field – Why Religion Matters, Part 1 (Wendy Felese)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/reorientation-in-the-field-why-religion-matters-part-1-wendy-felese/",
+    "abstract": "The following is the first of a two-part series. It was originally published at a 2019 conference in Athens, Greece.1 When teaching classes like World Religions",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          3,
+          15
         ]
       ]
     }

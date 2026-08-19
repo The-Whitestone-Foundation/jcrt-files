@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-new-trends-in-the-theory-and-methods-for-studying-religion-david-kim/",
+    "abstract": "Kovács, Ábrahám, and James L. Cox, Editors. New Trends and Recurring Issues in the Study of Religion: Context and Overview. Budapest: L’Harmattan, 2014",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          12,
+          29
         ]
       ]
     }

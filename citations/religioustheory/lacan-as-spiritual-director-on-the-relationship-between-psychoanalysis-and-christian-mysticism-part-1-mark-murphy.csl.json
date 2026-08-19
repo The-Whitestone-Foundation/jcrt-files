@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy/",
+    "abstract": "Spiritual direction is defined as the help one gives to another in developing one’s relationship with the sacred, while the treatment of psychological symptoms",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          7,
+          31
         ]
       ]
     }

@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/john-the-possibilizer-the-promise-of-a-kearnian-baptismal-hermeneutic-part-ii-eric-trozzo/",
+    "abstract": "The following is the second part in a two-part installment. The first part can be found here. In Kearnian terms, then, the John portrayed by Luke is one who has",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          1,
+          28
         ]
       ]
     }

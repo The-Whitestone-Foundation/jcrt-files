@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – The Evangelicals: The Struggle to Shape America (Rebekah Gordon)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-the-evangelicals-the-struggle-to-shape-america-rebekah-gordon/",
+    "abstract": "*Fitzgerald, Francis. The Evangelicals: The Struggle to Shape America. New York City, New York: Simon & Schuster, 2017. ISBN-10: 1439131333. Hardcover",
     "author": [
       {
-        "literal": "Books"
+        "family": "Gordon",
+        "given": "Rebekah"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2017
+          2017,
+          10,
+          13
         ]
       ]
     }

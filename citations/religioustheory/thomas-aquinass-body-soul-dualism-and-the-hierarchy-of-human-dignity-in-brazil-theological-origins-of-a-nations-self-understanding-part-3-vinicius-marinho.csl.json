@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/thomas-aquinass-body-soul-dualism-and-the-hierarchy-of-human-dignity-in-brazil-theological-origins-of-a-nations-self-understanding-part-3-vinicius-marinho/",
+    "abstract": "The following is the second of a three-part series.The first can be found here, the second here. In sum, Boff proposes that a person is an indivisible body-soul",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          8,
+          16
         ]
       ]
     }

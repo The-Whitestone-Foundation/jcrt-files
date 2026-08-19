@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-2-erik-meganck",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-2-erik-meganck/",
+    "abstract": "The following is the second of a three part-series. The first can be found here. Love is not the opposite of planning; openness is not the opposite of",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          12,
+          15
         ]
       ]
     }

@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/traversing-religious-and-aesthetic-states-in-w-h-audens-for-the-time-being-part-1-raji-singh-soni/",
+    "abstract": "The following is part one of an article that will be published in three successive installments. > TRINCULO Servant-monster! The folly of this island!",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2017
+          2017,
+          7,
+          28
         ]
       ]
     }

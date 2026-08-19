@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-medicinal-religion-aaron-klink",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – Medicinal Religion (Aaron Klink)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-medicinal-religion-aaron-klink/",
+    "abstract": "*Balboni, Michael J. and Peteet, John R. eds. Spirituality and Religion Within the Culture of Medicine: From Evidence to Practice ISBN 9780190272432 Hardcover.",
     "author": [
       {
-        "literal": "Books"
+        "family": "Klink",
+        "given": "Aaron"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          8,
+          2
         ]
       ]
     }

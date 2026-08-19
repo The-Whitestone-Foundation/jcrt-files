@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-an-uncritical-critique-of-theism-rebekah-gordon",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – An Uncritical Critique of Theism (Rebekah Gordon)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-an-uncritical-critique-of-theism-rebekah-gordon/",
+    "abstract": "Religion Within Reason. Cahn, Steven M. New York: Columbia University Press, 2017. ISBN: 9780231181617. Paperback. 93 pages.** It is amazing that a book of less",
     "author": [
       {
-        "literal": "Books"
+        "family": "Gordon",
+        "given": "Rebekah"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          3,
+          7
         ]
       ]
     }

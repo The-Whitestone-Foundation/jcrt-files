@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-inventing-afterlives-review-camille-grace-leon-angelo",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Inventing Afterlives – Review (Camille Grace Leon Angelo)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/inventing-afterlives-review-camille-grace-leon-angelo/",
+    "abstract": "Janes, Regina M. Inventing Afterlives: The Stories We Tell Ourselves About Life After Death. New York, NY: Columbia University Press, 2018. 384 pages 384 pages.",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          10,
+          22
         ]
       ]
     }

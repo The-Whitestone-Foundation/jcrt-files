@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg/",
+    "abstract": "To speak or not to speak of God is an important yet rather uncomfortable question that participants encounter during interreligious and interdisciplinary",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2019
+          2019,
+          7,
+          28
         ]
       ]
     }

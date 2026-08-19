@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-a-darker-grittier-deleuze",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – A Darker, Grittier Deleuze (Timothy Snediker)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-a-darker-grittier-deleuze/",
+    "abstract": "*Culp, Andrew. Dark Deleuze (Forerunners: Ideas First). Minneapolis: University of Minnesota Press, 2016. ISBN 10: 1517901332 Paperback, e-book It highlights",
     "author": [
       {
-        "literal": "Books"
+        "family": "Snediker",
+        "given": "Timothy"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          8,
+          4
         ]
       ]
     }

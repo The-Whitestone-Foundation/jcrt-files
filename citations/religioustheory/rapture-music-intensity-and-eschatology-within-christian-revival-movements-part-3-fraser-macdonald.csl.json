@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-3-fraser-macdonald",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/rapture-music-intensity-and-eschatology-within-christian-revival-movements-part-3-fraser-macdonald/",
+    "abstract": "The following is the second of a three-part series. The first can be found here, the second here. The full article is also available in the Spring 2022 issue of",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          7,
+          25
         ]
       ]
     }

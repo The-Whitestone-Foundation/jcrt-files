@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-the-hollow-christians-of-end-times-fiction-part-3-paul-maltby",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "The Hollow Christians Of End Times Fiction, Part 3 (Paul Maltby)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/the-hollow-christians-of-end-times-fiction-part-3-paul-maltby/",
+    "abstract": "The following is the third of a three-part series. The first can be found here, the second here. End Times fiction must be distinguished from other literary",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          3,
+          3
         ]
       ]
     }

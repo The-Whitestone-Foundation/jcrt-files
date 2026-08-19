@@ -18,7 +18,13 @@ const JOURNAL_TITLE = "Journal for Cultural & Religious Theory";
 const JOURNAL_ABBR = "JCRT";
 const PUBLISHER = "Whitestone Foundation";
 const ISSN = "1530-5228";
+const LANGUAGE = "en";
 const RT_TITLE = "Religious theory by JCRT";
+// Religious Theory posts are blog posts, not journal articles. The container
+// name and website type below match the values jcrt.org emits in its
+// dc:source / zotero:itemType meta tags.
+const RT_BLOG_TITLE = "JCRT - Religious Theory Blog";
+const RT_WEBSITE_TYPE = "Editor Reviewed Magazine";
 const BASE_URL = "https://jcrt.org";
 
 const CLI_ARGS = process.argv.slice(2);
@@ -95,6 +101,18 @@ function parseYear(data) {
 
 function parseSeason(data) { return String(data?.season || "").trim().toLowerCase(); }
 
+// [year, month, day] from a full `date:` timestamp; [year] when only a year is known.
+function parseDateParts(data) {
+	if (data?.date) {
+		const d = new Date(data.date);
+		if (!isNaN(d.getTime())) return [d.getUTCFullYear(), d.getUTCMonth() + 1, d.getUTCDate()];
+	}
+	const year = parseYear(data);
+	return year ? [Number(year)] : [];
+}
+
+function pad2(n) { return String(n).padStart(2, "0"); }
+
 function parsePages(pages) {
 	const raw = String(pages || "").trim();
 	if (!raw) return { sp: "", ep: "" };
@@ -112,6 +130,14 @@ function normalizeNumStr(v) {
 
 function escRIS(v) { return String(v || "").replace(/\r?\n/g, " ").trim(); }
 
+// Bare DOI (no scheme/host), as expected by the RIS DO tag and the CSL-JSON DOI field.
+function normalizeDoi(v) {
+	return String(v || "").trim()
+		.replace(/^(?:https?:\/\/)?(?:dx\.)?doi\.org\//i, "")
+		.replace(/^doi:\s*/i, "")
+		.trim();
+}
+
 function parseAuthorName(author) {
 	const raw = String(author || "").trim();
 	if (!raw) return null;
@@ -126,6 +152,14 @@ function parseAuthorName(author) {
 	if (parts.length === 1) return { literal: raw };
 	const family = parts.pop();
 	return { family, given: parts.join(" ") };
+}
+
+// RIS AU tags are inverted: "Grane, Kevin S."
+function risAuthor(author) {
+	const parsed = parseAuthorName(author);
+	if (!parsed) return "";
+	if (parsed.literal) return parsed.literal;
+	return parsed.given ? `${parsed.family}, ${parsed.given}` : parsed.family;
 }
 
 function normalizeTitle(v) {
@@ -154,6 +188,7 @@ function makeArchiveRIS(e) {
 		`PY  - ${e.py || e.year}`, `VL  - ${escRIS(e.volume)}`, `IS  - ${escRIS(e.issue)}`,
 		`C6  - ${escRIS(e.season)}`, `SP  - ${escRIS(e.sp)}`, `EP  - ${escRIS(e.ep)}`,
 		`J2  - ${JOURNAL_ABBR}`, `PB  - ${PUBLISHER}`, `SN  - ${ISSN}`,
+		...(e.doi ? [`DO  - ${escRIS(e.doi)}`] : []),
 		`UR  - ${escRIS(e.url)}`, "ER  -",
 	].join("\n") + "\n";
 }
@@ -172,29 +207,45 @@ function makeArchiveCSL(e, id) {
 	if (e.issue) obj.issue = e.issue;
 	if (e.sp && e.ep) obj.page = `${e.sp}-${e.ep}`;
 	else if (e.sp) obj.page = e.sp;
+	if (e.doi) obj.DOI = e.doi;
 	return JSON.stringify([obj], null, 2) + "\n";
+}
+
+function risDate(parts) {
+	if (!parts || !parts.length) return "";
+	const [y, m, d] = parts;
+	return `${y}/${m ? pad2(m) : ""}/${d ? pad2(d) : ""}/`;
 }
 
 function makeTheoryRIS(e) {
 	return [
-		"TY  - JOUR", `TI  - ${escRIS(e.title)}`,
-		...(e.authors.length ? e.authors.map((a) => `AU  - ${escRIS(a)}`) : ["AU  - "]),
-		`T2  - ${RT_TITLE}`,
-		`DA  - ${e.year ? `${e.year}///` : ""}`,
-		`PY  - ${e.year}`, "VL  - ", "IS  - ", "SP  - ", "EP  - ",
-		`J2  - ${RT_TITLE}`, "PB  - ", "SN  - ",
-		`UR  - ${escRIS(e.url)}`, "ER  -",
+		"TY  - BLOG", `TI  - ${escRIS(e.title)}`,
+		...(e.authors.length ? e.authors.map((a) => `AU  - ${escRIS(risAuthor(a))}`) : ["AU  - "]),
+		`T2  - ${RT_BLOG_TITLE}`,
+		...(e.abstract ? [`AB  - ${escRIS(e.abstract)}`] : []),
+		`DA  - ${risDate(e.dateParts)}`,
+		`PY  - ${e.year}`,
+		...(e.doi ? [`DO  - ${escRIS(e.doi)}`] : []),
+		`LA  - ${LANGUAGE}`,
+		`M3  - ${RT_WEBSITE_TYPE}`,
+		`UR  - ${escRIS(e.url)}`,
+		`L2  - ${escRIS(e.url)}`,
+		"ER  - ",
 	].join("\n") + "\n";
 }
 
 function makeTheoryCSL(e, id) {
 	const obj = {
-		id, type: "article-journal", title: e.title || id,
-		"container-title": RT_TITLE, URL: e.url,
+		id, type: "post-weblog", title: e.title || id,
+		"container-title": RT_BLOG_TITLE, genre: RT_WEBSITE_TYPE,
+		language: LANGUAGE, URL: e.url,
 	};
+	if (e.abstract) obj.abstract = e.abstract;
 	const al = e.authors.map(parseAuthorName).filter(Boolean);
 	if (al.length) obj.author = al;
-	if (e.year) obj.issued = { "date-parts": [[Number(e.year)]] };
+	if (e.dateParts?.length) obj.issued = { "date-parts": [e.dateParts] };
+	else if (e.year) obj.issued = { "date-parts": [[Number(e.year)]] };
+	if (e.doi) obj.DOI = e.doi;
 	return JSON.stringify([obj], null, 2) + "\n";
 }
 
@@ -270,6 +321,7 @@ function generateArchiveCitations() {
 			title: String(data.title || fileSlug).trim(),
 			authors: splitAuthors(data.author),
 			year, volume, issue, season, sp, ep, url,
+			doi: normalizeDoi(data.doi),
 		};
 		const legacyDate = resolveLegacyDate(entry, legacyLookup);
 		entry.season = entry.season || "unknown";
@@ -340,6 +392,9 @@ function generateTheoryCitations() {
 			title: String(data.title || fileSlug).trim(),
 			authors: splitAuthors(data.author),
 			year: parseYear(data),
+			dateParts: parseDateParts(data),
+			abstract: String(data.description || "").trim(),
+			doi: normalizeDoi(data.doi),
 			url: `${BASE_URL}/religioustheory/posts/${fileSlug}/`,
 		};
 

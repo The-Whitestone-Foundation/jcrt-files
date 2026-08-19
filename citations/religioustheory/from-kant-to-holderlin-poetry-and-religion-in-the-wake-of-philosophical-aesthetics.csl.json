@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/from-kant-to-holderlin-poetry-and-religion-in-the-wake-of-philosophical-aesthetics/",
+    "abstract": "The following is the first installment of a three-part series. Translated by Philipp Schlögl. Friederich Hölderlin’s famous quote “Thus all Religion would be",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2019
+          2019,
+          4,
+          30
         ]
       ]
     }

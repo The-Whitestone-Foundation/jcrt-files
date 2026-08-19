@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-hear-no-evil-see-no-evil-speak-no-evil-negative-reactions-to-jewish-people-pre-and-post-holocaust-madison-tarleton",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-hear-no-evil-see-no-evil-speak-no-evil-negative-reactions-to-jewish-people-pre-and-post-holocaust-madison-tarleton/",
+    "abstract": "Antisemitism Before and Since the Holocaust: Altered Contexts and Recent Perspectives. Basingstoke United Kingdom: Palgrave Macmillan, 2017 It highlights",
     "author": [
       {
-        "literal": "Books"
+        "family": "Tarleton",
+        "given": "Madison"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          1,
+          14
         ]
       ]
     }

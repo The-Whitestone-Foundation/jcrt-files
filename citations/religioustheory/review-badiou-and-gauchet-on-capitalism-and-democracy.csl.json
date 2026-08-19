@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-review-badiou-and-gauchet-on-capitalism-and-democracy",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – Badiou and Gauchet on Capitalism and Democracy",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-badiou-and-gauchet-on-capitalism-and-democracy/",
+    "abstract": "*Badiou, Alain and Gauchet, Marcel. What Is To Be Done?: A Dialogue on Communism, Capitalism, and the Future of Democracy. Translated by Susan Spitzer",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          5,
+          12
         ]
       ]
     }

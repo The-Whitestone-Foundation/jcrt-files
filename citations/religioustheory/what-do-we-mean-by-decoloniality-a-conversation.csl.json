@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-what-do-we-mean-by-decoloniality-a-conversation",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "What Do We Mean By “Decoloniality”? A Discussion, Part 1",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/what-do-we-mean-by-decoloniality-a-conversation/",
+    "abstract": "Part 1 records a keynote discussion defining decoloniality, foregrounding coloniality's persistence, divergent methods, and disputes over politics, knowledge",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2021
+          2021,
+          4,
+          26
         ]
       ]
     }

@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett/",
+    "abstract": "Before explicating the underlying structure of Scheler’s panentheism, I wanted to take some time and explain what Scheler’s phenomenological method entails and",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          4,
+          16
         ]
       ]
     }

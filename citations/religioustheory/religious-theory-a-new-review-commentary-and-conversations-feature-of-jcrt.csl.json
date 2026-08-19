@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-religious-theory-a-new-review-commentary-and-conversations-feature-of-jcrt",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Religious Theory – A New Review, Commentary, and Conversations Feature of JCRT",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/religious-theory-a-new-review-commentary-and-conversations-feature-of-jcrt/",
+    "abstract": "Religious Theory is the new commentary, review, and conversation blog for The Journal for Cultural and Religious Theory It highlights key arguments and",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          2,
+          24
         ]
       ]
     }

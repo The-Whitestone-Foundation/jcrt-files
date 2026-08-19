@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke/",
+    "abstract": "> “Neptunus alii per alia, poterunt intellegi qui qualesque sint, quoque eos nomine consuetudo nuncupaverit, hoc eos et venerari et colere debemus.” – Cicero",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          9,
+          7
         ]
       ]
     }

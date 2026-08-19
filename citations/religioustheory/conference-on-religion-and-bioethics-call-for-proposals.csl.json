@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-conference-on-religion-and-bioethics-call-for-proposals",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Conference on Religion and Bioethics – Call for Proposals",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/conference-on-religion-and-bioethics-call-for-proposals/",
+    "abstract": "This call for proposals frames a conference on religion and bioethics, inviting interdisciplinary work on ethics, theology, policy, and emerging The argument",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          9,
+          26
         ]
       ]
     }

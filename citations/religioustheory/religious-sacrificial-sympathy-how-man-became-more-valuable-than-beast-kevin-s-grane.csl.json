@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane/",
+    "abstract": "The religious attitude of the West today demonstrates a consumerist ethos that would have been deeply foreign to the religious discourse of old It highlights",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2024
+          2024,
+          3,
+          15
         ]
       ]
     }

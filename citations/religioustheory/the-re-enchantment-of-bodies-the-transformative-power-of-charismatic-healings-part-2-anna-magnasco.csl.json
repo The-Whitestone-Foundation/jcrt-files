@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-2-anna-magnasco",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/the-re-enchantment-of-bodies-the-transformative-power-of-charismatic-healings-part-2-anna-magnasco/",
+    "abstract": "The following is the first of a two-part series. The first installment can be found here. It was originally published in issue 22.1 of the Journal for Cultural",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          12,
+          12
         ]
       ]
     }

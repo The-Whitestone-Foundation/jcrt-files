@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-life-as-art-aesthetic-virtue-and-moral-obligation",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Life As Art – Aesthetic Virtue and Moral Obligation",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/life-as-art-aesthetic-virtue-and-moral-obligation/",
+    "abstract": "Virtue ethics has received much attention throughout the last decades. While some of the corresponding works are dealing with questions of aesthetics, there",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          2,
+          24
         ]
       ]
     }

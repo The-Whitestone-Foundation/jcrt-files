@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl/",
+    "abstract": "*The following is the introductory article for the Spring 2018 issue (Vol. 17, No. 2) of the Journal for Cultural and Religious Theory It highlights key",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          4,
+          21
         ]
       ]
     }

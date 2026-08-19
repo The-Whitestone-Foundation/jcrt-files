@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-god-and-language-lecture-6-johannes-zachhuber",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "God And Language, Lecture 6 (Johannes Zachhuber)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/god-and-language-lecture-6-johannes-zachhuber/",
+    "abstract": "The following is the sixth lecture in an eight-lecture series. The most recent one can be found here. I started the last couple of lectures with elaborate",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2019
+          2019,
+          4,
+          2
         ]
       ]
     }

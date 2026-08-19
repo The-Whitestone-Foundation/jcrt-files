@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-biopolitics-and-vajrayana-buddhism-part-3",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Biopolitics and Vajrayana Buddhism, Part 3 (Padraic Fitzgerald)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/biopolitics-and-vajrayana-buddhism-part-3/",
+    "abstract": "The following is the third and final installment in a three-part series. The first installment was published on May 27, 2016 and can be found here It highlights",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          6,
+          21
         ]
       ]
     }

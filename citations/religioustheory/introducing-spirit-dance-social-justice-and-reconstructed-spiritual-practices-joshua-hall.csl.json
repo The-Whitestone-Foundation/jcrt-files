@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall/",
+    "abstract": "This project was provoked by the almost nonexistent pushback from the Democratic liberal establishment to the (2020) exoneration of Kyle Rittenhouse, despite",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2023
+          2023,
+          3,
+          16
         ]
       ]
     }

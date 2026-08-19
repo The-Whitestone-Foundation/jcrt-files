@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber/",
+    "abstract": "The following is the third lecture in an eight-lecture series. I have described in last week’s lecture how, during the 19th century, some serious challenges",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          7,
+          26
         ]
       ]
     }

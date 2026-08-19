@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-what-is-a-dispositif-part-1",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "What Is A Dispositif? – Part 1 (Gregg Lambert)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/what-is-a-dispositif-part-1/",
+    "abstract": "The following article by internationally known theory scholar Gregg Lambert is the first of a two-part series. The concept of “dispositif” is best known as a",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          7,
+          11
         ]
       ]
     }

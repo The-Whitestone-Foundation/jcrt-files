@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-of-politics-and-motion-joshua-lawrence",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – Of Politics and Motion (Joshua Lawrence)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-of-politics-and-motion-joshua-lawrence/",
+    "abstract": "* Nail, Thomas. The Figure of the Migrant. Stanford: Stanford University Press, 2015. ISBN-10: 0804796580. 312 pages.* If the 21st century is indeed the century",
     "author": [
       {
-        "literal": "Books"
+        "family": "Lawrence",
+        "given": "Joshua"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          9,
+          8
         ]
       ]
     }

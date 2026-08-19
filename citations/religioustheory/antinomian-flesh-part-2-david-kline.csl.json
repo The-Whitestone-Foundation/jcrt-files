@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-antinomian-flesh-part-2-david-kline",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Antinomian Flesh, Part 2 (David Kline)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/antinomian-flesh-part-2-david-kline/",
+    "abstract": "The following is the second of a three-part series. The first can be found here. The above descriptions of nomos encapsulate general sociological, political",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          10,
+          26
         ]
       ]
     }

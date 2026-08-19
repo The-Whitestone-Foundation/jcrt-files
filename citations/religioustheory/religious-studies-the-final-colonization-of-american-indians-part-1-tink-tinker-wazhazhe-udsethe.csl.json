@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/religious-studies-the-final-colonization-of-american-indians-part-1-tink-tinker-wazhazhe-udsethe/",
+    "abstract": "The following is the first of a two-part series. The second can be found here. In late 2019 I was invited to deliver a paper at an international symposium",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          6,
+          1
         ]
       ]
     }

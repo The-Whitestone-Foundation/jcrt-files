@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-altered-states-buddhism-and-psychedelic-spirituality-in-america",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-altered-states-buddhism-and-psychedelic-spirituality-in-america/",
+    "abstract": "* Osto, Douglas. Altered States: Buddhism and Psychedelic Spirituality in America. New York: Columbia University Press, 2016 It highlights key arguments",
     "author": [
       {
-        "literal": "Books"
+        "family": "Green",
+        "given": "Roger"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2016
+          2016,
+          7,
+          28
         ]
       ]
     }

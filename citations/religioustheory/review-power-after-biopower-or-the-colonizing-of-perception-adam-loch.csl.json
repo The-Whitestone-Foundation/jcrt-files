@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-review-power-after-biopower-or-the-colonizing-of-perception-adam-loch",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – Power After Biopower, Or The Colonizing Of Perception (Adam Loch)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-power-after-biopower-or-the-colonizing-of-perception-adam-loch/",
+    "abstract": "*Massumi, Brian. Ontopower: War, Powers, and the State of Perception. Durham NC: Duke University Press, 2015. Hardcover, Paperback, E-book, ix + 320 pages.* A",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2017
+          2017,
+          11,
+          28
         ]
       ]
     }

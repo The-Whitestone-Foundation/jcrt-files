@@ -1,10 +1,13 @@
 [
   {
     "id": "religioustheory-locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": ">-",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-3-justine-m-bakker/",
+    "abstract": "Part 3 concludes the series by synthesizing Wynter's oceanic analytics and drawing implications for contemporary religious theory, critique, and decolonial",
     "author": [
       {
         "literal": "editors"
@@ -13,7 +16,9 @@
     "issued": {
       "date-parts": [
         [
-          2022
+          2022,
+          1,
+          27
         ]
       ]
     }

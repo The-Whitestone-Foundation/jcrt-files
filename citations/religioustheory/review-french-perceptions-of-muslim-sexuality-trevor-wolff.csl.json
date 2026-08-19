@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-french-perceptions-of-muslim-sexuality-trevor-wolff",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review – French Perceptions of Muslim Sexuality (Trevor Wolff)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-french-perceptions-of-muslim-sexuality-trevor-wolff/",
+    "abstract": "Mack, Mehammed Amadeus. Sexagon: Muslims, France, and the Sexualization of National Culture. New York City NY: Fordham University Press, 2017 It highlights",
     "author": [
       {
-        "literal": "Books"
+        "family": "Wolff",
+        "given": "Trevor"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2018
+          2018,
+          1,
+          5
         ]
       ]
     }

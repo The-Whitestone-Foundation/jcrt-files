@@ -1,19 +1,25 @@
 [
   {
     "id": "religioustheory-review-what-is-real-filippo-pietrogrande",
-    "type": "article-journal",
+    "type": "post-weblog",
     "title": "Review -- What is Real? (Filippo Pietrogrande)",
-    "container-title": "Religious theory by JCRT",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
     "URL": "https://jcrt.org/religioustheory/posts/review-what-is-real-filippo-pietrogrande/",
+    "abstract": "Giorgio Agamben. What is Real? Trans. Lorenzo Chiesa. Stanford: Stanford University Press, 2018. 88 pages. ISBN: 978-1-5036-0737-8",
     "author": [
       {
-        "literal": "Books"
+        "family": "Pietrogrande",
+        "given": "Filippo"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2020
+          2020,
+          1,
+          24
         ]
       ]
     }

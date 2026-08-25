@@ -1,0 +1,29 @@
+[
+  {
+    "id": "archives-25.2-gilbert",
+    "type": "article-journal",
+    "title": "On the Interdependence of All Things",
+    "container-title": "Journal for Cultural & Religious Theory",
+    "short-container-title": "JCRT",
+    "publisher": "Whitestone Foundation",
+    "ISSN": "1530-5228",
+    "URL": "https://jcrt.org/archives/25.2/gilbert/",
+    "author": [
+      {
+        "family": "Gilbert",
+        "given": "Bennett"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "season": "summer",
+    "volume": "25",
+    "issue": "2",
+    "page": "35-48"
+  }
+]

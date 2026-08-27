@@ -143,3 +143,5 @@ citations/**/.*.sig
 
 # macOS
 .DS_Store
+/scripts
+/scripts

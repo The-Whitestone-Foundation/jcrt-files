@@ -145,6 +145,23 @@ def normalize_keyword(value: Any) -> str:
     return {"Philosophly": "Philosophy", "And Cultural Theory": "Cultural theory"}.get(normalized, normalized)
 
 
+def strip_controlled_subjects(value: Any, subjects: list[str]) -> str:
+    """Remove verbatim controlled-subject labels from a stored /Keywords string.
+
+    They are re-appended after the merge, so dropping them here means a second
+    run sees the same input as the first instead of the comma-split remains of
+    labels such as "Chalmers, David John, 1966-".
+    """
+    text = clean_text(value)
+    if not text or not subjects:
+        return text
+    for subject in sorted(subjects, key=len, reverse=True):
+        pattern = re.compile(rf"(?:(?<=^)|(?<=,\s)|(?<=,)){re.escape(subject)}(?=\s*(?:,|$))")
+        text = pattern.sub("", text)
+    parts = [part.strip() for part in text.split(",")]
+    return ", ".join(part for part in parts if part)
+
+
 def parse_existing_keywords(value: Any) -> list[str]:
     text = clean_text(value)
     if not text:
@@ -236,9 +253,13 @@ def collect_article_metadata(
         or clean_text(existing_meta.get("/Description"))
         or clean_text(existing_meta.get("/Subject"))
     )
-    keywords = merge_keywords(existing_meta.get("/Keywords"), frontmatter.get("keywords"))
+    subjects = controlled_subjects(frontmatter.get("subjects"))
+    # Controlled subject labels are appended verbatim, so a label containing a
+    # comma or hyphen would be split and flattened when a later run re-parses
+    # /Keywords. Lift them out of the existing string first to keep runs idempotent.
+    keywords = merge_keywords(strip_controlled_subjects(existing_meta.get("/Keywords"), subjects), frontmatter.get("keywords"))
     seen_keywords = {keyword.casefold() for keyword in keywords}
-    for subject in controlled_subjects(frontmatter.get("subjects")):
+    for subject in subjects:
         if subject.casefold() not in seen_keywords:
             keywords.append(subject)
             seen_keywords.add(subject.casefold())

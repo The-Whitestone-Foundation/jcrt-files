@@ -193,7 +193,7 @@ function makeArchiveRIS(e) {
 		"TY  - JOUR", `TI  - ${escRIS(e.title)}`,
 		...(e.authors.length ? e.authors.map((a) => `AU  - ${escRIS(risAuthor(a))}`) : ["AU  - "]),
 		`T2  - ${JOURNAL_TITLE}`,
-		`DA  - ${e.py ? `${e.py}/${e.season || "unknown"}//` : ""}`,
+		`DA  - ${e.dateIso}`,
 		`PY  - ${e.py || e.year}`, `VL  - ${escRIS(e.volume)}`, `IS  - ${escRIS(e.issue)}`,
 		`C6  - ${escRIS(e.season)}`, `SP  - ${escRIS(e.sp)}`, `EP  - ${escRIS(e.ep)}`,
 		`J2  - ${JOURNAL_ABBR}`, `PB  - ${PUBLISHER}`, `SN  - ${ISSN}`,
@@ -210,7 +210,7 @@ function makeArchiveCSL(e, id) {
 	};
 	const al = e.authors.map(parseAuthorName).filter(Boolean);
 	if (al.length) obj.author = al;
-	if (e.py) obj.issued = { "date-parts": [[Number(e.py)]] };
+	if (e.dateParts.length) obj.issued = { "date-parts": [e.dateParts] };
 	if (e.season) obj.season = e.season;
 	if (e.volume) obj.volume = e.volume;
 	if (e.issue) obj.issue = e.issue;
@@ -322,6 +322,13 @@ function generateArchiveCitations() {
 		const { sp, ep } = parsePages(data.pages);
 		const year = parseYear(data) || parseYear(issueMeta);
 		const season = parseSeason(data) || parseSeason(issueMeta);
+		const parsedDateParts = parseDateParts(data);
+		const issueDateParts = parseDateParts(issueMeta);
+		const dateParts = parsedDateParts.length === 3
+			? parsedDateParts
+			: issueDateParts.length === 3
+				? issueDateParts
+				: year ? [Number(year), 1, 1] : [];
 
 		const pageUrl = `${BASE_URL}/archives/${issueSlug}/${fileSlug}/`;
 		const url = pageUrl;
@@ -329,7 +336,8 @@ function generateArchiveCitations() {
 		const entry = {
 			title: String(data.title || fileSlug).trim(),
 			authors: splitAuthors(data.author),
-			year, volume, issue, season, sp, ep, url,
+			year, volume, issue, season, sp, ep, url, dateParts,
+			dateIso: dateParts.map((part, index) => index ? pad2(part) : String(part)).join("-"),
 			doi: normalizeDoi(data.doi),
 		};
 		const legacyDate = resolveLegacyDate(entry, legacyLookup);

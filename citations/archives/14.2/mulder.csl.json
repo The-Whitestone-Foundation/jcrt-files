@@ -10,8 +10,9 @@
     "URL": "https://jcrt.org/archives/14.2/mulder/",
     "author": [
       {
-        "family": "Jr.",
-        "given": "Jack Mulder"
+        "family": "Mulder",
+        "given": "Jack",
+        "suffix": "Jr."
       }
     ],
     "issued": {

@@ -1,17 +1,18 @@
 [
   {
-    "id": "archives-25.2-hall",
+    "id": "archives-25.2-bell",
     "type": "article-journal",
-    "title": "Holding Green Commons: Vandana Shiva’s Spirit-Lanterned Guardians",
+    "title": "Artfully Dodging a Presidential Endorsement: How Joel Osteen Uses Rhetoric to Build an Audience for Political Gain",
     "container-title": "Journal for Cultural & Religious Theory",
     "short-container-title": "JCRT",
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
-    "URL": "https://jcrt.org/archives/25.2/hall/",
+    "URL": "https://jcrt.org/archives/25.2/bell/",
     "author": [
       {
-        "family": "Hall",
-        "given": "Joshua M."
+        "family": "Bell",
+        "given": "Reginald",
+        "suffix": "Jr."
       }
     ],
     "issued": {
@@ -24,7 +25,7 @@
     "season": "summer",
     "volume": "25",
     "issue": "2",
-    "page": "202-223",
-    "DOI": "10.17613/wp8yj-4wp93"
+    "page": "300-311",
+    "DOI": "10.17613/2rm1h-9gg34"
   }
 ]

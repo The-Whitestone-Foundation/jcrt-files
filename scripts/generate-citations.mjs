@@ -138,6 +138,8 @@ function normalizeDoi(v) {
 		.trim();
 }
 
+const SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
+
 function parseAuthorName(author) {
 	const raw = String(author || "").trim();
 	if (!raw) return null;
@@ -150,8 +152,14 @@ function parseAuthorName(author) {
 	}
 	const parts = raw.split(/\s+/);
 	if (parts.length === 1) return { literal: raw };
+	// A generational suffix is not the family name: "John B. Cobb Jr." must parse
+	// as Cobb / John B. / Jr., or it cites as "Jr., J. B. C."
+	let suffix = "";
+	if (parts.length > 2 && SUFFIXES.has(parts[parts.length - 1].replace(/\.$/, "").toLowerCase())) {
+		suffix = parts.pop();
+	}
 	const family = parts.pop();
-	return { family, given: parts.join(" ") };
+	return { family, given: parts.join(" "), ...(suffix ? { suffix } : {}) };
 }
 
 // RIS AU tags are inverted: "Grane, Kevin S."
@@ -159,7 +167,8 @@ function risAuthor(author) {
 	const parsed = parseAuthorName(author);
 	if (!parsed) return "";
 	if (parsed.literal) return parsed.literal;
-	return parsed.given ? `${parsed.family}, ${parsed.given}` : parsed.family;
+	const inverted = parsed.given ? `${parsed.family}, ${parsed.given}` : parsed.family;
+	return parsed.suffix ? `${inverted}, ${parsed.suffix}` : inverted;
 }
 
 function normalizeTitle(v) {

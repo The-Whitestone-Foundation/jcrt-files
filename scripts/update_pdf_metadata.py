@@ -155,6 +155,10 @@ def strip_controlled_subjects(value: Any, subjects: list[str]) -> str:
     text = clean_text(value)
     if not text or not subjects:
         return text
+    # Only labels that cannot survive a re-parse need lifting out. One that comes
+    # back through split-and-normalize unchanged is already deduped correctly, so
+    # leaving it alone keeps the stored keyword order stable.
+    subjects = [subject for subject in subjects if parse_existing_keywords(subject) != [subject]]
     for subject in sorted(subjects, key=len, reverse=True):
         pattern = re.compile(rf"(?:(?<=^)|(?<=,\s)|(?<=,)){re.escape(subject)}(?=\s*(?:,|$))")
         text = pattern.sub("", text)

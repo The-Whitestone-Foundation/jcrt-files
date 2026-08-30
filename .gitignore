@@ -143,5 +143,6 @@ citations/**/.*.sig
 
 # macOS
 .DS_Store
-/scripts
-/scripts
+
+# NOTE: `/scripts` was ignored here; it silently kept new tooling out of the
+# repo while 7 older scripts stayed tracked. scripts/ is source and is tracked.

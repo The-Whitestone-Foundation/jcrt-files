@@ -31,9 +31,24 @@ const REPO_ROOT = path.resolve(
 const OUT_DIR = path.join(REPO_ROOT, "sitemaps");
 const BASE_URL = "https://files.jcrt.org";
 
-// Folders whose contents are uploaded to R2 and served. Keep in sync with
-// DEFAULT_TARGETS in .github/workflows/deploy-r2-worker.yml.
-const SERVED_FOLDERS = ["archives", "citations", "docs", "images", "metadata", "religioustheory"];
+// Directories that hold tooling or worker source rather than served assets. Everything
+// else at the top level is treated as CDN content and gets a sitemap automatically.
+// This is an EXCLUDE list on purpose: an include list meant every new folder was silently
+// left out of the sitemaps (and, in the deploy workflow, never uploaded at all).
+const NON_ASSET_DIRS = new Set([".git", ".github", "node_modules", "scripts", "src", "sitemaps"]);
+
+/** Top-level git-tracked directories that hold served files. */
+function discoverServedFolders() {
+	const tracked = git(["ls-files", "-z"]).split("\0").filter(Boolean);
+	const dirs = new Set();
+	for (const rel of tracked) {
+		const slash = rel.indexOf("/");
+		if (slash === -1) continue; // top-level file, not a served directory
+		const top = rel.slice(0, slash);
+		if (!NON_ASSET_DIRS.has(top)) dirs.add(top);
+	}
+	return [...dirs].sort();
+}
 
 // Browsers render sitemaps through this stylesheet; crawlers ignore the instruction.
 // Kept absolute so it resolves the same whether the document is fetched at
@@ -123,7 +138,7 @@ function main() {
 	const written = [];
 	const lastmodByFolder = new Map();
 
-	for (const folder of SERVED_FOLDERS) {
+	for (const folder of discoverServedFolders()) {
 		const files = trackedFiles(folder);
 		if (files.length === 0) {
 			console.warn(`[file-sitemaps] ${folder}/ has no tracked files; skipping`);

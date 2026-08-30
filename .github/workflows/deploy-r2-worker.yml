@@ -21,17 +21,12 @@ on:
         default: "false"
   push:
     branches: [main, master]
-    paths:
-      - 'images/**'
-      - 'archives/**'
-      - 'citations/**'
-      - 'docs/**'
-      - 'metadata/**'
-      - 'religioustheory/**'
-      - 'sitemaps/**'
-      - 'src/**'
-      - 'wrangler.toml'
-      - '.github/workflows/deploy-r2-worker.yml'
+    # Deliberately an ignore-list, not an allow-list: this is a CDN, so any new folder
+    # or file must deploy without someone remembering to add a path here first.
+    paths-ignore:
+      - '**/*.md'
+      - 'LICENSE'
+      - 'package-lock.json'
 
 concurrency:
   group: deploy-jcrt-files-${{ github.ref }}
@@ -41,6 +36,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 240
+    # Needed by the "Commit refreshed sitemaps" step below.
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -51,6 +49,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
+      # Sitemaps are derived from the tracked file list, so they must be rebuilt whenever
+      # content changes — otherwise a newly added file is served but never advertised.
+      # Pushes made with GITHUB_TOKEN do not retrigger workflows, so this cannot loop.
+      - name: Regenerate file sitemaps
+        run: node scripts/generate-file-sitemaps.mjs
+
+      - name: Commit refreshed sitemaps
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain sitemaps)" ]]; then
+            echo "Sitemaps already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sitemaps
+          git commit -m "chore: regenerate file sitemaps"
+          git push
 
       - name: Install Wrangler
         run: npm install -g wrangler@4
@@ -75,7 +92,18 @@ jobs:
         run: |
           set -euo pipefail
 
-          DEFAULT_TARGETS=(images archives citations docs metadata religioustheory sitemaps)
+          # Every tracked top-level directory except tooling/worker source. Auto-discovered
+          # so a newly added content folder is served without editing this file.
+          NON_ASSET_DIRS="scripts src"
+          mapfile -t DEFAULT_TARGETS < <(
+            git ls-files | awk -F/ 'NF>1 {print $1}' | sort -u | while read -r d; do
+              # Skip dot-directories (.github, .vscode, …) — never CDN content.
+              case "$d" in .*) continue ;; esac
+              case " $NON_ASSET_DIRS " in *" $d "*) continue ;; esac
+              printf '%s\n' "$d"
+            done
+          )
+          echo "Discovered asset dirs: ${DEFAULT_TARGETS[*]}"
           UPLOAD_PARALLELISM=6
           if [[ -n "${TARGET_DIRS:-}" ]]; then
             IFS=',' read -ra TARGETS <<< "$TARGET_DIRS"
@@ -146,7 +174,12 @@ jobs:
           fi
 
           if [[ -n "${BASE_REF}" ]]; then
-            mapfile -t CHANGED < <(git diff --name-only --diff-filter=ACMRT "${BASE_REF}" "${AFTER_REF}" -- "${TARGETS[@]}" || true)
+            # Sitemaps are always re-uploaded: they are regenerated above, after AFTER_REF
+            # was resolved, so a diff against it would miss them.
+            mapfile -t CHANGED < <(
+              { git diff --name-only --diff-filter=ACMRT "${BASE_REF}" "${AFTER_REF}" -- "${TARGETS[@]}" || true
+                git ls-files sitemaps || true; } | sort -u
+            )
             mapfile -t DELETED < <(git diff --name-only --diff-filter=D "${BASE_REF}" "${AFTER_REF}" -- "${TARGETS[@]}" || true)
           else
             mapfile -t CHANGED < <(git ls-files "${TARGETS[@]}" || true)

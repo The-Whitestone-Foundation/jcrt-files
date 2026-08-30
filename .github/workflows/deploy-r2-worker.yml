@@ -89,12 +89,29 @@ jobs:
         run: |
           set -euo pipefail
 
-          # Jurisdiction-scoped buckets use <account>.<jurisdiction>.r2.cloudflarestorage.com.
+          # Jurisdiction-scoped buckets use <account>.<jurisdiction>.r2.cloudflarestorage.com,
+          # default buckets the plain hostname. The jurisdiction secret's value has proven
+          # unreliable as a router (a non-empty value sent us to an endpoint where the
+          # bucket does not exist), so probe: try the plain endpoint first — the wrangler
+          # path always reached the bucket without a jurisdiction — then the scoped one.
+          CANDIDATES=("https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com")
           if [[ -n "${R2_JURISDICTION:-}" && "${R2_JURISDICTION}" != "default" ]]; then
-            export RCLONE_CONFIG_R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.${R2_JURISDICTION}.r2.cloudflarestorage.com"
-          else
-            export RCLONE_CONFIG_R2_ENDPOINT="https://${CLOUDFLARE_ACCOUNT_ID}.r2.cloudflarestorage.com"
+            CANDIDATES+=("https://${CLOUDFLARE_ACCOUNT_ID}.${R2_JURISDICTION}.r2.cloudflarestorage.com")
           fi
+          FOUND=""
+          for ep in "${CANDIDATES[@]}"; do
+            if RCLONE_CONFIG_R2_ENDPOINT="$ep" rclone lsf "r2:${R2_BUCKET}" --max-depth 1 --fast-list >/dev/null 2>&1; then
+              FOUND="$ep"
+              break
+            fi
+            echo "Bucket not reachable via ${ep%%.r2*}...r2.cloudflarestorage.com endpoint variant; trying next."
+          done
+          if [[ -z "$FOUND" ]]; then
+            echo "ERROR: bucket ${R2_BUCKET} not reachable via any candidate endpoint." >&2
+            exit 1
+          fi
+          export RCLONE_CONFIG_R2_ENDPOINT="$FOUND"
+          echo "Using R2 endpoint variant: $([[ "$FOUND" == *".${R2_JURISDICTION:-none}."* ]] && echo jurisdiction || echo default)"
 
           # Every tracked top-level directory except tooling/worker source. Auto-discovered
           # so a newly added content folder is served without editing this file.

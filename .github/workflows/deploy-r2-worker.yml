@@ -78,7 +78,7 @@ jobs:
       # rclone is ~20MB of download+unzip on every run; the binary is static and
       # version-agnostic for our use. The install step below is the cache miss path.
       - name: Cache rclone
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: /usr/local/bin/rclone
           key: rclone-linux-amd64-2026-08

@@ -13,6 +13,7 @@ const TRACKED_KEYS = new Set([
   "archives/03.1/anderson.pdf",
   "metadata/archives/24.2/introduction/metadata.json",
   "images/logos/site.webmanifest",
+  "citations/archives/08.3/keller.ris",
   "sitemaps/index.xml",
   "sitemaps/style.xsl",
 ]);
@@ -42,6 +43,13 @@ const env = {
 };
 
 const cases = [
+  {
+    // A real file whose stem collides with a legacy alias from another issue must be
+    // served, not redirected into the alias target that only exists in 22.2.
+    name: "real keller.ris is not shadowed by the legacy alias",
+    path: "/citations/archives/08.3/keller.ris",
+    status: 200,
+  },
   {
     name: "root sitemap.xml serves the sitemap index",
     path: "/sitemap.xml",

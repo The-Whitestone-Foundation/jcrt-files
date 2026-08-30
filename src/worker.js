@@ -211,17 +211,21 @@ export default {
     // rather than a redirect so the advertised URL is the one that actually responds.
     if (key === 'sitemap.xml') key = 'sitemaps/index.xml';
 
-    const aliasKey = legacyCitationAlias(key);
-    if (aliasKey && aliasKey !== key) {
-      return redirectToCanonical(url, aliasKey);
-    }
-
     const object = await env.JCRT_FILES.get(key, {
       range: request.headers,
       onlyIf: request.headers,
     });
 
     if (object === null) {
+      // Legacy stem aliases are a FALLBACK, not an override. They used to run before the
+      // lookup, so a real file whose name happened to match a renamed stem in a different
+      // issue was shadowed: /citations/archives/08.3/keller.ris exists, but the alias
+      // redirected it to keller_raschke.ris (which only exists in 22.2) and 404'd.
+      const aliasKey = legacyCitationAlias(key);
+      if (aliasKey && aliasKey !== key) {
+        return redirectToCanonical(url, aliasKey);
+      }
+
       const canonicalKey = await findCaseInsensitiveKey(env.JCRT_FILES, key);
       if (canonicalKey && canonicalKey !== key) {
         return redirectToCanonical(url, canonicalKey);

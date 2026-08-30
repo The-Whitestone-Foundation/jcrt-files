@@ -15,6 +15,22 @@ All notable changes to jcrt-files (files.jcrt.org). One version per commit; vers
 - Same rebuild: per-folder file-inventory sitemaps plus an XSLT stylesheet served at the canonical /sitemap.xml via a worker rewrite; a legacy citation alias shadowing real files (causing 404s) fixed; CDN folder deployment made auto-discovering instead of hardcoded.
 - Same rebuild: the worker refactored into explicit ponyfill helper modules (http-meta, keys) and a new imageTransform module added for on-the-fly image transforms (w/h/q/f, scale-down, via-guard); the PDF rights check restored as incremental; worker deploy hardened to trim and fall back across Cloudflare API tokens.
 
+## [00.01.22] — 2026-08-30
+image addition
+- Notes: image addition.
+
+## [00.01.21] — 2026-08-30
+ci: actions/cache v6, clears node20 deprecation warning
+- Notes: ci: actions/cache v6, clears node20 deprecation warning.
+
+## [00.01.20] — 2026-08-30
+post: token TODO resolved — primary deploys
+- Notes: post: token TODO resolved — primary deploys.
+
+## [00.01.19] — 2026-08-30
+chore: regenerate file sitemaps and changelog
+- Notes: chore: regenerate file sitemaps and changelog.
+
 ## [00.01.18] — 2026-08-30
 post: readme spacing
 - Notes: post: readme spacing.

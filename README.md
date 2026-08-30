@@ -5,16 +5,11 @@
 Asset delivery repository for JCRT.
 
 ## TODO (Adam)
-- [ ] **Grant the `CLOUDFLARE_API_TOKEN` Workers deploy permission.** The 2026-08-30
-      re-paste fixed the formatting (the old value carried stray whitespace and was
-      rejected outright), but the token is an Account API Token without Workers
-      permissions: wrangler authenticates and then cannot deploy ("Unable to get
-      membership roles"). Fix in the Cloudflare dashboard: edit the token and add
-      **Workers Scripts: Edit** (plus Account Settings: Read). Until then deploys
-      fall through to `CLOUDFLARE_API_TOKEN_V2` automatically — the workflow treats
-      the deploy itself as the token test — so nothing is broken, just logged as
-      "TOKEN_PRIMARY could not deploy; trying next." Success check: a worker deploy
-      logs `Deployed with TOKEN_PRIMARY`.
+- [x] ~~Grant the `CLOUDFLARE_API_TOKEN` Workers deploy permission.~~ **Resolved
+      2026-08-30**: after the re-paste fixed the formatting and the permission grant
+      added Workers Scripts: Edit, run 33297892081 logged `Deployed with TOKEN_PRIMARY`.
+      The deploy-is-the-test token fallback (PRIMARY → V2 → BACKUP) stays in place as
+      insurance.
 
 ## Purpose
 This repo receives synced assets from `jcrt-v2` and publishes them to Cloudflare R2, served by a Worker on:

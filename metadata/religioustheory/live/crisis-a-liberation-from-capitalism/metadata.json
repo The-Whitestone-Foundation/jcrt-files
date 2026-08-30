@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/crisis-a-liberation-from-capitalism/#article",
+  "name": "Crisis: A Liberation from Capitalism?",
+  "headline": "Crisis: A Liberation from Capitalism?",
+  "description": "Creston Davis interprets the 2008 financial collapse through Hegel and Badiou, arguing that crisis exposes labor's power and capitalism's hidden dependence.",
+  "url": "https://jcrt.org/religioustheory/live/crisis-a-liberation-from-capitalism/",
+  "inLanguage": "en",
+  "datePublished": "2008-10-04",
+  "dateModified": "2008-10-04",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Creston Davis"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/crisis-a-liberation-from-capitalism/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "B60Zc8"
+}

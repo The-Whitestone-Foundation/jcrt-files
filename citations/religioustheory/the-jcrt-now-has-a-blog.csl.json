@@ -1,0 +1,26 @@
+[
+  {
+    "id": "religioustheory-the-jcrt-now-has-a-blog",
+    "type": "post-weblog",
+    "title": "The JCRT Now Has a Blog",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
+    "URL": "https://jcrt.org/religioustheory/live/the-jcrt-now-has-a-blog/",
+    "abstract": "JCRT announces JCRT Live, a blog for editors, contributors, and invited participants to discuss current questions in cultural and religious theory online.",
+    "author": [
+      {
+        "literal": "editors"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          8,
+          21
+        ]
+      ]
+    }
+  }
+]

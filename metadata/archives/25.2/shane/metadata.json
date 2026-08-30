@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/shane/#article",
+  "name": "From Deconstruction to Re-Enchantment: Postmodernism, Metamodernism, and the Re-Emergence of Wonder",
+  "headline": "From Deconstruction to Re-Enchantment: Postmodernism, Metamodernism, and the Re-Emergence of Wonder",
+  "description": "D.A. Shane argues that postmodern deconstruction cleared the ground for a metamodern hermeneutic of credulity and the return of wonder.",
+  "url": "https://jcrt.org/archives/25.2/shane/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "D.A. Shane"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/shane/"
+  },
+  "abstract": "D.A. Shane argues that postmodern deconstruction cleared the ground for a metamodern hermeneutic of credulity and the return of wonder.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "4_Bi9G",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "248-265",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/shane.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Foucault, Michel, 1926-1984",
+      "termCode": "fst01427415",
+      "url": "https://id.worldcat.org/fast/1427415",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Derrida, Jacques",
+      "termCode": "fst00041147",
+      "url": "https://id.worldcat.org/fast/41147",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lyotard, Jean-François, 1924-1998",
+      "termCode": "fst01716595",
+      "url": "https://id.worldcat.org/fast/1716595",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rorty, Richard",
+      "termCode": "fst00037243",
+      "url": "https://id.worldcat.org/fast/37243",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hermeneutics",
+      "termCode": "fst00955492",
+      "url": "https://id.worldcat.org/fast/955492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge, Theory of",
+      "termCode": "fst00988194",
+      "url": "https://id.worldcat.org/fast/988194",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mythology",
+      "termCode": "fst01031701",
+      "url": "https://id.worldcat.org/fast/1031701",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

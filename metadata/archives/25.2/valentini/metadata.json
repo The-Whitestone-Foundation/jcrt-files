@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/valentini/#article",
+  "name": "Ibn ʿArabī’s Role in Ibrahim Niasse’s Thinking: From the Unity of Being to Muḥammad’s Names-of-the-Father",
+  "headline": "Ibn ʿArabī’s Role in Ibrahim Niasse’s Thinking: From the Unity of Being to Muḥammad’s Names-of-the-Father",
+  "description": "Philipp Valentini examines Ibn ʿArabī’s several roles in Ibrāhīm Niasse’s metaphysics, from waḥdat al-wujūd to Muḥammadan paternity.",
+  "url": "https://jcrt.org/archives/25.2/valentini/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Philipp Valentini"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/valentini/"
+  },
+  "abstract": "Philipp Valentini examines Ibn ʿArabī’s several roles in Ibrāhīm Niasse’s metaphysics, from waḥdat al-wujūd to Muḥammadan paternity.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "mbPBdj",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "281-299",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/valentini.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ibn al-ʻArabī, 1165-1240",
+      "termCode": "fst00019726",
+      "url": "https://id.worldcat.org/fast/19726",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lacan, Jacques, 1901-1981",
+      "termCode": "fst00050728",
+      "url": "https://id.worldcat.org/fast/50728",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Senegal",
+      "termCode": "fst01204328",
+      "url": "https://id.worldcat.org/fast/1204328",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "geographic"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sufism",
+      "termCode": "fst01137257",
+      "url": "https://id.worldcat.org/fast/1137257",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Tijānīyah",
+      "termCode": "fst01150865",
+      "url": "https://id.worldcat.org/fast/1150865",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

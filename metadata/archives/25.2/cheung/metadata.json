@@ -1,0 +1,94 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/cheung/#article",
+  "name": "Specters of Lost Causes: Caputo’s Theology through the Žižekian Lens of Fidelity and Haunting",
+  "headline": "Specters of Lost Causes: Caputo’s Theology through the Žižekian Lens of Fidelity and Haunting",
+  "description": "Yiu Ming Cheung brings Žižek’s lost causes together with Caputo’s event-theology to build a postsecular theology of insistence and interruption.",
+  "url": "https://jcrt.org/archives/25.2/cheung/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Yiu Ming Cheung"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/cheung/"
+  },
+  "abstract": "Yiu Ming Cheung brings Žižek’s lost causes together with Caputo’s event-theology to build a postsecular theology of insistence and interruption.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "dvJjgp",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "170-187",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/cheung.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Žižek, Slavoj",
+      "termCode": "fst00161373",
+      "url": "https://id.worldcat.org/fast/161373",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Caputo, John D.",
+      "termCode": "fst00026653",
+      "url": "https://id.worldcat.org/fast/26653",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political theology",
+      "termCode": "fst01069899",
+      "url": "https://id.worldcat.org/fast/1069899",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postsecularism",
+      "termCode": "fst01764747",
+      "url": "https://id.worldcat.org/fast/1764747",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/lockhart/#article",
+  "name": "Beyond the Material: Toward a Proper Understanding and Engagement with the Material in Christianity",
+  "headline": "Beyond the Material: Toward a Proper Understanding and Engagement with the Material in Christianity",
+  "description": "Aaron T. Lockhart traces Plato through Ockham and iconoclasm to recover a proper Christian understanding of venerating material objects.",
+  "url": "https://jcrt.org/archives/25.2/lockhart/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Aaron T. Lockhart"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/lockhart/"
+  },
+  "abstract": "Aaron T. Lockhart traces Plato through Ockham and iconoclasm to recover a proper Christian understanding of venerating material objects.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "IfEhnn",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "224-238",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/lockhart.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Plato",
+      "termCode": "fst00046610",
+      "url": "https://id.worldcat.org/fast/46610",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Aristotle",
+      "termCode": "fst00029885",
+      "url": "https://id.worldcat.org/fast/29885",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "William, of Ockham, approximately 1285-approximately 1349",
+      "termCode": "fst01858107",
+      "url": "https://id.worldcat.org/fast/1858107",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "John, of Damascus, Saint",
+      "termCode": "fst00051765",
+      "url": "https://id.worldcat.org/fast/51765",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Iconoclasm",
+      "termCode": "fst00966761",
+      "url": "https://id.worldcat.org/fast/966761",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nominalism",
+      "termCode": "fst01038463",
+      "url": "https://id.worldcat.org/fast/1038463",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

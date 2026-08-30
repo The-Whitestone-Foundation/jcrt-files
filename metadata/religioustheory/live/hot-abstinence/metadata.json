@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/hot-abstinence/#article",
+  "name": "Hot Abstinence",
+  "headline": "Hot Abstinence",
+  "description": "Colbey Emmerson Reid reads Twilight as a Gothic theology of erotic abstinence, sacrifice, subjectivity, and the unexpectedly sensual force of Puritanism.",
+  "url": "https://jcrt.org/religioustheory/live/hot-abstinence/",
+  "inLanguage": "en",
+  "datePublished": "2008-12-20",
+  "dateModified": "2008-12-20",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Colbey Emmerson Reid"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/hot-abstinence/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "xHyTjt"
+}

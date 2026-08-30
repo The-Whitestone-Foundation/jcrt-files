@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/originary-grammar-part-2/#article",
+  "name": "Originary Grammar, Part 2",
+  "headline": "Originary Grammar, Part 2",
+  "description": "Adam Katz develops originary grammar through sentence forms, metaphysics, imperatives, and the linguistic ordering that continually defers social violence.",
+  "url": "https://jcrt.org/religioustheory/live/originary-grammar-part-2/",
+  "inLanguage": "en",
+  "datePublished": "2009-03-09",
+  "dateModified": "2009-03-09",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam Katz"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/originary-grammar-part-2/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "4ErZI7"
+}

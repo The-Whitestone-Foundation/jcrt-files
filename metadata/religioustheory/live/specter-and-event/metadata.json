@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/specter-and-event/#article",
+  "name": "Specter and Event",
+  "headline": "Specter and Event",
+  "description": "Carl A. Raschke reflects on 2009 as a year of spectral eventfulness, reading Derrida and Nietzsche against political repetition, nihilism, and false dawns.",
+  "url": "https://jcrt.org/religioustheory/live/specter-and-event/",
+  "inLanguage": "en",
+  "datePublished": "2009-05-16",
+  "dateModified": "2009-05-16",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/specter-and-event/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "khlyeU"
+}

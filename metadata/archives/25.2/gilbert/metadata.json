@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/gilbert/#article",
+  "name": "On the Interdependence of All Things",
+  "headline": "On the Interdependence of All Things",
+  "description": "Bennett Gilbert asks how interdependence grounds moral obligation, testing panpsychism against the slow work of forming community with other forms of life.",
+  "url": "https://jcrt.org/archives/25.2/gilbert/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Bennett Gilbert"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/gilbert/"
+  },
+  "abstract": "Bennett Gilbert asks how interdependence grounds moral obligation, testing panpsychism against the slow work of forming community with other forms of life.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "VCL0zT",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "188-201",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/gilbert.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Community",
+      "termCode": "fst00870635",
+      "url": "https://id.worldcat.org/fast/870635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ecology",
+      "termCode": "fst00901476",
+      "url": "https://id.worldcat.org/fast/901476",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Identity (Philosophical concept)",
+      "termCode": "fst00966889",
+      "url": "https://id.worldcat.org/fast/966889",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Panpsychism",
+      "termCode": "fst01052212",
+      "url": "https://id.worldcat.org/fast/1052212",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Responsibility",
+      "termCode": "fst01095857",
+      "url": "https://id.worldcat.org/fast/1095857",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

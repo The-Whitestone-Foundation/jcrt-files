@@ -1,0 +1,97 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/9780593493205/#article",
+  "name": "BOOK REVIEW: YASCHA MOUNK, THE IDENTITY TRAP: A STORY OF IDEAS AND POWER IN OUR TIME.",
+  "headline": "BOOK REVIEW: YASCHA MOUNK, THE IDENTITY TRAP: A STORY OF IDEAS AND POWER IN OUR TIME.",
+  "description": "Kev Grane reviews Yascha Mounk’s The Identity Trap, whose sharpest contribution is showing how the identity synthesis undercuts its own egalitarian aims.",
+  "url": "https://jcrt.org/religioustheory/posts/9780593493205/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-18",
+  "dateModified": "2026-08-18",
+  "image": "https://jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Kev Grane"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/9780593493205/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "a5QXA5",
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical race theory",
+      "termCode": "fst02022968",
+      "url": "https://id.worldcat.org/fast/2022968",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Democracy",
+      "termCode": "fst00890077",
+      "url": "https://id.worldcat.org/fast/890077",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Identity (Philosophical concept)",
+      "termCode": "fst00966889",
+      "url": "https://id.worldcat.org/fast/966889",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Liberalism",
+      "termCode": "fst00997183",
+      "url": "https://id.worldcat.org/fast/997183",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Multiculturalism",
+      "termCode": "fst01028836",
+      "url": "https://id.worldcat.org/fast/1028836",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

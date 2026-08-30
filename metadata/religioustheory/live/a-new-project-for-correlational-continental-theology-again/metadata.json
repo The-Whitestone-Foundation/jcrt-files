@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/a-new-project-for-correlational-continental-theology-again/#article",
+  "name": "A New Project for Correlational/Continental Theology (Again)",
+  "headline": "A New Project for Correlational/Continental Theology (Again)",
+  "description": "Wilson Dickinson proposes a renewed correlational and Continental theology that can connect public events, experience, mysticism, and constructive thought.",
+  "url": "https://jcrt.org/religioustheory/live/a-new-project-for-correlational-continental-theology-again/",
+  "inLanguage": "en",
+  "datePublished": "2008-11-11",
+  "dateModified": "2008-11-11",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Wilson Dickinson"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/a-new-project-for-correlational-continental-theology-again/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "QZGsn8"
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/habit-and-errors-and-composition/#article",
+  "name": "Habit and Errors and Composition",
+  "headline": "Habit and Errors and Composition",
+  "description": "Adam Katz uses Gertrude Stein to connect habit, error, attention, composition, reciprocity, and political exchange in an account of how novelty emerges.",
+  "url": "https://jcrt.org/religioustheory/live/habit-and-errors-and-composition/",
+  "inLanguage": "en",
+  "datePublished": "2009-04-26",
+  "dateModified": "2009-04-26",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam Katz"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/habit-and-errors-and-composition/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "6zhQNf"
+}

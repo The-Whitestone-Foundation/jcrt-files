@@ -1,7 +1,10 @@
-name: Generate Citations
+name: Generate Citations and Metadata
 
 on:
   workflow_dispatch:
+  # jcrt-v2 dispatches this exact event type ("generate-citations") to trigger
+  # this workflow — keep the type unchanged even though the workflow now also
+  # generates metadata, or the pipeline silently disconnects.
   repository_dispatch:
     types: [generate-citations]
 
@@ -29,6 +32,7 @@ jobs:
           sparse-checkout: |
             content/archives
             content/religioustheory/posts
+            content/religioustheory/live
             _data/legacy-ris-dates.json
           sparse-checkout-cone-mode: false
 
@@ -37,13 +41,22 @@ jobs:
         with:
           node-version: "24"
 
+      - name: Install dependencies
+        run: npm ci --omit=dev
+
       - name: Generate citation files
         run: node scripts/generate-citations.mjs ./jcrt-v2
+
+      # Force mode is intentionally not passed: the default missing-only
+      # behaviour is what protects the 1,166 hand-curated metadata files
+      # from being overwritten by CI.
+      - name: Generate metadata files
+        run: node scripts/generate-metadata.mjs ./jcrt-v2
 
       - name: Check for changes
         id: changes
         run: |
-          git add citations/
+          git add citations/ metadata/
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
@@ -56,5 +69,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: regenerate citation files"
+          git commit -m "chore: regenerate citation and metadata files"
           git push

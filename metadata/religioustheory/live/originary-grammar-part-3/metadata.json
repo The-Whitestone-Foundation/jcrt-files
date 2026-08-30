@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/originary-grammar-part-3/#article",
+  "name": "Originary Grammar, Part 3",
+  "headline": "Originary Grammar, Part 3",
+  "description": "Adam Katz extends originary grammar through Eric Gans, metaphysics, imperatives, global law, and the need for signs capable of deferring political violence.",
+  "url": "https://jcrt.org/religioustheory/live/originary-grammar-part-3/",
+  "inLanguage": "en",
+  "datePublished": "2009-08-01",
+  "dateModified": "2009-08-01",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam Katz"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/originary-grammar-part-3/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "-3dm95"
+}

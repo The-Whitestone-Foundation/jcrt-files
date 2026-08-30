@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/hall/#article",
+  "name": "Holding Green Commons: Vandana Shiva’s Spirit-Lanterned Guardians",
+  "headline": "Holding Green Commons: Vandana Shiva’s Spirit-Lanterned Guardians",
+  "description": "Joshua M. Hall develops a transgender ethics of holding green commons from Vandana Shiva, naming five spirit-lanterned guardians in the Global North.",
+  "url": "https://jcrt.org/archives/25.2/hall/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Joshua M. Hall"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/hall/"
+  },
+  "abstract": "Joshua M. Hall develops a transgender ethics of holding green commons from Vandana Shiva, naming five spirit-lanterned guardians in the Global North.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "o8c7T2",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "202-223",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/hall.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Shiva, Vandana",
+      "termCode": "fst00211470",
+      "url": "https://id.worldcat.org/fast/211470",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Plumwood, Val",
+      "termCode": "fst01987275",
+      "url": "https://id.worldcat.org/fast/1987275",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Chipko movement",
+      "termCode": "fst00857851",
+      "url": "https://id.worldcat.org/fast/857851",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dance",
+      "termCode": "fst00887402",
+      "url": "https://id.worldcat.org/fast/887402",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Environmental ethics",
+      "termCode": "fst00912979",
+      "url": "https://id.worldcat.org/fast/912979",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Logic",
+      "termCode": "fst01002014",
+      "url": "https://id.worldcat.org/fast/1002014",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

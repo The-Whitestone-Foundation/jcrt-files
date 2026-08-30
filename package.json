@@ -8,10 +8,11 @@
     "doc": "docs"
   },
   "scripts": {
+    "check:coverage": "node scripts/check-derived-coverage.mjs",
     "check:metadata": "node scripts/check-oai-dc.mjs",
     "check:pdf-rights": "python3 scripts/check_pdf_rights.py",
     "check:redirects": "node scripts/check-worker-redirects.mjs",
-    "test": "npm run check:redirects && npm run check:metadata && npm run check:pdf-rights"
+    "test": "npm run check:redirects && npm run check:metadata && npm run check:pdf-rights && npm run check:coverage"
   },
   "repository": {
     "type": "git",

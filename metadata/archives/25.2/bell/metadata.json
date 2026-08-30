@@ -1,0 +1,166 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/bell/#article",
+  "name": "Artfully Dodging a Presidential Endorsement: How Joel Osteen Uses Rhetoric to Build an Audience for Political Gain",
+  "headline": "Artfully Dodging a Presidential Endorsement: How Joel Osteen Uses Rhetoric to Build an Audience for Political Gain",
+  "description": "Reginald Bell Jr. reads Joel Osteen’s refusal to endorse Donald Trump through Edwin Black’s second persona, naming the ideal audience his rhetoric builds and the third persona it silences.",
+  "url": "https://jcrt.org/archives/25.2/bell/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-26",
+  "dateModified": "2026-08-26",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Reginald Bell Jr."
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/bell/"
+  },
+  "abstract": "Reginald Bell Jr. reads Joel Osteen’s refusal to endorse Donald Trump through Edwin Black’s second persona, naming the ideal audience his rhetoric builds and the third persona it silences.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "3kVX6M",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "300-311",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/bell.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Osteen, Joel",
+      "termCode": "fst01589832",
+      "url": "https://id.worldcat.org/fast/1589832",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Trump, Donald, 1946-",
+      "termCode": "fst00174117",
+      "url": "https://id.worldcat.org/fast/174117",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lakewood Church (Houston, Tex.)",
+      "termCode": "fst01655485",
+      "url": "https://id.worldcat.org/fast/1655485",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rhetorical criticism",
+      "termCode": "fst01096992",
+      "url": "https://id.worldcat.org/fast/1096992",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Audiences",
+      "termCode": "fst00821019",
+      "url": "https://id.worldcat.org/fast/821019",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Television in religion",
+      "termCode": "fst01146925",
+      "url": "https://id.worldcat.org/fast/1146925",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Big churches",
+      "termCode": "fst00831606",
+      "url": "https://id.worldcat.org/fast/831606",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Christianity and politics",
+      "termCode": "fst00859736",
+      "url": "https://id.worldcat.org/fast/859736",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Evangelicalism",
+      "termCode": "fst00917002",
+      "url": "https://id.worldcat.org/fast/917002",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Presidents--Election",
+      "termCode": "fst01075747",
+      "url": "https://id.worldcat.org/fast/1075747",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

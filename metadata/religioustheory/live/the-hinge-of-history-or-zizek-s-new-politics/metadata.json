@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/the-hinge-of-history-or-zizek-s-new-politics/#article",
+  "name": "The Hinge of History, or Žižek’s “New Politics”",
+  "headline": "The Hinge of History, or Žižek’s “New Politics”",
+  "description": "Carl A. Raschke asks whether the 2008 financial crash marks a hinge of history, testing Žižek's call for a new politics against consumer capitalism today.",
+  "url": "https://jcrt.org/religioustheory/live/the-hinge-of-history-or-zizek-s-new-politics/",
+  "inLanguage": "en",
+  "datePublished": "2008-10-17",
+  "dateModified": "2008-10-17",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/the-hinge-of-history-or-zizek-s-new-politics/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "l-YkT7"
+}

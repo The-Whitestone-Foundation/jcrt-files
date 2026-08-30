@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/laclau-and-democracy-in-light-of-the-current-crisis/#article",
+  "name": "Laclau and Democracy in Light of the Current Crisis",
+  "headline": "Laclau and Democracy in Light of the Current Crisis",
+  "description": "Daniel Douglas Miller uses Ernesto Laclau's account of democracy and populism to argue that the financial crisis demands political action, not passive hope.",
+  "url": "https://jcrt.org/religioustheory/live/laclau-and-democracy-in-light-of-the-current-crisis/",
+  "inLanguage": "en",
+  "datePublished": "2008-10-20",
+  "dateModified": "2008-10-20",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Daniel Douglas Miller"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/laclau-and-democracy-in-light-of-the-current-crisis/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "8a890i"
+}

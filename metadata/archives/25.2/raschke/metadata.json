@@ -1,0 +1,106 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://jcrt.org/archives/25.2/raschke/#article",
+  "name": "Spooky Cognition: Quantum Entanglement, Ephaptic Coupling, and the Transcendental Frontiers of Consciousness Studies",
+  "headline": "Spooky Cognition: Quantum Entanglement, Ephaptic Coupling, and the Transcendental Frontiers of Consciousness Studies",
+  "description": "Carl A. Raschke links quantum entanglement and ephaptic coupling to consciousness studies, proposing a transcendental semiotics of religious experience.",
+  "url": "https://jcrt.org/archives/25.2/raschke/",
+  "inLanguage": "en",
+  "datePublished": "2026-08-24",
+  "dateModified": "2026-08-24",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/archives/25.2/raschke/"
+  },
+  "abstract": "Carl A. Raschke links quantum entanglement and ephaptic coupling to consciousness studies, proposing a transcendental semiotics of religious experience.",
+  "isPartOf": {
+    "@type": "Periodical",
+    "name": "The Journal for Cultural and Religious Theory",
+    "url": "https://jcrt.org",
+    "issn": "1530-5228"
+  },
+  "identifier": "r-kaRt",
+  "volumeNumber": "25",
+  "issueNumber": "2",
+  "pagination": "239-247",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/25.2/raschke.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Chalmers, David John, 1966-",
+      "termCode": "fst00331388",
+      "url": "https://id.worldcat.org/fast/331388",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Newberg, Andrew B., 1966-",
+      "termCode": "fst00430049",
+      "url": "https://id.worldcat.org/fast/430049",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Consciousness",
+      "termCode": "fst00875441",
+      "url": "https://id.worldcat.org/fast/875441",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mysticism",
+      "termCode": "fst01031629",
+      "url": "https://id.worldcat.org/fast/1031629",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Quantum entanglement",
+      "termCode": "fst01895138",
+      "url": "https://id.worldcat.org/fast/1895138",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/catholics-vs-the-catholic-hierarchy-in-the-2008-election/#article",
+  "name": "Catholics vs. the Catholic Hierarchy in the 2008 Election",
+  "headline": "Catholics vs. the Catholic Hierarchy in the 2008 Election",
+  "description": "Victor Taylor examines Catholic voters in Pennsylvania, abortion politics, and the Church hierarchy's influence on conscience in the 2008 presidential election.",
+  "url": "https://jcrt.org/religioustheory/live/catholics-vs-the-catholic-hierarchy-in-the-2008-election/",
+  "inLanguage": "en",
+  "datePublished": "2008-10-26",
+  "dateModified": "2008-10-26",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Victor E. Taylor"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/catholics-vs-the-catholic-hierarchy-in-the-2008-election/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "G7BPVt"
+}

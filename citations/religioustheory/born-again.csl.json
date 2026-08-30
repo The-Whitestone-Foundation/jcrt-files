@@ -1,0 +1,27 @@
+[
+  {
+    "id": "religioustheory-born-again",
+    "type": "post-weblog",
+    "title": "Born Again",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
+    "URL": "https://jcrt.org/religioustheory/live/born-again/",
+    "abstract": "Colbey Emmerson Reid reads The Descent as a feminist resurrection narrative in which trauma, monstrosity, repetition, and rebirth unsettle Christian allegory.",
+    "author": [
+      {
+        "family": "Reid",
+        "given": "Colbey Emmerson"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          4,
+          2
+        ]
+      ]
+    }
+  }
+]

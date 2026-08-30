@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/labels-without-scars-mystifying-amnesia-in-today-s-president/#article",
+  "name": "Labels Without Scars: Mystifying Amnesia in Today’s Presidential Politics",
+  "headline": "Labels Without Scars: Mystifying Amnesia in Today’s Presidential Politics",
+  "description": "Wendy Felese examines the rhetoric surrounding Barack Obama's presidency, asking whether hopeful political labels conceal historical scars and uncertainty.",
+  "url": "https://jcrt.org/religioustheory/live/labels-without-scars-mystifying-amnesia-in-today-s-president/",
+  "inLanguage": "en",
+  "datePublished": "2009-01-27",
+  "dateModified": "2009-01-27",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Wendy Felese"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/labels-without-scars-mystifying-amnesia-in-today-s-president/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "IiU9B-"
+}

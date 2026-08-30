@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/the-morning-after-with-a-nod-to-vince-lombardi/#article",
+  "name": "The Morning After—with a Nod to Vince Lombardi",
+  "headline": "The Morning After—with a Nod to Vince Lombardi",
+  "description": "Carl A. Raschke reflects on Barack Obama's election, warning that political euphoria must give way to shared responsibility before the next global crisis.",
+  "url": "https://jcrt.org/religioustheory/live/the-morning-after-with-a-nod-to-vince-lombardi/",
+  "inLanguage": "en",
+  "datePublished": "2008-11-05",
+  "dateModified": "2008-11-05",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/the-morning-after-with-a-nod-to-vince-lombardi/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "4PZGsN"
+}

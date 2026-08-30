@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/obama-s-cairo-speech-new-beginning-new-enlightenment-or-old/#article",
+  "name": "Obama’s Cairo Speech: “New Beginning,” New Enlightenment, or Old Aporia?",
+  "headline": "Obama’s Cairo Speech: “New Beginning,” New Enlightenment, or Old Aporia?",
+  "description": "Carl A. Raschke analyzes Obama's Cairo speech as a bid for renewed relations between Islam and the West, testing its promise against Enlightenment aporias.",
+  "url": "https://jcrt.org/religioustheory/live/obama-s-cairo-speech-new-beginning-new-enlightenment-or-old/",
+  "inLanguage": "en",
+  "datePublished": "2009-06-05",
+  "dateModified": "2009-06-05",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/obama-s-cairo-speech-new-beginning-new-enlightenment-or-old/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "Y7QHLj"
+}

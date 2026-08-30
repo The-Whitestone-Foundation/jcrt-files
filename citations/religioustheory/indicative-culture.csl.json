@@ -1,0 +1,27 @@
+[
+  {
+    "id": "religioustheory-indicative-culture",
+    "type": "post-weblog",
+    "title": "Indicative Culture",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
+    "URL": "https://jcrt.org/religioustheory/live/indicative-culture/",
+    "abstract": "Adam Katz explores the indicative sentence, authority, law, and counterinsurgency to argue that institutions must learn from situated habits and judgment.",
+    "author": [
+      {
+        "family": "Katz",
+        "given": "Adam"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          6,
+          25
+        ]
+      ]
+    }
+  }
+]

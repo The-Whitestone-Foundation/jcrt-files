@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/born-again/#article",
+  "name": "Born Again",
+  "headline": "Born Again",
+  "description": "Colbey Emmerson Reid reads The Descent as a feminist resurrection narrative in which trauma, monstrosity, repetition, and rebirth unsettle Christian allegory.",
+  "url": "https://jcrt.org/religioustheory/live/born-again/",
+  "inLanguage": "en",
+  "datePublished": "2009-04-02",
+  "dateModified": "2009-04-02",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Colbey Emmerson Reid"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/born-again/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "8QGMcO"
+}

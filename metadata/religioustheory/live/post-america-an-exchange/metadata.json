@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/post-america-an-exchange/#article",
+  "name": "“Post-America”: An Exchange",
+  "headline": "“Post-America”: An Exchange",
+  "description": "David Hale and Carl A. Raschke exchange views on American decline, debt, empire, irony, and the uncertain line between the audacity and arrogance of hope.",
+  "url": "https://jcrt.org/religioustheory/live/post-america-an-exchange/",
+  "inLanguage": "en",
+  "datePublished": "2009-02-10",
+  "dateModified": "2009-02-10",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "David Hale"
+    },
+    {
+      "@type": "Person",
+      "name": "Carl A. Raschke"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/post-america-an-exchange/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "nh2LaY"
+}

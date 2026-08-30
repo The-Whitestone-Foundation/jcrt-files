@@ -12,6 +12,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import { parseFrontMatter, splitAuthors, isExplicitFalse, archiveEntries, theoryEntries } from "./lib/content-entries.mjs";
 
 // ── Constants ──────────────────────────────────────────────────────
 const JOURNAL_TITLE = "Journal for Cultural & Religious Theory";
@@ -25,7 +26,6 @@ const RT_TITLE = "Religious theory by JCRT";
 // dc:source / zotero:itemType meta tags.
 const RT_BLOG_TITLE = "JCRT - Religious Theory Blog";
 const RT_WEBSITE_TYPE = "Editor Reviewed Magazine";
-const BASE_URL = "https://jcrt.org";
 
 const CLI_ARGS = process.argv.slice(2);
 const FLAG_ARGS = new Set(CLI_ARGS.filter((arg) => arg.startsWith("--")));
@@ -39,8 +39,6 @@ const JCRT_V2_ROOT = PATH_ARG
 const RUN_ARCHIVES = !FLAG_ARGS.has("--theory-only");
 const RUN_THEORY = !FLAG_ARGS.has("--archives-only");
 
-const ARCHIVES_DIR = path.join(JCRT_V2_ROOT, "content", "archives");
-const THEORY_POSTS_DIR = path.join(JCRT_V2_ROOT, "content", "religioustheory", "posts");
 const OUT_ARCHIVES = path.join(FILES_ROOT, "citations", "archives");
 const OUT_THEORY = path.join(FILES_ROOT, "citations", "religioustheory");
 const LEGACY_DATE_PATH = path.join(JCRT_V2_ROOT, "_data", "legacy-ris-dates.json");
@@ -48,49 +46,6 @@ const LEGACY_DATE_PATH = path.join(JCRT_V2_ROOT, "_data", "legacy-ris-dates.json
 // ── Helpers ────────────────────────────────────────────────────────
 function sha256(input) {
 	return crypto.createHash("sha256").update(String(input)).digest("hex");
-}
-
-function parseFrontMatter(content) {
-	if (!content.startsWith("---")) return {};
-	const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*(?:\n|$)/);
-	if (!match) return {};
-	// Simple YAML parser for frontmatter (avoids js-yaml dependency)
-	const obj = {};
-	let currentKey = null;
-	let currentArray = null;
-	for (const line of match[1].split("\n")) {
-		const arrayItem = line.match(/^\s+-\s+(.*)/);
-		if (arrayItem && currentKey) {
-			if (!currentArray) {
-				currentArray = [];
-				obj[currentKey] = currentArray;
-			}
-			currentArray.push(arrayItem[1].replace(/^["']|["']$/g, "").trim());
-			continue;
-		}
-		const kv = line.match(/^([a-zA-Z_][a-zA-Z0-9_]*)\s*:\s*(.*)/);
-		if (kv) {
-			currentKey = kv[1];
-			currentArray = null;
-			let val = kv[2].trim();
-			val = val.replace(/^["']|["']$/g, "");
-			obj[currentKey] = val;
-		}
-	}
-	return obj;
-}
-
-function splitAuthors(value) {
-	if (!value) return [];
-	if (Array.isArray(value)) return value.flatMap(splitAuthors);
-	let s = String(value);
-	if (s.includes(";")) return s.split(";").map((p) => p.trim()).filter(Boolean);
-	if (/\s+and\s+/i.test(s)) return s.split(/\s+and\s+/i).map((p) => p.trim()).filter(Boolean);
-	return [s.trim()].filter(Boolean);
-}
-
-function isExplicitFalse(value) {
-	return String(value || "").trim().toLowerCase() === "false";
 }
 
 function parseYear(data) {
@@ -174,17 +129,6 @@ function risAuthor(author) {
 function normalizeTitle(v) {
 	return String(v || "").toLowerCase().normalize("NFKD")
 		.replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim();
-}
-
-function walkMd(dir) {
-	const results = [];
-	if (!fs.existsSync(dir)) return results;
-	for (const entry of fs.readdirSync(dir, { withFileTypes: true, recursive: true })) {
-		if (entry.isFile() && entry.name.endsWith(".md")) {
-			results.push(path.join(entry.parentPath || entry.path, entry.name));
-		}
-	}
-	return results;
 }
 
 // ── RIS / CSL-JSON builders ────────────────────────────────────────
@@ -280,42 +224,18 @@ function resolveLegacyDate(entry, lookup) {
 
 // ── Main ───────────────────────────────────────────────────────────
 function generateArchiveCitations() {
-	if (!fs.existsSync(ARCHIVES_DIR)) {
-		console.log("[citations] Archives dir not found:", ARCHIVES_DIR);
+	const srcEntries = archiveEntries(JCRT_V2_ROOT);
+	if (srcEntries.length === 0) {
+		console.log("[citations] No archive entries found under:", JCRT_V2_ROOT);
 		return { total: 0, generated: 0, skipped: 0 };
 	}
 
 	fs.mkdirSync(OUT_ARCHIVES, { recursive: true });
-	const files = walkMd(ARCHIVES_DIR);
 	const legacyLookup = loadLegacyDates();
-	const issueMetaCache = new Map();
 	let generated = 0, skipped = 0;
 
-	function getIssueMeta(issueSlug) {
-		if (issueMetaCache.has(issueSlug)) return issueMetaCache.get(issueSlug);
-		const indexPath = path.join(ARCHIVES_DIR, issueSlug, "index.njk");
-		let meta = {};
-		try { meta = parseFrontMatter(fs.readFileSync(indexPath, "utf8")) || {}; }
-		catch { meta = {}; }
-		issueMetaCache.set(issueSlug, meta);
-		return meta;
-	}
-
-	for (const filePath of files) {
-		const rel = path.relative(ARCHIVES_DIR, filePath);
-		const parts = rel.split(path.sep);
-		if (parts.length < 2) continue;
-		const issueSlug = parts[0];
-		const fileSlug = path.basename(parts[parts.length - 1], ".md");
-		if (!issueSlug.includes(".")) continue;
-		if (fileSlug.toLowerCase() === "index") continue;
-
-		const content = fs.readFileSync(filePath, "utf8");
-		if (!content.startsWith("---")) continue;
-
-		const data = parseFrontMatter(content);
-		if (isExplicitFalse(data.published)) continue;
-		const issueMeta = getIssueMeta(issueSlug);
+	for (const src of srcEntries) {
+		const { issueSlug, fileSlug, content, data, issueMeta, pageUrl } = src;
 
 		const volume = normalizeNumStr(data.volume || issueMeta.volume || issueSlug.split(".")[0] || "");
 		const issue = normalizeNumStr(data.issue || issueMeta.issue || issueSlug.split(".")[1] || "");
@@ -330,7 +250,6 @@ function generateArchiveCitations() {
 				? issueDateParts
 				: year ? [Number(year), 1, 1] : [];
 
-		const pageUrl = `${BASE_URL}/archives/${issueSlug}/${fileSlug}/`;
 		const url = pageUrl;
 
 		const entry = {
@@ -374,27 +293,22 @@ function generateArchiveCitations() {
 }
 
 function generateTheoryCitations() {
-	if (!fs.existsSync(THEORY_POSTS_DIR)) {
-		console.log("[citations] Theory posts dir not found:", THEORY_POSTS_DIR);
+	const srcEntries = theoryEntries(JCRT_V2_ROOT);
+	if (srcEntries.length === 0) {
+		console.log("[citations] No theory entries found under:", JCRT_V2_ROOT);
 		return { total: 0, generated: 0, skipped: 0 };
 	}
 
 	fs.mkdirSync(OUT_THEORY, { recursive: true });
-	const files = fs.readdirSync(THEORY_POSTS_DIR, { withFileTypes: true })
-		.filter((e) => e.isFile() && e.name.endsWith(".md"))
-		.map((e) => path.join(THEORY_POSTS_DIR, e.name));
-
 	let generated = 0, skipped = 0;
 
-	for (const filePath of files) {
-		const fileSlug = path.basename(filePath, ".md");
-		const content = fs.readFileSync(filePath, "utf8");
-		const data = parseFrontMatter(content);
+	for (const src of srcEntries) {
+		const { fileSlug, content, data, pageUrl } = src;
 
 		const risPath = path.join(OUT_THEORY, `${fileSlug}.ris`);
 		const cslPath = path.join(OUT_THEORY, `${fileSlug}.csl.json`);
 
-		const sig = sha256(content);
+		const sig = sha256(`${content}|${pageUrl}`);
 		if (fs.existsSync(risPath) && fs.existsSync(cslPath)) {
 			const markerPath = path.join(OUT_THEORY, `.${fileSlug}.sig`);
 			try {
@@ -412,7 +326,7 @@ function generateTheoryCitations() {
 			dateParts: parseDateParts(data),
 			abstract: String(data.description || "").trim(),
 			doi: normalizeDoi(data.doi),
-			url: `${BASE_URL}/religioustheory/posts/${fileSlug}/`,
+			url: pageUrl,
 		};
 
 		const citId = `religioustheory-${fileSlug}`.replace(/[^a-zA-Z0-9_.-]/g, "-");

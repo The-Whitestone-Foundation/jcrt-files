@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/live/multiplying-homonyms/#article",
+  "name": "Multiplying Homonyms",
+  "headline": "Multiplying Homonyms",
+  "description": "Artur Sebastian Rosman uses homonymy to assess a JCRT debate between Clayton Crockett and Agata Bielik-Robson over theology and the postmodern sublime.",
+  "url": "https://jcrt.org/religioustheory/live/multiplying-homonyms/",
+  "inLanguage": "en",
+  "datePublished": "2008-11-20",
+  "dateModified": "2008-11-20",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Artur Sebastian Rosman"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/live/multiplying-homonyms/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "kY6bMJ"
+}

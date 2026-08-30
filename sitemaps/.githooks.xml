@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://files.jcrt.org/sitemaps/style.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://files.jcrt.org/.githooks/pre-commit</loc>
+		<lastmod>2026-08-30</lastmod>
+	</url>
+</urlset>

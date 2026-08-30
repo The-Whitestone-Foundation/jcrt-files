@@ -2,6 +2,10 @@
 <?xml-stylesheet type="text/xsl" href="https://files.jcrt.org/sitemaps/style.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/.githooks.xml</loc>
+		<lastmod>2026-08-30</lastmod>
+	</sitemap>
+	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/archives.xml</loc>
 		<lastmod>2026-08-30</lastmod>
 	</sitemap>

@@ -67,10 +67,18 @@ jobs:
           git commit -m "chore: regenerate file sitemaps"
           git push
 
+      # rclone is ~20MB of download+unzip on every run; the binary is static and
+      # version-agnostic for our use. The install step below is the cache miss path.
+      - name: Cache rclone
+        uses: actions/cache@v4
+        with:
+          path: /usr/local/bin/rclone
+          key: rclone-linux-amd64-2026-08
+
       - name: Install rclone
         run: |
           set -euo pipefail
-          if command -v rclone >/dev/null; then rclone version | head -1; exit 0; fi
+          if command -v rclone >/dev/null && rclone version >/dev/null 2>&1; then rclone version | head -1; exit 0; fi
           curl -fsSL -o /tmp/rclone.zip https://downloads.rclone.org/rclone-current-linux-amd64.zip
           sudo unzip -q -j -o /tmp/rclone.zip '*/rclone' -d /usr/local/bin
           rclone version | head -1

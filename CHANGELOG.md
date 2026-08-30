@@ -16,6 +16,18 @@ All notable changes to jcrt-files (files.jcrt.org). One version per commit; vers
 - Same rebuild: the worker refactored into explicit ponyfill helper modules (http-meta, keys) and a new imageTransform module added for on-the-fly image transforms (w/h/q/f, scale-down, via-guard); the PDF rights check restored as incremental; worker deploy hardened to trim and fall back across Cloudflare API tokens.
 
 ## [00.01.30] — 2026-08-30
+Update update-changelog.mjs
+- Notes: Update update-changelog.mjs.
+
+## [00.01.29] — 2026-08-30
+Merge branch 'main' of https://github.com/The-Whitestone-Foundation/jcrt-files
+- Notes: Merge branch 'main' of https://github.com/The-Whitestone-Foundation/jcrt-files.
+
+## [00.01.28] — 2026-08-30
+fixing change log
+- Notes: fixing change log.
+
+## [00.01.30] — 2026-08-30
 adding dois fixing apostrophe problems
 - Notes: adding dois fixing apostrophe problems.
 

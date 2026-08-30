@@ -8,6 +8,9 @@
     "doc": "docs"
   },
   "scripts": {
+    "prepare": "git config core.hooksPath .githooks || true",
+    "changelog": "node scripts/update-changelog.mjs",
+    "changelog:check": "node scripts/update-changelog.mjs --check",
     "check:coverage": "node scripts/check-derived-coverage.mjs",
     "check:flyleafs": "python3 scripts/check_flyleafs.py",
     "check:metadata": "node scripts/check-oai-dc.mjs",

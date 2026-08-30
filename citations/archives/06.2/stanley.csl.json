@@ -11,7 +11,8 @@
     "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
-        "literal": "Timothy (Timothy W) Stanley"
+        "literal": "Timothy (Timothy W) Stanley",
+        "ORCID": "0000-0003-0553-8240"
       }
     ],
     "issued": {
@@ -25,6 +26,7 @@
     },
     "season": "spring",
     "volume": "6",
-    "issue": "2"
+    "issue": "2",
+    "DOI": "10.17613/dd7dg-0pg80"
   }
 ]

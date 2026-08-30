@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Evink",
-        "given": "Eddo"
+        "given": "Eddo",
+        "ORCID": "0000-0003-4301-4392"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "17",
     "issue": "2",
-    "page": "268-280"
+    "page": "268-280",
+    "DOI": "10.17613/p2c2h-kvg33"
   }
 ]

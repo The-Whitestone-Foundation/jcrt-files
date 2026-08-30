@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Clingerman",
-        "given": "Forrest"
+        "given": "Forrest",
+        "ORCID": "0000-0002-5668-8436"
       }
     ],
     "issued": {
@@ -26,6 +27,7 @@
     },
     "season": "winter",
     "volume": "6",
-    "issue": "1"
+    "issue": "1",
+    "DOI": "10.17613/zasn1-rxd36"
   }
 ]

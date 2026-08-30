@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Ruan",
-        "given": "Genn"
+        "given": "Genn",
+        "ORCID": "0000-0002-3928-9361"
       },
       {
         "family": "Zhang",
@@ -31,6 +32,7 @@
     "season": "summer",
     "volume": "24",
     "issue": "1",
-    "page": "138-156"
+    "page": "138-156",
+    "DOI": "10.17613/1nk6g-wrb03"
   }
 ]

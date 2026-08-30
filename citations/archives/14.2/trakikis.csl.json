@@ -11,8 +11,8 @@
     "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
-        "family": "Trakikis",
-        "given": "N.N."
+        "family": "Trakakis",
+        "given": "N. N."
       }
     ],
     "issued": {
@@ -26,6 +26,7 @@
     },
     "season": "spring",
     "volume": "14",
-    "issue": "2"
+    "issue": "2",
+    "DOI": "10.17613/by649-r5460"
   }
 ]

@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Datar",
-        "given": "Darshan"
+        "given": "Darshan",
+        "ORCID": "0000-0002-0132-3587"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "summer",
     "volume": "17",
     "issue": "3",
-    "page": "493-500"
+    "page": "493-500",
+    "DOI": "10.17613/jmvcf-kvw19"
   }
 ]

@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Murchadha",
-        "given": "Felix Ó"
+        "given": "Felix Ó",
+        "ORCID": "0000-0002-7764-3552"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "17",
     "issue": "2",
-    "page": "339-352"
+    "page": "339-352",
+    "DOI": "10.17613/zz3ym-5t930"
   }
 ]

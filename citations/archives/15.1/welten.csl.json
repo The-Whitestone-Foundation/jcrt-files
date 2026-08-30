@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Welten",
-        "given": "Ruud"
+        "given": "Ruud",
+        "ORCID": "0000-0002-8069-1782"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "15",
     "issue": "1",
-    "page": "3-15"
+    "page": "3-15",
+    "DOI": "10.17613/hcc33-edd73"
   }
 ]

@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Mayes",
-        "given": "Christopher"
+        "given": "Christopher",
+        "ORCID": "0000-0003-2674-6225"
       }
     ],
     "issued": {
@@ -26,6 +27,7 @@
     },
     "season": "winter",
     "volume": "11",
-    "issue": "1"
+    "issue": "1",
+    "DOI": "10.17613/yjgnd-as459"
   }
 ]

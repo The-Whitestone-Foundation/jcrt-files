@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Oliver",
-        "given": "Michael"
+        "given": "Michael",
+        "ORCID": "0000-0002-8800-7076"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "18",
     "issue": "2",
-    "page": "156-174"
+    "page": "156-174",
+    "DOI": "10.17613/5zmcj-a7r71"
   }
 ]

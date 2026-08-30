@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Hyman",
-        "given": "Gavin"
+        "given": "Gavin",
+        "ORCID": "0000-0002-2227-6855"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "19",
     "issue": "2",
-    "page": "276-294"
+    "page": "276-294",
+    "DOI": "10.17613/61e4e-vqw22"
   }
 ]

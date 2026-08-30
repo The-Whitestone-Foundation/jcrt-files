@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Simon",
-        "given": "Hemopereki"
+        "given": "Hemopereki",
+        "ORCID": "0000-0003-3764-0995"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "21",
     "issue": "3",
-    "page": "348-382"
+    "page": "348-382",
+    "DOI": "10.17613/d5fqq-1pp65"
   }
 ]

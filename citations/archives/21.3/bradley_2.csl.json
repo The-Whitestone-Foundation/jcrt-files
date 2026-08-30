@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Bradley",
-        "given": "Arthur"
+        "given": "Arthur",
+        "ORCID": "0000-0003-1017-1076"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "21",
     "issue": "3",
-    "page": "415-417"
+    "page": "415-417",
+    "DOI": "10.17613/ft9e0-a8n26"
   }
 ]

@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Bowring",
-        "given": "Jacky"
+        "given": "Jacky",
+        "ORCID": "0000-0003-4979-2734"
       }
     ],
     "issued": {
@@ -26,6 +27,7 @@
     },
     "season": "fall",
     "volume": "6",
-    "issue": "3"
+    "issue": "3",
+    "DOI": "10.17613/xtemg-c2b04"
   }
 ]

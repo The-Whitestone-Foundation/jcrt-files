@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Rose",
-        "given": "Marika"
+        "given": "Marika",
+        "ORCID": "0000-0001-8595-7482"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "16",
     "issue": "2",
-    "page": "240-259"
+    "page": "240-259",
+    "DOI": "10.17613/g9nb8-dcy45"
   }
 ]

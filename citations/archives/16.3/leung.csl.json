@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Leung",
-        "given": "King-Ho"
+        "given": "King-Ho",
+        "ORCID": "0000-0001-5551-7865"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "16",
     "issue": "3",
-    "page": "347-366"
+    "page": "347-366",
+    "DOI": "10.17613/rp3dx-5f916"
   }
 ]

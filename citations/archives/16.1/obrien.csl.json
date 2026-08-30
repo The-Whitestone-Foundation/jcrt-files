@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "O'Brien",
-        "given": "April"
+        "given": "April",
+        "ORCID": "0000-0001-9756-5478"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "winter",
     "volume": "16",
     "issue": "1",
-    "page": "52-55"
+    "page": "52-55",
+    "DOI": "10.17613/xmv0e-hmt91"
   }
 ]

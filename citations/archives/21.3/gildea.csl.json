@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Gildea",
-        "given": "Niall"
+        "given": "Niall",
+        "ORCID": "0000-0002-6138-332X"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "21",
     "issue": "3",
-    "page": "418-421"
+    "page": "418-421",
+    "DOI": "10.17613/tdka8-pdz77"
   }
 ]

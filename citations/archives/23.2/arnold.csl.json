@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Arnold",
-        "given": "Philip P"
+        "given": "Philip P",
+        "ORCID": "0009-0008-1224-5714"
       },
       {
         "family": "Taylor",
@@ -31,6 +32,7 @@
     "season": "winter",
     "volume": "23",
     "issue": "2",
-    "page": "132-139"
+    "page": "132-139",
+    "DOI": "10.17613/kgq1v-av969"
   }
 ]

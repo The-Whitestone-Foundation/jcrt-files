@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Schwartzberg",
-        "given": "Steven J."
+        "given": "Steven J.",
+        "ORCID": "0000-0003-0845-013X"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "25",
     "issue": "1",
-    "page": "100-136"
+    "page": "100-136",
+    "DOI": "10.17613/ba4bv-y1067"
   }
 ]

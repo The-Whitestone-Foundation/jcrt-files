@@ -16,7 +16,8 @@
         "ORCID": "0009-0004-6725-8425"
       },
       {
-        "literal": "Betty Hill (Lyons)"
+        "literal": "Betty Hill (Lyons)",
+        "ORCID": "0009-0009-9244-7857"
       },
       {
         "family": "Belmont",
@@ -36,6 +37,7 @@
     "season": "spring",
     "volume": "25",
     "issue": "1",
-    "page": "129-153"
+    "page": "129-153",
+    "DOI": "10.17613/a3v2f-9nm55"
   }
 ]

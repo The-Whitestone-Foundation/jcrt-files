@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Burley",
-        "given": "Mikel"
+        "given": "Mikel",
+        "ORCID": "0000-0002-7446-3564"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "18",
     "issue": "3",
-    "page": "466-490"
+    "page": "466-490",
+    "DOI": "10.17613/2kqa4-c9r39"
   }
 ]

@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Armstrong",
-        "given": "Amaryah"
+        "given": "Amaryah",
+        "ORCID": "0000-0002-1097-9799"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "spring",
     "volume": "16",
     "issue": "2",
-    "page": "126-141"
+    "page": "126-141",
+    "DOI": "10.17613/j229z-e5434"
   }
 ]

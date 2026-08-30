@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Rodkey",
-        "given": "Christopher D"
+        "given": "Christopher D",
+        "ORCID": "0009-0004-2741-0197"
       }
     ],
     "issued": {
@@ -26,6 +27,7 @@
     },
     "season": "winter",
     "volume": "10",
-    "issue": "1"
+    "issue": "1",
+    "DOI": "10.17613/kt98t-n6240"
   }
 ]

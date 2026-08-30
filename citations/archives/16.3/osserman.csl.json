@@ -12,7 +12,8 @@
     "author": [
       {
         "family": "Osserman",
-        "given": "Jordan"
+        "given": "Jordan",
+        "ORCID": "0000-0002-9858-8265"
       }
     ],
     "issued": {
@@ -27,6 +28,7 @@
     "season": "fall",
     "volume": "16",
     "issue": "3",
-    "page": "382-402"
+    "page": "382-402",
+    "DOI": "10.17613/vqz9r-t1768"
   }
 ]

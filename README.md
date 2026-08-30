@@ -15,6 +15,7 @@ Asset delivery repository for JCRT.
       the deploy itself as the token test — so nothing is broken, just logged as
       "TOKEN_PRIMARY could not deploy; trying next." Success check: a worker deploy
       logs `Deployed with TOKEN_PRIMARY`.
+
 ## Purpose
 This repo receives synced assets from `jcrt-v2` and publishes them to Cloudflare R2, served by a Worker on:
 

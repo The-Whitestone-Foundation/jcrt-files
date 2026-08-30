@@ -42,15 +42,21 @@ jobs:
       contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           # Full history: generate-file-sitemaps.mjs derives lastmod from git commit dates.
           fetch-depth: 0
 
+      # Node 24 pinned explicitly (owner requirement) rather than trusting the
+      # runner's preinstalled default, which tracks the image, not this repo.
+      - name: Setup Node 24
+        uses: actions/setup-node@v5
+        with:
+          node-version: "24"
+
       # Sitemaps are derived from the tracked file list, so they must be rebuilt whenever
       # content changes — otherwise a newly added file is served but never advertised.
       # Pushes made with GITHUB_TOKEN do not retrigger workflows, so this cannot loop.
-      # Uses the runner's preinstalled Node; actions/setup-node cost ~6s for nothing.
       - name: Regenerate file sitemaps and changelog
         run: |
           node scripts/generate-file-sitemaps.mjs

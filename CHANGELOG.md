@@ -15,6 +15,14 @@ All notable changes to jcrt-files (files.jcrt.org). One version per commit; vers
 - Same rebuild: per-folder file-inventory sitemaps plus an XSLT stylesheet served at the canonical /sitemap.xml via a worker rewrite; a legacy citation alias shadowing real files (causing 404s) fixed; CDN folder deployment made auto-discovering instead of hardcoded.
 - Same rebuild: the worker refactored into explicit ponyfill helper modules (http-meta, keys) and a new imageTransform module added for on-the-fly image transforms (w/h/q/f, scale-down, via-guard); the PDF rights check restored as incremental; worker deploy hardened to trim and fall back across Cloudflare API tokens.
 
+## [00.01.04] — 2026-08-29
+ci: prune mode must sync per-directory; files-from scoped deletions to nothing
+- Notes: ci: prune mode must sync per-directory; files-from scoped deletions to nothing.
+
+## [00.01.03] — 2026-08-29
+post: changelog with per-commit versions; README deploy docs + token TODO
+- Notes: post: changelog with per-commit versions; README deploy docs + token TODO.
+
 ## [00.01.02] — 2026-08-29
 ci: trim and fall back across Cloudflare tokens for worker deploy
 - Notes: Hardens the worker-deploy CI step to trim stray whitespace from Cloudflare API token secrets and fall back across multiple token env vars, closing the same class of auth flakiness that plagued the original R2 deploy pipeline back in March.

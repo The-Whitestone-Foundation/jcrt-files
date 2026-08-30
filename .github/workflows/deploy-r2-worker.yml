@@ -51,20 +51,22 @@ jobs:
       # content changes — otherwise a newly added file is served but never advertised.
       # Pushes made with GITHUB_TOKEN do not retrigger workflows, so this cannot loop.
       # Uses the runner's preinstalled Node; actions/setup-node cost ~6s for nothing.
-      - name: Regenerate file sitemaps
-        run: node scripts/generate-file-sitemaps.mjs
+      - name: Regenerate file sitemaps and changelog
+        run: |
+          node scripts/generate-file-sitemaps.mjs
+          node scripts/update-changelog.mjs
 
-      - name: Commit refreshed sitemaps
+      - name: Commit refreshed sitemaps and changelog
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain sitemaps)" ]]; then
-            echo "Sitemaps already current."
+          if [[ -z "$(git status --porcelain sitemaps CHANGELOG.md)" ]]; then
+            echo "Sitemaps and changelog already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sitemaps
-          git commit -m "chore: regenerate file sitemaps"
+          git add sitemaps CHANGELOG.md
+          git commit -m "chore: regenerate file sitemaps and changelog"
           git push
 
       # rclone is ~20MB of download+unzip on every run; the binary is static and

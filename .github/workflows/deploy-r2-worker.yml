@@ -200,15 +200,18 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
         run: |
           set -euo pipefail
+          # The deploy itself is the test. A whoami gate proved too weak: an account
+          # token can pass whoami yet lack Workers deploy permission, which stopped the
+          # chain at the first well-formed-but-underprivileged token.
           for name in TOKEN_PRIMARY TOKEN_V2 TOKEN_BACKUP; do
             token="$(printf '%s' "${!name:-}" | tr -d '[:space:]')"
             [[ -z "$token" ]] && continue
-            if CLOUDFLARE_API_TOKEN="$token" npx --yes wrangler@4 whoami >/dev/null 2>&1; then
-              echo "Deploying with ${name}"
-              CLOUDFLARE_API_TOKEN="$token" npx --yes wrangler@4 deploy
+            echo "Attempting worker deploy with ${name}"
+            if CLOUDFLARE_API_TOKEN="$token" npx --yes wrangler@4 deploy; then
+              echo "Deployed with ${name}"
               exit 0
             fi
-            echo "${name} failed verification; trying next."
+            echo "${name} could not deploy; trying next."
           done
-          echo "ERROR: no Cloudflare token could be verified for worker deploy." >&2
+          echo "ERROR: no Cloudflare token could deploy the worker." >&2
           exit 1

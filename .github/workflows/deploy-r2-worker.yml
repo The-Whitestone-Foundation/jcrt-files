@@ -140,15 +140,22 @@ jobs:
 
           # --checksum: R2 etags are md5 for single-part uploads, so comparison is
           # content-addressed and immune to CI checkouts rewriting every mtime.
-          # `copy` never deletes; pass prune_deletes=true for a true `sync`.
-          VERB=copy
-          if [[ "${PRUNE_DELETES:-false}" == "true" ]]; then VERB=sync; fi
-          rclone "$VERB" . "r2:${R2_BUCKET}" \
-            --files-from-raw /tmp/asset-files.txt \
-            --checksum \
-            --transfers 32 --checkers 64 \
-            --fast-list \
-            --stats-one-line --stats 15s -v
+          RCLONE_FLAGS=(--checksum --transfers 32 --checkers 64 --fast-list --stats-one-line --stats 15s -v)
+
+          if [[ "${PRUNE_DELETES:-false}" == "true" ]]; then
+            # True prune: sync each asset dir WITHOUT --files-from. A files-from filter
+            # scopes deletion to the listed files, so bucket orphans (absent from git,
+            # therefore absent from the list) would never be deleted — the first prune
+            # run "succeeded" with zero deletions for exactly that reason. Syncing the
+            # directory itself deletes remote objects under that prefix that are not in
+            # the checkout, and a fresh CI checkout contains exactly the tracked files.
+            for d in "${TARGETS[@]}"; do
+              rclone sync "$d" "r2:${R2_BUCKET}/$d" "${RCLONE_FLAGS[@]}"
+            done
+          else
+            # Normal deploys: additive checksum copy of the tracked file list. Never deletes.
+            rclone copy . "r2:${R2_BUCKET}" --files-from-raw /tmp/asset-files.txt "${RCLONE_FLAGS[@]}"
+          fi
 
       - name: Decide whether to deploy the Worker
         id: worker

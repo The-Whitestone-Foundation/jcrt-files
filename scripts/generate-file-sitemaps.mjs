@@ -13,6 +13,7 @@
  *
  * Usage:
  *   node scripts/generate-file-sitemaps.mjs
+ *   node scripts/generate-file-sitemaps.mjs archives   # only archives.xml
  *   node scripts/generate-file-sitemaps.mjs --check    # fail if output is stale
  *
  * Only git-tracked files are listed, because those are exactly the files the R2 deploy
@@ -56,6 +57,7 @@ function discoverServedFolders() {
 const STYLESHEET_PI = '<?xml-stylesheet type="text/xsl" href="https://files.jcrt.org/sitemaps/style.xsl"?>';
 
 const CHECK_MODE = process.argv.includes("--check");
+const REQUESTED_FOLDERS = process.argv.slice(2).filter((arg) => arg !== "--check");
 
 function git(args) {
 	return execFileSync("git", args, { cwd: REPO_ROOT, encoding: "utf8", maxBuffer: 256 * 1024 * 1024 });
@@ -133,12 +135,20 @@ function writeOrCheck(filePath, contents, stale) {
 function main() {
 	if (!CHECK_MODE) fs.mkdirSync(OUT_DIR, { recursive: true });
 
+	const allFolders = discoverServedFolders();
+	const folders = REQUESTED_FOLDERS.length ? REQUESTED_FOLDERS : allFolders;
+	const unknown = folders.filter((folder) => !allFolders.includes(folder));
+	if (unknown.length) {
+		console.error(`[file-sitemaps] unknown served folder: ${unknown.join(", ")}`);
+		process.exit(1);
+	}
+
 	const lastmodMap = buildLastmodMap();
 	const stale = [];
 	const written = [];
 	const lastmodByFolder = new Map();
 
-	for (const folder of discoverServedFolders()) {
+	for (const folder of folders) {
 		const files = trackedFiles(folder);
 		if (files.length === 0) {
 			console.warn(`[file-sitemaps] ${folder}/ has no tracked files; skipping`);
@@ -156,17 +166,18 @@ function main() {
 		written.push({ folder, count: files.length });
 	}
 
-	const folders = written.map((w) => w.folder);
-	writeOrCheck(path.join(OUT_DIR, "index.xml"), renderIndex(folders, lastmodByFolder), stale);
+	if (!REQUESTED_FOLDERS.length) {
+		writeOrCheck(path.join(OUT_DIR, "index.xml"), renderIndex(allFolders, lastmodByFolder), stale);
+	}
 
 	for (const { folder, count } of written) {
 		console.log(`[file-sitemaps] ${folder}.xml: ${count} URLs`);
 	}
-	console.log(`[file-sitemaps] index.xml: ${folders.length} sitemaps`);
+	if (!REQUESTED_FOLDERS.length) console.log(`[file-sitemaps] index.xml: ${allFolders.length} sitemaps`);
 
 	if (CHECK_MODE && stale.length > 0) {
 		console.error(`\n[file-sitemaps] stale or missing output:\n  ${stale.join("\n  ")}`);
-		console.error("Run: node scripts/generate-file-sitemaps.mjs");
+		console.error(`Run: node scripts/generate-file-sitemaps.mjs${REQUESTED_FOLDERS.length ? ` ${REQUESTED_FOLDERS.join(" ")}` : ""}`);
 		process.exit(1);
 	}
 }

@@ -12,7 +12,13 @@ const rights = "<dc:rights>Copyright held by the author(s). Published in the Jou
 const temporary = fs.mkdtempSync(path.join(os.tmpdir(), "jcrt-oai-"));
 
 try {
-	if (records.length !== 819) throw new Error(`Expected 819 Dublin Core records, found ${records.length}`);
+	// Derived expectation, not a hardcoded count: the feed must carry one record per
+	// archive article in the metadata tree. (A literal constant here went stale the same
+	// way check_pdf_copyright.py's did.)
+	const expected = fs
+		.readdirSync(path.join(root, "metadata", "archives"), { recursive: true })
+		.filter((f) => String(f).endsWith("metadata.json")).length;
+	if (records.length !== expected) throw new Error(`Expected ${expected} Dublin Core records (one per metadata/archives article), found ${records.length}`);
 	for (const [index, record] of records.entries()) {
 		if (!record.includes(rights) || /creative commons|cc[- ]by|by-nc-nd|creativecommons\.org/i.test(record)) {
 			throw new Error(`Record ${index + 1} has incorrect rights metadata`);

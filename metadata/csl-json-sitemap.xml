@@ -791,7 +791,6 @@
   <url><loc>https://files.jcrt.org/citations/archives/24.1/phelps.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.1/ruan.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.1/silverstein.csl.json</loc></url>
-  <url><loc>https://files.jcrt.org/citations/archives/24.2/0000-demo.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.2/alencar.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.2/author-bios.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.2/barry.csl.json</loc></url>
@@ -811,6 +810,7 @@
   <url><loc>https://files.jcrt.org/citations/archives/24.2/somayajula.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.2/trinkauskaite.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/24.2/wagner.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.1/0000-demo.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/25.1/conclusion.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/25.1/derrico.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/25.1/goudy.csl.json</loc></url>
@@ -820,10 +820,22 @@
   <url><loc>https://files.jcrt.org/citations/archives/25.1/postscript.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/25.1/rodgers-falk.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/25.1/schwartzberg.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/alikhani.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/bell.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/cheung.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/gilbert.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/hall.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/lockhart.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/raschke.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/shane.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/spencer.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/archives/25.2/valentini.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/archives/28.2/tester-again.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/3288.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/3343.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/760.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/9780593493205.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/a-new-project-for-correlational-continental-theology-again.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/a-preface-to-the-genealogy-of-neoliberalism-part-1-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/a-preface-to-the-genealogy-of-neoliberalism-part-2-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/a-tainted-trophy-and-the-framing-of-white-supremacy-in-america-part-1-tink-tinker.csl.json</loc></url>
@@ -834,8 +846,10 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/antinomian-flesh-part-1-david-kline.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/antinomian-flesh-part-2-david-kline.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/antinomian-flesh-part-3-david-kline.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/apocalypse-now-the-subaltern-has-spoken.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-part-2-ronald-beiner.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/benjamins-concept-of-history-as-a-source-of-arendts-idea-of-judgment-ronald-beiner.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/bernie-madoff-university.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/beyond-religious-ideas-the-legacy-of-max-weber-in-critical-theory-and-critical-religion-joel-harrison.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/biopolitics-and-vajranayana-buddhism-part-1.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/biopolitics-and-vajrayana-buddhism-part-2.csl.json</loc></url>
@@ -843,15 +857,19 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-1-kieryn-wurts.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-2-kieryn-wurts.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/body-erotic-john-boswells-history-of-eurochristian-sexuality-and-the-case-for-transcendental-somatics-part-3-kieryn-wurts.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/born-again.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/bushwhacking-derrida-perception-context-of-context-the-hunter-and-the-hunted-gary-bedford.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/call-for-papers-and-presentation-recovering-the-unconcious-a-conference-on-the-intersection-of-psychoanalysis-with-politics-philosophy-and-religion.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/call-for-papers-special-issue-on-walter-benjamin-and-religion.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/catholics-vs-the-catholic-hierarchy-in-the-2008-election.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/christianity-as-a-new-humanism-historical-theological-and-philosophical-reflections-on-the-bible-hegel-and-robert-musil-part-4-kurt-appel.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/collective-desire-and-the-pathology-of-the-individual-jodi-dean.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/collective-desire-and-the-pathology-of-the-individual-part-2-jodi-dean.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/competing-in-goodness-khalid-sheikh-mohammed-s-testimony-at.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/conference-on-populism-nationalism-and-the-future-of-democracy-announcement.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/conference-on-populism-nationalism-and-the-future-of-democracy-call-for-papers-and-presentations-conferences.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/conference-on-religion-and-bioethics-call-for-proposals.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/crisis-a-liberation-from-capitalism.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/critical-conversations-10-tenderness-or-putting-neoliberalism-on-the-analysts-couch-announcement.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/critical-conversations-2020-and-the-catastrophe-of-the-global-neoliberal-order-announcement.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/critical-conversations-9-economic-theology-and-the-indebtedness-of-everyday-life-announcement.csl.json</loc></url>
@@ -869,6 +887,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-call-for-presentations-and-papers.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/decoloniality-and-disintegration-of-western-cognitive-empire-rethinking-sovereignty-and-territoriality-in-the-21st-century-international-conference.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/difficult-discussions-christian-evangelicalism-and-critical-race-theory-announcement.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/dis-enclosure-and-the-inaugural-moment.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-1-alan-jay-richard.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-2-alan-jay-richard.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/dreaming-innocence-in-america-paul-tillichs-radical-theology-of-liberation-part-3-alan-jay-richard.csl.json</loc></url>
@@ -909,6 +928,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/god-and-salvation-lecture-8-johannes-zachhuber.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/god-as-person-and-trinity-lecture-7-johannes-zachhuber.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/greening-americas-virtues-nick-mather.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/habit-and-errors-and-composition.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/hanging-garlands-of-flowers-on-the-chains-that-bind-soft-totalitarianism-and-techno-rationality-jeff-appel.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/healing-as-a-multimedia-practice-contemporary-spirituality-in-turkey-part-1-duygu-sendag.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/hegel-contra-god-replying-to-gavin-hymans-new-hegel-part-1-rebekah-howes.csl.json</loc></url>
@@ -917,6 +937,9 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/hegemony-and-techno-rationality-toward-an-aesthetic-soteriology-mason-davis.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-gavin-hurley.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/horror-fiction-and-catholic-theology-a-rhetorical-synthesis-part-2-gavin-hurley.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/hot-abstinence.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/hyperreality.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/indicative-culture.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-joshua-hall.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-2-joshua-hall.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/introducing-spirit-dance-social-justice-and-reconstructed-spiritual-practices-part-3-joshua-hall.csl.json</loc></url>
@@ -929,11 +952,13 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/jonathan-edwards-and-the-vegan-elect-an-unconventional-calvinist-reading-part-1.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/kenosis-emancipation-pastness-reflections-from-a-jew-part-1-sarah-pessin.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/kenosis-emancipation-pastness-reflections-from-a-jew-part-2-sarah-pessin.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/labels-without-scars-mystifying-amnesia-in-today-s-president.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lacan-and-pneumatology-mark-murphy.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-1-mark-murphy.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-2-mark-murphy.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lacan-as-spiritual-director-on-the-relationship-between-psychoanalysis-and-christian-mysticism-part-3-mark-murphy.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lacan-levinas-and-the-politics-of-the-subject-joshua-lawrence.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/laclau-and-democracy-in-light-of-the-current-crisis.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/lets-get-real-about-race-two-very-timely-upcoming-online-seminars-announcement.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/life-as-art-aesthetic-virtue-and-moral-obligation.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/locating-the-oceanic-in-sylvia-wynters-demonic-ground-part-2-justine-m-bakker.csl.json</loc></url>
@@ -955,6 +980,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/modern-theology-and-the-dialectic-of-god-part-3-kelly-maeshiro.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/modern-theology-and-the-dialectic-of-god-part-4-kelly-maeshiro.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/more-sympathy-for-the-devil-or-the-state-of-satan-in-the-age-of-obama-and-trump.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/multiplying-homonyms.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-james-e-willis-iii.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/naming-the-darkness-spiritual-violence-and-radical-incompleteness-resituating-a-political-theology-part-2-james-e-willis-iii.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/negative-theology-and-its-problems-barth-and-marion-lecture-3-johannes-zachhuber.csl.json</loc></url>
@@ -964,14 +990,19 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/notations-agambens-homo-sacer-refugees-and-the-crisis-of-european-values.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/notations-the-european-refugee-crisis-and-more.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/notations-the-unacculturable-refugee-flux-spurs-crisis-of-european-belief.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/obama-s-cairo-speech-new-beginning-new-enlightenment-or-old.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/orientalism-ontology-and-orientation-a-muslim-perspective-on-charles-h-long-part-2-mehnaz-afridi.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/orientalism-ontology-and-orientation.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/originary-grammar-part-2.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/originary-grammar-part-3.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/originary-grammar.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/philosophical-anthropology-or-philosophy-of-praxis-axel-honneth-and-andrew-feenberg-on-lukacs-theory-of-reification-konstantinos-kavoulakos.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/philosophy-as-interdisciplinary-intensity-an-interview-with-giorgio-agamben-antonio-gnolioido-govrin.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-1-erik-meganck.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-2-erik-meganck.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/philosophy-as-love-unblocking-the-road-from-athens-to-jerusalem-part-3-erik-meganck.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/plundering-a-theory-of-trauma-confessions-of-a-novice-author-on-lacan-and-theology.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/post-america-an-exchange.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/prayer-after-the-death-of-god-part-i-ashley-gay-graham.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/prayer-after-the-death-of-god-part-ii-ashley-gay-graham.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/progressive-neoliberalism-symbolic-capitalism-and-the-global-reproduction-of-the-precariat-interview-with-carl-raschke.csl.json</loc></url>
@@ -987,7 +1018,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/religion-and-mental-health-the-therapuetic-value-of-the-teachings-of-jesus-part-2-thomas-roberts-and-delbert-hayden.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/religious-autonomy-as-secularisms-silent-partner-darshan-datar.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/religious-faith-in-pursuit-of-environmental-justice-chris-durante.csl.json</loc></url>
-  <url><loc>https://files.jcrt.org/citations/religioustheory/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kevin-s-grane.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/religious-sacrificial-sympathy-how-man-became-more-valuable-than-beast-kev-grane.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/religious-studies-and-comparative-theology-an-appraisal-joshua-samuel.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/religious-studies-as-the-state-religion-of-neoliberalism-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/religious-studies-as-the-state-religion-of-neoliberalism-part-2-carl-raschke.csl.json</loc></url>
@@ -1072,6 +1103,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/speaking-of-gods-presence-as-non-contrastive-transcendent-distinction-joyce-konigsburg.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/speaking-or-not-speaking-of-god-call-for-proposals2.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/special-issue-on-religion-and-bioethics-call-for-papers.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/specter-and-event.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/spinozas-theory-of-religion-stabilized-superstition-ehud-benor.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/spiritual-erotics-affect-theory-and-the-transformation-of-machismo-among-latino-pentecostal-men-part-1.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/spiritual-erotics-part-2-the-nature-and-history-of-machismo-and-its-feminine-counterpart-as-marianismo.csl.json</loc></url>
@@ -1079,6 +1111,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-1-a-g-holdier.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/teach-me-to-do-whats-right-faith-hope-and-love-as-post-religious-virtues-part-2-a-g-holdier.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-bell-jars-new-look-sylvia-plath-simone-de-beauvoir-and-the-visual-representation-of-feminist-discourse-madeline-yonker.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/the-business-of-the-real-and-the-unreality-of-business.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-critique-of-theism-kant-hegel-feuerbach-nietzsche-lecture-2-johannes-zachhuber.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-j-edward-hackett.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-curious-whiteheadian-proclivity-in-schelers-account-of-god-and-persons-part-2-j-edward-hackett.csl.json</loc></url>
@@ -1091,6 +1124,7 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-fracturing-of-world-order-a-series-of-international-and-interdisciplinary-online-mini-conferences-call-for-papers-and-presentations-announcement.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-futurity-of-god-part-1-lenart-skof.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-futurity-of-god-part-2-lenart-skof.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/the-hinge-of-history-or-zizek-s-new-politics.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-hollow-christians-of-end-times-fiction-part-1-paul-maltby.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-hollow-christians-of-end-times-fiction-part-2-paul-maltby.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-hollow-christians-of-end-times-fiction-part-3-paul-maltby.csl.json</loc></url>
@@ -1099,10 +1133,12 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-1-caterina-de-gaetano.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-imagination-in-spinoza-the-moral-good-between-prophecy-and-the-amor-dei-intellectualis-part-2-caterina-de-gaetano.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-irreducible-jean-luc-marion.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/the-jcrt-now-has-a-blog.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-1-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-2-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-kingdom-the-power-the-glory-and-the-tawdry-media-and-the-undoing-of-the-demos-part-3-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-legacy-of-charles-h-long-resisting-and-short-circuiting-the-discourses-of-exclusion-in-the-theory-and-practice-of-administration-victor-e-taylor.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/the-morning-after-with-a-nod-to-vince-lombardi.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-1-brigid-burke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-mythology-of-afterlife-beliefs-and-their-impact-on-religious-conflict-part-2-brigid-burke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/the-new-hegel-and-the-question-of-god-part-1-gavin-hyman.csl.json</loc></url>
@@ -1162,8 +1198,10 @@
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-black-disabled-bodies-can-teach-us-about-environmental-justice-robert-monson.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-do-we-mean-by-decoloniality-a-conversation.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-do-we-mean-by-decoloniality-a-discussion-part-2.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/what-egypt-really-means-for-the-theory-of-religion.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-1-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-exactly-is-postmodernism-and-how-did-it-change-the-landscape-of-religious-studies-part-2-carl-raschke.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-is-a-dispositif-part-1.csl.json</loc></url>
   <url><loc>https://files.jcrt.org/citations/religioustheory/what-is-a-dispositif-part-2.csl.json</loc></url>
+  <url><loc>https://files.jcrt.org/citations/religioustheory/zombie-aesthetics-part-1-vituperation.csl.json</loc></url>
 </urlset>

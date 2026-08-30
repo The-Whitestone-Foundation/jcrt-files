@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-08-05T07:01:21.566Z</responseDate>
+  <responseDate>2026-08-30T06:42:52.041Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
@@ -29563,7 +29563,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Evolution of Colonial Gender Roles</dc:title>
-          <dc:creator>Kevin Grane</dc:creator>
+          <dc:creator>Kev Grane</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2023-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -30290,7 +30290,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Religious Sacrificial Sympathy: How Man Became More Valuable Than Beast.</dc:title>
-          <dc:creator>Kevin S. Grane</dc:creator>
+          <dc:creator>Kev Grane</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -30943,7 +30943,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:abstracts</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -30953,7 +30953,7 @@
           <dc:title>Abstracts</dc:title>
           <dc:creator>editors</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -30969,7 +30969,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:bios</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -30979,7 +30979,7 @@
           <dc:title>Author Bios</dc:title>
           <dc:creator>editors</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -30995,7 +30995,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:daga</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31006,7 +31006,7 @@
           <dc:creator>Nisha Daga</dc:creator>
           <dc:creator>George Kodimattam Joseph</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31040,7 +31040,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:durante</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31050,7 +31050,7 @@
           <dc:title>Religion’s Relationship with Public Bioethics: a Critical Historical Assessment and Pragmatic Method for Inclusive Discourse</dc:title>
           <dc:creator>Christopher Durante</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31081,7 +31081,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:godazgar</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31091,7 +31091,7 @@
           <dc:title>A ‘Social Constructionist’ Approach to ‘Muslim Biomedical Ethics’: Examining ‘Muslim’ Opposition to Physician-Assisted Suicide</dc:title>
           <dc:creator>Hossein Godazgar</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31123,7 +31123,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:grammenou</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31133,7 +31133,7 @@
           <dc:title>Suffering and Dying in Modern Pandemics: a Parallel Reading of Ivan Illich, Giorgio Agamben and Byung-Chul Han</dc:title>
           <dc:creator>Iria Grammenou</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31163,7 +31163,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:grane</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31171,9 +31171,9 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Faith and Transitions: Religious Notions of Accountability and Gender Affirming Care for Youth</dc:title>
-          <dc:creator>Kevin Grane</dc:creator>
+          <dc:creator>Kev Grane</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31206,7 +31206,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:harwood</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31216,7 +31216,7 @@
           <dc:title>Reconsidering the Significance of Biogenetic Ties</dc:title>
           <dc:creator>Karey Harwood</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31248,7 +31248,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:phelps</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31258,7 +31258,7 @@
           <dc:title>Constructing Mystical Experiences: a Critique of the Mystical Paradigm in Psychedelic Research</dc:title>
           <dc:creator>Hollis Phelps</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31275,7 +31275,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:ruan</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31286,7 +31286,7 @@
           <dc:creator>Genn Ruan</dc:creator>
           <dc:creator>Xiaoqian Zhang</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -31319,7 +31319,7 @@
     <record>
       <header>
         <identifier>oai:jcrt.org:archives:24.1:silverstein</identifier>
-        <datestamp>2025-01-01</datestamp>
+        <datestamp>2024-01-01</datestamp>
       </header>
       <metadata>
         <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
@@ -31329,7 +31329,7 @@
           <dc:title>Medical Procedure in the Heat of Emotion: the Positions of Military Rabbinate Personnel on Posthumous Sperm Retrieval (Psr) Following the October 7, 2023 Attack</dc:title>
           <dc:creator>Yaron Silverstein</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
-          <dc:date>2025-01-01</dc:date>
+          <dc:date>2024-01-01</dc:date>
           <dc:type>article</dc:type>
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
@@ -32358,6 +32358,443 @@
           <dc:subject>Decolonization</dc:subject>
           <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
           <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 1, pp. 100-136</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:alikhani</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Bare Life and Divine Violence: Benjamin, Levinas, and Ethics of Interruption</dc:title>
+          <dc:creator>Diako Alikhani</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/alikhani.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/alikhani.pdf</dc:relation>
+          <dc:description>Diako Alikhani rereads Benjamin’s divine violence through Levinas, arguing that bare life is where mythic law and ethical interruption confront one another.</dc:description>
+          <dc:subject>walter-benjamin</dc:subject>
+          <dc:subject>bare-life</dc:subject>
+          <dc:subject>divine-violence</dc:subject>
+          <dc:subject>mythic-violence</dc:subject>
+          <dc:subject>emmanuel-levinas</dc:subject>
+          <dc:subject>interruption</dc:subject>
+          <dc:subject>ethics</dc:subject>
+          <dc:subject>politics</dc:subject>
+          <dc:subject>critique-of-violence</dc:subject>
+          <dc:subject>political-theology</dc:subject>
+          <dc:subject>Benjamin, Walter, 1892-1940</dc:subject>
+          <dc:subject>Lévinas, Emmanuel</dc:subject>
+          <dc:subject>Ethics</dc:subject>
+          <dc:subject>Political theology</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 154-169</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:bell</identifier>
+        <datestamp>2026-08-26</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Artfully Dodging a Presidential Endorsement: How Joel Osteen Uses Rhetoric to Build an Audience for Political Gain</dc:title>
+          <dc:creator>Reginald Bell Jr.</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-26</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/bell.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/bell.pdf</dc:relation>
+          <dc:description>Reginald Bell Jr. reads Joel Osteen’s refusal to endorse Donald Trump through Edwin Black’s second persona, naming the ideal audience his rhetoric builds and the third persona it silences.</dc:description>
+          <dc:subject>joel-osteen</dc:subject>
+          <dc:subject>donald-trump</dc:subject>
+          <dc:subject>presidential-endorsement</dc:subject>
+          <dc:subject>second-persona</dc:subject>
+          <dc:subject>third-persona</dc:subject>
+          <dc:subject>edwin-black</dc:subject>
+          <dc:subject>rhetorical-criticism</dc:subject>
+          <dc:subject>televangelism</dc:subject>
+          <dc:subject>megachurch</dc:subject>
+          <dc:subject>evangelicalism</dc:subject>
+          <dc:subject>religion-and-politics</dc:subject>
+          <dc:subject>social-media</dc:subject>
+          <dc:subject>Osteen, Joel</dc:subject>
+          <dc:subject>Trump, Donald, 1946-</dc:subject>
+          <dc:subject>Lakewood Church (Houston, Tex.)</dc:subject>
+          <dc:subject>Rhetorical criticism</dc:subject>
+          <dc:subject>Audiences</dc:subject>
+          <dc:subject>Television in religion</dc:subject>
+          <dc:subject>Big churches</dc:subject>
+          <dc:subject>Christianity and politics</dc:subject>
+          <dc:subject>Evangelicalism</dc:subject>
+          <dc:subject>Presidents--Election</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 300-311</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:cheung</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Specters of Lost Causes: Caputo’s Theology through the Žižekian Lens of Fidelity and Haunting</dc:title>
+          <dc:creator>Yiu Ming Cheung</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/cheung.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/cheung.pdf</dc:relation>
+          <dc:description>Yiu Ming Cheung brings Žižek’s lost causes together with Caputo’s event-theology to build a postsecular theology of insistence and interruption.</dc:description>
+          <dc:subject>slavoj-zizek</dc:subject>
+          <dc:subject>john-d-caputo</dc:subject>
+          <dc:subject>lost-causes</dc:subject>
+          <dc:subject>the-event</dc:subject>
+          <dc:subject>weak-theology</dc:subject>
+          <dc:subject>hauntology</dc:subject>
+          <dc:subject>fidelity</dc:subject>
+          <dc:subject>the-real</dc:subject>
+          <dc:subject>political-theology</dc:subject>
+          <dc:subject>spectral-hermeneutics</dc:subject>
+          <dc:subject>postsecularism</dc:subject>
+          <dc:subject>radical-theology</dc:subject>
+          <dc:subject>Žižek, Slavoj</dc:subject>
+          <dc:subject>Caputo, John D.</dc:subject>
+          <dc:subject>Political theology</dc:subject>
+          <dc:subject>Postsecularism</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 170-187</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:gilbert</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>On the Interdependence of All Things</dc:title>
+          <dc:creator>Bennett Gilbert</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/gilbert.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/gilbert.pdf</dc:relation>
+          <dc:description>Bennett Gilbert asks how interdependence grounds moral obligation, testing panpsychism against the slow work of forming community with other forms of life.</dc:description>
+          <dc:subject>asante</dc:subject>
+          <dc:subject>community</dc:subject>
+          <dc:subject>ecology</dc:subject>
+          <dc:subject>ethics</dc:subject>
+          <dc:subject>historicity</dc:subject>
+          <dc:subject>identity</dc:subject>
+          <dc:subject>interdependence</dc:subject>
+          <dc:subject>moral-obligation</dc:subject>
+          <dc:subject>moral-philosophy</dc:subject>
+          <dc:subject>moral-responsibility</dc:subject>
+          <dc:subject>personhood</dc:subject>
+          <dc:subject>panpsychism</dc:subject>
+          <dc:subject>yanomami</dc:subject>
+          <dc:subject>Community</dc:subject>
+          <dc:subject>Ecology</dc:subject>
+          <dc:subject>Ethics</dc:subject>
+          <dc:subject>Identity (Philosophical concept)</dc:subject>
+          <dc:subject>Panpsychism</dc:subject>
+          <dc:subject>Responsibility</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 188-201</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:hall</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Holding Green Commons: Vandana Shiva’s Spirit-Lanterned Guardians</dc:title>
+          <dc:creator>Joshua M. Hall</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/hall.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/hall.pdf</dc:relation>
+          <dc:description>Joshua M. Hall develops a transgender ethics of holding green commons from Vandana Shiva, naming five spirit-lanterned guardians in the Global North.</dc:description>
+          <dc:subject>ecofeminist-philosophy</dc:subject>
+          <dc:subject>vandana-shiva</dc:subject>
+          <dc:subject>dance</dc:subject>
+          <dc:subject>logic</dc:subject>
+          <dc:subject>transgender</dc:subject>
+          <dc:subject>val-plumwood</dc:subject>
+          <dc:subject>ariel-salleh</dc:subject>
+          <dc:subject>chipko-movement</dc:subject>
+          <dc:subject>green-commons</dc:subject>
+          <dc:subject>environmental-ethics</dc:subject>
+          <dc:subject>Shiva, Vandana</dc:subject>
+          <dc:subject>Plumwood, Val</dc:subject>
+          <dc:subject>Chipko movement</dc:subject>
+          <dc:subject>Dance</dc:subject>
+          <dc:subject>Environmental ethics</dc:subject>
+          <dc:subject>Logic</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 202-223</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:lockhart</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Beyond the Material: Toward a Proper Understanding and Engagement with the Material in Christianity</dc:title>
+          <dc:creator>Aaron T. Lockhart</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/lockhart.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/lockhart.pdf</dc:relation>
+          <dc:description>Aaron T. Lockhart traces Plato through Ockham and iconoclasm to recover a proper Christian understanding of venerating material objects.</dc:description>
+          <dc:subject>materiality</dc:subject>
+          <dc:subject>veneration</dc:subject>
+          <dc:subject>iconoclasm</dc:subject>
+          <dc:subject>plato</dc:subject>
+          <dc:subject>aristotle</dc:subject>
+          <dc:subject>medieval-scholasticism</dc:subject>
+          <dc:subject>nominalism</dc:subject>
+          <dc:subject>william-of-ockham</dc:subject>
+          <dc:subject>metaphysical-realism</dc:subject>
+          <dc:subject>eastern-orthodoxy</dc:subject>
+          <dc:subject>catholicism</dc:subject>
+          <dc:subject>transcendence</dc:subject>
+          <dc:subject>Plato</dc:subject>
+          <dc:subject>Aristotle</dc:subject>
+          <dc:subject>William, of Ockham, approximately 1285-approximately 1349</dc:subject>
+          <dc:subject>John, of Damascus, Saint</dc:subject>
+          <dc:subject>Iconoclasm</dc:subject>
+          <dc:subject>Nominalism</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 224-238</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:raschke</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Spooky Cognition: Quantum Entanglement, Ephaptic Coupling, and the Transcendental Frontiers of Consciousness Studies</dc:title>
+          <dc:creator>Carl A. Raschke</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/raschke.pdf</dc:relation>
+          <dc:description>Carl A. Raschke links quantum entanglement and ephaptic coupling to consciousness studies, proposing a transcendental semiotics of religious experience.</dc:description>
+          <dc:subject>quantum-entanglement</dc:subject>
+          <dc:subject>ephaptic-coupling</dc:subject>
+          <dc:subject>consciousness</dc:subject>
+          <dc:subject>neurotheology</dc:subject>
+          <dc:subject>david-chalmers</dc:subject>
+          <dc:subject>andrew-newberg</dc:subject>
+          <dc:subject>philosophy-of-religion</dc:subject>
+          <dc:subject>transcendental-semiotics</dc:subject>
+          <dc:subject>physicalism</dc:subject>
+          <dc:subject>mysticism</dc:subject>
+          <dc:subject>immanence-and-transcendence</dc:subject>
+          <dc:subject>Chalmers, David John, 1966-</dc:subject>
+          <dc:subject>Newberg, Andrew B., 1966-</dc:subject>
+          <dc:subject>Consciousness</dc:subject>
+          <dc:subject>Mysticism</dc:subject>
+          <dc:subject>Quantum entanglement</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 239-247</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:shane</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>From Deconstruction to Re-Enchantment: Postmodernism, Metamodernism, and the Re-Emergence of Wonder</dc:title>
+          <dc:creator>D.A. Shane</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/shane.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/shane.pdf</dc:relation>
+          <dc:description>D.A. Shane argues that postmodern deconstruction cleared the ground for a metamodern hermeneutic of credulity and the return of wonder.</dc:description>
+          <dc:subject>metamodernism</dc:subject>
+          <dc:subject>postmodernism</dc:subject>
+          <dc:subject>re-enchantment</dc:subject>
+          <dc:subject>disenchantment</dc:subject>
+          <dc:subject>deconstruction</dc:subject>
+          <dc:subject>religion</dc:subject>
+          <dc:subject>epistemology</dc:subject>
+          <dc:subject>subject</dc:subject>
+          <dc:subject>hermeneutics</dc:subject>
+          <dc:subject>transcendence</dc:subject>
+          <dc:subject>mythology</dc:subject>
+          <dc:subject>Foucault, Michel, 1926-1984</dc:subject>
+          <dc:subject>Derrida, Jacques</dc:subject>
+          <dc:subject>Lyotard, Jean-François, 1924-1998</dc:subject>
+          <dc:subject>Rorty, Richard</dc:subject>
+          <dc:subject>Deconstruction</dc:subject>
+          <dc:subject>Hermeneutics</dc:subject>
+          <dc:subject>Knowledge, Theory of</dc:subject>
+          <dc:subject>Mythology</dc:subject>
+          <dc:subject>Postmodernism</dc:subject>
+          <dc:subject>Religion</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 248-265</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:spencer</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Caught in the Act: Voyeurism and Performance in Augustine’s *Confessions*</dc:title>
+          <dc:creator>Paige Spencer</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/spencer.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/spencer.pdf</dc:relation>
+          <dc:description>Paige Spencer reads Augustine’s Confessions through performance theory, exposing the unresolved voyeurism at the heart of its performativity.</dc:description>
+          <dc:subject>augustine</dc:subject>
+          <dc:subject>confessions</dc:subject>
+          <dc:subject>voyeurism</dc:subject>
+          <dc:subject>performativity</dc:subject>
+          <dc:subject>performance-studies</dc:subject>
+          <dc:subject>theater</dc:subject>
+          <dc:subject>prayer</dc:subject>
+          <dc:subject>suffering</dc:subject>
+          <dc:subject>curiosity</dc:subject>
+          <dc:subject>humility</dc:subject>
+          <dc:subject>patristics</dc:subject>
+          <dc:subject>Augustine, of Hippo, Saint, 354-430</dc:subject>
+          <dc:subject>Curiosity</dc:subject>
+          <dc:subject>Fathers of the church</dc:subject>
+          <dc:subject>Humility</dc:subject>
+          <dc:subject>Prayer</dc:subject>
+          <dc:subject>Suffering</dc:subject>
+          <dc:subject>Theater</dc:subject>
+          <dc:subject>Voyeurism</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 266-280</dc:source>
+        </oai_dc:dc>
+      </metadata>
+    </record>
+    <record>
+      <header>
+        <identifier>oai:jcrt.org:archives:25.2:valentini</identifier>
+        <datestamp>2026-08-24</datestamp>
+      </header>
+      <metadata>
+        <oai_dc:dc xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/"
+                   xmlns:dc="http://purl.org/dc/elements/1.1/"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Ibn ʿArabī’s Role in Ibrahim Niasse’s Thinking: From the Unity of Being to Muḥammad’s Names-of-the-Father</dc:title>
+          <dc:creator>Philipp Valentini</dc:creator>
+          <dc:publisher>Whitestone Foundation</dc:publisher>
+          <dc:date>2026-08-24</dc:date>
+          <dc:type>article</dc:type>
+          <dc:format>application/pdf</dc:format>
+          <dc:language>en</dc:language>
+          <dc:identifier>1530-5228</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/25.2/valentini.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/25.2/valentini.pdf</dc:relation>
+          <dc:description>Philipp Valentini examines Ibn ʿArabī’s several roles in Ibrāhīm Niasse’s metaphysics, from waḥdat al-wujūd to Muḥammadan paternity.</dc:description>
+          <dc:subject>ibn-arabi</dc:subject>
+          <dc:subject>ibrahim-niasse</dc:subject>
+          <dc:subject>tijaniyya</dc:subject>
+          <dc:subject>sufism</dc:subject>
+          <dc:subject>wahdat-al-wujud</dc:subject>
+          <dc:subject>west-african-islam</dc:subject>
+          <dc:subject>tafsir</dc:subject>
+          <dc:subject>emanation</dc:subject>
+          <dc:subject>spiritual-paternity</dc:subject>
+          <dc:subject>senegal</dc:subject>
+          <dc:subject>islamic-metaphysics</dc:subject>
+          <dc:subject>Ibn al-ʻArabī, 1165-1240</dc:subject>
+          <dc:subject>Lacan, Jacques, 1901-1981</dc:subject>
+          <dc:subject>Senegal</dc:subject>
+          <dc:subject>Sufism</dc:subject>
+          <dc:subject>Tijānīyah</dc:subject>
+          <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
+          <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 25, No. 2, pp. 281-299</dc:source>
         </oai_dc:dc>
       </metadata>
     </record>

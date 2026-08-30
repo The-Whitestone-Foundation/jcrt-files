@@ -43,6 +43,9 @@ export function splitAuthors(value) {
 }
 
 export function isExplicitFalse(value) {
+	// js-yaml yields real booleans; the old string parser yielded "false". Handle both —
+	// String(false || "") is "" and silently un-skipped published: false entries.
+	if (value === false) return true;
 	return String(value || "").trim().toLowerCase() === "false";
 }
 

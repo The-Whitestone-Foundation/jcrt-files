@@ -65,8 +65,11 @@ jobs:
       - name: Commit refreshed sitemaps and changelog
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain sitemaps CHANGELOG.md)" ]]; then
-            echo "Sitemaps and changelog already current."
+          # Gate on sitemaps ALONE. A changelog-only commit would be content-free
+          # and would itself need logging next run, so every deploy would burn a
+          # commit forever. The changelog only ever rides along with real changes.
+          if [[ -z "$(git status --porcelain sitemaps)" ]]; then
+            echo "Sitemaps already current; not creating a changelog-only commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"

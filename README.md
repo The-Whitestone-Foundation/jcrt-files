@@ -5,15 +5,16 @@
 Asset delivery repository for JCRT.
 
 ## TODO (Adam)
-- [ ] **Re-paste the `CLOUDFLARE_API_TOKEN` repo secret.** The current value is malformed
-      (Cloudflare rejects it with error 6111, "Invalid format for Authorization header" —
-      almost always a stray newline or space pasted along with the token). Deploys still
-      work because the workflow trims each token and falls back `CLOUDFLARE_API_TOKEN` →
-      `CLOUDFLARE_API_TOKEN_V2` → `CLOUDFLARE_API_TOKEN_BACKUP`, and **V2 is the one that
-      currently deploys the Worker**. Fix: GitHub → Settings → Secrets and variables →
-      Actions → `CLOUDFLARE_API_TOKEN` → paste the token with no surrounding whitespace,
-      then confirm the next deploy logs `Deploying with TOKEN_PRIMARY`.
-
+- [ ] **Grant the `CLOUDFLARE_API_TOKEN` Workers deploy permission.** The 2026-08-30
+      re-paste fixed the formatting (the old value carried stray whitespace and was
+      rejected outright), but the token is an Account API Token without Workers
+      permissions: wrangler authenticates and then cannot deploy ("Unable to get
+      membership roles"). Fix in the Cloudflare dashboard: edit the token and add
+      **Workers Scripts: Edit** (plus Account Settings: Read). Until then deploys
+      fall through to `CLOUDFLARE_API_TOKEN_V2` automatically — the workflow treats
+      the deploy itself as the token test — so nothing is broken, just logged as
+      "TOKEN_PRIMARY could not deploy; trying next." Success check: a worker deploy
+      logs `Deployed with TOKEN_PRIMARY`.
 ## Purpose
 This repo receives synced assets from `jcrt-v2` and publishes them to Cloudflare R2, served by a Worker on:
 

@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2004-01-01",
   "dateModified": "2004-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,108 @@
   "identifier": "NhbVY4",
   "volumeNumber": "5",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/05.3/reinhart.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Continental philosophy",
+      "termCode": "fst01765182",
+      "url": "https://id.worldcat.org/fast/1765182",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cosmopolitanism",
+      "termCode": "fst00880635",
+      "url": "https://id.worldcat.org/fast/880635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dialogue",
+      "termCode": "fst00892486",
+      "url": "https://id.worldcat.org/fast/892486",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political science Philosophy",
+      "termCode": "fst01069819",
+      "url": "https://id.worldcat.org/fast/1069819",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Terrorism",
+      "termCode": "fst01148101",
+      "url": "https://id.worldcat.org/fast/1148101",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Violence",
+      "termCode": "fst01167224",
+      "url": "https://id.worldcat.org/fast/1167224",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

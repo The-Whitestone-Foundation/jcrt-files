@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.1/bennett-carpenter/#article",
   "name": "Quoting Mieke Bal’s Navel: Contemporary Theory, Preposterous Religion",
   "headline": "Quoting Mieke Bal’s Navel: Contemporary Theory, Preposterous Religion",
-  "description": "Bennett-Carpenter - Quoting Mieke Bal's Navel - JCRT 4.1",
+  "description": "",
   "url": "https://jcrt.org/archives/04.1/bennett-carpenter/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.1/bennett-carpenter/"
   },
-  "abstract": "Bennett-Carpenter - Quoting Mieke Bal's Navel - JCRT 4.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "EkLQq5"
+  "identifier": "EkLQq5",
+  "volumeNumber": "4",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.1/bennett-carpenter.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Intertextuality",
+      "termCode": "fst00977562",
+      "url": "https://id.worldcat.org/fast/977562",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Quotation",
+      "termCode": "fst01086126",
+      "url": "https://id.worldcat.org/fast/1086126",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Representative government and representation",
+      "termCode": "fst01094941",
+      "url": "https://id.worldcat.org/fast/1094941",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Semiotics",
+      "termCode": "fst01112351",
+      "url": "https://id.worldcat.org/fast/1112351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

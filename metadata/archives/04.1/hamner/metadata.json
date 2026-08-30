@@ -4,16 +4,18 @@
   "@id": "https://jcrt.org/archives/04.1/hamner/#article",
   "name": "A Private Happiness for All, Or, How to Cure National Depression, Hold Down a Career, Fulfill the Maternal Function and Still Wage Feminist Battle with a Smile",
   "headline": "A Private Happiness for All, Or, How to Cure National Depression, Hold Down a Career, Fulfill the Maternal Function and Still Wage Feminist Battle with a Smile",
-  "description": "Hamner - A Private Happiness for All ... - JCRT 4.1",
+  "description": "",
   "url": "https://jcrt.org/archives/04.1/hamner/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "M Gail Hamner"
+      "name": "M. Gail Hamner"
     }
   ],
   "publisher": {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.1/hamner/"
   },
-  "abstract": "Hamner - A Private Happiness for All ... - JCRT 4.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "iFCMKU"
+  "identifier": "iFCMKU",
+  "volumeNumber": "4",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.1/hamner.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Femininity",
+      "termCode": "fst00922657",
+      "url": "https://id.worldcat.org/fast/922657",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Feminism",
+      "termCode": "fst00922671",
+      "url": "https://id.worldcat.org/fast/922671",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Motherhood",
+      "termCode": "fst01026907",
+      "url": "https://id.worldcat.org/fast/1026907",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis",
+      "termCode": "fst01081235",
+      "url": "https://id.worldcat.org/fast/1081235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Revolt",
+      "termCode": "fst01198950",
+      "url": "https://id.worldcat.org/fast/1198950",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

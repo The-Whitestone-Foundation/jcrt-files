@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2005-01-01",
   "dateModified": "2005-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,96 @@
   "identifier": "S7nXRU",
   "volumeNumber": "7",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/07.1/lokensgard.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Anthropology",
+      "termCode": "fst00810196",
+      "url": "https://id.worldcat.org/fast/810196",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cultural appropriation",
+      "termCode": "fst02002519",
+      "url": "https://id.worldcat.org/fast/2002519",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cultural property",
+      "termCode": "fst00885014",
+      "url": "https://id.worldcat.org/fast/885014",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Indigenous peoples Civil rights",
+      "termCode": "fst00970219",
+      "url": "https://id.worldcat.org/fast/970219",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Intellectual property",
+      "termCode": "fst00975774",
+      "url": "https://id.worldcat.org/fast/975774",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Native American",
+      "termCode": "fst01530330",
+      "url": "https://id.worldcat.org/fast/1530330",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious articles",
+      "termCode": "fst01093939",
+      "url": "https://id.worldcat.org/fast/1093939",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

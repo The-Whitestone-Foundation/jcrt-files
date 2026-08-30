@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/07.2/taylor/#article",
   "name": "A Conversation with Jean-Luc Marion",
   "headline": "A Conversation with Jean-Luc Marion",
-  "description": "This conversation with Jean-Luc Marion took place at The Johns Hopkins University Humanities Center in the Spring of 2005. The JCRT editors express their thanks to Hent de Vries for arranging the meeting and to Jean-Luc Marion for generously agreeing to join our conversation.",
+  "description": "",
   "url": "https://jcrt.org/archives/07.2/taylor/",
   "inLanguage": "en",
   "datePublished": "2006-01-01",
   "dateModified": "2006-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,6 +41,7 @@
   "identifier": "K6UTSt",
   "volumeNumber": "7",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

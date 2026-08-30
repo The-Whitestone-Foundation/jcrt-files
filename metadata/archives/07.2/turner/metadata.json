@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2006-01-01",
   "dateModified": "2006-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,72 @@
   "identifier": "f3dZHS",
   "volumeNumber": "7",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/07.2/turner.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hermeneutics",
+      "termCode": "fst00955492",
+      "url": "https://id.worldcat.org/fast/955492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodern theology",
+      "termCode": "fst01073163",
+      "url": "https://id.worldcat.org/fast/1073163",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Reformation texts with translation (1350-1650). Biblical studies",
+      "termCode": "fst01364487",
+      "url": "https://id.worldcat.org/fast/1364487",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

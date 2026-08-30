@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2004-01-01",
   "dateModified": "2004-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,108 @@
   "identifier": "I4TpAx",
   "volumeNumber": "5",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/05.3/smith.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Continental philosophy",
+      "termCode": "fst01765182",
+      "url": "https://id.worldcat.org/fast/1765182",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hermeneutics",
+      "termCode": "fst00955492",
+      "url": "https://id.worldcat.org/fast/955492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Negative theology",
+      "termCode": "fst01035499",
+      "url": "https://id.worldcat.org/fast/1035499",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodern theology",
+      "termCode": "fst01073163",
+      "url": "https://id.worldcat.org/fast/1073163",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Poststructuralism",
+      "termCode": "fst01073231",
+      "url": "https://id.worldcat.org/fast/1073231",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theology",
+      "termCode": "fst01149559",
+      "url": "https://id.worldcat.org/fast/1149559",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

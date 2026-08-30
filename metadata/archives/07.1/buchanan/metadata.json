@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2005-01-01",
   "dateModified": "2005-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,72 @@
   "identifier": "Vee9LY",
   "volumeNumber": "7",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/07.1/buchanan.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Continental philosophy",
+      "termCode": "fst01765182",
+      "url": "https://id.worldcat.org/fast/1765182",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Dynamics",
+      "termCode": "fst00900295",
+      "url": "https://id.worldcat.org/fast/900295",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Geography",
+      "termCode": "fst00940469",
+      "url": "https://id.worldcat.org/fast/940469",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontology",
+      "termCode": "fst01045995",
+      "url": "https://id.worldcat.org/fast/1045995",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Space",
+      "termCode": "fst01765196",
+      "url": "https://id.worldcat.org/fast/1765196",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

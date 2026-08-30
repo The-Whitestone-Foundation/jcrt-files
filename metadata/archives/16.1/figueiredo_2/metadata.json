@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2016-01-01",
   "dateModified": "2016-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,12 @@
   "identifier": "YS10SK",
   "volumeNumber": "16",
   "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/16.1/InterviewUlmer.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

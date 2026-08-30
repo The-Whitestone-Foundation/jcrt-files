@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.1/maccammon/#article",
   "name": "The Just",
   "headline": "The Just",
-  "description": "MacCammon - Justice and Fundamental Anthropology - JCRT 3.1",
+  "description": "",
   "url": "https://jcrt.org/archives/03.1/maccammon/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.1/maccammon/"
   },
-  "abstract": "MacCammon - Justice and Fundamental Anthropology - JCRT 3.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "xFua_n"
+  "identifier": "xFua_n",
+  "volumeNumber": "3",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.1/maccammon.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Forgiveness",
+      "termCode": "fst00932854",
+      "url": "https://id.worldcat.org/fast/932854",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hermeneutics",
+      "termCode": "fst00955492",
+      "url": "https://id.worldcat.org/fast/955492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Justice",
+      "termCode": "fst00985122",
+      "url": "https://id.worldcat.org/fast/985122",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phenomenology",
+      "termCode": "fst01060522",
+      "url": "https://id.worldcat.org/fast/1060522",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Reconciliation",
+      "termCode": "fst01091509",
+      "url": "https://id.worldcat.org/fast/1091509",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Responsibility",
+      "termCode": "fst01095857",
+      "url": "https://id.worldcat.org/fast/1095857",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Revenge",
+      "termCode": "fst01096476",
+      "url": "https://id.worldcat.org/fast/1096476",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

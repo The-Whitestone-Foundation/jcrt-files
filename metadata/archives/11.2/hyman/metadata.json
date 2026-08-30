@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2011-01-01",
   "dateModified": "2011-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,84 @@
   "identifier": "RdHUB3",
   "volumeNumber": "11",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/11.2/hyman.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Anglican Communion",
+      "termCode": "fst00808873",
+      "url": "https://id.worldcat.org/fast/808873",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Christian ethics",
+      "termCode": "fst00859107",
+      "url": "https://id.worldcat.org/fast/859107",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Church",
+      "termCode": "fst00860364",
+      "url": "https://id.worldcat.org/fast/860364",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Church of England",
+      "termCode": "fst00532932",
+      "url": "https://id.worldcat.org/fast/532932",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "corporate"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Homosexuality",
+      "termCode": "fst00959755",
+      "url": "https://id.worldcat.org/fast/959755",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Schism",
+      "termCode": "fst01106691",
+      "url": "https://id.worldcat.org/fast/1106691",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

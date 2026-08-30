@@ -9,11 +9,13 @@
   "inLanguage": "en",
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Kevin Grane"
+      "name": "Kev Grane"
     }
   ],
   "publisher": {
@@ -40,5 +42,103 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/24.1/Grane.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Bioethics",
+      "termCode": "fst00832038",
+      "url": "https://id.worldcat.org/fast/832038",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Faith",
+      "termCode": "fst01198492",
+      "url": "https://id.worldcat.org/fast/1198492",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gender identity",
+      "termCode": "fst00939593",
+      "url": "https://id.worldcat.org/fast/939593",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gender-affirming care",
+      "termCode": "fst02070480",
+      "url": "https://id.worldcat.org/fast/2070480",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Medical ethics",
+      "termCode": "fst01014081",
+      "url": "https://id.worldcat.org/fast/1014081",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion and gender",
+      "termCode": "fst01791005",
+      "url": "https://id.worldcat.org/fast/1791005",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious ethics",
+      "termCode": "fst01094052",
+      "url": "https://id.worldcat.org/fast/1094052",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Transgender youth",
+      "termCode": "fst01743062",
+      "url": "https://id.worldcat.org/fast/1743062",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

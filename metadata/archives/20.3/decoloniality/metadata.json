@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2021-01-01",
   "dateModified": "2021-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -47,9 +49,60 @@
   "identifier": "8we0HS",
   "volumeNumber": "20",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/20.3/Decoloniality.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Civilization, Modern",
+      "termCode": "fst00863073",
+      "url": "https://id.worldcat.org/fast/863073",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Eurocentrism",
+      "termCode": "fst00916597",
+      "url": "https://id.worldcat.org/fast/916597",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge, Theory of",
+      "termCode": "fst00988194",
+      "url": "https://id.worldcat.org/fast/988194",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Decolonial theory",
+      "termCode": "homoit0003616",
+      "url": "https://homosaurus.org/v5/homoit0003616",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

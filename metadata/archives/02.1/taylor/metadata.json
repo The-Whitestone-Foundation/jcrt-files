@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.1/taylor/#article",
   "name": "Artist’s Statement",
   "headline": "Artist’s Statement",
-  "description": "Taylor - Art Exhibit - JCRT 2.1",
+  "description": "",
   "url": "https://jcrt.org/archives/02.1/taylor/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -29,12 +31,58 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.1/taylor/"
   },
-  "abstract": "Taylor - Art Exhibit - JCRT 2.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "4V6x0f"
+  "identifier": "4V6x0f",
+  "volumeNumber": "2",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.1/taylor.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Aesthetics",
+      "termCode": "fst00798702",
+      "url": "https://id.worldcat.org/fast/798702",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Installations (Art)",
+      "termCode": "fst00974250",
+      "url": "https://id.worldcat.org/fast/974250",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Modernism (Christian theology)",
+      "termCode": "fst01024448",
+      "url": "https://id.worldcat.org/fast/1024448",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

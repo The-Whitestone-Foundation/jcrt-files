@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.3/stoica/#article",
   "name": "Reading Gayatri Chakravorty Spivak in Rural QuÉBec, or Saving",
   "headline": "Reading Gayatri Chakravorty Spivak in Rural QuÉBec, or Saving",
-  "description": "The article focuses on analysis of Gayatri Chakravorty Spivak's approaches over development of religious subaltern identities with societary norms adoption in Hérouxville, Quebec in 2007; and analysis of subaltern persons intellectual conditions by Spivak.",
+  "description": "",
   "url": "https://jcrt.org/archives/12.3/stoica/",
   "inLanguage": "en",
   "datePublished": "2013-01-01",
   "dateModified": "2013-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +42,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/12.3/stoica.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

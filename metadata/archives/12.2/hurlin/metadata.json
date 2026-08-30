@@ -2,18 +2,20 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/12.2/hurlin/#article",
-  "name": "Jesus Beyond Christ: Erri De Luca and The",
-  "headline": "Jesus Beyond Christ: Erri De Luca and The",
-  "description": "The author highlights how the act of translating the Bible has allowed Italian left-wing activist Erri de Luca to come into contact with an",
+  "name": "Jesus Beyond Christ: Erri De Luca and the ‘Self as Stumbling Block’",
+  "headline": "Jesus Beyond Christ: Erri De Luca and the ‘Self as Stumbling Block’",
+  "description": "",
   "url": "https://jcrt.org/archives/12.2/hurlin/",
   "inLanguage": "en",
   "datePublished": "2012-01-01",
   "dateModified": "2012-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Elise Mon℡-Hurlin"
+      "name": "Elise Montel-Hurlin"
     }
   ],
   "publisher": {

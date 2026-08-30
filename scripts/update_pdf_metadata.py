@@ -7,11 +7,15 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
+import runpy
 import sys
+import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 from shutil import copy2
+from types import SimpleNamespace
 from typing import Any
 from xml.sax.saxutils import escape
 
@@ -90,6 +94,8 @@ class ArticleMetadata:
     end_page: str
     publication_date: str
     permalink: str
+    article_type: str
+    generated: bool
 
 
 def clean_text(value: Any) -> str:
@@ -270,8 +276,14 @@ def collect_article_metadata(
     volume = clean_text(frontmatter.get("volume")) or clean_text(existing_meta.get("/Volume"))
     issue = clean_text(frontmatter.get("issue")) or clean_text(existing_meta.get("/Issue"))
     start_page, end_page = parse_pages(frontmatter.get("pages"))
-    publication_date = format_pub_date(frontmatter.get("date")) or clean_text(existing_meta.get("/PublicationDate"))
-    permalink = load_permalink(citations_dir, slug, archive_base_url)
+    publication_date = (
+        format_pub_date(frontmatter.get("date"))
+        or clean_text(frontmatter.get("year"))
+        or clean_text(existing_meta.get("/PublicationDate"))
+    )
+    permalink = load_permalink(citations_dir, md_path.stem, archive_base_url)
+    layout = clean_text(frontmatter.get("layout")).casefold()
+    article_type = "Review" if "review" in layout or title.casefold().startswith("review") else "Article"
 
     return ArticleMetadata(
         slug=slug,
@@ -287,6 +299,8 @@ def collect_article_metadata(
         end_page=end_page,
         publication_date=publication_date,
         permalink=permalink,
+        article_type=article_type,
+        generated=frontmatter.get("pdf") is False,
     )
 
 
@@ -341,11 +355,11 @@ def build_info_metadata(meta: ArticleMetadata) -> dict[str, str]:
     return info
 
 
-def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | None = None) -> None:
+def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | None = None, force: bool = False) -> None:
     mark_info = writer._root_object.get("/MarkInfo")
     if hasattr(mark_info, "get_object"):
         mark_info = mark_info.get_object()
-    if isinstance(mark_info, DictionaryObject) and mark_info.get("/Marked"):
+    if not force and isinstance(mark_info, DictionaryObject) and mark_info.get("/Marked"):
         return
 
     struct_root = DictionaryObject({NameObject("/Type"): NameObject("/StructTreeRoot")})
@@ -418,18 +432,73 @@ def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | N
     writer._root_object[NameObject("/MarkInfo")] = DictionaryObject({NameObject("/Marked"): BooleanObject(True)})
 
 
-def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata) -> None:
+def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata, flyleaf=None, replace_flyleaf=False) -> None:
+    timestamps = dest_pdf.stat() if dest_pdf.exists() else source_pdf.stat()
     reader = PdfReader(str(source_pdf))
+    has_flyleaf = "Stable URL:" in (reader.pages[0].extract_text() or "")
+    flyleaf_added = False
+    combined_path = dest_pdf.with_name(f"{dest_pdf.stem}.combined.tmp.pdf")
+    if flyleaf and (replace_flyleaf or not has_flyleaf):
+        module, assets = flyleaf
+        first_page = reader.pages[0]
+        flyleaf_path = dest_pdf.with_name(f"{dest_pdf.stem}.flyleaf.tmp.pdf")
+        module["build"](
+            SimpleNamespace(
+                output=str(flyleaf_path),
+                title=meta.title,
+                author=meta.authors or [meta.author_display or "JCRT Editors"],
+                stable_url=meta.permalink,
+                type=meta.article_type,
+                page_width=float(first_page.mediabox.width),
+                page_height=float(first_page.mediabox.height),
+            ),
+            assets,
+        )
+        combined = PdfWriter()
+        combined.clone_document_from_reader(reader)
+        if meta.generated or has_flyleaf:
+            combined.remove_page(0)
+        if meta.generated or replace_flyleaf:
+            combined._root_object.pop(NameObject("/Outlines"), None)
+        combined.insert_page(PdfReader(str(flyleaf_path)).pages[0], 0)
+        combined.add_outline_item("Flyleaf", 0)
+        if (meta.generated or replace_flyleaf) and len(combined.pages) > 1:
+            combined.add_outline_item(meta.title, 1)
+        with combined_path.open("wb") as fh:
+            combined.write(fh)
+        flyleaf_path.unlink()
+        reader = PdfReader(str(combined_path))
+        flyleaf_added = True
+        has_flyleaf = True
+
+    def outline_pages(items):
+        for item in items:
+            if isinstance(item, list):
+                yield from outline_pages(item)
+            elif hasattr(item, "title"):
+                try:
+                    yield reader.get_destination_page_number(item)
+                except Exception:
+                    pass
+
     try:
-        has_outline = bool(reader.outline)
+        has_article_outline = any(page == 1 for page in outline_pages(reader.outline))
     except Exception:
-        has_outline = False
+        has_article_outline = False
     writer = PdfWriter()
     writer.clone_document_from_reader(reader)
     candidate = source_pdf.with_name("duncan-transcription.pdf")
     transcript = candidate if source_pdf.stem.casefold() == "scans" and candidate.exists() else None
-    ensure_tagged(writer, reader, transcript)
-    writer.add_metadata(build_info_metadata(meta))
+    ensure_tagged(writer, reader, transcript, force=flyleaf_added)
+    info = build_info_metadata(meta)
+    existing_info = reader.metadata or {}
+    if meta.publication_date:
+        date_digits = meta.publication_date.replace("-", "")
+        pdf_date = f"D:{date_digits}{'000000Z' if len(date_digits) == 8 else ''}"
+        for key in ("/CreationDate", "/ModDate"):
+            if not isinstance(existing_info.get(key), str) or not re.match(r"^D:\d{4}", existing_info[key]):
+                info[key] = pdf_date
+    writer.add_metadata(info)
     writer.xmp_metadata = build_xmp(meta)
     writer._root_object[NameObject("/Lang")] = TextStringObject("en-US")
     viewer = writer._root_object.get("/ViewerPreferences")
@@ -439,13 +508,16 @@ def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata) -> None:
         viewer = DictionaryObject()
         writer._root_object[NameObject("/ViewerPreferences")] = viewer
     viewer[NameObject("/DisplayDocTitle")] = BooleanObject(True)
-    if not has_outline and reader.pages:
-        writer.add_outline_item(meta.title, 0)
+    if not has_article_outline and reader.pages:
+        writer.add_outline_item(meta.title, 1 if has_flyleaf and len(reader.pages) > 1 else 0)
 
     tmp_path = dest_pdf.with_name(f"{dest_pdf.stem}.tmp.pdf")
     with tmp_path.open("wb") as fh:
         writer.write(fh)
     tmp_path.replace(dest_pdf)
+    if combined_path.exists():
+        combined_path.unlink()
+    os.utime(dest_pdf, ns=(timestamps.st_atime_ns, timestamps.st_mtime_ns))
 
 
 def process_pdf(
@@ -456,6 +528,8 @@ def process_pdf(
     citations_dir: Path | None,
     archive_base_url: str,
     dry_run: bool,
+    flyleaf=None,
+    replace_flyleaf=False,
 ) -> None:
     slug = source_pdf.stem
     dest_pdf_path = archive_dir / source_pdf.name
@@ -491,7 +565,7 @@ def process_pdf(
 
     if source_pdf.resolve() != dest_pdf_path.resolve():
         copy2(source_pdf, dest_pdf_path)
-    write_pdf(dest_pdf_path, dest_pdf_path, meta)
+    write_pdf(dest_pdf_path, dest_pdf_path, meta, flyleaf, replace_flyleaf)
 
 
 def parse_args() -> argparse.Namespace:
@@ -506,6 +580,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--archive-base-url", default=DEFAULT_ARCHIVE_BASE_URL, help="Canonical issue URL without article slug")
     parser.add_argument("--dry-run", action="store_true", help="Preview changes without writing PDFs")
+    parser.add_argument("--flyleaf-script", help="Prepend a flyleaf using create-jcrt-flyleaf.py")
+    parser.add_argument("--replace-flyleaf", action="store_true", help="Replace an existing flyleaf")
     return parser.parse_args()
 
 
@@ -542,21 +618,38 @@ def main() -> int:
         print(f"error: no PDFs found in {updates_dir}", file=sys.stderr)
         return 1
 
+    flyleaf = None
+    assets_temp = None
+    if args.flyleaf_script:
+        module = runpy.run_path(str(Path(args.flyleaf_script).expanduser().resolve()))
+        assets_temp = tempfile.TemporaryDirectory(prefix="jcrt-flyleaf-assets-")
+        temp = Path(assets_temp.name)
+        assets = (temp / "jcrt.png", temp / "whitestone.png")
+        module["svg_png"](module["JCRT_LOGO"], assets[0], 180)
+        module["svg_png"](module["WHITESTONE_LOGO"], assets[1], 220)
+        flyleaf = (module, assets)
+
     failures = 0
-    for source_pdf in source_pdfs:
-        try:
-            process_pdf(
-                source_pdf=source_pdf,
-                archive_dir=archive_dir,
-                existing_metadata_dir=existing_metadata_dir,
-                content_dir=content_dir,
-                citations_dir=citations_dir,
-                archive_base_url=args.archive_base_url,
-                dry_run=args.dry_run,
-            )
-        except Exception as exc:  # pragma: no cover - batch CLI error reporting
-            failures += 1
-            print(f"[fail] {source_pdf.name}: {exc.__class__.__name__}: {exc}", file=sys.stderr)
+    try:
+        for source_pdf in source_pdfs:
+            try:
+                process_pdf(
+                    source_pdf=source_pdf,
+                    archive_dir=archive_dir,
+                    existing_metadata_dir=existing_metadata_dir,
+                    content_dir=content_dir,
+                    citations_dir=citations_dir,
+                    archive_base_url=args.archive_base_url,
+                    dry_run=args.dry_run,
+                    flyleaf=flyleaf,
+                    replace_flyleaf=args.replace_flyleaf,
+                )
+            except Exception as exc:  # pragma: no cover - batch CLI error reporting
+                failures += 1
+                print(f"[fail] {source_pdf.name}: {exc.__class__.__name__}: {exc}", file=sys.stderr)
+    finally:
+        if assets_temp:
+            assets_temp.cleanup()
 
     if failures:
         print(f"done with {failures} failure(s)", file=sys.stderr)

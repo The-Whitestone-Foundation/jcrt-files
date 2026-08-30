@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.3/ronan/#article",
   "name": "Blessed Are They Who Mourn: Roman Catholic Sex/Gender Ideology After Vatican II",
   "headline": "Blessed Are They Who Mourn: Roman Catholic Sex/Gender Ideology After Vatican II",
-  "description": "Ronan - Blessed Are They Who Mourn - JCRT 2.3",
+  "description": "",
   "url": "https://jcrt.org/archives/02.3/ronan/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.3/ronan/"
   },
-  "abstract": "Ronan - Blessed Are They Who Mourn - JCRT 2.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "4to33P"
+  "identifier": "4to33P",
+  "volumeNumber": "2",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.3/ronan.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Abortion",
+      "termCode": "fst00794582",
+      "url": "https://id.worldcat.org/fast/794582",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Immaculate Conception",
+      "termCode": "fst00967693",
+      "url": "https://id.worldcat.org/fast/967693",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Melancholia",
+      "termCode": "fst01939186",
+      "url": "https://id.worldcat.org/fast/1939186",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neo-Scholasticism",
+      "termCode": "fst01035746",
+      "url": "https://id.worldcat.org/fast/1035746",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis",
+      "termCode": "fst01081235",
+      "url": "https://id.worldcat.org/fast/1081235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sex",
+      "termCode": "fst01114160",
+      "url": "https://id.worldcat.org/fast/1114160",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gender",
+      "termCode": "homoit0000560",
+      "url": "https://homosaurus.org/v5/homoit0000560",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

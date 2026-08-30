@@ -9,13 +9,10 @@
   "inLanguage": "en",
   "datePublished": "2019-01-01",
   "dateModified": "2019-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
-  "author": [
-    {
-      "@type": "Organization",
-      "name": "JCRT"
-    }
-  ],
+  "author": [],
   "publisher": {
     "@type": "Organization",
     "name": "Whitestone Publications",
@@ -35,9 +32,72 @@
   "identifier": "F2byCP",
   "volumeNumber": "18",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/18.3/Roberts.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Myth",
+      "termCode": "fst01031678",
+      "url": "https://id.worldcat.org/fast/1031678",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postcolonialism",
+      "termCode": "fst01073032",
+      "url": "https://id.worldcat.org/fast/1073032",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religions",
+      "termCode": "fst01093898",
+      "url": "https://id.worldcat.org/fast/1093898",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

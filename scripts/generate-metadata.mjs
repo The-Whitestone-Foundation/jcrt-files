@@ -28,6 +28,8 @@ const FAST_SET = "https://id.worldcat.org/fast/";
 const PUBLISHER = { "@type": "Organization", "name": "Whitestone Publications", "url": "https://thewhitestonefoundation.org/" };
 const PERIODICAL = { "@type": "Periodical", "name": "The Journal for Cultural and Religious Theory", "url": "https://jcrt.org", "issn": "1530-5228" };
 const BLOG = { "@type": "Blog", "@id": "https://jcrt.org/religioustheory/", "name": "Religious Theory", "url": "https://jcrt.org/religioustheory/" };
+const RIGHTS = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.";
+const RIGHTS_URL = "https://jcrt.org/copyright/";
 
 const CLI_ARGS = process.argv.slice(2);
 const FLAG_ARGS = new Set(CLI_ARGS.filter((arg) => arg.startsWith("--")));
@@ -52,6 +54,23 @@ function parseYaml(content) {
 	const match = content.match(/^---\s*\n([\s\S]*?)\n---\s*(?:\n|$)/);
 	if (!match) return {};
 	return yaml.load(match[1]) || {};
+}
+
+function nameKey(value) {
+	return String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+const authorIdentifiers = new Map();
+for (const name of fs.readdirSync(path.join(JCRT_V2_ROOT, "content", "authors")).filter((name) => name.endsWith(".md"))) {
+	const data = parseYaml(fs.readFileSync(path.join(JCRT_V2_ROOT, "content", "authors", name), "utf8"));
+	const identifiers = [];
+	const orcid = String(data.orcid || "").match(/(?:orcid\.org\/)?(\d{4}-\d{4}-\d{4}-\d{3}[\dX])/i)?.[1];
+	if (orcid) identifiers.push({ "@type": "PropertyValue", propertyID: "ORCID", value: orcid, url: `https://orcid.org/${orcid}` });
+	for (const value of Array.isArray(data.sameAs) ? data.sameAs : []) {
+		const isni = String(value).match(/isni\.org\/isni\/([\dX]+)/i)?.[1];
+		if (isni) identifiers.push({ "@type": "PropertyValue", propertyID: "ISNI", value: isni, url: `https://isni.org/isni/${isni}` });
+	}
+	if (identifiers.length && data.name) authorIdentifiers.set(nameKey(data.name), identifiers);
 }
 
 function parseYear(data) {
@@ -84,7 +103,14 @@ function resolveDateStr(data, issueMeta) {
 }
 
 function authorsOf(data) {
-	return splitAuthors(data.author).map((name) => ({ "@type": "Person", "name": name }));
+	return splitAuthors(data.author).map((name) => {
+		const identifiers = authorIdentifiers.get(nameKey(name));
+		return {
+			"@type": "Person",
+			"name": name,
+			...(identifiers ? { identifier: identifiers, sameAs: identifiers.map(({ url }) => url) } : {}),
+		};
+	});
 }
 
 // DefinedTerm array from front-matter `subjects:`; undefined when absent
@@ -132,6 +158,8 @@ function buildArchiveMetadata(entry, data) {
 		"inLanguage": "en",
 		"datePublished": dateStr,
 		"dateModified": dateStr,
+		"copyrightNotice": RIGHTS,
+		"license": RIGHTS_URL,
 		"image": OG_IMAGE,
 		"author": authorsOf(data),
 		"publisher": PUBLISHER,

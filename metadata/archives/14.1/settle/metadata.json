@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.1/settle/#article",
   "name": "Miracles and Militants.",
   "headline": "Miracles and Militants.",
-  "description": "An essay concerning the theoretical framework of philosopher Alain Badiou which is about theological concept of miracle to explicate the sovereign preservation of the State is presented.",
+  "description": "",
   "url": "https://jcrt.org/archives/14.1/settle/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,6 +41,7 @@
   "identifier": "5ojcll",
   "volumeNumber": "14",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

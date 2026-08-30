@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/13.2/lanci/#article",
   "name": "Zombie 2.0: Subjectivation in Times of Apocalypse.",
   "headline": "Zombie 2.0: Subjectivation in Times of Apocalypse.",
-  "description": "An essay on the collapse of civilization featured in contemporary zombie narratives and emergence of fast zombies, based on the analysis of neoliberal economics by the late philosopher Michel Foucault, in films",
+  "description": "",
   "url": "https://jcrt.org/archives/13.2/lanci/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "cbkTHy",
   "volumeNumber": "13",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

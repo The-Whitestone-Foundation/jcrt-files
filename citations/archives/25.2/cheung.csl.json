@@ -8,10 +8,12 @@
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/25.2/cheung/",
+    "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
         "family": "Cheung",
-        "given": "Yiu Ming"
+        "given": "Yiu Ming",
+        "ORCID": "0000-0002-3333-511X"
       }
     ],
     "issued": {

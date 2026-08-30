@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.3/crockett/#article",
   "name": "Contributions to Philosophy (from Enowning)",
   "headline": "Contributions to Philosophy (from Enowning)",
-  "description": "Crockett - Review of Heidegger's Contributions to Philosophy - JCRT 2.3",
+  "description": "",
   "url": "https://jcrt.org/archives/02.3/crockett/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.3/crockett/"
   },
-  "abstract": "Crockett - Review of Heidegger's Contributions to Philosophy - JCRT 2.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "-sJP6x"
+  "identifier": "-sJP6x",
+  "volumeNumber": "2",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.3/crockett.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Continental philosophy",
+      "termCode": "fst01765182",
+      "url": "https://id.worldcat.org/fast/1765182",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Death of God",
+      "termCode": "fst00888713",
+      "url": "https://id.worldcat.org/fast/888713",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Negative theology",
+      "termCode": "fst01035499",
+      "url": "https://id.worldcat.org/fast/1035499",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontology",
+      "termCode": "fst01045995",
+      "url": "https://id.worldcat.org/fast/1045995",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophical theology",
+      "termCode": "fst01060773",
+      "url": "https://id.worldcat.org/fast/1060773",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

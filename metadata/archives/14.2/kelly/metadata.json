@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.2/kelly/#article",
   "name": "The Object and Affects of Envy and Emulation.",
   "headline": "The Object and Affects of Envy and Emulation.",
-  "description": "An essay is presented on the relevance of envy and emulation in the philosophy of religion. It examines virtues to determine the impact of right and wrong perceptions on belief and practice. The subjective dimensions of envy and emulation are explored based on philosopher Aristotle's views on both emotions. Other topics include analytic and continental philosophy, the gap between virtue and vice and the differences between envy and emulation.",
+  "description": "",
   "url": "https://jcrt.org/archives/14.2/kelly/",
   "inLanguage": "en",
   "datePublished": "2015-01-01",
   "dateModified": "2015-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "TN5u0-",
   "volumeNumber": "14",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

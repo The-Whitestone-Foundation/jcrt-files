@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/13.2/shillock/#article",
   "name": "The Walking Flesh:Zombies, Narrative Desire, and the Apostle Paul’s Anxious Account of Embodiment.",
   "headline": "The Walking Flesh:Zombies, Narrative Desire, and the Apostle Paul’s Anxious Account of Embodiment.",
-  "description": "An essay on the association of zombies with commercials, particularly in the television (TV) series",
+  "description": "",
   "url": "https://jcrt.org/archives/13.2/shillock/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "zlnx0k",
   "volumeNumber": "13",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

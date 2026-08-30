@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/15.2/fox/#article",
   "name": "Peeking Under the Veil: Niki De Saint Phalle’s the Bride and/as Feminist Disability Aesthetics.",
   "headline": "Peeking Under the Veil: Niki De Saint Phalle’s the Bride and/as Feminist Disability Aesthetics.",
-  "description": "An essay is presented on feminist disability studies focusing on the sculpture",
+  "description": "",
   "url": "https://jcrt.org/archives/15.2/fox/",
   "inLanguage": "en",
   "datePublished": "2016-01-01",
   "dateModified": "2016-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "XfL-JO",
   "volumeNumber": "15",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

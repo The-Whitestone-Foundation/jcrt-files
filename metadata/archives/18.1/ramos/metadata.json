@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2018-01-01",
   "dateModified": "2018-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -36,6 +38,11 @@
   "volumeNumber": "18",
   "issueNumber": "1",
   "pagination": "85-88",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/18.1/Ramos1.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

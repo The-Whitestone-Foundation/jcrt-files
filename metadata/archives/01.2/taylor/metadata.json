@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.2/taylor/#article",
   "name": "The Division of Religion with Signs Following",
   "headline": "The Division of Religion with Signs Following",
-  "description": "Taylor - The Division of Religion - JCRT 1.2",
+  "description": "",
   "url": "https://jcrt.org/archives/01.2/taylor/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.2/taylor/"
   },
-  "abstract": "Taylor - The Division of Religion - JCRT 1.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "9PTTA3"
+  "identifier": "9PTTA3",
+  "volumeNumber": "1",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.2/taylor.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical theory",
+      "termCode": "fst00883690",
+      "url": "https://id.worldcat.org/fast/883690",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Semiotics",
+      "termCode": "fst01112351",
+      "url": "https://id.worldcat.org/fast/1112351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,18 +4,15 @@
   "@id": "https://jcrt.org/archives/18.3/bios/#article",
   "name": "Author Bios",
   "headline": "Author Bios",
-  "description": "Author Bios",
+  "description": "",
   "url": "https://jcrt.org/archives/18.3/bios/",
   "inLanguage": "en",
   "datePublished": "2019-01-01",
   "dateModified": "2019-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
-  "author": [
-    {
-      "@type": "Organization",
-      "name": "JCRT"
-    }
-  ],
+  "author": [],
   "publisher": {
     "@type": "Organization",
     "name": "Whitestone Publications",
@@ -25,12 +22,34 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/18.3/bios/"
   },
-  "abstract": "Author Bios",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "z6mMuC"
+  "identifier": "z6mMuC",
+  "volumeNumber": "18",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/18.3/bios.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

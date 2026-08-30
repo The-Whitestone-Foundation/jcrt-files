@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.2/grimshaw/#article",
   "name": "Preacher",
   "headline": "Preacher",
-  "description": "Grimshaw - Preacher, or the Death of God in Pictures - JCRT 3.2",
+  "description": "",
   "url": "https://jcrt.org/archives/03.2/grimshaw/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,94 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.2/grimshaw/"
   },
-  "abstract": "Grimshaw - Preacher, or the Death of God in Pictures - JCRT 3.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "NeXbNk"
+  "identifier": "NeXbNk",
+  "volumeNumber": "3",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.2/grimshaw.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Death of God",
+      "termCode": "fst00888713",
+      "url": "https://id.worldcat.org/fast/888713",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Generation X",
+      "termCode": "fst00939868",
+      "url": "https://id.worldcat.org/fast/939868",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gnosticism",
+      "termCode": "fst00943906",
+      "url": "https://id.worldcat.org/fast/943906",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Graphic novels",
+      "termCode": "fst00946656",
+      "url": "https://id.worldcat.org/fast/946656",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Popular culture",
+      "termCode": "fst01071344",
+      "url": "https://id.worldcat.org/fast/1071344",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Secularization",
+      "termCode": "fst01110738",
+      "url": "https://id.worldcat.org/fast/1110738",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

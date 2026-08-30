@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.2/coakley/#article",
   "name": "Silence, Prayer, and Desire in Pedagogical Practices: a Conversation with Sarah Coakley.",
   "headline": "Silence, Prayer, and Desire in Pedagogical Practices: a Conversation with Sarah Coakley.",
-  "description": "An interview with American theologian Sarah Coakley on how spiritual practices like silent prayer inform her pedagogical practice is presented. Coakley shares that while she tries to make time for silent prayer amidst her numerous teaching commitments, such practices must not be included as a requirement in theological courses. Citing George Steiner's comments on the eroticism inherent in the teacher-student relationship, she warns theology teachers to be on guard against self-aggrandizement.",
+  "description": "",
   "url": "https://jcrt.org/archives/12.2/coakley/",
   "inLanguage": "en",
   "datePublished": "2012-01-01",
   "dateModified": "2012-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,6 +41,7 @@
   "identifier": "VDTtcq",
   "volumeNumber": "12",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

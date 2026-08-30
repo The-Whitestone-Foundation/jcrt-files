@@ -4,16 +4,18 @@
   "@id": "https://jcrt.org/archives/01.1/winquist/#article",
   "name": "The Ambiguous Gift of Desire",
   "headline": "The Ambiguous Gift of Desire",
-  "description": "Winquist - Ambiguous Gift of Desire - JCRT 1.1",
+  "description": "",
   "url": "https://jcrt.org/archives/01.1/winquist/",
   "inLanguage": "en",
   "datePublished": "1999-01-01",
   "dateModified": "1999-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Charles E Winquist"
+      "name": "Charles Winquist"
     }
   ],
   "publisher": {
@@ -25,12 +27,106 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.1/winquist/"
   },
-  "abstract": "Winquist - Ambiguous Gift of Desire - JCRT 1.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "Ur-3d_"
+  "identifier": "Ur-3d_",
+  "volumeNumber": "1",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.1/winquist.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Consciousness",
+      "termCode": "fst00875441",
+      "url": "https://id.worldcat.org/fast/875441",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Death of God",
+      "termCode": "fst00888713",
+      "url": "https://id.worldcat.org/fast/888713",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Desire",
+      "termCode": "fst00891351",
+      "url": "https://id.worldcat.org/fast/891351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Eternal return",
+      "termCode": "fst00915773",
+      "url": "https://id.worldcat.org/fast/915773",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodern theology",
+      "termCode": "fst01073163",
+      "url": "https://id.worldcat.org/fast/1073163",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Subjectivity",
+      "termCode": "fst01136568",
+      "url": "https://id.worldcat.org/fast/1136568",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2016-01-01",
   "dateModified": "2016-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,60 @@
   "identifier": "s4ITYQ",
   "volumeNumber": "16",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/16.1/InterviewUlmer.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Avant garde",
+      "termCode": "fst01776700",
+      "url": "https://id.worldcat.org/fast/1776700",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Digital humanities",
+      "termCode": "fst00963599",
+      "url": "https://id.worldcat.org/fast/963599",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Humanities",
+      "termCode": "fst00963588",
+      "url": "https://id.worldcat.org/fast/963588",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Media studies",
+      "termCode": "fst01787007",
+      "url": "https://id.worldcat.org/fast/1787007",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    }
+  ]
 }

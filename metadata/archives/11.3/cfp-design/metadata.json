@@ -9,13 +9,10 @@
   "inLanguage": "en",
   "datePublished": "2011-01-01",
   "dateModified": "2011-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
-  "author": [
-    {
-      "@type": "Organization",
-      "name": "JCRT"
-    }
-  ],
+  "author": [],
   "publisher": {
     "@type": "Organization",
     "name": "Whitestone Publications",
@@ -35,9 +32,48 @@
   "identifier": "VjcXJJ",
   "volumeNumber": "11",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/11.3/cfp-design.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Design",
+      "termCode": "fst00891253",
+      "url": "https://id.worldcat.org/fast/891253",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mediation",
+      "termCode": "fst01013617",
+      "url": "https://id.worldcat.org/fast/1013617",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Posthumanism",
+      "termCode": "fst02027038",
+      "url": "https://id.worldcat.org/fast/2027038",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

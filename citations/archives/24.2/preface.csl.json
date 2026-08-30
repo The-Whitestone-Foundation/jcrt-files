@@ -8,6 +8,7 @@
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/24.2/preface/",
+    "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
         "family": "Arnold",
@@ -19,7 +20,8 @@
       },
       {
         "family": "Brett",
-        "given": "Adam DJ"
+        "given": "Adam DJ",
+        "ORCID": "0009-0004-6725-8425"
       }
     ],
     "issued": {

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/17.2/dewarren/#article",
   "name": "Darkness over the Deep: Levinas and the Evil of Being.",
   "headline": "Darkness over the Deep: Levinas and the Evil of Being.",
-  "description": "The misery of the 20 th century has indelibly rendered evil the least academic of problems in transforming its enigma into one of the more urgent questions for philosophical reflection in our times, and for some, for all time. As widely acknowledged, the phenomenon of evil poses a fundamental challenge for philosophy as well as theology. Significant is less the acknowledgment of this challenge per se, but the manner in which this challenge is accepted and met:",
+  "description": "",
   "url": "https://jcrt.org/archives/17.2/dewarren/",
   "inLanguage": "en",
   "datePublished": "2018-01-01",
   "dateModified": "2018-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,7 +27,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/17.2/dewarren/"
   },
-  "abstract": "The misery of the 20 th century has indelibly rendered evil the least academic of problems in transforming its enigma into one of the more urgent questions for philosophical reflection in our times, and for some, for all time. As widely acknowledged, the phenomenon of evil poses a fundamental challenge for philosophy as well as theology. Significant is less the acknowledgment of this challenge per se, but the manner in which this challenge is accepted and met:",
+  "abstract": "The misery of the 20<sup>th</sup> century has indelibly rendered evil the least academic of problems in transforming its enigma into one of the more urgent questions for philosophical reflection in our times, and for some, for all time. As widely acknowledged, the phenomenon of evil poses a fundamental challenge for philosophy as well as theology. Significant is less the acknowledgment of this challenge per se, but the manner in which this challenge is accepted and met:",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",

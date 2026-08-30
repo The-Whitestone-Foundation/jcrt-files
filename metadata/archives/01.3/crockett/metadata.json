@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.3/crockett/#article",
   "name": "Economies of Studying Religion",
   "headline": "Economies of Studying Religion",
-  "description": "Crockett - Economies of Studying Religion - JCRT 1.3",
+  "description": "",
   "url": "https://jcrt.org/archives/01.3/crockett/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,94 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.3/crockett/"
   },
-  "abstract": "Crockett - Economies of Studying Religion - JCRT 1.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "eCIvjh"
+  "identifier": "eCIvjh",
+  "volumeNumber": "1",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.3/crockett.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Desire",
+      "termCode": "fst00891351",
+      "url": "https://id.worldcat.org/fast/891351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Holiness",
+      "termCode": "fst00958754",
+      "url": "https://id.worldcat.org/fast/958754",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sacrifice",
+      "termCode": "fst01103249",
+      "url": "https://id.worldcat.org/fast/1103249",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Secularization (Theology)",
+      "termCode": "fst01110740",
+      "url": "https://id.worldcat.org/fast/1110740",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Utilitarianism",
+      "termCode": "fst01163333",
+      "url": "https://id.worldcat.org/fast/1163333",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

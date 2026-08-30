@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.3/taylor.raschke/#article",
   "name": "From Alchemy to Revolution: a Conversation with Carl A. Raschke.",
   "headline": "From Alchemy to Revolution: a Conversation with Carl A. Raschke.",
-  "description": "An interview of University of Denver's professor Carl A. Raschke that includes depiction of postmodern approaches in deconstruction literature; collaboration of diferent literary discourses in the",
+  "description": "",
   "url": "https://jcrt.org/archives/12.3/taylor.raschke/",
   "inLanguage": "en",
   "datePublished": "2013-01-01",
   "dateModified": "2013-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,6 +41,7 @@
   "identifier": "b8TNnu",
   "volumeNumber": "12",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

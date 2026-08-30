@@ -9,11 +9,13 @@
   "inLanguage": "en",
   "datePublished": "2004-01-01",
   "dateModified": "2004-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "John D Caputo"
+      "name": "John D. Caputo"
     }
   ],
   "publisher": {
@@ -35,6 +37,7 @@
   "identifier": "tvHrLq",
   "volumeNumber": "6",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

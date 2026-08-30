@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.2/majer/#article",
   "name": "On Contagions: Leviticus and the Fascination of the Abomination",
   "headline": "On Contagions: Leviticus and the Fascination of the Abomination",
-  "description": "Majer - On Contagions - JCRT 2.2",
+  "description": "",
   "url": "https://jcrt.org/archives/02.2/majer/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.2/majer/"
   },
-  "abstract": "Majer - On Contagions - JCRT 2.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "B075nw"
+  "identifier": "B075nw",
+  "volumeNumber": "2",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.2/majer.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Finite, The",
+      "termCode": "fst00924915",
+      "url": "https://id.worldcat.org/fast/924915",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sacrifice",
+      "termCode": "fst01103249",
+      "url": "https://id.worldcat.org/fast/1103249",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Taboo",
+      "termCode": "fst01141792",
+      "url": "https://id.worldcat.org/fast/1141792",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

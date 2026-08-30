@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.2/pecora/#article",
   "name": "Religion and Modernity in Current Debate",
   "headline": "Religion and Modernity in Current Debate",
-  "description": "Pecora - Religion and Modernity in Current Debate - JCRT 4.2",
+  "description": "",
   "url": "https://jcrt.org/archives/04.2/pecora/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.2/pecora/"
   },
-  "abstract": "Pecora - Religion and Modernity in Current Debate - JCRT 4.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "wf7xHC"
+  "identifier": "wf7xHC",
+  "volumeNumber": "4",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.2/pecora.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Christianity",
+      "termCode": "fst00859599",
+      "url": "https://id.worldcat.org/fast/859599",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Civilization, Modern",
+      "termCode": "fst00863073",
+      "url": "https://id.worldcat.org/fast/863073",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fundamentalism",
+      "termCode": "fst00936186",
+      "url": "https://id.worldcat.org/fast/936186",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Islam",
+      "termCode": "fst00979776",
+      "url": "https://id.worldcat.org/fast/979776",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nationalism",
+      "termCode": "fst01033832",
+      "url": "https://id.worldcat.org/fast/1033832",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political theology",
+      "termCode": "fst01069899",
+      "url": "https://id.worldcat.org/fast/1069899",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Secularization",
+      "termCode": "fst01110738",
+      "url": "https://id.worldcat.org/fast/1110738",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.3/mccullough.altizer/#article",
   "name": "Interview with Thomas J. J. Altizer.",
   "headline": "Interview with Thomas J. J. Altizer.",
-  "description": "An interview of radical theologian Thomas J. J. Altizer is presented that includes consideration divine death promotion in Christianity; prevalence of death as apocalypticism in different Christian literature; and association of religious reformation with scientific-technological revolution.",
+  "description": "",
   "url": "https://jcrt.org/archives/12.3/mccullough.altizer/",
   "inLanguage": "en",
   "datePublished": "2013-01-01",
   "dateModified": "2013-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "xWw0XU",
   "volumeNumber": "12",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

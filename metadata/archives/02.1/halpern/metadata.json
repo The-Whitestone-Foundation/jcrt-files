@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.1/halpern/#article",
   "name": "Creation: Lacan in Kansas",
   "headline": "Creation: Lacan in Kansas",
-  "description": "Halpern - Creation: Lacan in Kansas - JCRT 2.1",
+  "description": "",
   "url": "https://jcrt.org/archives/02.1/halpern/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.1/halpern/"
   },
-  "abstract": "Halpern - Creation: Lacan in Kansas - JCRT 2.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "6Lx93L"
+  "identifier": "6Lx93L",
+  "volumeNumber": "2",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.1/halpern.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Creationism",
+      "termCode": "fst00882407",
+      "url": "https://id.worldcat.org/fast/882407",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Evolution",
+      "termCode": "fst00917265",
+      "url": "https://id.worldcat.org/fast/917265",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis and religion",
+      "termCode": "fst01081280",
+      "url": "https://id.worldcat.org/fast/1081280",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sublimation (Psychology)",
+      "termCode": "fst01136591",
+      "url": "https://id.worldcat.org/fast/1136591",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/20.3/boulting/#article",
   "name": "Intentionalism and God’s Fiction.",
   "headline": "Intentionalism and God’s Fiction.",
-  "description": "Can the world be conceived as an artwork as Simone Weil sometimes suggests? And does this suggestion not imply examining the relation between the creator's intentions and what is created? Three approaches will be explored so as to ascertain Simone Weil's response in terms of her Decreation thesis. The first approach can be labelled a phenomenological perspective, employing an insight from Sartre's existentialism, the Frankfurt school of philosophy and the German Literary tradition, illustrating ",
+  "description": "",
   "url": "https://jcrt.org/archives/20.3/boulting/",
   "inLanguage": "en",
   "datePublished": "2021-01-01",
   "dateModified": "2021-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,7 +27,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/20.3/boulting/"
   },
-  "abstract": "Can the world be conceived as an artwork as Simone Weil sometimes suggests? And does this suggestion not imply examining the relation between the creator's intentions and what is created? Three approaches will be explored so as to ascertain Simone Weil's response in terms of her Decreation thesis. The first approach can be labelled a phenomenological perspective, employing an insight from Sartre's existentialism, the Frankfurt school of philosophy and the German Literary tradition, illustrating ",
+  "abstract": "Can the world be conceived as an artwork as Simone Weil sometimes suggests? And does this suggestion not imply examining the relation between the creator's intentions and what is created? Three approaches will be explored so as to ascertain Simone Weil's response in terms of her Decreation thesis. The first approach can be labelled a phenomenological perspective, employing an insight from Sartre's existentialism, the Frankfurt school of philosophy and the German Literary tradition, illustrating her concern for the significance of human experience. The second approach, the ontological, is illustrated through claims made by Luria - the Jewish mystic - and Von Schelling - arguably the founder of ecological philosophy - in establishing her claim on behalf of what",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",

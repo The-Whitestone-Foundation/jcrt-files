@@ -20,6 +20,7 @@ const JOURNAL_ABBR = "JCRT";
 const PUBLISHER = "Whitestone Foundation";
 const ISSN = "1530-5228";
 const LANGUAGE = "en";
+const RIGHTS = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/";
 const RT_TITLE = "Religious theory by JCRT";
 // Religious Theory posts are blog posts, not journal articles. The container
 // name and website type below match the values jcrt.org emits in its
@@ -38,10 +39,12 @@ const JCRT_V2_ROOT = PATH_ARG
 	: path.resolve(FILES_ROOT, "..", "jcrt-v2");
 const RUN_ARCHIVES = !FLAG_ARGS.has("--theory-only");
 const RUN_THEORY = !FLAG_ARGS.has("--archives-only");
+const FORCE = FLAG_ARGS.has("--force");
 
 const OUT_ARCHIVES = path.join(FILES_ROOT, "citations", "archives");
 const OUT_THEORY = path.join(FILES_ROOT, "citations", "religioustheory");
 const LEGACY_DATE_PATH = path.join(JCRT_V2_ROOT, "_data", "legacy-ris-dates.json");
+const AUTHORS_PATH = path.join(JCRT_V2_ROOT, "content", "authors");
 
 // ── Helpers ────────────────────────────────────────────────────────
 function sha256(input) {
@@ -95,15 +98,27 @@ function normalizeDoi(v) {
 
 const SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
 
+function nameKey(value) {
+	return String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "");
+}
+
+const authorOrcids = new Map();
+for (const name of fs.readdirSync(AUTHORS_PATH).filter((name) => name.endsWith(".md"))) {
+	const data = parseFrontMatter(fs.readFileSync(path.join(AUTHORS_PATH, name), "utf8"));
+	const orcid = String(data.orcid || "").match(/(?:orcid\.org\/)?(\d{4}-\d{4}-\d{4}-\d{3}[\dX])/i)?.[1];
+	if (orcid && data.name) authorOrcids.set(nameKey(data.name), orcid);
+}
+
 function parseAuthorName(author) {
 	const raw = String(author || "").trim();
 	if (!raw) return null;
+	const ORCID = authorOrcids.get(nameKey(raw));
 	if (raw.includes(",")) {
 		const [family, ...rest] = raw.split(",");
-		return { family: family.trim(), given: rest.join(",").trim() };
+		return { family: family.trim(), given: rest.join(",").trim(), ...(ORCID ? { ORCID } : {}) };
 	}
 	if (/[()]/.test(raw)) {
-		return { literal: raw };
+		return { literal: raw, ...(ORCID ? { ORCID } : {}) };
 	}
 	const parts = raw.split(/\s+/);
 	if (parts.length === 1) return { literal: raw };
@@ -114,7 +129,7 @@ function parseAuthorName(author) {
 		suffix = parts.pop();
 	}
 	const family = parts.pop();
-	return { family, given: parts.join(" "), ...(suffix ? { suffix } : {}) };
+	return { family, given: parts.join(" "), ...(suffix ? { suffix } : {}), ...(ORCID ? { ORCID } : {}) };
 }
 
 // RIS AU tags are inverted: "Grane, Kevin S."
@@ -142,7 +157,7 @@ function makeArchiveRIS(e) {
 		`C6  - ${escRIS(e.season)}`, `SP  - ${escRIS(e.sp)}`, `EP  - ${escRIS(e.ep)}`,
 		`J2  - ${JOURNAL_ABBR}`, `PB  - ${PUBLISHER}`, `SN  - ${ISSN}`,
 		...(e.doi ? [`DO  - ${escRIS(e.doi)}`] : []),
-		`UR  - ${escRIS(e.url)}`, "ER  -",
+		`UR  - ${escRIS(e.url)}`, `N1  - ${RIGHTS}`, "ER  -",
 	].join("\n") + "\n";
 }
 
@@ -151,6 +166,7 @@ function makeArchiveCSL(e, id) {
 		id, type: "article-journal", title: e.title || id,
 		"container-title": JOURNAL_TITLE, "short-container-title": JOURNAL_ABBR,
 		publisher: PUBLISHER, ISSN, URL: e.url,
+		note: RIGHTS,
 	};
 	const al = e.authors.map(parseAuthorName).filter(Boolean);
 	if (al.length) obj.author = al;
@@ -269,7 +285,7 @@ function generateArchiveCitations() {
 
 		// Check if output is already current (content hash)
 		const sig = sha256(`${content}|${JSON.stringify(issueMeta)}`);
-		if (fs.existsSync(risPath) && fs.existsSync(cslPath)) {
+		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath)) {
 			const markerPath = path.join(issueOutDir, `.${fileSlug}.sig`);
 			try {
 				if (fs.readFileSync(markerPath, "utf8").trim() === sig) {
@@ -309,7 +325,7 @@ function generateTheoryCitations() {
 		const cslPath = path.join(OUT_THEORY, `${fileSlug}.csl.json`);
 
 		const sig = sha256(`${content}|${pageUrl}`);
-		if (fs.existsSync(risPath) && fs.existsSync(cslPath)) {
+		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath)) {
 			const markerPath = path.join(OUT_THEORY, `.${fileSlug}.sig`);
 			try {
 				if (fs.readFileSync(markerPath, "utf8").trim() === sig) {

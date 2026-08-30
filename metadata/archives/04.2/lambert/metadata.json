@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.2/lambert/#article",
   "name": "‘Create, She Said’: Deleuze and Feminism (on Dorothea Olkowski’s Gilles Deleuze and the Ruin of Representation)",
   "headline": "‘Create, She Said’: Deleuze and Feminism (on Dorothea Olkowski’s Gilles Deleuze and the Ruin of Representation)",
-  "description": "Rabaté & Lambert - Conversation on The Future of Theory - JCRT 4.2",
+  "description": "",
   "url": "https://jcrt.org/archives/04.2/lambert/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,7 +27,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.2/lambert/"
   },
-  "abstract": "Rabaté & Lambert - Conversation on The Future of Theory - JCRT 4.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
@@ -33,9 +35,62 @@
     "issn": "1530-5228"
   },
   "identifier": "6hGyNR",
+  "volumeNumber": "4",
+  "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/04.2/lambert.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Castration",
+      "termCode": "fst00848466",
+      "url": "https://id.worldcat.org/fast/848466",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Feminism",
+      "termCode": "fst00922671",
+      "url": "https://id.worldcat.org/fast/922671",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phenomenology",
+      "termCode": "fst01060522",
+      "url": "https://id.worldcat.org/fast/1060522",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis",
+      "termCode": "fst01081235",
+      "url": "https://id.worldcat.org/fast/1081235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

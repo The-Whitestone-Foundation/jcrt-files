@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.2/saper/#article",
   "name": "Of Spectacularization: Writing New Media Theory",
   "headline": "Of Spectacularization: Writing New Media Theory",
-  "description": "Saper - Of Spectacularization - JCRT 4.2",
+  "description": "",
   "url": "https://jcrt.org/archives/04.2/saper/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,58 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.2/saper/"
   },
-  "abstract": "Saper - Of Spectacularization - JCRT 4.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "h7lrvN"
+  "identifier": "h7lrvN",
+  "volumeNumber": "4",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.2/saper.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Avant garde",
+      "termCode": "fst01776700",
+      "url": "https://id.worldcat.org/fast/1776700",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Parody",
+      "termCode": "fst01053849",
+      "url": "https://id.worldcat.org/fast/1053849",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spectacular, The",
+      "termCode": "fst01129046",
+      "url": "https://id.worldcat.org/fast/1129046",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/15.2/reid/#article",
   "name": "The Grottesche Designs of H.G. Wells (or, Cripping Style).",
   "headline": "The Grottesche Designs of H.G. Wells (or, Cripping Style).",
-  "description": "An essay is presented on related to neoclassical pattern design grottesche which was featured in the science fiction novel",
+  "description": "",
   "url": "https://jcrt.org/archives/15.2/reid/",
   "inLanguage": "en",
   "datePublished": "2016-01-01",
   "dateModified": "2016-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "rAVTS0",
   "volumeNumber": "15",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

@@ -8,10 +8,12 @@
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/25.2/shane/",
+    "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
         "family": "Shane",
-        "given": "D.A."
+        "given": "D.A.",
+        "ORCID": "0000-0003-4463-8375"
       }
     ],
     "issued": {

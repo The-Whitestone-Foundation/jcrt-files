@@ -9,11 +9,24 @@
   "inLanguage": "en",
   "datePublished": "2026-04-16",
   "dateModified": "2026-04-16",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Adam DJ Brett"
+      "name": "Adam DJ Brett",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0004-6725-8425",
+          "url": "https://orcid.org/0009-0004-6725-8425"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0004-6725-8425"
+      ]
     },
     {
       "@type": "Person",
@@ -21,7 +34,18 @@
     },
     {
       "@type": "Person",
-      "name": "Nethanial Belmont"
+      "name": "Nethanial Belmont",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0003-5490-0389",
+          "url": "https://orcid.org/0009-0003-5490-0389"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0003-5490-0389"
+      ]
     }
   ],
   "publisher": {

@@ -2,18 +2,20 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/18.3/murphy/#article",
-  "name": "murphy",
-  "headline": "murphy",
+  "name": "Lacan as “Spiritual Director” – On the Relationship Between Psychoanalysis and Christian Mysticism",
+  "headline": "Lacan as “Spiritual Director” – On the Relationship Between Psychoanalysis and Christian Mysticism",
   "description": "",
   "url": "https://jcrt.org/archives/18.3/murphy/",
   "inLanguage": "en",
   "datePublished": "2019-01-01",
   "dateModified": "2019-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
-      "@type": "Organization",
-      "name": "JCRT"
+      "@type": "Person",
+      "name": "Mark Murphy"
     }
   ],
   "publisher": {
@@ -35,9 +37,72 @@
   "identifier": "vL8Ulb",
   "volumeNumber": "18",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/18.3/Murphy.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Desire",
+      "termCode": "fst00891351",
+      "url": "https://id.worldcat.org/fast/891351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mysticism",
+      "termCode": "fst01031629",
+      "url": "https://id.worldcat.org/fast/1031629",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis",
+      "termCode": "fst01081235",
+      "url": "https://id.worldcat.org/fast/1081235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spiritual direction",
+      "termCode": "fst01130070",
+      "url": "https://id.worldcat.org/fast/1130070",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spirituality",
+      "termCode": "fst01130186",
+      "url": "https://id.worldcat.org/fast/1130186",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

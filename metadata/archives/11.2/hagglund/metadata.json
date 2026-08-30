@@ -2,13 +2,15 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/11.2/hagglund/#article",
-  "name": "The Radical Evil of Deconstruction: a Reply to John Caputo",
-  "headline": "The Radical Evil of Deconstruction: a Reply to John Caputo",
+  "name": "The Radical Evil of Deconstruction: a Reply to John D. Caputo",
+  "headline": "The Radical Evil of Deconstruction: a Reply to John D. Caputo",
   "description": "",
   "url": "https://jcrt.org/archives/11.2/hagglund/",
   "inLanguage": "en",
   "datePublished": "2011-01-01",
   "dateModified": "2011-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "pCCcMW",
   "volumeNumber": "11",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

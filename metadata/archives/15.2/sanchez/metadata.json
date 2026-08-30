@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/15.2/sanchez/#article",
   "name": "“Perfect Interindependency”: Representing Crip Futurity in Beckett’s Mercier and Camier",
   "headline": "“Perfect Interindependency”: Representing Crip Futurity in Beckett’s Mercier and Camier",
-  "description": "An essay is presented on the representations of crip futurity in the novel",
+  "description": "",
   "url": "https://jcrt.org/archives/15.2/sanchez/",
   "inLanguage": "en",
   "datePublished": "2016-01-01",
   "dateModified": "2016-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "Y5ORyk",
   "volumeNumber": "15",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

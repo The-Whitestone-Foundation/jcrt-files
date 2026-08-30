@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.3/lakeland/#article",
   "name": "Beyond Foundationalism: Shaping Theology in a Postmodern Context",
   "headline": "Beyond Foundationalism: Shaping Theology in a Postmodern Context",
-  "description": "Lakeland - Book Profile: Beyond Foundationalism - JCRT 2.3",
+  "description": "",
   "url": "https://jcrt.org/archives/02.3/lakeland/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.3/lakeland/"
   },
-  "abstract": "Lakeland - Book Profile: Beyond Foundationalism - JCRT 2.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "nG8y9e"
+  "identifier": "nG8y9e",
+  "volumeNumber": "2",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.3/lakeland.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Church",
+      "termCode": "fst00860364",
+      "url": "https://id.worldcat.org/fast/860364",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Eschatology",
+      "termCode": "fst00915134",
+      "url": "https://id.worldcat.org/fast/915134",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodern theology",
+      "termCode": "fst01073163",
+      "url": "https://id.worldcat.org/fast/1073163",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Social constructionism",
+      "termCode": "fst01748939",
+      "url": "https://id.worldcat.org/fast/1748939",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Trinity",
+      "termCode": "fst01156777",
+      "url": "https://id.worldcat.org/fast/1156777",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

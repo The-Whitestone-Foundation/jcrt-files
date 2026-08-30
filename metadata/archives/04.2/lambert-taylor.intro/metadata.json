@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.2/lambert-taylor.intro/#article",
   "name": "The Future of Theory",
   "headline": "The Future of Theory",
-  "description": "Taylor & Lambert - The Future of Theory - JCRT 4.2",
+  "description": "",
   "url": "https://jcrt.org/archives/04.2/lambert-taylor.intro/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -29,12 +31,58 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.2/lambert-taylor.intro/"
   },
-  "abstract": "Taylor & Lambert - The Future of Theory - JCRT 4.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "F6so2P"
+  "identifier": "F6so2P",
+  "volumeNumber": "4",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.2/lambert-taylor.intro.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Continental philosophy",
+      "termCode": "fst01765182",
+      "url": "https://id.worldcat.org/fast/1765182",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Literary criticism",
+      "termCode": "fst01986215",
+      "url": "https://id.worldcat.org/fast/1986215",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "form-genre"
+      }
+    }
+  ]
 }

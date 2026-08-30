@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/20.2/praise/#article",
   "name": "In Praise of Mortality: Christianity as a New Humanism",
   "headline": "In Praise of Mortality: Christianity as a New Humanism",
-  "description": "This edition of JCRT is a full translation from the German of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus (Freiburg im Breisgau, Germany: Verlag Herder, 2015) Kurt Appel, Editor; Jakob Deibl; Isabella Guanzini; Alex Skinner; Natalie Eder; Carl A. Raschke; Rachel Thomas (Translators)",
+  "description": "",
   "url": "https://jcrt.org/archives/20.2/praise/",
   "inLanguage": "en",
   "datePublished": "2021-01-01",
   "dateModified": "2021-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -49,7 +51,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/20.2/praise/"
   },
-  "abstract": "This edition of JCRT is a full translation from the German of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus (Freiburg im Breisgau, Germany: Verlag Herder, 2015) Kurt Appel, Editor; Jakob Deibl; Isabella Guanzini; Alex Skinner; Natalie Eder; Carl A. Raschke; Rachel Thomas (Translators)",
+  "abstract": "This edition of  JCRT is a full translation from the German of the book Preis der Sterblichkeit: Christentum und Neuer Humanismus (Freiburg im Breisgau, Germany: Verlag Herder, 2015) Kurt Appel, Editor; Jakob Deibl; Isabella Guanzini; Alex Skinner; Natalie Eder; Carl A. Raschke; Rachel Thomas (Translators)",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
@@ -59,9 +61,24 @@
   "identifier": "mbgRL8",
   "volumeNumber": "20",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/20.2/Praise.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

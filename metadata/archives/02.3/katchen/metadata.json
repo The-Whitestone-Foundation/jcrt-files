@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.3/katchen/#article",
   "name": "Bluebird: Deliberate Creation of Multiple Personality by Psychiatrists",
   "headline": "Bluebird: Deliberate Creation of Multiple Personality by Psychiatrists",
-  "description": "Katchen - Book Profile: Psychiatric Abuse and the Intelligence Community - JCRT 2.3",
+  "description": "",
   "url": "https://jcrt.org/archives/02.3/katchen/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,106 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.3/katchen/"
   },
-  "abstract": "Katchen - Book Profile: Psychiatric Abuse and the Intelligence Community - JCRT 2.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "mGQQdZ"
+  "identifier": "mGQQdZ",
+  "volumeNumber": "2",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.3/katchen.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Brainwashing",
+      "termCode": "fst00837790",
+      "url": "https://id.worldcat.org/fast/837790",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "False memory syndrome",
+      "termCode": "fst00920110",
+      "url": "https://id.worldcat.org/fast/920110",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Hypnotism",
+      "termCode": "fst00965930",
+      "url": "https://id.worldcat.org/fast/965930",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Intelligence service",
+      "termCode": "fst00975848",
+      "url": "https://id.worldcat.org/fast/975848",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Multiple personality",
+      "termCode": "fst01028994",
+      "url": "https://id.worldcat.org/fast/1028994",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Post-traumatic stress disorder",
+      "termCode": "fst01072762",
+      "url": "https://id.worldcat.org/fast/1072762",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ritual abuse",
+      "termCode": "fst01098249",
+      "url": "https://id.worldcat.org/fast/1098249",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

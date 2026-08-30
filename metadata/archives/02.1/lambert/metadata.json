@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.1/lambert/#article",
   "name": "Redemption: Lacan Avec Marx",
   "headline": "Redemption: Lacan Avec Marx",
-  "description": "Lambert - Redemption: Lacan avec Marx - JCRT 2.1",
+  "description": "",
   "url": "https://jcrt.org/archives/02.1/lambert/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.1/lambert/"
   },
-  "abstract": "Lambert - Redemption: Lacan avec Marx - JCRT 2.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "LL4gCb"
+  "identifier": "LL4gCb",
+  "volumeNumber": "2",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.1/lambert.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Capital",
+      "termCode": "fst00846272",
+      "url": "https://id.worldcat.org/fast/846272",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Death instinct",
+      "termCode": "fst00888707",
+      "url": "https://id.worldcat.org/fast/888707",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Division of labor",
+      "termCode": "fst00895801",
+      "url": "https://id.worldcat.org/fast/895801",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Homeostasis",
+      "termCode": "fst00959606",
+      "url": "https://id.worldcat.org/fast/959606",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Messianism",
+      "termCode": "fst01017438",
+      "url": "https://id.worldcat.org/fast/1017438",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Redemption",
+      "termCode": "fst01092243",
+      "url": "https://id.worldcat.org/fast/1092243",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sabbath",
+      "termCode": "fst01102941",
+      "url": "https://id.worldcat.org/fast/1102941",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sublimation (Psychology)",
+      "termCode": "fst01136591",
+      "url": "https://id.worldcat.org/fast/1136591",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

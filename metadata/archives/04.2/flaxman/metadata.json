@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.2/flaxman/#article",
   "name": "Past Imperfect, Future Unknown: the Discourse of Theory",
   "headline": "Past Imperfect, Future Unknown: the Discourse of Theory",
-  "description": "Flaxman - Past Imperfect, Future Unknown - JCRT 4.2",
+  "description": "",
   "url": "https://jcrt.org/archives/04.2/flaxman/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.2/flaxman/"
   },
-  "abstract": "Flaxman - Past Imperfect, Future Unknown - JCRT 4.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "pEh7jv"
+  "identifier": "pEh7jv",
+  "volumeNumber": "4",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.2/flaxman.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Hysteria",
+      "termCode": "fst00966135",
+      "url": "https://id.worldcat.org/fast/966135",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Literary theory",
+      "termCode": "fst01404190",
+      "url": "https://id.worldcat.org/fast/1404190",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Poststructuralism",
+      "termCode": "fst01073231",
+      "url": "https://id.worldcat.org/fast/1073231",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Psychoanalysis",
+      "termCode": "fst01081235",
+      "url": "https://id.worldcat.org/fast/1081235",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Structuralism",
+      "termCode": "fst01135732",
+      "url": "https://id.worldcat.org/fast/1135732",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

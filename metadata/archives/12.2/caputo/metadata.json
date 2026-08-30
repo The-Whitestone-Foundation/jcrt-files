@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.2/caputo/#article",
   "name": "Education as Event: a Conversation with John D. Caputo.",
   "headline": "Education as Event: a Conversation with John D. Caputo.",
-  "description": "An interview with theologian and philosopher of religion John D. Caputo is presented. Caputo proposes a new framework for education built on the concept of the",
+  "description": "",
   "url": "https://jcrt.org/archives/12.2/caputo/",
   "inLanguage": "en",
   "datePublished": "2012-01-01",
   "dateModified": "2012-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -39,6 +41,7 @@
   "identifier": "iY86aF",
   "volumeNumber": "12",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

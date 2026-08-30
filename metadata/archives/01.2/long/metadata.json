@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.2/long/#article",
   "name": "Mircea Eliade and the Imagination of Matter",
   "headline": "Mircea Eliade and the Imagination of Matter",
-  "description": "Long - Mircea Eliade and the Imagination of Matter - JCRT 1.2",
+  "description": "",
   "url": "https://jcrt.org/archives/01.2/long/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,58 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.2/long/"
   },
-  "abstract": "Long - Mircea Eliade and the Imagination of Matter - JCRT 1.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "fqpD6r"
+  "identifier": "fqpD6r",
+  "volumeNumber": "1",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.2/long.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Alchemy",
+      "termCode": "fst00804245",
+      "url": "https://id.worldcat.org/fast/804245",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Homo religiosus",
+      "termCode": "fst01381881",
+      "url": "https://id.worldcat.org/fast/1381881",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religions",
+      "termCode": "fst01093898",
+      "url": "https://id.worldcat.org/fast/1093898",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

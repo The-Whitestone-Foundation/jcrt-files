@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/24.2/barry/#article",
   "name": "Deconstructing the Erie Canal: Three Lessons for its Next Century",
   "headline": "Deconstructing the Erie Canal: Three Lessons for its Next Century",
-  "description": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigeno",
+  "description": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigenous sovereignty, and recast genocidal dispossession as American achievement. The article links canal ideology to Christian dominance, European expansion, and the legal legacy of the Doctrine of Discovery, while also tracing how revivalist and reform movements reproduced similar hierarchies. Blending critical history with self-reflection, Barry calls for a different future in which Erie Canal memory is reoriented around Indigenous leadership, sacred relationships to place, and accountable ecological repair rather than triumphalist nostalgia. She urges institutions, educators, and visitors to confront inherited narratives and support decolonial stewardship in practice.",
   "url": "https://jcrt.org/archives/24.2/barry/",
   "inLanguage": "en",
   "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,7 +27,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/24.2/barry/"
   },
-  "abstract": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigeno",
+  "abstract": "In this bicentennial reflection on the Erie Canal, Renee Barry examines how celebratory public histories mask the canal's foundation in settler colonial violence on unceded Haudenosaunee land. Drawing on archival research, heritage tourism analysis, and museum narratives, the essay deconstructs myths of progress, civilization, and national destiny embedded in iconic commemorations such as the Wedding of the Waters. Barry argues that these narratives normalize environmental damage, erase Indigenous sovereignty, and recast genocidal dispossession as American achievement. The article links canal ideology to Christian dominance, European expansion, and the legal legacy of the Doctrine of Discovery, while also tracing how revivalist and reform movements reproduced similar hierarchies. Blending critical history with self-reflection, Barry calls for a different future in which Erie Canal memory is reoriented around Indigenous leadership, sacred relationships to place, and accountable ecological repair rather than triumphalist nostalgia. She urges institutions, educators, and visitors to confront inherited narratives and support decolonial stewardship in practice.",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",

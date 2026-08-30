@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.1/anderson/#article",
   "name": "Across the Boundaries of Belief: Contemporary Issues in the Anthropology of Religion",
   "headline": "Across the Boundaries of Belief: Contemporary Issues in the Anthropology of Religion",
-  "description": "Anderson - Book Profile: Exploring the Anthropology of Religion - JCRT 3.1",
+  "description": "",
   "url": "https://jcrt.org/archives/03.1/anderson/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,94 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.1/anderson/"
   },
-  "abstract": "Anderson - Book Profile: Exploring the Anthropology of Religion - JCRT 3.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "ucBdeF"
+  "identifier": "ucBdeF",
+  "volumeNumber": "3",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.1/anderson.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Anthropology of religion",
+      "termCode": "fst01738842",
+      "url": "https://id.worldcat.org/fast/1738842",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Methodology",
+      "termCode": "fst01018722",
+      "url": "https://id.worldcat.org/fast/1018722",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postcolonialism",
+      "termCode": "fst01073032",
+      "url": "https://id.worldcat.org/fast/1073032",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religions",
+      "termCode": "fst01093898",
+      "url": "https://id.worldcat.org/fast/1093898",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Shamanism",
+      "termCode": "fst01115159",
+      "url": "https://id.worldcat.org/fast/1115159",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Syncretism (Religion)",
+      "termCode": "fst01141119",
+      "url": "https://id.worldcat.org/fast/1141119",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

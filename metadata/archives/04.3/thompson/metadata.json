@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/04.3/thompson/#article",
   "name": "The God Who May Be: a Hermeneutics of Religion",
   "headline": "The God Who May Be: a Hermeneutics of Religion",
-  "description": "A review of three books by Richard Kearney: On Stories, London: Routledge, 2001; God Who May Be: A Hermeneutics of Religion ; Strangers, Gods, and Monsters: Ideas of Otherness, London: Routledge, 2002.",
+  "description": "",
   "url": "https://jcrt.org/archives/04.3/thompson/",
   "inLanguage": "en",
   "datePublished": "2003-01-01",
   "dateModified": "2003-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,72 @@
   "identifier": "APZwKr",
   "volumeNumber": "4",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/04.3/thompson.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Eschatology",
+      "termCode": "fst00915134",
+      "url": "https://id.worldcat.org/fast/915134",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Negative theology",
+      "termCode": "fst01035499",
+      "url": "https://id.worldcat.org/fast/1035499",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Panentheism",
+      "termCode": "fst01052088",
+      "url": "https://id.worldcat.org/fast/1052088",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Possibility",
+      "termCode": "fst01072695",
+      "url": "https://id.worldcat.org/fast/1072695",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Process philosophy",
+      "termCode": "fst01078048",
+      "url": "https://id.worldcat.org/fast/1078048",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

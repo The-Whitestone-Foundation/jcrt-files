@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.3/metcalfe/#article",
   "name": "Wonder, Creativity and Knowledge",
   "headline": "Wonder, Creativity and Knowledge",
-  "description": "Metcalfe - Wonder, Creativity and Knowledge - JCRT 1.3",
+  "description": "",
   "url": "https://jcrt.org/archives/01.3/metcalfe/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.3/metcalfe/"
   },
-  "abstract": "Metcalfe - Wonder, Creativity and Knowledge - JCRT 1.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "4MUccs"
+  "identifier": "4MUccs",
+  "volumeNumber": "1",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.3/metcalfe.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Angels",
+      "termCode": "fst00808746",
+      "url": "https://id.worldcat.org/fast/808746",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Chiaroscuro",
+      "termCode": "fst00854002",
+      "url": "https://id.worldcat.org/fast/854002",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Creative ability",
+      "termCode": "fst00882417",
+      "url": "https://id.worldcat.org/fast/882417",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Gratitude",
+      "termCode": "fst00946831",
+      "url": "https://id.worldcat.org/fast/946831",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Imagination",
+      "termCode": "fst00967585",
+      "url": "https://id.worldcat.org/fast/967585",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Inspiration",
+      "termCode": "fst00974230",
+      "url": "https://id.worldcat.org/fast/974230",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mystery",
+      "termCode": "fst01031615",
+      "url": "https://id.worldcat.org/fast/1031615",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Wonder",
+      "termCode": "fst01179176",
+      "url": "https://id.worldcat.org/fast/1179176",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

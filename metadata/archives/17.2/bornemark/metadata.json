@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/17.2/bornemark/#article",
   "name": "Phenomenology of Secular Society and Its Scientism.",
   "headline": "Phenomenology of Secular Society and Its Scientism.",
-  "description": "Since its inception, phenomenology has been a forceful power against scientism and positivism. For this reason, among others, it has the capacity to give us tools to develop nuanced understandings of religion and to see beyond what Heidegger called onto-theology, i.e., the understanding of the divine as a highest being and as an object of thought on the one hand, and on the other hand, being as a generality. But it has not given us the same nuanced understanding of the secular society. Perhaps t",
+  "description": "",
   "url": "https://jcrt.org/archives/17.2/bornemark/",
   "inLanguage": "en",
   "datePublished": "2018-01-01",
   "dateModified": "2018-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,7 +27,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/17.2/bornemark/"
   },
-  "abstract": "Since its inception, phenomenology has been a forceful power against scientism and positivism. For this reason, among others, it has the capacity to give us tools to develop nuanced understandings of religion and to see beyond what Heidegger called onto-theology, i.e., the understanding of the divine as a highest being and as an object of thought on the one hand, and on the other hand, being as a generality. But it has not given us the same nuanced understanding of the secular society. Perhaps t",
+  "abstract": "Since its inception, phenomenology has been a forceful power against scientism and positivism. For this reason, among others, it has the capacity to give us tools to develop nuanced understandings of religion and to see beyond what Heidegger called onto-theology, i.e., the understanding of the divine as a highest being and as an object of thought on the one hand, and on the other hand, being as a generality. But it has not given us the same nuanced understanding of the secular society. Perhaps this is due to the strong criticisms and skepticisms railed against technology and the modern society, most present, for example, in Heidegger's philosophy, and later even more explicit in the phenomenology of Klaus Held and Michel Henry.1 But these criticisms tend to only be conservative and when posed to political questions, lose their radical force and dynamic capacity. There is also a risk for phenomenology, just as for any philosophy, to lock itself and its criticisms against modern society",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",

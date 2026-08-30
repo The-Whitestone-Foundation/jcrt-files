@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/13.1/mendez/#article",
   "name": "Transcending Dimorphism: Afro-Cuban Ritual Praxis and the Rematerialization of the Body.",
   "headline": "Transcending Dimorphism: Afro-Cuban Ritual Praxis and the Rematerialization of the Body.",
-  "description": "The article discusses the complex ways in which material bodies are reconfigured in and through Afro-Cuban ritual praxis.",
+  "description": "",
   "url": "https://jcrt.org/archives/13.1/mendez/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +42,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/13.1/mendez.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

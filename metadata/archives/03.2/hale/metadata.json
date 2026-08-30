@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.2/hale/#article",
   "name": "Terror and the Sacred",
   "headline": "Terror and the Sacred",
-  "description": "Hale - Book Profile: Terror and the Sacred - JCRT 3.2",
+  "description": "",
   "url": "https://jcrt.org/archives/03.2/hale/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.2/hale/"
   },
-  "abstract": "Hale - Book Profile: Terror and the Sacred - JCRT 3.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "oVh049"
+  "identifier": "oVh049",
+  "volumeNumber": "3",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.2/hale.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Experience (Religion)",
+      "termCode": "fst00918383",
+      "url": "https://id.worldcat.org/fast/918383",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fundamentalism",
+      "termCode": "fst00936186",
+      "url": "https://id.worldcat.org/fast/936186",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Phenomenology",
+      "termCode": "fst01060522",
+      "url": "https://id.worldcat.org/fast/1060522",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Terrorism",
+      "termCode": "fst01148101",
+      "url": "https://id.worldcat.org/fast/1148101",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Toleration",
+      "termCode": "fst01152232",
+      "url": "https://id.worldcat.org/fast/1152232",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.2/weidler/#article",
   "name": "Vernacular Fundamentalism After ŽIŽEk: Some Ethical Concerns About Religious Online Communication.",
   "headline": "Vernacular Fundamentalism After ŽIŽEk: Some Ethical Concerns About Religious Online Communication.",
-  "description": "An essay is presented on philosopher Slavoj Žižek's promotion of the need to examine the ethical aspects of religious online communication and on professor Robert Glenn Howard's case study, Digital Jesus. It compares both philosophers views on religious online communication and examines the role mashup philosophy of religion on the use of religious language in faith and politics. Also discussed is the nexus between immoralism, extremism, literalism, and dogmatism.",
+  "description": "",
   "url": "https://jcrt.org/archives/14.2/weidler/",
   "inLanguage": "en",
   "datePublished": "2015-01-01",
   "dateModified": "2015-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "pPSJ2q",
   "volumeNumber": "14",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

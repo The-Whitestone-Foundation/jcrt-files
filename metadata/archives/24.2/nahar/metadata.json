@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -59,7 +61,7 @@
       "name": "Black feminism",
       "termCode": "homoit0002270",
       "url": "https://homosaurus.org/v5/homoit0002270",
-      "inDefinedTermSet": "https://homosaurus.org/v5",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
         "name": "authority category",

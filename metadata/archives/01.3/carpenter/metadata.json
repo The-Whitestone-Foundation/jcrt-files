@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.3/carpenter/#article",
   "name": "The Religious Art of Andy Warhol",
   "headline": "The Religious Art of Andy Warhol",
-  "description": "Bennett-Carpenter - The Divine Simulacrum of Andy Warhol - JCRT 1.3",
+  "description": "",
   "url": "https://jcrt.org/archives/01.3/carpenter/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.3/carpenter/"
   },
-  "abstract": "Bennett-Carpenter - The Divine Simulacrum of Andy Warhol - JCRT 1.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "B3u3l0"
+  "identifier": "B3u3l0",
+  "volumeNumber": "1",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.3/carpenter.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Icons, Byzantine",
+      "termCode": "fst00966787",
+      "url": "https://id.worldcat.org/fast/966787",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Kitsch",
+      "termCode": "fst00987956",
+      "url": "https://id.worldcat.org/fast/987956",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pop art",
+      "termCode": "fst01071250",
+      "url": "https://id.worldcat.org/fast/1071250",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religious art",
+      "termCode": "fst01985313",
+      "url": "https://id.worldcat.org/fast/1985313",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Representative government and representation",
+      "termCode": "fst01094941",
+      "url": "https://id.worldcat.org/fast/1094941",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

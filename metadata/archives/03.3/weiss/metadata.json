@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/weiss/#article",
   "name": "In Our Image: Artificial Intelligence and the Human Spirit",
   "headline": "In Our Image: Artificial Intelligence and the Human Spirit",
-  "description": "Weiss - Review of In Our Image - JCRT 3.3",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/weiss/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/weiss/"
   },
-  "abstract": "Weiss - Review of In Our Image - JCRT 3.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "5z4-n9"
+  "identifier": "5z4-n9",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/weiss.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Artificial intelligence",
+      "termCode": "fst00817247",
+      "url": "https://id.worldcat.org/fast/817247",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy of mind",
+      "termCode": "fst01060840",
+      "url": "https://id.worldcat.org/fast/1060840",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Robotics",
+      "termCode": "fst01098997",
+      "url": "https://id.worldcat.org/fast/1098997",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Science fiction",
+      "termCode": "fst01108566",
+      "url": "https://id.worldcat.org/fast/1108566",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Theological anthropology",
+      "termCode": "fst01431587",
+      "url": "https://id.worldcat.org/fast/1431587",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

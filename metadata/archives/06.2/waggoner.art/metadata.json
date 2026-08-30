@@ -2,13 +2,15 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/06.2/waggoner.art/#article",
-  "name": "Death of a Discipline",
-  "headline": "Death of a Discipline",
+  "name": "Giving Up the Good: Adorno, Kierkegaard, and the Critique of Political Culture",
+  "headline": "Giving Up the Good: Adorno, Kierkegaard, and the Critique of Political Culture",
   "description": "",
   "url": "https://jcrt.org/archives/06.2/waggoner.art/",
   "inLanguage": "en",
   "datePublished": "2005-01-01",
   "dateModified": "2005-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,36 @@
   "identifier": "_Lwoep",
   "volumeNumber": "6",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/06.2/waggoner.art.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Frankfurt school of sociology",
+      "termCode": "fst00933734",
+      "url": "https://id.worldcat.org/fast/933734",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Resignation",
+      "termCode": "fst01095569",
+      "url": "https://id.worldcat.org/fast/1095569",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

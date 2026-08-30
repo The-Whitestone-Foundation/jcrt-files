@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/druen/#article",
   "name": "Sacred Pain: Hurting the Body for the Sake of the Soul",
   "headline": "Sacred Pain: Hurting the Body for the Sake of the Soul",
-  "description": "Druen - Book Profile: Sacred Pain - JCRT 3.3",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/druen/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/druen/"
   },
-  "abstract": "Druen - Book Profile: Sacred Pain - JCRT 3.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "zQDYIy"
+  "identifier": "zQDYIy",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/druen.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Asceticism",
+      "termCode": "fst00818425",
+      "url": "https://id.worldcat.org/fast/818425",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Experience (Religion)",
+      "termCode": "fst00918383",
+      "url": "https://id.worldcat.org/fast/918383",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Identity (Philosophical concept)",
+      "termCode": "fst00966889",
+      "url": "https://id.worldcat.org/fast/966889",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mysticism",
+      "termCode": "fst01031629",
+      "url": "https://id.worldcat.org/fast/1031629",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Neurosciences",
+      "termCode": "fst01036509",
+      "url": "https://id.worldcat.org/fast/1036509",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pain",
+      "termCode": "fst01050382",
+      "url": "https://id.worldcat.org/fast/1050382",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rites and ceremonies",
+      "termCode": "fst01098216",
+      "url": "https://id.worldcat.org/fast/1098216",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Self-mutilation",
+      "termCode": "fst01111786",
+      "url": "https://id.worldcat.org/fast/1111786",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

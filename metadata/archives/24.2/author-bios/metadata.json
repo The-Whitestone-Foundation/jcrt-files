@@ -4,18 +4,15 @@
   "@id": "https://jcrt.org/archives/24.2/author-bios/#article",
   "name": "Author Bios",
   "headline": "Author Bios",
-  "description": "CONTRIBUTORS",
+  "description": "",
   "url": "https://jcrt.org/archives/24.2/author-bios/",
   "inLanguage": "en",
   "datePublished": "2026-03-03",
   "dateModified": "2026-03-03",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
-  "author": [
-    {
-      "@type": "Organization",
-      "name": "JCRT"
-    }
-  ],
+  "author": [],
   "publisher": {
     "@type": "Organization",
     "name": "Whitestone Publications",
@@ -25,7 +22,7 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/24.2/author-bios/"
   },
-  "abstract": "CONTRIBUTORS",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
@@ -40,5 +37,55 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/24.2/author-bios.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Human ecology Study and teaching",
+      "termCode": "fst00962987",
+      "url": "https://id.worldcat.org/fast/962987",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Native American studies",
+      "termCode": "fst01788046",
+      "url": "https://id.worldcat.org/fast/1788046",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Settler colonialism",
+      "termCode": "fst02025744",
+      "url": "https://id.worldcat.org/fast/2025744",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Decolonial theory",
+      "termCode": "homoit0003616",
+      "url": "https://homosaurus.org/v5/homoit0003616",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

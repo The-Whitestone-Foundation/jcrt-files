@@ -9,11 +9,13 @@
   "inLanguage": "en",
   "datePublished": "2023-01-01",
   "dateModified": "2023-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Kevin Grane"
+      "name": "Kev Grane"
     }
   ],
   "publisher": {

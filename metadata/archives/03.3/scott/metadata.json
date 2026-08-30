@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/scott/#article",
   "name": "Why God Won’t Go Away: Brain Science and the Biology of Belief",
   "headline": "Why God Won’t Go Away: Brain Science and the Biology of Belief",
-  "description": "Scott - Brain Science Supports Contemporary Religious Trends - JCRT 3.3",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/scott/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/scott/"
   },
-  "abstract": "Scott - Brain Science Supports Contemporary Religious Trends - JCRT 3.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "hHg6M6"
+  "identifier": "hHg6M6",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/scott.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Experience (Religion)",
+      "termCode": "fst00918383",
+      "url": "https://id.worldcat.org/fast/918383",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mysticism",
+      "termCode": "fst01031629",
+      "url": "https://id.worldcat.org/fast/1031629",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Public theology",
+      "termCode": "fst01749826",
+      "url": "https://id.worldcat.org/fast/1749826",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Spirituality",
+      "termCode": "fst01130186",
+      "url": "https://id.worldcat.org/fast/1130186",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

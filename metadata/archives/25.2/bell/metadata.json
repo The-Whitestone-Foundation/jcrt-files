@@ -9,11 +9,24 @@
   "inLanguage": "en",
   "datePublished": "2026-08-26",
   "dateModified": "2026-08-26",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Reginald Bell Jr."
+      "name": "Reginald Bell Jr.",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0003-0259-0665",
+          "url": "https://orcid.org/0009-0003-0259-0665"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0003-0259-0665"
+      ]
     }
   ],
   "publisher": {

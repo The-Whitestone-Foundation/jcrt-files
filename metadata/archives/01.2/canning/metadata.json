@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.2/canning/#article",
   "name": "Jesus Christ Holocaust: Fabulation of the Jews in Christian and Nazi Nistory",
   "headline": "Jesus Christ Holocaust: Fabulation of the Jews in Christian and Nazi Nistory",
-  "description": "Canning - Jesus Christ Holocaust - JCRT 1.2",
+  "description": "",
   "url": "https://jcrt.org/archives/01.2/canning/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,118 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.2/canning/"
   },
-  "abstract": "Canning - Jesus Christ Holocaust - JCRT 1.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "093GsM"
+  "identifier": "093GsM",
+  "volumeNumber": "1",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.2/canning.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Antisemitism",
+      "termCode": "fst00810769",
+      "url": "https://id.worldcat.org/fast/810769",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Blood accusation",
+      "termCode": "fst00834641",
+      "url": "https://id.worldcat.org/fast/834641",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Christianity",
+      "termCode": "fst00859599",
+      "url": "https://id.worldcat.org/fast/859599",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fantasy",
+      "termCode": "fst00920687",
+      "url": "https://id.worldcat.org/fast/920687",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Human sacrifice",
+      "termCode": "fst00963355",
+      "url": "https://id.worldcat.org/fast/963355",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Messianism",
+      "termCode": "fst01017438",
+      "url": "https://id.worldcat.org/fast/1017438",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "National socialism",
+      "termCode": "fst01033761",
+      "url": "https://id.worldcat.org/fast/1033761",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ritual murder",
+      "termCode": "fst02041146",
+      "url": "https://id.worldcat.org/fast/2041146",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

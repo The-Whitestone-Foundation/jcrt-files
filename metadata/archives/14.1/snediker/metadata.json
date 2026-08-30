@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.1/snediker/#article",
   "name": "The Autonomy of the Now: Christianity, Secularism, Subjectivity.",
   "headline": "The Autonomy of the Now: Christianity, Secularism, Subjectivity.",
-  "description": "An essay concerning the autonomy of Christianity, secularism, and subjectivity.",
+  "description": "",
   "url": "https://jcrt.org/archives/14.1/snediker/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "T5RT7k",
   "volumeNumber": "14",
   "issueNumber": "1",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

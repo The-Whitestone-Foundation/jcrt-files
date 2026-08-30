@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.2/wyschogrod_raschke/#article",
   "name": "Heterological History: a Conversation",
   "headline": "Heterological History: a Conversation",
-  "description": "Wyschogrod & Raschke - Heterological History - JCRT 1.2 Edith Wyschogrod Rice University & Carl Raschke University of Denver",
+  "description": "",
   "url": "https://jcrt.org/archives/01.2/wyschogrod_raschke/",
   "inLanguage": "en",
   "datePublished": "2000-01-01",
   "dateModified": "2000-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -29,12 +31,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.2/wyschogrod_raschke/"
   },
-  "abstract": "Wyschogrod & Raschke - Heterological History - JCRT 1.2 Edith Wyschogrod Rice University & Carl Raschke University of Denver",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "-XwQ5a"
+  "identifier": "-XwQ5a",
+  "volumeNumber": "1",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.2/wyschogrod_raschke.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Community",
+      "termCode": "fst00870635",
+      "url": "https://id.worldcat.org/fast/870635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Glory",
+      "termCode": "fst00943612",
+      "url": "https://id.worldcat.org/fast/943612",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Justice",
+      "termCode": "fst00985122",
+      "url": "https://id.worldcat.org/fast/985122",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Memory",
+      "termCode": "fst01015913",
+      "url": "https://id.worldcat.org/fast/1015913",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

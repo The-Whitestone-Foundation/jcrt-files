@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/13.2/weiss_taylor/#article",
   "name": "The Cultural UN/Life of Zombies.",
   "headline": "The Cultural UN/Life of Zombies.",
-  "description": "An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films",
+  "description": "",
   "url": "https://jcrt.org/archives/13.2/weiss_taylor/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,6 +42,11 @@
   "volumeNumber": "13",
   "issueNumber": "2",
   "pagination": "i-vi",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/taylorandweiss.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

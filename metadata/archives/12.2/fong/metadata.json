@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/12.2/fong/#article",
   "name": "Spheres, Volume One: Bubbles.",
   "headline": "Spheres, Volume One: Bubbles.",
-  "description": "The article reviews the book",
+  "description": "",
   "url": "https://jcrt.org/archives/12.2/fong/",
   "inLanguage": "en",
   "datePublished": "2012-01-01",
   "dateModified": "2012-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {

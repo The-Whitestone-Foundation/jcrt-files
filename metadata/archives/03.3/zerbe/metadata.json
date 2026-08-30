@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/zerbe/#article",
   "name": "Anaximander and the Architects: the Contributions of Egyptian and Greek Architectural Technologies to the Origins of Greek Philosophy",
   "headline": "Anaximander and the Architects: the Contributions of Egyptian and Greek Architectural Technologies to the Origins of Greek Philosophy",
-  "description": "Zerbe - Book Profile: Anaximander and the Architects - JCRT 3.3",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/zerbe/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,94 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/zerbe/"
   },
-  "abstract": "Zerbe - Book Profile: Anaximander and the Architects - JCRT 3.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "itzSh-"
+  "identifier": "itzSh-",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/zerbe.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Architecture",
+      "termCode": "fst00813346",
+      "url": "https://id.worldcat.org/fast/813346",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Cosmology",
+      "termCode": "fst00880600",
+      "url": "https://id.worldcat.org/fast/880600",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy, Ancient",
+      "termCode": "fst01060860",
+      "url": "https://id.worldcat.org/fast/1060860",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rhetoric",
+      "termCode": "fst01096948",
+      "url": "https://id.worldcat.org/fast/1096948",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Technology",
+      "termCode": "fst01145078",
+      "url": "https://id.worldcat.org/fast/1145078",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Temples",
+      "termCode": "fst01147397",
+      "url": "https://id.worldcat.org/fast/1147397",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

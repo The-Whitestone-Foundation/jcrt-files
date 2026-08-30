@@ -8,10 +8,12 @@
     "publisher": "Whitestone Foundation",
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/25.2/alikhani/",
+    "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
     "author": [
       {
         "family": "Alikhani",
-        "given": "Diako"
+        "given": "Diako",
+        "ORCID": "0009-0009-4938-5611"
       }
     ],
     "issued": {

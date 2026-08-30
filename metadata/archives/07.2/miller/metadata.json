@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2006-01-01",
   "dateModified": "2006-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "0rtR_p",
   "volumeNumber": "7",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
@@ -82,7 +85,7 @@
       "name": "Gender",
       "termCode": "homoit0000560",
       "url": "https://homosaurus.org/v5/homoit0000560",
-      "inDefinedTermSet": "https://homosaurus.org/v5",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
         "name": "authority category",

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.1/alvis/#article",
   "name": "Subject and Time: Jean-Luc Marion’s Alteration of Kantian Subjectivity.",
   "headline": "Subject and Time: Jean-Luc Marion’s Alteration of Kantian Subjectivity.",
-  "description": "The article focuses on the works and contribution of philosopher Jean-Luc Marion particularly his alteration of Kantian subjectivity, a philosophy of German philosopher Immanuel Kant which deals with the position of mind, epistemology, and ethics.",
+  "description": "",
   "url": "https://jcrt.org/archives/14.1/alvis/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +42,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.1/alvis.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

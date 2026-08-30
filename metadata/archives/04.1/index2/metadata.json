@@ -4,18 +4,15 @@
   "@id": "https://jcrt.org/archives/04.1/index2/#article",
   "name": "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003",
   "headline": "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003",
-  "description": "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003",
+  "description": "",
   "url": "https://jcrt.org/archives/04.1/index2/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
-  "author": [
-    {
-      "@type": "Organization",
-      "name": "JCRT"
-    }
-  ],
+  "author": [],
   "publisher": {
     "@type": "Organization",
     "name": "Whitestone Publications",
@@ -25,12 +22,46 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/04.1/index2/"
   },
-  "abstract": "Journal for Cultural and Religious Theory - Issue 4.2 - April 2003",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "j7YYro"
+  "identifier": "j7YYro",
+  "volumeNumber": "4",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/04.1/index2.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ceremonial exchange",
+      "termCode": "fst00851404",
+      "url": "https://id.worldcat.org/fast/851404",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

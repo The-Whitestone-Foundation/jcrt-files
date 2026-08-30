@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/15.1/hagedorn_staudigl_alvis/#article",
   "name": "Violence and the Gift: Challenging Continental Philosophy of Religion.",
   "headline": "Violence and the Gift: Challenging Continental Philosophy of Religion.",
-  "description": "An introduction is presented in which the editor discusses various reports within the issue on philosophy and religion that were discussed at the conference",
+  "description": "",
   "url": "https://jcrt.org/archives/15.1/hagedorn_staudigl_alvis/",
   "inLanguage": "en",
   "datePublished": "2015-01-01",
   "dateModified": "2015-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -44,6 +46,11 @@
   "volumeNumber": "15",
   "issueNumber": "1",
   "pagination": "1-2",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/15.1/intro.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

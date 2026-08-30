@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.1/keuss/#article",
   "name": "DiffÉRance That Comes as One Unknown: Christology After Derrida’s ‘Structure, Sign, and Play in the Discourse of the Human Sciences’",
   "headline": "DiffÉRance That Comes as One Unknown: Christology After Derrida’s ‘Structure, Sign, and Play in the Discourse of the Human Sciences’",
-  "description": "Keuss - Diff'rance That Comes As One Unknown - JCRT 3.1",
+  "description": "",
   "url": "https://jcrt.org/archives/03.1/keuss/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.1/keuss/"
   },
-  "abstract": "Keuss - Diff'rance That Comes As One Unknown - JCRT 3.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "l0kLpJ"
+  "identifier": "l0kLpJ",
+  "volumeNumber": "3",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.1/keuss.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Christology",
+      "termCode": "fst01352288",
+      "url": "https://id.worldcat.org/fast/1352288",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Deconstruction",
+      "termCode": "fst00889137",
+      "url": "https://id.worldcat.org/fast/889137",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nicene Creed",
+      "termCode": "fst01357782",
+      "url": "https://id.worldcat.org/fast/1357782",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Poetics",
+      "termCode": "fst01067682",
+      "url": "https://id.worldcat.org/fast/1067682",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodern theology",
+      "termCode": "fst01073163",
+      "url": "https://id.worldcat.org/fast/1073163",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/09.3/bain-selbo/#article",
   "name": "Two Reviews: Macintyre’s the Tasks of Philosophy and Ethics and Politics",
   "headline": "Two Reviews: Macintyre’s the Tasks of Philosophy and Ethics and Politics",
-  "description": "\"Review of Alasdair MacIntyre, The Tasks of Philosophy: Selected Essays, Volume 1. New York: Cambridge University Press, 2006. xiv + 230 pp. $74.00 (cloth); $24.99 (paper). ISBN: 978-0521854375 Alasdair MacIntyre, Ethics and Politics: Selected Essays, Volume 2. New York: Cambridge University Press, 2006. xii + 239 pp. $74.00 (cloth); $25.99 (paper). ISBN: 9780521670623\"",
+  "description": "",
   "url": "https://jcrt.org/archives/09.3/bain-selbo/",
   "inLanguage": "en",
   "datePublished": "2008-01-01",
   "dateModified": "2008-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,60 @@
   "identifier": "rJe-kP",
   "volumeNumber": "9",
   "issueNumber": "3",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/09.3/bain-selbo.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Political science Philosophy",
+      "termCode": "fst01069819",
+      "url": "https://id.worldcat.org/fast/1069819",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Practical reason",
+      "termCode": "fst01074530",
+      "url": "https://id.worldcat.org/fast/1074530",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Thomism",
+      "termCode": "fst01765220",
+      "url": "https://id.worldcat.org/fast/1765220",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

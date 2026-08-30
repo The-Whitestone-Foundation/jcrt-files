@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/rashkover/#article",
   "name": "The Semiotics of Embodiment: Radical Orthodoxy and Jewish-Christian Relations",
   "headline": "The Semiotics of Embodiment: Radical Orthodoxy and Jewish-Christian Relations",
-  "description": "Rashkover - The Semiotics of Embodiment - JCRT 3.3",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/rashkover/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,82 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/rashkover/"
   },
-  "abstract": "Rashkover - The Semiotics of Embodiment - JCRT 3.3",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "3Joyst"
+  "identifier": "3Joyst",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/rashkover.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Desire",
+      "termCode": "fst00891351",
+      "url": "https://id.worldcat.org/fast/891351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Incarnation",
+      "termCode": "fst00968453",
+      "url": "https://id.worldcat.org/fast/968453",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Lord's Supper",
+      "termCode": "fst01002518",
+      "url": "https://id.worldcat.org/fast/1002518",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Narrative theology",
+      "termCode": "fst01033061",
+      "url": "https://id.worldcat.org/fast/1033061",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Semiotics",
+      "termCode": "fst01112351",
+      "url": "https://id.worldcat.org/fast/1112351",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

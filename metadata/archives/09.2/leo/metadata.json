@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/09.2/leo/#article",
   "name": "Caute: Jonathan Israel’s Secular Modernity",
   "headline": "Caute: Jonathan Israel’s Secular Modernity",
-  "description": "Review of Jonathan I. Israel, Radical Enlightenment: Philosophy and the Making of Modernity 1650-1750. Oxford University Press, 2002. 832 pp. ISBN 9780199254569. Jonathan Israel, Enlightenment Contested: Philosophy, Modernity, and the Emancipation of Man 1670-1752. Oxford University Press, 2006. 983 pp. ISBN 978-0199279227.",
+  "description": "",
   "url": "https://jcrt.org/archives/09.2/leo/",
   "inLanguage": "en",
   "datePublished": "2008-01-01",
   "dateModified": "2008-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,9 +37,84 @@
   "identifier": "ctZdpB",
   "volumeNumber": "9",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/09.2/leo.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Civilization, Modern",
+      "termCode": "fst00863073",
+      "url": "https://id.worldcat.org/fast/863073",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Enlightenment",
+      "termCode": "fst00912527",
+      "url": "https://id.worldcat.org/fast/912527",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Liberty",
+      "termCode": "fst00997251",
+      "url": "https://id.worldcat.org/fast/997251",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Materialism",
+      "termCode": "fst01011758",
+      "url": "https://id.worldcat.org/fast/1011758",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Rationalism",
+      "termCode": "fst01090275",
+      "url": "https://id.worldcat.org/fast/1090275",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Secularism",
+      "termCode": "fst01110732",
+      "url": "https://id.worldcat.org/fast/1110732",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

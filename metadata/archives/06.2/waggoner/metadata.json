@@ -2,13 +2,15 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/06.2/waggoner/#article",
-  "name": "Giving up the Good: Adorno, Kierkegaard and the Critique of Political Culture",
-  "headline": "Giving up the Good: Adorno, Kierkegaard and the Critique of Political Culture",
+  "name": "Death of a Discipline",
+  "headline": "Death of a Discipline",
   "description": "",
   "url": "https://jcrt.org/archives/06.2/waggoner/",
   "inLanguage": "en",
   "datePublished": "2005-01-01",
   "dateModified": "2005-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -35,6 +37,7 @@
   "identifier": "o6QFsx",
   "volumeNumber": "6",
   "issueNumber": "2",
+  "pagination": "",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
@@ -43,9 +46,9 @@
   "about": [
     {
       "@type": "DefinedTerm",
-      "name": "Act (Philosophy)",
-      "termCode": "fst00796122",
-      "url": "https://id.worldcat.org/fast/796122",
+      "name": "Area studies",
+      "termCode": "fst00814190",
+      "url": "https://id.worldcat.org/fast/814190",
       "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -55,9 +58,9 @@
     },
     {
       "@type": "DefinedTerm",
-      "name": "Art Philosophy",
-      "termCode": "fst00815307",
-      "url": "https://id.worldcat.org/fast/815307",
+      "name": "Comparative literature",
+      "termCode": "fst01734553",
+      "url": "https://id.worldcat.org/fast/1734553",
       "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -67,9 +70,9 @@
     },
     {
       "@type": "DefinedTerm",
-      "name": "Political science Philosophy",
-      "termCode": "fst01069819",
-      "url": "https://id.worldcat.org/fast/1069819",
+      "name": "Ethnocentrism",
+      "termCode": "fst00916081",
+      "url": "https://id.worldcat.org/fast/916081",
       "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
@@ -79,9 +82,45 @@
     },
     {
       "@type": "DefinedTerm",
-      "name": "Religion Philosophy",
-      "termCode": "fst01093794",
-      "url": "https://id.worldcat.org/fast/1093794",
+      "name": "Humanism",
+      "termCode": "fst00963520",
+      "url": "https://id.worldcat.org/fast/963520",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Literary theory",
+      "termCode": "fst01404190",
+      "url": "https://id.worldcat.org/fast/1404190",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "title"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Multiculturalism",
+      "termCode": "fst01028836",
+      "url": "https://id.worldcat.org/fast/1028836",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postcolonialism",
+      "termCode": "fst01073032",
+      "url": "https://id.worldcat.org/fast/1073032",
       "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",

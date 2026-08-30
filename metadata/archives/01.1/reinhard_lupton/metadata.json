@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.1/reinhard_lupton/#article",
   "name": "Jewish Studies and the Secular University: Religion Between Culture and Philosophy",
   "headline": "Jewish Studies and the Secular University: Religion Between Culture and Philosophy",
-  "description": "Reinhard/Lupton - Jewish Studies and the Secular University - JCRT 1.1",
+  "description": "",
   "url": "https://jcrt.org/archives/01.1/reinhard_lupton/",
   "inLanguage": "en",
   "datePublished": "1999-01-01",
   "dateModified": "1999-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -29,12 +31,94 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.1/reinhard_lupton/"
   },
-  "abstract": "Reinhard/Lupton - Jewish Studies and the Secular University - JCRT 1.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "ZoyijV"
+  "identifier": "ZoyijV",
+  "volumeNumber": "1",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.1/reinhard_lupton.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical theory",
+      "termCode": "fst00883690",
+      "url": "https://id.worldcat.org/fast/883690",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethnicity",
+      "termCode": "fst00916034",
+      "url": "https://id.worldcat.org/fast/916034",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Jews Study and teaching",
+      "termCode": "fst00983377",
+      "url": "https://id.worldcat.org/fast/983377",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Judaism",
+      "termCode": "fst00984280",
+      "url": "https://id.worldcat.org/fast/984280",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Midrash",
+      "termCode": "fst01020601",
+      "url": "https://id.worldcat.org/fast/1020601",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Monotheism",
+      "termCode": "fst01025714",
+      "url": "https://id.worldcat.org/fast/1025714",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

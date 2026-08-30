@@ -37,6 +37,9 @@ for (const { name, entries } of sections) {
 			path.join(root, entry.citationDir, `${entry.citationStem}.csl.json`),
 			path.join(root, entry.metadataDir, "metadata.json"),
 		];
+		if (entry.issueSlug && typeof entry.data?.pdf === "string" && !/^https?:\/\//i.test(entry.data.pdf)) {
+			wanted.push(path.join(root, "archives", entry.issueSlug, path.basename(entry.data.pdf)));
+		}
 		for (const file of wanted) {
 			if (!fs.existsSync(file)) missing.push(path.relative(root, file));
 		}

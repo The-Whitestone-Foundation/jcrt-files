@@ -9,6 +9,8 @@
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -36,6 +38,11 @@
   "volumeNumber": "13",
   "issueNumber": "2",
   "pagination": "132-137",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/13.2/shaver.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

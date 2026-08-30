@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/10.2/scans/#article",
   "name": "Robert Duncan Notebook Scans",
   "headline": "Robert Duncan Notebook Scans",
-  "description": "(scan1.tiff) (scan2.tiff)",
+  "description": "",
   "url": "https://jcrt.org/archives/10.2/scans/",
   "inLanguage": "en",
   "datePublished": "2010-01-01",
   "dateModified": "2010-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,106 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/10.2/scans/"
   },
-  "abstract": "(scan1.tiff) (scan2.tiff)",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "Au9amu"
+  "identifier": "Au9amu",
+  "volumeNumber": "10",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/10.2/scans.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "American poetry",
+      "termCode": "fst00807348",
+      "url": "https://id.worldcat.org/fast/807348",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Archival materials",
+      "termCode": "fst00813991",
+      "url": "https://id.worldcat.org/fast/813991",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Manuscripts",
+      "termCode": "fst01008230",
+      "url": "https://id.worldcat.org/fast/1008230",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Mysticism",
+      "termCode": "fst01031629",
+      "url": "https://id.worldcat.org/fast/1031629",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Notebooks",
+      "termCode": "fst01039597",
+      "url": "https://id.worldcat.org/fast/1039597",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Poetics",
+      "termCode": "fst01067682",
+      "url": "https://id.worldcat.org/fast/1067682",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Poetry",
+      "termCode": "fst01067691",
+      "url": "https://id.worldcat.org/fast/1067691",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

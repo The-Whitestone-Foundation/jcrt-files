@@ -2,13 +2,15 @@
   "@context": "https://schema.org",
   "@type": "ScholarlyArticle",
   "@id": "https://jcrt.org/archives/24.1/daga/#article",
-  "name": "The Sacred End: Exploring the Ethical Practice of SallekhanĀ in Jaina Tradition",
-  "headline": "The Sacred End: Exploring the Ethical Practice of SallekhanĀ in Jaina Tradition",
+  "name": "The Sacred End: Exploring the Ethical Practice of Sallekhanā in Jaina Tradition",
+  "headline": "The Sacred End: Exploring the Ethical Practice of Sallekhanā in Jaina Tradition",
   "description": "",
   "url": "https://jcrt.org/archives/24.1/daga/",
   "inLanguage": "en",
   "datePublished": "2024-01-01",
   "dateModified": "2024-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -44,5 +46,103 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/24.1/Daga.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Ahiṃsā",
+      "termCode": "fst00801935",
+      "url": "https://id.worldcat.org/fast/801935",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Asceticism",
+      "termCode": "fst00818425",
+      "url": "https://id.worldcat.org/fast/818425",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Death",
+      "termCode": "fst00888613",
+      "url": "https://id.worldcat.org/fast/888613",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Fasting",
+      "termCode": "fst00921717",
+      "url": "https://id.worldcat.org/fast/921717",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Jaina ethics",
+      "termCode": "fst00981169",
+      "url": "https://id.worldcat.org/fast/981169",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Jainism",
+      "termCode": "fst00981236",
+      "url": "https://id.worldcat.org/fast/981236",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Nonviolence",
+      "termCode": "fst01039027",
+      "url": "https://id.worldcat.org/fast/1039027",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Sallekhanā",
+      "termCode": "fst01104071",
+      "url": "https://id.worldcat.org/fast/1104071",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

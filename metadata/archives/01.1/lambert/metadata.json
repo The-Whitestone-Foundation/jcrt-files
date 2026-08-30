@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/01.1/lambert/#article",
   "name": "The Work of Art in the Age of Alien Reproduction",
   "headline": "The Work of Art in the Age of Alien Reproduction",
-  "description": "Lambert - The Work of Art - JCRT 1.1",
+  "description": "",
   "url": "https://jcrt.org/archives/01.1/lambert/",
   "inLanguage": "en",
   "datePublished": "1999-01-01",
   "dateModified": "1999-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -29,12 +31,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/01.1/lambert/"
   },
-  "abstract": "Lambert - The Work of Art - JCRT 1.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "-FZmh6"
+  "identifier": "-FZmh6",
+  "volumeNumber": "1",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/01.1/lambert.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Aesthetics",
+      "termCode": "fst00798702",
+      "url": "https://id.worldcat.org/fast/798702",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Extraterrestrial beings",
+      "termCode": "fst01742248",
+      "url": "https://id.worldcat.org/fast/1742248",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Perception",
+      "termCode": "fst01057622",
+      "url": "https://id.worldcat.org/fast/1057622",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Science fiction",
+      "termCode": "fst01108566",
+      "url": "https://id.worldcat.org/fast/1108566",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

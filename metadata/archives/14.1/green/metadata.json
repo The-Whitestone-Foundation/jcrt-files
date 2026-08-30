@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/14.1/green/#article",
   "name": "“Mother Is God in the Eyes of a Child:” Mariology, Revelation, and Mothers in Silent Hill.",
   "headline": "“Mother Is God in the Eyes of a Child:” Mariology, Revelation, and Mothers in Silent Hill.",
-  "description": "The article critiques the film",
+  "description": "",
   "url": "https://jcrt.org/archives/14.1/green/",
   "inLanguage": "en",
   "datePublished": "2014-01-01",
   "dateModified": "2014-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -40,5 +42,19 @@
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
     "contentUrl": "https://files.jcrt.org/archives/14.1/green.pdf"
-  }
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

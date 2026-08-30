@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker/#article",
   "name": "What Do We Mean By",
   "headline": "What Do We Mean By",
-  "description": "The following is a transcript of the keynote panel session of a three-day international webinar",
+  "description": "",
   "url": "https://jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker/",
   "inLanguage": "en",
   "datePublished": "2021-01-01",
   "dateModified": "2021-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -47,5 +49,24 @@
   "identifier": "JgQxu5",
   "volumeNumber": "20",
   "issueNumber": "3",
-  "pagination": "341-360"
+  "pagination": "341-360",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/20.3/Decoloniality.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion",
+      "termCode": "fst01093763",
+      "url": "https://id.worldcat.org/fast/1093763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

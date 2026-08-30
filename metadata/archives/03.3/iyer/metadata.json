@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.3/iyer/#article",
   "name": "The City and the Stars: Politics and Alterity in Heidegger, Levinas and Blanchot",
   "headline": "The City and the Stars: Politics and Alterity in Heidegger, Levinas and Blanchot",
-  "description": "The City and the Stars: Politics and Alterity in Heidegger, Levinas and Blanchot ================================================================================",
+  "description": "",
   "url": "https://jcrt.org/archives/03.3/iyer/",
   "inLanguage": "en",
   "datePublished": "2002-01-01",
   "dateModified": "2002-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.3/iyer/"
   },
-  "abstract": "The City and the Stars: Politics and Alterity in Heidegger, Levinas and Blanchot ================================================================================",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "TdE2v8"
+  "identifier": "TdE2v8",
+  "volumeNumber": "3",
+  "issueNumber": "3",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.3/iyer.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Community",
+      "termCode": "fst00870635",
+      "url": "https://id.worldcat.org/fast/870635",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ontology",
+      "termCode": "fst01045995",
+      "url": "https://id.worldcat.org/fast/1045995",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Zionism",
+      "termCode": "fst01184468",
+      "url": "https://id.worldcat.org/fast/1184468",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

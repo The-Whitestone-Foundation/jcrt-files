@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/02.2/taylor/#article",
   "name": "The Metaphysics of Indeterminacy: Postmodern Religious Theory and the Ruin of Referentiality",
   "headline": "The Metaphysics of Indeterminacy: Postmodern Religious Theory and the Ruin of Referentiality",
-  "description": "Taylor - The Metaphysics of Indeterminacy - JCRT 2.2",
+  "description": "",
   "url": "https://jcrt.org/archives/02.2/taylor/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,58 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/02.2/taylor/"
   },
-  "abstract": "Taylor - The Metaphysics of Indeterminacy - JCRT 2.2",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "3tu5L4"
+  "identifier": "3tu5L4",
+  "volumeNumber": "2",
+  "issueNumber": "2",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/02.2/taylor.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Analogy",
+      "termCode": "fst00808308",
+      "url": "https://id.worldcat.org/fast/808308",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Metaphysics",
+      "termCode": "fst01018304",
+      "url": "https://id.worldcat.org/fast/1018304",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Morphogenesis",
+      "termCode": "fst01026447",
+      "url": "https://id.worldcat.org/fast/1026447",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

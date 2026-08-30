@@ -9,11 +9,24 @@
   "inLanguage": "en",
   "datePublished": "2026-08-24",
   "dateModified": "2026-08-24",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
       "@type": "Person",
-      "name": "Diako Alikhani"
+      "name": "Diako Alikhani",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0009-4938-5611",
+          "url": "https://orcid.org/0009-0009-4938-5611"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0009-4938-5611"
+      ]
     }
   ],
   "publisher": {

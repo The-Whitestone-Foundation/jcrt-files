@@ -4,11 +4,13 @@
   "@id": "https://jcrt.org/archives/03.1/dean/#article",
   "name": "The Primal Roots of American Philosophy: Pragmatism, Phenomenology, and Native American Thought",
   "headline": "The Primal Roots of American Philosophy: Pragmatism, Phenomenology, and Native American Thought",
-  "description": "Dean - The Archaeology of American Thought - JCRT 3.1",
+  "description": "",
   "url": "https://jcrt.org/archives/03.1/dean/",
   "inLanguage": "en",
   "datePublished": "2001-01-01",
   "dateModified": "2001-01-01",
+  "copyrightNotice": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.",
+  "license": "https://jcrt.org/copyright/",
   "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
   "author": [
     {
@@ -25,12 +27,70 @@
     "@type": "WebPage",
     "@id": "https://jcrt.org/archives/03.1/dean/"
   },
-  "abstract": "Dean - The Archaeology of American Thought - JCRT 3.1",
+  "abstract": "",
   "isPartOf": {
     "@type": "Periodical",
     "name": "The Journal for Cultural and Religious Theory",
     "url": "https://jcrt.org",
     "issn": "1530-5228"
   },
-  "identifier": "yU7aKL"
+  "identifier": "yU7aKL",
+  "volumeNumber": "3",
+  "issueNumber": "1",
+  "pagination": "",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/archives/03.1/dean.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Phenomenology",
+      "termCode": "fst01060522",
+      "url": "https://id.worldcat.org/fast/1060522",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy, American",
+      "termCode": "fst01060855",
+      "url": "https://id.worldcat.org/fast/1060855",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Pragmatism",
+      "termCode": "fst01074582",
+      "url": "https://id.worldcat.org/fast/1074582",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Process philosophy",
+      "termCode": "fst01078048",
+      "url": "https://id.worldcat.org/fast/1078048",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
 }

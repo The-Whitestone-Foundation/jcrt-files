@@ -20,6 +20,7 @@ function contentTypeFor(key) {
   if (lower.endsWith('.ris')) return 'application/x-research-info-systems; charset=utf-8';
   if (lower.endsWith('.json')) return 'application/json; charset=utf-8';
   if (lower.endsWith('.webmanifest')) return 'application/manifest+json; charset=utf-8';
+  if (lower.endsWith('.xsl')) return 'text/xsl; charset=utf-8';
   if (lower.endsWith('.xml')) return 'application/xml; charset=utf-8';
   if (lower.endsWith('.txt')) return 'text/plain; charset=utf-8';
   if (lower.endsWith('.html')) return 'text/html; charset=utf-8';
@@ -40,6 +41,7 @@ function cacheControlFor(key) {
   const lower = key.toLowerCase();
   if (lower.startsWith('metadata/') && lower.endsWith('.json')) return 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800';
   if (lower.endsWith('.pdf')) return 'public, max-age=3600, s-maxage=86400';
+  if (lower.startsWith('sitemaps/')) return 'public, max-age=3600, s-maxage=86400, stale-while-revalidate=604800';
   return 'public, max-age=31536000, immutable';
 }
 
@@ -169,7 +171,7 @@ export default {
     const botResult = await verifyBot(request);
 
     const url = new URL(request.url);
-    const key = normalizeKey(url.pathname);
+    let key = normalizeKey(url.pathname);
 
     if (key === 'robots.txt') {
       const body = [
@@ -179,9 +181,10 @@ export default {
         'Allow: /docs/',
         'Allow: /images/',
         'Allow: /metadata/',
+        'Allow: /religioustheory/',
+        'Allow: /sitemaps/',
         '',
-        `Sitemap: ${FILES_BASE_URL}/metadata/csl-json-sitemap.xml`,
-        `Sitemap: ${FILES_BASE_URL}/metadata/ris-sitemap.xml`,
+        `Sitemap: ${FILES_BASE_URL}/sitemap.xml`,
       ].join('\n');
       return new Response(body, {
         status: 200,
@@ -202,6 +205,11 @@ export default {
     if (key === null) {
       return new Response('Not Found', { status: 404 });
     }
+
+    // Crawlers look for /sitemap.xml at the origin root. The generator writes the index
+    // to sitemaps/index.xml next to the per-folder sitemaps; serve it here as a rewrite
+    // rather than a redirect so the advertised URL is the one that actually responds.
+    if (key === 'sitemap.xml') key = 'sitemaps/index.xml';
 
     const aliasKey = legacyCitationAlias(key);
     if (aliasKey && aliasKey !== key) {

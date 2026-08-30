@@ -13,6 +13,8 @@ const TRACKED_KEYS = new Set([
   "archives/03.1/anderson.pdf",
   "metadata/archives/24.2/introduction/metadata.json",
   "images/logos/site.webmanifest",
+  "sitemaps/index.xml",
+  "sitemaps/style.xsl",
 ]);
 
 const env = {
@@ -40,6 +42,24 @@ const env = {
 };
 
 const cases = [
+  {
+    name: "root sitemap.xml serves the sitemap index",
+    path: "/sitemap.xml",
+    status: 200,
+    contentType: "application/xml; charset=utf-8",
+  },
+  {
+    name: "sitemap stylesheet content type",
+    path: "/sitemaps/style.xsl",
+    status: 200,
+    contentType: "text/xsl; charset=utf-8",
+  },
+  {
+    name: "robots.txt advertises the root sitemap",
+    path: "/robots.txt",
+    status: 200,
+    bodyIncludes: "Sitemap: https://files.jcrt.org/sitemap.xml",
+  },
   {
     name: "citation case mismatch",
     path: "/citations/archives/19.2/McAvan.csl.json",
@@ -169,6 +189,13 @@ for (const testCase of cases) {
     const actual = response.headers.get("content-type");
     if (actual !== testCase.contentType) {
       failures.push(`${testCase.name}: expected Content-Type ${testCase.contentType}, got ${actual || "<none>"}`);
+    }
+  }
+
+  if (testCase.bodyIncludes) {
+    const body = await response.text();
+    if (!body.includes(testCase.bodyIncludes)) {
+      failures.push(`${testCase.name}: body missing ${JSON.stringify(testCase.bodyIncludes)}`);
     }
   }
 

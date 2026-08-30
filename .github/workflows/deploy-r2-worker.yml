@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       full_sync:
-        description: "Upload all tracked asset files (images/archives/citations/docs)"
+        description: "Upload all tracked asset files (images/archives/citations/docs/metadata/religioustheory/sitemaps)"
         required: false
         default: "false"
       prune_deletes:
@@ -27,6 +27,8 @@ on:
       - 'citations/**'
       - 'docs/**'
       - 'metadata/**'
+      - 'religioustheory/**'
+      - 'sitemaps/**'
       - 'src/**'
       - 'wrangler.toml'
       - '.github/workflows/deploy-r2-worker.yml'
@@ -73,7 +75,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          DEFAULT_TARGETS=(images archives citations docs metadata)
+          DEFAULT_TARGETS=(images archives citations docs metadata religioustheory sitemaps)
           UPLOAD_PARALLELISM=6
           if [[ -n "${TARGET_DIRS:-}" ]]; then
             IFS=',' read -ra TARGETS <<< "$TARGET_DIRS"

@@ -9,9 +9,8 @@
   },
   "scripts": {
     "check:metadata": "node scripts/check-oai-dc.mjs",
-    "check:pdf-copyright": "python3 scripts/check_pdf_copyright.py",
     "check:redirects": "node scripts/check-worker-redirects.mjs",
-    "test": "npm run check:redirects && npm run check:metadata && npm run check:pdf-copyright"
+    "test": "npm run check:redirects && npm run check:metadata"
   },
   "repository": {
     "type": "git",

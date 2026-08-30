@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://files.jcrt.org/sitemaps/style.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/archives.xml</loc>
+		<lastmod>2026-08-26</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/citations.xml</loc>
+		<lastmod>2026-08-27</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/docs.xml</loc>
+		<lastmod>2026-08-11</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/images.xml</loc>
+		<lastmod>2026-08-25</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/metadata.xml</loc>
+		<lastmod>2026-08-05</lastmod>
+	</sitemap>
+	<sitemap>
+		<loc>https://files.jcrt.org/sitemaps/religioustheory.xml</loc>
+		<lastmod>2026-08-29</lastmod>
+	</sitemap>
+</sitemapindex>

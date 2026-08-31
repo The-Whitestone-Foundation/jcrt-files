@@ -31,6 +31,7 @@ jobs:
           path: jcrt-v2
           sparse-checkout: |
             content/archives
+            content/authors
             content/religioustheory/posts
             content/religioustheory/live
             _data/legacy-ris-dates.json

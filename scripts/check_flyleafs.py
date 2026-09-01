@@ -9,6 +9,7 @@ import unicodedata
 from pathlib import Path
 
 from pypdf import PdfReader
+from pypdf.generic import ContentStream
 
 
 def compact(value: object) -> str:
@@ -29,6 +30,7 @@ def bookmarks(reader: PdfReader):
 
 def check(path: Path) -> list[str]:
     reader = PdfReader(path)
+    root = reader.root_object
     page = reader.pages[0]
     info = reader.metadata or {}
     text = compact(page.extract_text())
@@ -36,6 +38,43 @@ def check(path: Path) -> list[str]:
     author = compact(info.get("/Author"))
     url = compact(info.get("/Permalink"))
     errors = []
+
+    mark_info = root.get("/MarkInfo") or {}
+    if hasattr(mark_info, "get_object"):
+        mark_info = mark_info.get_object()
+    struct_root = root.get("/StructTreeRoot")
+    if not struct_root or not mark_info.get("/Marked"):
+        errors.append("document is not tagged")
+    else:
+        struct_root = struct_root.get_object()
+        parent_tree = struct_root.get("/ParentTree").get_object()
+        numbers = parent_tree.get("/Nums") or []
+        keys = [int(numbers[index]) for index in range(0, len(numbers), 2)]
+        if keys != sorted(keys) or len(keys) != len(set(keys)):
+            errors.append("structure parent tree keys are not sorted and unique")
+    for number, current_page in enumerate(reader.pages, 1):
+        marks = []
+        seen_mcid = False
+        for operands, operator in ContentStream(current_page.get_contents(), reader).operations:
+            if operator in (b"BMC", b"BDC"):
+                kind = "artifact" if operands and operands[0] == "/Artifact" else "mcid" if operator == b"BDC" and len(operands) > 1 and "/MCID" in operands[1] else "other"
+                if kind == "artifact" and "mcid" in marks or kind == "mcid" and any(item in marks for item in ("artifact", "mcid")):
+                    errors.append(f"page {number} has nested tagged/artifact content")
+                seen_mcid |= kind == "mcid"
+                marks.append(kind)
+            elif operator == b"EMC" and marks:
+                marks.pop()
+        if not seen_mcid:
+            errors.append(f"page {number} has no tagged content")
+        annotations = current_page.get("/Annots") or []
+        if annotations and current_page.get("/Tabs") != "/S":
+            errors.append(f"page {number} annotation tab order is not structural")
+        for annotation_ref in annotations:
+            annotation = annotation_ref.get_object()
+            if annotation.get("/StructParent") is not None:
+                errors.append(f"page {number} has a dangling annotation structure reference")
+            if annotation.get("/Subtype") == "/Link" and not annotation.get("/Contents"):
+                errors.append(f"page {number} has an undescribed link")
 
     for label, value in (("title", title), ("URL", url)):
         if not value or fold(value) not in fold(text):
@@ -47,8 +86,11 @@ def check(path: Path) -> list[str]:
         errors.append("copyright notice missing")
 
     data = page.get_contents().get_data().decode("latin-1")
+    decorative_logos = re.findall(r"/Artifact\s+BMC(?:(?!EMC).)*?/\S+\s+Do(?:(?!EMC).)*?EMC", data, re.S)
+    if len(decorative_logos) != 2:
+        errors.append(f"expected 2 decorative logos, found {len(decorative_logos)}")
     logo = re.search(r"\b48(?:\.0+)? 0 0 48(?:\.0+)? 54(?:\.0+)? ([\d.]+) cm\s*/\S+ Do", data)
-    lines = re.findall(r"\bn ([\d.]+) ([\d.]+) m ([\d.]+) ([\d.]+) l S", data)
+    lines = re.findall(r"\bn\s+([\d.]+) ([\d.]+) m\s+([\d.]+) ([\d.]+) l\s+S", data)
     width = float(page.mediabox.width)
     header = next((tuple(map(float, line)) for line in lines if float(line[1]) > float(page.mediabox.height) / 2), None)
     if not logo or not header:

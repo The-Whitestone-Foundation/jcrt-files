@@ -24,6 +24,7 @@ from pypdf import PdfReader, PdfWriter
 from pypdf.generic import (
     ArrayObject,
     BooleanObject,
+    ContentStream,
     DecodedStreamObject,
     DictionaryObject,
     NameObject,
@@ -395,7 +396,22 @@ def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | N
 
     for index, page in enumerate(writer.pages):
         contents = reader.pages[index].get_contents()
-        data = contents.get_data() if contents is not None else b""
+        stream = ContentStream(contents, reader) if contents is not None else ContentStream(DecodedStreamObject(), reader)
+        marked = []
+        keep_ends = []
+        for operands, operator in stream.operations:
+            if operator in (b"BMC", b"BDC"):
+                keep = bool(operands and operands[0] == "/Artifact")
+                keep_ends.append(keep)
+                if keep:
+                    marked.append((operands, operator))
+            elif operator == b"EMC":
+                if keep_ends.pop() if keep_ends else False:
+                    marked.append((operands, operator))
+            else:
+                marked.append((operands, operator))
+        stream.operations = marked
+        data = stream.get_data()
         if transcript and index < len(transcript.pages):
             resources = page.get("/Resources")
             if hasattr(resources, "get_object"):
@@ -418,20 +434,63 @@ def ensure_tagged(writer: PdfWriter, reader: PdfReader, transcript_pdf: Path | N
             top = max(1, int(float(page.mediabox.height)) - 1)
             prefix = f"\nBT /JCRTTranscript 1 Tf 3 Tr 1 0 0 1 1 {top} Tm 1 TL\n".encode()
             data += prefix + b"\n".join(encoded) + b"\nET\n"
-        stream = DecodedStreamObject()
-        stream.set_data(b"/P <</MCID 0>> BDC\n" + data + b"\nEMC\n")
+        source = DecodedStreamObject()
+        source.set_data(data)
+        stream = ContentStream(source, reader)
+        tagged = []
+        artifact_depth = 0
+        paragraph_open = False
+        mcid_count = 0
+        for operands, operator in stream.operations:
+            artifact_start = operator in (b"BMC", b"BDC") and operands and operands[0] == "/Artifact"
+            if artifact_start:
+                if paragraph_open:
+                    tagged.append(([], b"EMC"))
+                    paragraph_open = False
+                artifact_depth += 1
+                tagged.append((operands, operator))
+            elif operator == b"EMC" and artifact_depth:
+                tagged.append((operands, operator))
+                artifact_depth -= 1
+            elif artifact_depth:
+                tagged.append((operands, operator))
+            else:
+                if not paragraph_open:
+                    tagged.append(([NameObject("/P"), DictionaryObject({NameObject("/MCID"): NumberObject(mcid_count)})], b"BDC"))
+                    mcid_count += 1
+                    paragraph_open = True
+                tagged.append((operands, operator))
+        if paragraph_open:
+            tagged.append(([], b"EMC"))
+        stream.operations = tagged
         page[NameObject("/Contents")] = writer._add_object(stream)
         page[NameObject("/StructParents")] = NumberObject(index)
-        paragraph = DictionaryObject({
-            NameObject("/Type"): NameObject("/StructElem"),
-            NameObject("/S"): NameObject("/P"),
-            NameObject("/P"): document_ref,
-            NameObject("/Pg"): page.indirect_reference,
-            NameObject("/K"): NumberObject(0),
-        })
-        paragraph_ref = writer._add_object(paragraph)
-        document[NameObject("/K")].append(paragraph_ref)
-        parent_numbers.extend([NumberObject(index), ArrayObject([paragraph_ref])])
+        paragraphs = ArrayObject()
+        for mcid in range(mcid_count):
+            paragraph = DictionaryObject({
+                NameObject("/Type"): NameObject("/StructElem"),
+                NameObject("/S"): NameObject("/P"),
+                NameObject("/P"): document_ref,
+                NameObject("/Pg"): page.indirect_reference,
+                NameObject("/K"): NumberObject(mcid),
+            })
+            paragraph_ref = writer._add_object(paragraph)
+            document[NameObject("/K")].append(paragraph_ref)
+            paragraphs.append(paragraph_ref)
+        parent_numbers.extend([NumberObject(index), paragraphs])
+        annotations = page.get("/Annots") or []
+        if annotations:
+            page[NameObject("/Tabs")] = NameObject("/S")
+        for annotation_ref in annotations:
+            annotation = annotation_ref.get_object()
+            annotation.pop(NameObject("/StructParent"), None)
+            if annotation.get("/Subtype") != "/Link":
+                continue
+            action = annotation.get("/A") or {}
+            if hasattr(action, "get_object"):
+                action = action.get_object()
+            label = str(annotation.get("/Contents") or action.get("/URI") or "Link")
+            annotation[NameObject("/Contents")] = TextStringObject(label)
 
     parent_tree = DictionaryObject({NameObject("/Nums"): parent_numbers})
     struct_root[NameObject("/ParentTree")] = writer._add_object(parent_tree)
@@ -469,6 +528,10 @@ def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata, flyleaf=N
             combined.remove_page(0)
         if meta.generated or replace_flyleaf:
             combined._root_object.pop(NameObject("/Outlines"), None)
+        # remove_page() unlinks the old flyleaf but does not sweep references to
+        # it. A surviving /OpenAction leaves Acrobat resolving a page that is no
+        # longer in the page tree, which it reports as an invalid page tree node.
+        combined._root_object.pop(NameObject("/OpenAction"), None)
         combined.insert_page(PdfReader(str(flyleaf_path)).pages[0], 0)
         combined.add_outline_item("Flyleaf", 0)
         if (meta.generated or replace_flyleaf) and len(combined.pages) > 1:

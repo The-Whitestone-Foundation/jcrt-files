@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Philip P Arnold"
+      "name": "Philip P Arnold",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0008-1224-5714",
+          "url": "https://orcid.org/0009-0008-1224-5714"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0008-1224-5714"
+      ]
     },
     {
       "@type": "Person",

@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "King-Ho Leung"
+      "name": "King-Ho Leung",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0001-5551-7865",
+          "url": "https://orcid.org/0000-0001-5551-7865"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-5551-7865"
+      ]
     }
   ],
   "publisher": {

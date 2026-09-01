@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Jordan Osserman"
+      "name": "Jordan Osserman",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-9858-8265",
+          "url": "https://orcid.org/0000-0002-9858-8265"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-9858-8265"
+      ]
     }
   ],
   "publisher": {

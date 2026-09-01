@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Florian Klug"
+      "name": "Florian Klug",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-4458-3450",
+          "url": "https://orcid.org/0000-0002-4458-3450"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-4458-3450"
+      ]
     }
   ],
   "publisher": {

@@ -4,7 +4,7 @@
   "@id": "https://jcrt.org/religioustheory/posts/secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl/#article",
   "name": "Secularism And Its Discontents – On Charting Pathways With A Phenomenology Of Religion, Part 1 (Ludger Hagerdorn and Michael Staudigl)",
   "headline": "Secularism And Its Discontents – On Charting Pathways With A Phenomenology Of Religion, Part 1 (Ludger Hagerdorn and Michael Staudigl)",
-  "description": "The following is the introductory article for the Spring 2018 issue (Vol. 17, No. 2) of the Journal for Cultural and Religious Theory It highlights key",
+  "description": "*The following is the introductory article for the Spring 2018 issue (Vol. 17, No. 2) of the Journal for Cultural and Religious Theory It highlights key",
   "url": "https://jcrt.org/religioustheory/posts/secularism-and-its-discontents-on-charting-pathways-with-a-phenomenology-of-religion-part-1-ludger-hagerdorn-and-michael-staudigl/",
   "inLanguage": "en",
   "datePublished": "2018-04-21",
@@ -13,7 +13,11 @@
   "author": [
     {
       "@type": "Person",
-      "name": "editors"
+      "name": "Ludger Hagerdorn"
+    },
+    {
+      "@type": "Person",
+      "name": "Michael Staudigl"
     }
   ],
   "publisher": {

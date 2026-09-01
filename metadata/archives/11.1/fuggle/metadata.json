@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Sophie Fuggle"
+      "name": "Sophie Fuggle",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0001-9688-9593",
+          "url": "https://orcid.org/0000-0001-9688-9593"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-9688-9593"
+      ]
     }
   ],
   "publisher": {

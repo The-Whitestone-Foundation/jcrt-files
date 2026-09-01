@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-08-30T06:42:52.041Z</responseDate>
+  <responseDate>2026-09-01T07:54:32.283Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
@@ -20,10 +20,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/crockett/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/crockett.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/crockett.pdf</dc:relation>
           <dc:subject>science-fiction</dc:subject>
           <dc:subject>desire-and-religion</dc:subject>
           <dc:subject>other-philosophy</dc:subject>
@@ -69,10 +70,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/kavka/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/kavka.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/kavka.pdf</dc:relation>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>john-caputo</dc:subject>
@@ -111,10 +113,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/lambert/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/lambert.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/lambert.pdf</dc:relation>
           <dc:subject>aesthetics</dc:subject>
           <dc:subject>immanuel-kant</dc:subject>
           <dc:subject>extraterrestrials</dc:subject>
@@ -152,10 +155,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/lee/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/lee.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/lee.pdf</dc:relation>
           <dc:subject>mysticism</dc:subject>
           <dc:subject>plotinus</dc:subject>
           <dc:subject>great-chain-of-being</dc:subject>
@@ -195,10 +199,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/raschke.pdf</dc:relation>
           <dc:subject>semiotics</dc:subject>
           <dc:subject>religious-studies</dc:subject>
           <dc:subject>jean-baudrillard</dc:subject>
@@ -236,10 +241,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/reinhard_lupton/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/reinhard_lupton.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/reinhard_lupton.pdf</dc:relation>
           <dc:subject>jewish-studies</dc:subject>
           <dc:subject>secular-university</dc:subject>
           <dc:subject>judaism</dc:subject>
@@ -280,10 +286,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/vahanian/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/vahanian.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/vahanian.pdf</dc:relation>
           <dc:subject>temporality</dc:subject>
           <dc:subject>secularization</dc:subject>
           <dc:subject>eschatology</dc:subject>
@@ -321,10 +328,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/winquist/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/winquist.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/winquist.pdf</dc:relation>
           <dc:subject>desire</dc:subject>
           <dc:subject>consciousness</dc:subject>
           <dc:subject>plane-of-immanence</dc:subject>
@@ -365,10 +373,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>1999-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.1/young/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.1/young.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.1/young.pdf</dc:relation>
           <dc:subject>friendship</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>exemplarity</dc:subject>
@@ -405,10 +414,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/adcock/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/adcock.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/adcock.pdf</dc:relation>
           <dc:subject>popular-culture</dc:subject>
           <dc:subject>religion-and-culture</dc:subject>
           <dc:subject>simulacra</dc:subject>
@@ -445,10 +455,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/canning/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/canning.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/canning.pdf</dc:relation>
           <dc:subject>fabulation</dc:subject>
           <dc:subject>antisemitism</dc:subject>
           <dc:subject>holocaust</dc:subject>
@@ -491,10 +502,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/long/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/long.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/long.pdf</dc:relation>
           <dc:subject>mircea-eliade</dc:subject>
           <dc:subject>hierophany</dc:subject>
           <dc:subject>sacred-and-profane</dc:subject>
@@ -531,10 +543,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/lorentzen/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/lorentzen.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/lorentzen.pdf</dc:relation>
           <dc:subject>gilles-deleuze</dc:subject>
           <dc:subject>difference-and-repetition</dc:subject>
           <dc:subject>image-of-thought</dc:subject>
@@ -569,10 +582,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/nvahanian/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/nvahanian.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/nvahanian.pdf</dc:relation>
           <dc:subject>language-and-religion</dc:subject>
           <dc:subject>cosmology</dc:subject>
           <dc:subject>emotions</dc:subject>
@@ -605,10 +619,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/ruf/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/ruf.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/ruf.pdf</dc:relation>
           <dc:subject>travel</dc:subject>
           <dc:subject>rite-of-passage</dc:subject>
           <dc:subject>liminality</dc:subject>
@@ -647,10 +662,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/smith/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/smith.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/smith.pdf</dc:relation>
           <dc:subject>heterology</dc:subject>
           <dc:subject>philosophy-of-history</dc:subject>
           <dc:subject>alterity</dc:subject>
@@ -687,10 +703,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/taylor.pdf</dc:relation>
           <dc:subject>religious-theory</dc:subject>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>semiotics</dc:subject>
@@ -729,10 +746,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.2/wyschogrod_raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.2/wyschogrod_raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.2/wyschogrod_raschke.pdf</dc:relation>
           <dc:subject>heterology</dc:subject>
           <dc:subject>philosophy-of-history</dc:subject>
           <dc:subject>alterity</dc:subject>
@@ -770,10 +788,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/caputo/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/caputo.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/caputo.pdf</dc:relation>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>hyper-realism</dc:subject>
@@ -811,10 +830,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/carpenter/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/carpenter.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/carpenter.pdf</dc:relation>
           <dc:subject>andy-warhol</dc:subject>
           <dc:subject>jean-baudrillard</dc:subject>
           <dc:subject>simulacra</dc:subject>
@@ -854,10 +874,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/crockett/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/crockett.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/crockett.pdf</dc:relation>
           <dc:subject>religious-studies</dc:subject>
           <dc:subject>economy</dc:subject>
           <dc:subject>secular-theology</dc:subject>
@@ -898,10 +919,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/dicenso/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/dicenso.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/dicenso.pdf</dc:relation>
           <dc:subject>cornelius-castoriadis</dc:subject>
           <dc:subject>marcel-gauchet</dc:subject>
           <dc:subject>autonomy</dc:subject>
@@ -941,10 +963,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/game/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/game.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/game.pdf</dc:relation>
           <dc:subject>falling</dc:subject>
           <dc:subject>rapture</dc:subject>
           <dc:subject>ecstasy</dc:subject>
@@ -986,10 +1009,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/kosky/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/kosky.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/kosky.pdf</dc:relation>
           <dc:subject>apophatic-theology</dc:subject>
           <dc:subject>negative-theology</dc:subject>
           <dc:subject>emmanuel-levinas</dc:subject>
@@ -1028,10 +1052,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/metcalfe/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/metcalfe.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/metcalfe.pdf</dc:relation>
           <dc:subject>wonder</dc:subject>
           <dc:subject>creativity</dc:subject>
           <dc:subject>inspiration</dc:subject>
@@ -1074,10 +1099,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/richard/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/richard.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/richard.pdf</dc:relation>
           <dc:subject>aristotle</dc:subject>
           <dc:subject>religious-theory</dc:subject>
           <dc:subject>end-of-theology</dc:subject>
@@ -1115,10 +1141,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/strysick/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/strysick.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/strysick.pdf</dc:relation>
           <dc:subject>culture-wars</dc:subject>
           <dc:subject>american-religion</dc:subject>
           <dc:subject>postmodern-sacred</dc:subject>
@@ -1158,10 +1185,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/01.3/weiss/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/01.3/weiss.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/01.3/weiss.pdf</dc:relation>
           <dc:subject>posthuman</dc:subject>
           <dc:subject>cybernetics</dc:subject>
           <dc:subject>katherine-hayles</dc:subject>
@@ -1203,10 +1231,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/halpern/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/halpern.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/halpern.pdf</dc:relation>
           <dc:subject>jacques-lacan</dc:subject>
           <dc:subject>creationism</dc:subject>
           <dc:subject>evolution</dc:subject>
@@ -1245,10 +1274,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/lambert/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/lambert.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/lambert.pdf</dc:relation>
           <dc:subject>jacques-lacan</dc:subject>
           <dc:subject>karl-marx</dc:subject>
           <dc:subject>redemption</dc:subject>
@@ -1291,10 +1321,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/lupton/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/lupton.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/lupton.pdf</dc:relation>
           <dc:subject>god-and-human-beings</dc:subject>
           <dc:subject>1901-1981</dc:subject>
           <dc:subject>jacques</dc:subject>
@@ -1332,10 +1363,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/ochs/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/ochs.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/ochs.pdf</dc:relation>
           <dc:subject>franz-rosenzweig</dc:subject>
           <dc:subject>idolatry</dc:subject>
           <dc:subject>representation</dc:subject>
@@ -1376,10 +1408,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/raschke.pdf</dc:relation>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>negative-theology</dc:subject>
           <dc:subject>deconstruction</dc:subject>
@@ -1417,10 +1450,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/reinhard_lupton/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/reinhard_lupton.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/reinhard_lupton.pdf</dc:relation>
           <dc:subject>jacques-lacan</dc:subject>
           <dc:subject>revelation</dc:subject>
           <dc:subject>ten-commandments</dc:subject>
@@ -1459,10 +1493,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/sugimoto/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/sugimoto.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/sugimoto.pdf</dc:relation>
           <dc:subject>evangelicalism</dc:subject>
           <dc:subject>mark-noll</dc:subject>
           <dc:subject>nation-state</dc:subject>
@@ -1505,10 +1540,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2000-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.1/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.1/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.1/taylor.pdf</dc:relation>
           <dc:subject>medium-specificity</dc:subject>
           <dc:subject>clement-greenberg</dc:subject>
           <dc:subject>rosalind-krauss</dc:subject>
@@ -1544,10 +1580,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/altizer/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/altizer.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/altizer.pdf</dc:relation>
           <dc:subject>death-of-god</dc:subject>
           <dc:subject>negative-theology</dc:subject>
           <dc:subject>mark-c-taylor</dc:subject>
@@ -1588,10 +1625,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/arnold/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/arnold.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/arnold.pdf</dc:relation>
           <dc:subject>history-of-religions</dc:subject>
           <dc:subject>mircea-eliade</dc:subject>
           <dc:subject>the-sacred</dc:subject>
@@ -1628,10 +1666,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/elias/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/elias.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/elias.pdf</dc:relation>
           <dc:subject>ekphrasis</dc:subject>
           <dc:subject>fragment</dc:subject>
           <dc:subject>mark-c-taylor</dc:subject>
@@ -1672,10 +1711,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/majer/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/majer.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/majer.pdf</dc:relation>
           <dc:subject>contagion</dc:subject>
           <dc:subject>leviticus</dc:subject>
           <dc:subject>purity-and-danger</dc:subject>
@@ -1715,10 +1755,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/robbins/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/robbins.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/robbins.pdf</dc:relation>
           <dc:subject>negative-theology</dc:subject>
           <dc:subject>jean-luc-marion</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
@@ -1755,10 +1796,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/tatusko/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/tatusko.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/tatusko.pdf</dc:relation>
           <dc:subject>cyberspace</dc:subject>
           <dc:subject>simulation</dc:subject>
           <dc:subject>jean-baudrillard</dc:subject>
@@ -1798,10 +1840,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/taylor.pdf</dc:relation>
           <dc:subject>gilles-deleuze</dc:subject>
           <dc:subject>univocity-of-being</dc:subject>
           <dc:subject>difference-and-repetition</dc:subject>
@@ -1839,10 +1882,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.2/taylor_raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.2/taylor_raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.2/taylor_raschke.pdf</dc:relation>
           <dc:subject>mark-c-taylor</dc:subject>
           <dc:subject>atheology</dc:subject>
           <dc:subject>the-sacred</dc:subject>
@@ -1880,10 +1924,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/cha/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/cha.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/cha.pdf</dc:relation>
           <dc:subject>yogacara</dc:subject>
           <dc:subject>buddhist-philosophy</dc:subject>
           <dc:subject>classical-indian-philosophy</dc:subject>
@@ -1923,10 +1968,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/crockett/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/crockett.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/crockett.pdf</dc:relation>
           <dc:subject>martin-heidegger</dc:subject>
           <dc:subject>contributions-to-philosophy</dc:subject>
           <dc:subject>being</dc:subject>
@@ -1967,10 +2013,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/hale/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/hale.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/hale.pdf</dc:relation>
           <dc:subject>postmodernism</dc:subject>
           <dc:subject>james-mackey</dc:subject>
           <dc:subject>theological-reason</dc:subject>
@@ -2008,10 +2055,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/katchen/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/katchen.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/katchen.pdf</dc:relation>
           <dc:subject>mind-control</dc:subject>
           <dc:subject>mkultra</dc:subject>
           <dc:subject>cia</dc:subject>
@@ -2053,10 +2101,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/lakeland/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/lakeland.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/lakeland.pdf</dc:relation>
           <dc:subject>foundationalism</dc:subject>
           <dc:subject>nonfoundationalism</dc:subject>
           <dc:subject>postmodern-theology</dc:subject>
@@ -2094,10 +2143,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/magee/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/magee.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/magee.pdf</dc:relation>
           <dc:subject>martin-heidegger</dc:subject>
           <dc:subject>memory</dc:subject>
           <dc:subject>forgetfulness</dc:subject>
@@ -2139,10 +2189,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/mccullough/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/mccullough.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/mccullough.pdf</dc:relation>
           <dc:subject>jean-baudrillard</dc:subject>
           <dc:subject>death-of-god</dc:subject>
           <dc:subject>negative-theology</dc:subject>
@@ -2183,10 +2234,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/ronan/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/ronan.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/ronan.pdf</dc:relation>
           <dc:subject>roman-catholicism</dc:subject>
           <dc:subject>vatican-ii</dc:subject>
           <dc:subject>gender</dc:subject>
@@ -2229,10 +2281,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/takim/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/takim.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/takim.pdf</dc:relation>
           <dc:subject>islam</dc:subject>
           <dc:subject>islamic-studies</dc:subject>
           <dc:subject>muslim-identity</dc:subject>
@@ -2277,10 +2330,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/02.3/weiss/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/02.3/weiss.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/02.3/weiss.pdf</dc:relation>
           <dc:subject>artificial-intelligence</dc:subject>
           <dc:subject>philosophical-anthropology</dc:subject>
           <dc:subject>human-nature</dc:subject>
@@ -2319,10 +2373,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/anderson/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/anderson.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/anderson.pdf</dc:relation>
           <dc:subject>anthropology-of-religion</dc:subject>
           <dc:subject>comparative-religion</dc:subject>
           <dc:subject>history-of-religions</dc:subject>
@@ -2362,10 +2417,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/dean/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/dean.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/dean.pdf</dc:relation>
           <dc:subject>american-philosophy</dc:subject>
           <dc:subject>pragmatism</dc:subject>
           <dc:subject>phenomenology</dc:subject>
@@ -2404,10 +2460,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/gooch/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/gooch.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/gooch.pdf</dc:relation>
           <dc:subject>max-scheler</dc:subject>
           <dc:subject>philosophy-of-religion</dc:subject>
           <dc:subject>phenomenology</dc:subject>
@@ -2448,10 +2505,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/keuss/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/keuss.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/keuss.pdf</dc:relation>
           <dc:subject>christology</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>deconstruction</dc:subject>
@@ -2492,10 +2550,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/maccammon/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/maccammon.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/maccammon.pdf</dc:relation>
           <dc:subject>paul-ricoeur</dc:subject>
           <dc:subject>justice</dc:subject>
           <dc:subject>ethics</dc:subject>
@@ -2538,10 +2597,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/raschke.pdf</dc:relation>
           <dc:subject>postmodernism</dc:subject>
           <dc:subject>religious-studies</dc:subject>
           <dc:subject>deconstruction</dc:subject>
@@ -2581,10 +2641,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2001-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.1/stone/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.1/stone.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.1/stone.pdf</dc:relation>
           <dc:subject>pierre-bourdieu</dc:subject>
           <dc:subject>habitus</dc:subject>
           <dc:subject>field</dc:subject>
@@ -2624,10 +2685,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/caputo_raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/caputo_raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/caputo_raschke.pdf</dc:relation>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>john-caputo</dc:subject>
@@ -2669,10 +2731,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/grimshaw/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/grimshaw.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/grimshaw.pdf</dc:relation>
           <dc:subject>death-of-god</dc:subject>
           <dc:subject>garth-ennis</dc:subject>
           <dc:subject>preacher</dc:subject>
@@ -2714,10 +2777,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/hale/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/hale.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/hale.pdf</dc:relation>
           <dc:subject>religious-violence</dc:subject>
           <dc:subject>terrorism</dc:subject>
           <dc:subject>the-sacred</dc:subject>
@@ -2756,10 +2820,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/hyman/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/hyman.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/hyman.pdf</dc:relation>
           <dc:subject>radical-orthodoxy</dc:subject>
           <dc:subject>john-milbank</dc:subject>
           <dc:subject>secular-theology</dc:subject>
@@ -2801,10 +2866,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/katz/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/katz.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/katz.pdf</dc:relation>
           <dc:subject>slavoj-zizek</dc:subject>
           <dc:subject>lenin</dc:subject>
           <dc:subject>leftist-politics</dc:subject>
@@ -2845,10 +2911,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/lee/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/lee.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/lee.pdf</dc:relation>
           <dc:subject>death</dc:subject>
           <dc:subject>jim-jarmusch</dc:subject>
           <dc:subject>dead-man</dc:subject>
@@ -2888,10 +2955,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/metcalf/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/metcalf.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/metcalf.pdf</dc:relation>
           <dc:subject>sigmund-freud</dc:subject>
           <dc:subject>logos</dc:subject>
           <dc:subject>psychoanalysis</dc:subject>
@@ -2933,10 +3001,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/parmenter/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/parmenter.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/parmenter.pdf</dc:relation>
           <dc:subject>book-of-the-heart</dc:subject>
           <dc:subject>eric-jager</dc:subject>
           <dc:subject>medieval-studies</dc:subject>
@@ -2973,10 +3042,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/taylor.pdf</dc:relation>
           <dc:subject>theology</dc:subject>
           <dc:subject>literature</dc:subject>
           <dc:subject>gilles-deleuze</dc:subject>
@@ -3016,10 +3086,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.2/winquist/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.2/winquist.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.2/winquist.pdf</dc:relation>
           <dc:subject>charles-winquist</dc:subject>
           <dc:subject>in-memoriam</dc:subject>
           <dc:subject>obituary</dc:subject>
@@ -3052,10 +3123,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/crockett/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/crockett.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/crockett.pdf</dc:relation>
           <dc:subject>religious-thought</dc:subject>
           <dc:subject>philosophical-theology</dc:subject>
           <dc:subject>cultural-religious-theory</dc:subject>
@@ -3094,10 +3166,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/druen/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/druen.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/druen.pdf</dc:relation>
           <dc:subject>sacred-pain</dc:subject>
           <dc:subject>ariel-glucklich</dc:subject>
           <dc:subject>pain</dc:subject>
@@ -3138,10 +3211,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/flato/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/flato.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/flato.pdf</dc:relation>
           <dc:subject>jewish-christian-relations</dc:subject>
           <dc:subject>incarnation</dc:subject>
           <dc:subject>trinity</dc:subject>
@@ -3180,10 +3254,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/iyer/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/iyer.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/iyer.pdf</dc:relation>
           <dc:subject>martin-heidegger</dc:subject>
           <dc:subject>emmanuel-levinas</dc:subject>
           <dc:subject>maurice-blanchot</dc:subject>
@@ -3222,10 +3297,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/putt/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/putt.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/putt.pdf</dc:relation>
           <dc:subject>merold-westphal</dc:subject>
           <dc:subject>philosophy-of-religion</dc:subject>
           <dc:subject>hermeneutics-of-suspicion</dc:subject>
@@ -3263,10 +3339,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/rashkover/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/rashkover.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/rashkover.pdf</dc:relation>
           <dc:subject>radical-orthodoxy</dc:subject>
           <dc:subject>jewish-christian-relations</dc:subject>
           <dc:subject>embodiment</dc:subject>
@@ -3305,10 +3382,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/reinhart/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/reinhart.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/reinhart.pdf</dc:relation>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>cosmopolitanism</dc:subject>
           <dc:subject>forgiveness</dc:subject>
@@ -3349,10 +3427,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/scott/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/scott.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/scott.pdf</dc:relation>
           <dc:subject>neuroscience-of-religion</dc:subject>
           <dc:subject>mysticism</dc:subject>
           <dc:subject>spirituality</dc:subject>
@@ -3389,10 +3468,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/taylor.pdf</dc:relation>
           <dc:subject>franz-kafka</dc:subject>
           <dc:subject>prague</dc:subject>
           <dc:subject>minor-literature</dc:subject>
@@ -3431,10 +3511,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/weiss/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/weiss.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/weiss.pdf</dc:relation>
           <dc:subject>artificial-intelligence</dc:subject>
           <dc:subject>imago-dei</dc:subject>
           <dc:subject>theological-anthropology</dc:subject>
@@ -3472,10 +3553,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/03.3/zerbe/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/03.3/zerbe.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/03.3/zerbe.pdf</dc:relation>
           <dc:subject>anaximander</dc:subject>
           <dc:subject>greek-philosophy</dc:subject>
           <dc:subject>architecture</dc:subject>
@@ -3514,10 +3596,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/bennett-carpenter/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/bennett-carpenter.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/bennett-carpenter.pdf</dc:relation>
           <dc:subject>mieke-bal</dc:subject>
           <dc:subject>quotation</dc:subject>
           <dc:subject>preposterous-history</dc:subject>
@@ -3557,10 +3640,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/blundell/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/blundell.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/blundell.pdf</dc:relation>
           <dc:subject>paul-ricoeur</dc:subject>
           <dc:subject>narrative-identity</dc:subject>
           <dc:subject>hermeneutics-of-the-self</dc:subject>
@@ -3595,10 +3679,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/egginton/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/egginton.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/egginton.pdf</dc:relation>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>christianity</dc:subject>
           <dc:subject>soren-kierkegaard</dc:subject>
@@ -3643,10 +3728,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/hamner/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/hamner.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/hamner.pdf</dc:relation>
           <dc:subject>julia-kristeva</dc:subject>
           <dc:subject>revolt</dc:subject>
           <dc:subject>the-sacred</dc:subject>
@@ -3683,10 +3769,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/index2/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/index2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/index2.pdf</dc:relation>
           <dc:subject>cultural-religious-theory</dc:subject>
           <dc:subject>levinasian-ethics</dc:subject>
           <dc:subject>deconstruction</dc:subject>
@@ -3720,10 +3807,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/kosky/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/kosky.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/kosky.pdf</dc:relation>
           <dc:subject>icon</dc:subject>
           <dc:subject>image</dc:subject>
           <dc:subject>world-picture</dc:subject>
@@ -3765,10 +3853,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/lokensgard/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/lokensgard.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/lokensgard.pdf</dc:relation>
           <dc:subject>gift</dc:subject>
           <dc:subject>marcel-mauss</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
@@ -3807,10 +3896,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/markmanolopoulos/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/markmanolopoulos.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/markmanolopoulos.pdf</dc:relation>
           <dc:subject>jean-luc-marion</dc:subject>
           <dc:subject>undecidability</dc:subject>
           <dc:subject>deconstruction</dc:subject>
@@ -3849,10 +3939,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/mcgrath/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/mcgrath.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/mcgrath.pdf</dc:relation>
           <dc:subject>martin-heidegger</dc:subject>
           <dc:subject>augustine</dc:subject>
           <dc:subject>phenomenology-of-religion</dc:subject>
@@ -3891,10 +3982,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2002-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.1/raschke/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.1/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.1/raschke.pdf</dc:relation>
           <dc:subject>emmanuel-levinas</dc:subject>
           <dc:subject>faith</dc:subject>
           <dc:subject>ethics</dc:subject>
@@ -3937,10 +4029,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/caputo/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/caputo.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/caputo.pdf</dc:relation>
           <dc:subject>deconstruction</dc:subject>
           <dc:subject>jacques-derrida</dc:subject>
           <dc:subject>death-of-deconstruction</dc:subject>
@@ -3978,10 +4071,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/flaxman/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/flaxman.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/flaxman.pdf</dc:relation>
           <dc:subject>literary-theory</dc:subject>
           <dc:subject>resistance-to-theory</dc:subject>
           <dc:subject>paul-de-man</dc:subject>
@@ -4020,10 +4114,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/lambert/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/lambert.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/lambert.pdf</dc:relation>
           <dc:subject>gilles-deleuze</dc:subject>
           <dc:subject>feminism</dc:subject>
           <dc:subject>ruin-of-representation</dc:subject>
@@ -4063,10 +4158,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/lambert-taylor.intro/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/lambert-taylor.intro.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/lambert-taylor.intro.pdf</dc:relation>
           <dc:subject>future-of-theory</dc:subject>
           <dc:subject>literary-criticism</dc:subject>
           <dc:subject>death-of-theory</dc:subject>
@@ -4100,10 +4196,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/nichols/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/nichols.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/nichols.pdf</dc:relation>
           <dc:subject>laughter</dc:subject>
           <dc:subject>gesture</dc:subject>
           <dc:subject>the-sublime</dc:subject>
@@ -4139,10 +4236,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/pecora/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/pecora.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/pecora.pdf</dc:relation>
           <dc:subject>religion</dc:subject>
           <dc:subject>modernity</dc:subject>
           <dc:subject>secularization</dc:subject>
@@ -4185,10 +4283,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/rabate-lambert/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/rabate-lambert.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/rabate-lambert.pdf</dc:relation>
           <dc:subject>future-of-theory</dc:subject>
           <dc:subject>hysteria</dc:subject>
           <dc:subject>jacques-lacan</dc:subject>
@@ -4225,10 +4324,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/saper/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/saper.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/saper.pdf</dc:relation>
           <dc:subject>spectacle</dc:subject>
           <dc:subject>new-media-theory</dc:subject>
           <dc:subject>film-theory</dc:subject>
@@ -4265,10 +4365,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/taylor/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/taylor.pdf</dc:relation>
           <dc:subject>stupidity</dc:subject>
           <dc:subject>avital-ronell</dc:subject>
           <dc:subject>future-of-theory</dc:subject>
@@ -4305,10 +4406,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2003-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/04.2/williams/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/04.2/williams.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/04.2/williams.pdf</dc:relation>
           <dc:subject>literary-criticism</dc:subject>
           <dc:subject>theory-change</dc:subject>
           <dc:subject>paradigm-shift</dc:subject>
@@ -8067,7 +8169,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Televised Morality: the Case of Buffy the Vampire Slayer</dc:title>
-          <dc:creator>Stephen Benko</dc:creator>
+          <dc:creator>Steven A. Benko</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2005-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -8576,7 +8678,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Thinking Through the Death of God: a Critical Companion to Thomas J. J. Altizer</dc:title>
-          <dc:creator>Christopher Demuth Rodkey</dc:creator>
+          <dc:creator>Christopher D Rodkey</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2005-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -10154,8 +10256,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/08.1/costoya.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/08.1/costoya.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/08.1/mejido.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/08.1/mejido.pdf</dc:relation>
           <dc:subject>liberation-theology</dc:subject>
           <dc:subject>postmodernism</dc:subject>
           <dc:subject>marxism</dc:subject>
@@ -12596,8 +12698,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/09.2/d&apos;amato.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/09.2/d&apos;amato.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/09.2/damato.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/09.2/damato.pdf</dc:relation>
           <dc:subject>transcendence</dc:subject>
           <dc:subject>language-and-religion</dc:subject>
           <dc:subject>semiotics</dc:subject>
@@ -14187,8 +14289,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/10.2/scans.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/10.2/scans.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/10.2/duncan.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/10.2/duncan.pdf</dc:relation>
           <dc:subject>bibliographies</dc:subject>
           <dc:subject>1886-1961</dc:subject>
           <dc:subject>h-d-hilda-doolittle</dc:subject>
@@ -14250,8 +14352,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/10.2/duncan-transcription.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/10.2/duncan-transcription.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/10.2/evans.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/10.2/evans.pdf</dc:relation>
           <dc:subject>poetry</dc:subject>
           <dc:subject>modern</dc:subject>
           <dc:subject>robert</dc:subject>
@@ -17894,8 +17996,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/crockett.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/crockett.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/crockett_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/crockett_2.pdf</dc:relation>
           <dc:subject>intellect</dc:subject>
           <dc:subject>equality</dc:subject>
           <dc:subject>education</dc:subject>
@@ -18123,8 +18225,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/fong.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/fong.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/fong_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/fong_2.pdf</dc:relation>
           <dc:subject>interpersonal-relations</dc:subject>
           <dc:subject>philosophical-anthropology</dc:subject>
           <dc:subject>philosophy-and-theology</dc:subject>
@@ -18262,8 +18364,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/heo.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/heo.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/heo_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/heo_2.pdf</dc:relation>
           <dc:subject>writing</dc:subject>
           <dc:subject>experience</dc:subject>
           <dc:subject>ethnology</dc:subject>
@@ -18296,8 +18398,8 @@
                    xmlns:dc="http://purl.org/dc/elements/1.1/"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Jesus Beyond Christ: Erri De Luca and The</dc:title>
-          <dc:creator>Elise Mon℡-Hurlin</dc:creator>
+          <dc:title>Jesus Beyond Christ: Erri De Luca and the ‘Self as Stumbling Block’</dc:title>
+          <dc:creator>Elise Montel-Hurlin</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2012-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -18377,8 +18479,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/mackendrick.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/mackendrick.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/mackendrick_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/mackendrick_2.pdf</dc:relation>
           <dc:subject>memory</dc:subject>
           <dc:subject>reading</dc:subject>
           <dc:subject>christianity</dc:subject>
@@ -18428,8 +18530,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/hurlin.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/hurlin.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/montel_hurlin.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/montel_hurlin.pdf</dc:relation>
           <dc:subject>christianity</dc:subject>
           <dc:subject>self-philosophy</dc:subject>
           <dc:subject>1950</dc:subject>
@@ -18527,8 +18629,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/12.2/peters.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/12.2/peters.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/12.2/peters_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/12.2/peters_2.pdf</dc:relation>
           <dc:subject>liberation-theology</dc:subject>
           <dc:subject>culture-and-education</dc:subject>
           <dc:subject>social-change</dc:subject>
@@ -18759,7 +18861,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>The Indiscrete Image: Infinitude and Creation of the Human.</dc:title>
-          <dc:creator>Jason Alvis</dc:creator>
+          <dc:creator>Jason W. Alvis</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2013-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -19496,8 +19598,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/13.1/vasquez.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/13.1/vasquez.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/13.1/v_squez.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/13.1/v_squez.pdf</dc:relation>
           <dc:description>The article explores the emergence of a transnational regime of subjectivation and population management based from Michel Foucault&apos;s work on governmentality and biopolitics and Giorgio Agamben&apos;s on normalization of the state of exception.</dc:description>
           <dc:subject>united-states</dc:subject>
           <dc:subject>biopolitics-philosophy</dc:subject>
@@ -19603,8 +19705,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/13.2/shaver.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/13.2/shaver.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/13.2/carsey.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/13.2/carsey.pdf</dc:relation>
           <dc:subject>nonfiction</dc:subject>
           <dc:subject>beyond-the-pulpit-women-s-rhetorical-roles-in-the-antebellum-religious-press-book</dc:subject>
           <dc:subject>lisa-j</dc:subject>
@@ -20141,8 +20243,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/13.2/taylorandweiss.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/13.2/taylorandweiss.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/13.2/weiss_taylor.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/13.2/weiss_taylor.pdf</dc:relation>
           <dc:description>An introduction is presented in which the editor discusses reports within the issue including evolution of the zombie in mainstream and gay films, contrast between films</dc:description>
           <dc:subject>zombie-films</dc:subject>
           <dc:subject>dawn-of-the-dead-film</dc:subject>
@@ -20198,7 +20300,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Subject and Time: Jean-Luc Marion’s Alteration of Kantian Subjectivity.</dc:title>
-          <dc:creator>Jason Alvis</dc:creator>
+          <dc:creator>Jason W. Alvis</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2014-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -20365,7 +20467,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Not Your Grandmother’s Theory of Religion: an Interview with Carl Raschke.</dc:title>
-          <dc:creator>Carl Raschke</dc:creator>
+          <dc:creator>Carl A. Raschke</dc:creator>
           <dc:creator>David Hale</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2014-01-01</dc:date>
@@ -21170,8 +21272,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/14.2/trakikis.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/14.2/trakikis.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/14.2/trakakis.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/14.2/trakakis.pdf</dc:relation>
           <dc:description>The article presents the author&apos;s views on the meta-philosophy of mash-up philosophy of religion (PoR) based on the concept of mashup music. He explores his experience of undertaking a meta-philosophical journey as well as the failure of mash-up philosophy to address issues facing philosophy. Other topics include the auditing culture, the use of neoliberal principles in higher education, and the need for modern philosophers to practice outide conventional institutional boundaries.</dc:description>
           <dc:subject>neoliberalism</dc:subject>
           <dc:subject>philosophy-of-religion</dc:subject>
@@ -21199,7 +21301,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Philiosophy Mashed Up and In Crisis</dc:title>
-          <dc:creator>N.N. Trakikis</dc:creator>
+          <dc:creator>N. N. Trakakis</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2015-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -21418,8 +21520,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/15.1/intro.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/15.1/intro.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/15.1/hagedorn_staudigl_alvis.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/15.1/hagedorn_staudigl_alvis.pdf</dc:relation>
           <dc:description>An introduction is presented in which the editor discusses various reports within the issue on philosophy and religion that were discussed at the conference</dc:description>
           <dc:subject>philosophy-religion</dc:subject>
           <dc:subject>austria</dc:subject>
@@ -21443,7 +21545,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Violence And The Gift: Challenging Continental Philosophy Of Religion</dc:title>
-          <dc:creator>Udger Hagedorn</dc:creator>
+          <dc:creator>Ludger Hagedorn</dc:creator>
           <dc:creator>Michael Staudigl</dc:creator>
           <dc:creator>Jason W. Alvis</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
@@ -21988,8 +22090,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/InterviewGaia.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/InterviewGaia.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/clay_robinson.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/clay_robinson.pdf</dc:relation>
           <dc:subject>graffiti</dc:subject>
           <dc:subject>mural-art</dc:subject>
           <dc:subject>street-artists</dc:subject>
@@ -22050,8 +22152,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/IntroFigueiredo.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/IntroFigueiredo.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/figueiredo.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/figueiredo.pdf</dc:relation>
           <dc:subject>taylor</dc:subject>
           <dc:subject>humanities</dc:subject>
           <dc:subject>gregory-l</dc:subject>
@@ -22081,8 +22183,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/InterviewUlmer.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/InterviewUlmer.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/figueiredo_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/figueiredo_2.pdf</dc:relation>
           <dc:subject>humanities</dc:subject>
           <dc:subject>gregory-l</dc:subject>
           <dc:subject>ulmer</dc:subject>
@@ -22453,8 +22555,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/InterviewSousanis.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/InterviewSousanis.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/stowe_sousanis.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/stowe_sousanis.pdf</dc:relation>
           <dc:subject>etc</dc:subject>
           <dc:subject>comic-book-artists</dc:subject>
           <dc:subject>comic-books</dc:subject>
@@ -22489,8 +22591,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/InterviewGiroux.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/InterviewGiroux.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/taylor_giroux.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/taylor_giroux.pdf</dc:relation>
           <dc:subject>1943</dc:subject>
           <dc:subject>administration-of-general-economic-programs</dc:subject>
           <dc:subject>giroux</dc:subject>
@@ -22521,8 +22623,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.1/reviewbutler.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.1/reviewbutler.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.1/waggoner.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.1/waggoner.pdf</dc:relation>
           <dc:subject>fiction</dc:subject>
           <dc:subject>1956</dc:subject>
           <dc:subject>butler</dc:subject>
@@ -22881,7 +22983,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>The End of Theology and The Event of Truth</dc:title>
-          <dc:creator>Carl Raschke</dc:creator>
+          <dc:creator>Carl A. Raschke</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2017-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -23064,8 +23166,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/16.3/introduction.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/16.3/introduction.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/16.3/raschke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/16.3/raschke.pdf</dc:relation>
           <dc:subject>genealogy</dc:subject>
           <dc:subject>salvation-in-christianity</dc:subject>
           <dc:subject>all-other-personal-services</dc:subject>
@@ -23441,7 +23543,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>The Political as Saturated Phenomenon: Marion’s Givenness and the Irreconcilability of Politics and Love.</dc:title>
-          <dc:creator>Jason Alvis</dc:creator>
+          <dc:creator>Jason W. Alvis</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2018-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -23568,7 +23670,7 @@
                    xmlns:dc="http://purl.org/dc/elements/1.1/"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>Religious Life After Religion: Jan PatoČKa’s Care for the Soul and Its Relation to Religion.</dc:title>
+          <dc:title>Religious Life After Religion: Jan Patočka’s Care for the Soul and Its Relation to Religion.</dc:title>
           <dc:creator>Eddo Evink</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2018-01-01</dc:date>
@@ -23731,7 +23833,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>How to do things with words (of God)? Michel Henry’s Phenomenology of Religion</dc:title>
-          <dc:creator>Jean Leclerq</dc:creator>
+          <dc:creator>Jean Leclercq</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2018-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -24057,7 +24159,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>The Semiotics of the Unconscious in Gilles Deleuze and Roland Barthes.</dc:title>
-          <dc:creator>Roger Green</dc:creator>
+          <dc:creator>Roger K Green</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2018-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -24372,8 +24474,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Burke2.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Burke2.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/burke.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/burke.pdf</dc:relation>
           <dc:subject>psychoanalysis</dc:subject>
           <dc:subject>sectarian-conflict</dc:subject>
           <dc:subject>Psychoanalysis</dc:subject>
@@ -24483,7 +24585,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Non-Ordinary States, Entheogens, and the Unconscious.</dc:title>
-          <dc:creator>Rodger K. Green</dc:creator>
+          <dc:creator>Roger K Green</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2018-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -24528,8 +24630,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Komkov2.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Komkov2.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/komkov.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/komkov.pdf</dc:relation>
           <dc:subject>theology</dc:subject>
           <dc:subject>literary-criticism</dc:subject>
           <dc:subject>russian-religious-literature</dc:subject>
@@ -24618,8 +24720,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Loland1.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Loland1.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/l_land.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/l_land.pdf</dc:relation>
           <dc:subject>theology</dc:subject>
           <dc:subject>christianity</dc:subject>
           <dc:subject>psychoanalysis</dc:subject>
@@ -24740,8 +24842,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Ramos1.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Ramos1.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/ramos.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/ramos.pdf</dc:relation>
           <dc:subject>evangelicalism</dc:subject>
           <dc:subject>doctrinal-theology</dc:subject>
           <dc:subject>Evangelicalism</dc:subject>
@@ -24829,8 +24931,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Sharma2.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Sharma2.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/sharma.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/sharma.pdf</dc:relation>
           <dc:subject>institutionalism-religion</dc:subject>
           <dc:subject>sectarian-conflict</dc:subject>
           <dc:subject>bharatiya-janata-party</dc:subject>
@@ -24889,8 +24991,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.1/Spickard2.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.1/Spickard2.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.1/spickard.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.1/spickard.pdf</dc:relation>
           <dc:subject>ethnology</dc:subject>
           <dc:subject>human-rights-organizations</dc:subject>
           <dc:subject>journalism</dc:subject>
@@ -25113,7 +25215,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Fetish and the Erasure of Indigeneity</dc:title>
-          <dc:creator>Roger Green</dc:creator>
+          <dc:creator>Roger K Green</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2019-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -25576,10 +25678,11 @@
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2019-01-01</dc:date>
           <dc:type>article</dc:type>
-          <dc:format>text/html</dc:format>
+          <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://jcrt.org/archives/18.3/bios/</dc:identifier>
+          <dc:identifier>https://files.jcrt.org/archives/18.3/bios.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.3/bios.pdf</dc:relation>
           <dc:subject>Religion</dc:subject>
           <dc:rights>Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/</dc:rights>
           <dc:source>Journal for Cultural &amp; Religious Theory, ISSN 1530-5228, Vol. 18, No. 3</dc:source>
@@ -25805,6 +25908,8 @@
                    xmlns:dc="http://purl.org/dc/elements/1.1/"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
+          <dc:title>Lacan as “Spiritual Director” – On the Relationship Between Psychoanalysis and Christian Mysticism</dc:title>
+          <dc:creator>Mark Murphy</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2019-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -25915,8 +26020,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.3/robertsandhayden.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.3/robertsandhayden.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.3/roberts_hayden.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.3/roberts_hayden.pdf</dc:relation>
           <dc:description>Author Note: The authors of this article take the position that the Judeo-Christian heritage is dominated by the teachings of Jesus. Consequently, all Christian belief systems reflect similar ideas about the nature of reality. This Christian philosophy of life shapes attitudes that believers have about themselves, their relationship with others, and appropriate responses to crises and adversity. By analyzing the teachings of Jesus, seven main themes emerged. The authors are able to show that all of these themes are reflected in modern-day systemic therapies. The authors believe that these themes may be related to mental and physical health advantages that believers have over non-believers.</dc:description>
           <dc:subject>mental-health</dc:subject>
           <dc:subject>christian-philosophy</dc:subject>
@@ -25945,8 +26050,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/18.3/Roberts.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/18.3/Roberts.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/18.3/robertsandhayden.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/18.3/robertsandhayden.pdf</dc:relation>
           <dc:subject>comparative-religion</dc:subject>
           <dc:subject>comparative-methodology</dc:subject>
           <dc:subject>religious-studies</dc:subject>
@@ -26528,7 +26633,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Kenotic Theology, Buddhism, and Time.</dc:title>
-          <dc:creator>Brian ShŪDŌ Schroeder</dc:creator>
+          <dc:creator>Brian Shūdō Schroeder</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2020-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -26681,7 +26786,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Fetishism and the Erasure of Indigeneity.</dc:title>
-          <dc:creator>Roger K. Green</dc:creator>
+          <dc:creator>Roger K Green</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2020-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -27411,8 +27516,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/19.3/5-Leibovic.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/19.3/5-Leibovic.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/19.3/lebovic.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/19.3/lebovic.pdf</dc:relation>
           <dc:subject>theology</dc:subject>
           <dc:subject>hermeneutics</dc:subject>
           <dc:subject>philosophy-and-theology</dc:subject>
@@ -28101,8 +28206,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/20.3/Decoloniality.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/20.3/Decoloniality.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker.pdf</dc:relation>
           <dc:description>The following is a transcript of the keynote panel session of a three-day international webinar</dc:description>
           <dc:subject>1944</dc:subject>
           <dc:subject>fernando</dc:subject>
@@ -28688,8 +28793,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley5.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley5.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/bielik_robson.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/bielik_robson.pdf</dc:relation>
           <dc:subject>thanatopolitics</dc:subject>
           <dc:subject>marranism</dc:subject>
           <dc:subject>agata-bielik-robson</dc:subject>
@@ -28773,8 +28878,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley6.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley6.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/bradley.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/bradley.pdf</dc:relation>
           <dc:subject>deconstruction-criticism</dc:subject>
           <dc:subject>political-science-philosophy</dc:subject>
           <dc:subject>jacques</dc:subject>
@@ -28814,8 +28919,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley2.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley2.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/bradley_2.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/bradley_2.pdf</dc:relation>
           <dc:subject>political-theology</dc:subject>
           <dc:subject>arthur</dc:subject>
           <dc:subject>bradley</dc:subject>
@@ -28843,8 +28948,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley3.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley3.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/bradley_3.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/bradley_3.pdf</dc:relation>
           <dc:subject>gildea</dc:subject>
           <dc:subject>history-of-philosophy</dc:subject>
           <dc:subject>niall</dc:subject>
@@ -29243,8 +29348,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley3.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley3.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/gildea.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/gildea.pdf</dc:relation>
           <dc:subject>foucault</dc:subject>
           <dc:subject>sovereignty</dc:subject>
           <dc:subject>jacques</dc:subject>
@@ -29345,8 +29450,8 @@
           <dc:format>application/pdf</dc:format>
           <dc:language>en</dc:language>
           <dc:identifier>1530-5228</dc:identifier>
-          <dc:identifier>https://files.jcrt.org/archives/21.3/Bradley7.pdf</dc:identifier>
-          <dc:relation>https://files.jcrt.org/archives/21.3/Bradley7.pdf</dc:relation>
+          <dc:identifier>https://files.jcrt.org/archives/21.3/nedoh.pdf</dc:identifier>
+          <dc:relation>https://files.jcrt.org/archives/21.3/nedoh.pdf</dc:relation>
           <dc:subject>social-psychology</dc:subject>
           <dc:subject>political-theology</dc:subject>
           <dc:subject>1949</dc:subject>
@@ -29381,7 +29486,7 @@
           <dc:title>A Critical Conversation on “Political Erasure”</dc:title>
           <dc:creator>Arthur Bradley</dc:creator>
           <dc:creator>Carl A. Raschke</dc:creator>
-          <dc:creator>Roger Green</dc:creator>
+          <dc:creator>Roger K Green</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2022-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -31002,7 +31107,7 @@
                    xmlns:dc="http://purl.org/dc/elements/1.1/"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
-          <dc:title>The Sacred End: Exploring the Ethical Practice of SallekhanĀ in Jaina Tradition</dc:title>
+          <dc:title>The Sacred End: Exploring the Ethical Practice of Sallekhanā in Jaina Tradition</dc:title>
           <dc:creator>Nisha Daga</dc:creator>
           <dc:creator>George Kodimattam Joseph</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>

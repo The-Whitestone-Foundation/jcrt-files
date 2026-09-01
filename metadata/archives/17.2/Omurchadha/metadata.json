@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Felix Ó Murchadha"
+      "name": "Felix Ó Murchadha",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-7764-3552",
+          "url": "https://orcid.org/0000-0002-7764-3552"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-7764-3552"
+      ]
     }
   ],
   "publisher": {

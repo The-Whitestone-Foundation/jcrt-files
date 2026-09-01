@@ -13,7 +13,11 @@
   "author": [
     {
       "@type": "Person",
-      "name": "editors"
+      "name": "Philip Goodchild"
+    },
+    {
+      "@type": "Person",
+      "name": "Devin Singh"
     }
   ],
   "publisher": {

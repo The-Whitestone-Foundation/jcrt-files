@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Arthur Bradley"
+      "name": "Arthur Bradley",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0003-1017-1076",
+          "url": "https://orcid.org/0000-0003-1017-1076"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-1017-1076"
+      ]
     },
     {
       "@type": "Person",
@@ -23,7 +34,7 @@
     },
     {
       "@type": "Person",
-      "name": "Roger Green"
+      "name": "Roger K Green"
     }
   ],
   "publisher": {

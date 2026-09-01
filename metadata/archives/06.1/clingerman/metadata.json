@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Forrest Clingerman"
+      "name": "Forrest Clingerman",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-5668-8436",
+          "url": "https://orcid.org/0000-0002-5668-8436"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-5668-8436"
+      ]
     }
   ],
   "publisher": {

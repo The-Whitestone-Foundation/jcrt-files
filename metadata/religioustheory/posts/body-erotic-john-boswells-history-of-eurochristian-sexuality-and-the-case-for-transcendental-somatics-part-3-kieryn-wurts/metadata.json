@@ -13,7 +13,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "editors"
+      "name": "Kieryn E. Wurts"
     }
   ],
   "publisher": {
@@ -50,7 +50,7 @@
       "name": "Gender studies",
       "termCode": "homoit0000579",
       "url": "https://homosaurus.org/v5/homoit0000579",
-      "inDefinedTermSet": "https://homosaurus.org/v5",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
       "additionalProperty": {
         "@type": "PropertyValue",
         "name": "authority category",

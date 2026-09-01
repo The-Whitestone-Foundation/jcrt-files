@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Timothy (Timothy W) Stanley"
+      "name": "Timothy (Timothy W) Stanley",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0003-0553-8240",
+          "url": "https://orcid.org/0000-0003-0553-8240"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-0553-8240"
+      ]
     }
   ],
   "publisher": {

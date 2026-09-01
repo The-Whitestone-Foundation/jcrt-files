@@ -59,7 +59,7 @@ XMP_TEMPLATE = """\
       <dc:type>article</dc:type>
       <dc:language>en</dc:language>
       <dc:source>{journal_name}, ISSN {issn}</dc:source>
-      <dc:identifier>{issn}</dc:identifier>
+      <dc:identifier>{identifier}</dc:identifier>
       <dc:rights><rdf:Alt><rdf:li xml:lang="x-default">{copyright}</rdf:li></rdf:Alt></dc:rights>
       <dc:relation><rdf:Bag><rdf:li>{permalink}</rdf:li></rdf:Bag></dc:relation>
       <xmpRights:WebStatement>{copyright_url}</xmpRights:WebStatement>
@@ -68,6 +68,7 @@ XMP_TEMPLATE = """\
       <prism:publicationName>{journal_name}</prism:publicationName>
       <prism:issn>{issn}</prism:issn>
       <prism:url>{permalink}</prism:url>
+      {prism_doi}
       {prism_volume}
       {prism_number}
       {prism_start_page}
@@ -94,6 +95,7 @@ class ArticleMetadata:
     end_page: str
     publication_date: str
     permalink: str
+    doi: str
     article_type: str
     generated: bool
 
@@ -282,6 +284,7 @@ def collect_article_metadata(
         or clean_text(existing_meta.get("/PublicationDate"))
     )
     permalink = load_permalink(citations_dir, md_path.stem, archive_base_url)
+    doi = clean_text(frontmatter.get("doi"))
     layout = clean_text(frontmatter.get("layout")).casefold()
     article_type = "Review" if "review" in layout or title.casefold().startswith("review") else "Article"
 
@@ -299,6 +302,7 @@ def collect_article_metadata(
         end_page=end_page,
         publication_date=publication_date,
         permalink=permalink,
+        doi=doi,
         article_type=article_type,
         generated=frontmatter.get("pdf") is False,
     )
@@ -315,9 +319,11 @@ def build_xmp(meta: ArticleMetadata) -> bytes:
         keyword_items=keyword_items,
         journal_name=xml_text(JOURNAL_NAME),
         issn=xml_text(ISSN),
+        identifier=xml_text(meta.doi or meta.permalink),
         copyright=xml_text(COPYRIGHT_NOTICE),
         copyright_url=xml_text(COPYRIGHT_URL),
         permalink=xml_text(meta.permalink),
+        prism_doi=f"<prism:doi>{xml_text(meta.doi)}</prism:doi>" if meta.doi else "",
         prism_volume=f"<prism:volume>{xml_text(meta.volume)}</prism:volume>" if meta.volume else "",
         prism_number=f"<prism:number>{xml_text(meta.issue)}</prism:number>" if meta.issue else "",
         prism_start_page=f"<prism:startingPage>{xml_text(meta.start_page)}</prism:startingPage>" if meta.start_page else "",
@@ -352,6 +358,8 @@ def build_info_metadata(meta: ArticleMetadata) -> dict[str, str]:
         info["/EndPage"] = meta.end_page
     if meta.publication_date:
         info["/PublicationDate"] = meta.publication_date
+    if meta.doi:
+        info["/DOI"] = meta.doi
     return info
 
 
@@ -448,6 +456,7 @@ def write_pdf(source_pdf: Path, dest_pdf: Path, meta: ArticleMetadata, flyleaf=N
                 title=meta.title,
                 author=meta.authors or [meta.author_display or "JCRT Editors"],
                 stable_url=meta.permalink,
+                doi=meta.doi,
                 type=meta.article_type,
                 page_width=float(first_page.mediabox.width),
                 page_height=float(first_page.mediabox.height),

@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Todd A Gooch"
+      "name": "Todd A Gooch",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0001-2570-1618",
+          "url": "https://orcid.org/0009-0001-2570-1618"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0001-2570-1618"
+      ]
     }
   ],
   "publisher": {

@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Mikel Burley"
+      "name": "Mikel Burley",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-7446-3564",
+          "url": "https://orcid.org/0000-0002-7446-3564"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-7446-3564"
+      ]
     }
   ],
   "publisher": {

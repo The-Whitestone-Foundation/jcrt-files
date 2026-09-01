@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Niall Gildea"
+      "name": "Niall Gildea",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-6138-332X",
+          "url": "https://orcid.org/0000-0002-6138-332X"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-6138-332X"
+      ]
     }
   ],
   "publisher": {
@@ -41,7 +52,7 @@
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",
-    "contentUrl": "https://files.jcrt.org/archives/21.3/Bradley3.pdf"
+    "contentUrl": "https://files.jcrt.org/archives/21.3/gildea.pdf"
   },
   "about": [
     {

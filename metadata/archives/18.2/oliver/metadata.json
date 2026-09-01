@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Michael Oliver"
+      "name": "Michael Oliver",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-8800-7076",
+          "url": "https://orcid.org/0000-0002-8800-7076"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-8800-7076"
+      ]
     }
   ],
   "publisher": {

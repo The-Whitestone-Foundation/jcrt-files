@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Genn Ruan"
+      "name": "Genn Ruan",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-3928-9361",
+          "url": "https://orcid.org/0000-0002-3928-9361"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-3928-9361"
+      ]
     },
     {
       "@type": "Person",

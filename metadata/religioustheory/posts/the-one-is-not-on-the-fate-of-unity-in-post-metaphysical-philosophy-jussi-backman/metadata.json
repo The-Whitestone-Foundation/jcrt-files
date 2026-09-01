@@ -4,7 +4,7 @@
   "@id": "https://jcrt.org/religioustheory/posts/the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman/#article",
   "name": "The One Is Not – On the Fate Of Unity in Post-Metaphysical Philosophy (Jussi Backman)",
   "headline": "The One Is Not – On the Fate Of Unity in Post-Metaphysical Philosophy (Jussi Backman)",
-  "description": "A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans",
+  "description": "*A Turkish translation of a version of this essay has been published as “Bir, bir şey değildir: post-metafizik düşüncede birlik ve çokluğun akıbeti,” trans",
   "url": "https://jcrt.org/religioustheory/posts/the-one-is-not-on-the-fate-of-unity-in-post-metaphysical-philosophy-jussi-backman/",
   "inLanguage": "en",
   "datePublished": "2017-05-09",
@@ -13,7 +13,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "editors"
+      "name": "Jussi Backman",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-5243-6004",
+          "url": "https://orcid.org/0000-0002-5243-6004"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-5243-6004"
+      ]
     }
   ],
   "publisher": {

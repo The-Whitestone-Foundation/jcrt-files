@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Amaryah Armstrong"
+      "name": "Amaryah Armstrong",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-1097-9799",
+          "url": "https://orcid.org/0000-0002-1097-9799"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-1097-9799"
+      ]
     }
   ],
   "publisher": {

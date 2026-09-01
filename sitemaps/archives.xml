@@ -954,6 +954,9 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/08.1/mejido.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/08.1/miller.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -1322,6 +1325,12 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/10.2/duncan.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/10.2/evans.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/10.2/mcnellis.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -1630,6 +1639,9 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/12.2/crockett_2.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/12.2/dickinson-intro.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -1642,12 +1654,18 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/12.2/fong_2.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/12.2/goodchild.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/12.2/heo.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/12.2/heo_2.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/12.2/hurlin.pdf</loc>
@@ -1658,8 +1676,17 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/12.2/mackendrick_2.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/12.2/montel_hurlin.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/12.2/peters.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/12.2/peters_2.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/12.2/robert.pdf</loc>
@@ -1770,12 +1797,18 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/13.1/v_squez.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/13.1/vasquez.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/13.1/woessner.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/13.2/carsey.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/13.2/cisney.pdf</loc>
@@ -1836,6 +1869,9 @@
 	<url>
 		<loc>https://files.jcrt.org/archives/13.2/taylorandweiss.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/13.2/weiss_taylor.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/13.2/winters.pdf</loc>
@@ -1954,6 +1990,9 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/14.2/trakakis.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/14.2/trakikis.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -1976,6 +2015,9 @@
 	<url>
 		<loc>https://files.jcrt.org/archives/15.1/hagedorn.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/15.1/hagedorn_staudigl_alvis.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/15.1/intro.pdf</loc>
@@ -2078,8 +2120,26 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/16.1/clay_robinson.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.1/figueiredo.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.1/figueiredo_2.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/16.1/reviewbutler.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.1/stowe_sousanis.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.1/taylor_giroux.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.1/waggoner.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/16.2/Armstrong.pdf</loc>
@@ -2148,6 +2208,9 @@
 	<url>
 		<loc>https://files.jcrt.org/archives/16.3/Weaver.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/16.3/raschke.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/17.1/Beiner.pdf</loc>
@@ -2362,6 +2425,24 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/18.1/burke.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.1/komkov.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.1/l_land.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.1/ramos.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.1/sharma.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.1/spickard.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/18.2/Bios.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -2492,6 +2573,9 @@
 	<url>
 		<loc>https://files.jcrt.org/archives/18.3/bios.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/18.3/roberts_hayden.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/18.3/robertsandhayden.pdf</loc>
@@ -2650,6 +2734,9 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/19.3/lebovic.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/20.1/Ball.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
 	</url>
@@ -2728,6 +2815,9 @@
 	<url>
 		<loc>https://files.jcrt.org/archives/20.3/bios.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/20.3/walsh_mignolo_herrero_tinker.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/21.1/Bakker.pdf</loc>
@@ -2846,8 +2936,26 @@
 		<lastmod>2026-08-30</lastmod>
 	</url>
 	<url>
+		<loc>https://files.jcrt.org/archives/21.3/bielik_robson.pdf</loc>
+	</url>
+	<url>
 		<loc>https://files.jcrt.org/archives/21.3/bios.pdf</loc>
 		<lastmod>2026-08-30</lastmod>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/21.3/bradley.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/21.3/bradley_2.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/21.3/bradley_3.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/21.3/gildea.pdf</loc>
+	</url>
+	<url>
+		<loc>https://files.jcrt.org/archives/21.3/nedoh.pdf</loc>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/archives/22.1/Auer.pdf</loc>

@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "April O'Brien"
+      "name": "April O'Brien",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0001-9756-5478",
+          "url": "https://orcid.org/0000-0001-9756-5478"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0001-9756-5478"
+      ]
     }
   ],
   "publisher": {

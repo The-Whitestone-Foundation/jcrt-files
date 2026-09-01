@@ -30,7 +30,18 @@
     },
     {
       "@type": "Person",
-      "name": "Betty Hill (Lyons)"
+      "name": "Betty Hill (Lyons)",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0009-9244-7857",
+          "url": "https://orcid.org/0009-0009-9244-7857"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0009-9244-7857"
+      ]
     },
     {
       "@type": "Person",

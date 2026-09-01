@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Jakob Deibl"
+      "name": "Jakob Deibl",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-7820-0569",
+          "url": "https://orcid.org/0000-0002-7820-0569"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-7820-0569"
+      ]
     }
   ],
   "publisher": {

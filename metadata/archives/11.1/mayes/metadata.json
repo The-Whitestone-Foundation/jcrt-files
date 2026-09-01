@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Christopher Mayes"
+      "name": "Christopher Mayes",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0003-2674-6225",
+          "url": "https://orcid.org/0000-0003-2674-6225"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0003-2674-6225"
+      ]
     }
   ],
   "publisher": {

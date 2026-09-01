@@ -15,7 +15,18 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Ruud Welten"
+      "name": "Ruud Welten",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0000-0002-8069-1782",
+          "url": "https://orcid.org/0000-0002-8069-1782"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0000-0002-8069-1782"
+      ]
     }
   ],
   "publisher": {

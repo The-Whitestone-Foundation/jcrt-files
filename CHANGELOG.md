@@ -15,6 +15,14 @@ All notable changes to jcrt-files (files.jcrt.org). One version per commit; vers
 - Same rebuild: per-folder file-inventory sitemaps plus an XSLT stylesheet served at the canonical /sitemap.xml via a worker rewrite; a legacy citation alias shadowing real files (causing 404s) fixed; CDN folder deployment made auto-discovering instead of hardcoded.
 - Same rebuild: the worker refactored into explicit ponyfill helper modules (http-meta, keys) and a new imageTransform module added for on-the-fly image transforms (w/h/q/f, scale-down, via-guard); the PDF rights check restored as incremental; worker deploy hardened to trim and fall back across Cloudflare API tokens.
 
+## [00.01.39] — 2026-09-01
+fix: update Alencar derived identifier
+- Notes: fix: update Alencar derived identifier.
+
+## [00.01.38] — 2026-09-01
+chore: regenerate file sitemaps and changelog
+- Notes: chore: regenerate file sitemaps and changelog.
+
 ## [00.01.37] — 2026-09-01
 feat: publish DOI-bearing archive assets
 - Notes: feat: publish DOI-bearing archive assets.

@@ -198,7 +198,7 @@ function makeTheoryRIS(e) {
 		`LA  - ${LANGUAGE}`,
 		`M3  - ${RT_WEBSITE_TYPE}`,
 		`UR  - ${escRIS(e.url)}`,
-		`L2  - ${escRIS(e.url)}`,
+		`L2  - ${escRIS(e.pdfUrl || e.url)}`,
 		"ER  - ",
 	].join("\n") + "\n";
 }
@@ -343,6 +343,7 @@ function generateTheoryCitations() {
 			abstract: String(data.description || "").trim(),
 			doi: normalizeDoi(data.doi),
 			url: pageUrl,
+			pdfUrl: String(data.pdf || "").trim() ? `https://files.jcrt.org/religioustheory/${String(data.pdf).trim()}` : "",
 		};
 
 		const citId = `religioustheory-${fileSlug}`.replace(/[^a-zA-Z0-9_.-]/g, "-");

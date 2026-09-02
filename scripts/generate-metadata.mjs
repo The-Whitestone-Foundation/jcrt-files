@@ -194,6 +194,7 @@ function buildTheoryMetadata(entry, data) {
 	const nanoid = strOrEmpty(data.nanoid);
 	const image = data.image ? `https://jcrt.org${data.image}` : OG_IMAGE;
 	const about = aboutOf(data);
+	const pdf = pdfFilename(data.pdf);
 
 	return {
 		"@context": "https://schema.org",
@@ -212,6 +213,9 @@ function buildTheoryMetadata(entry, data) {
 		"mainEntityOfPage": { "@type": "WebPage", "@id": entry.pageUrl },
 		"isPartOf": BLOG,
 		...(nanoid ? { identifier: nanoid } : {}),
+		...(pdf
+			? { encoding: { "@type": "MediaObject", "encodingFormat": "application/pdf", "contentUrl": `https://files.jcrt.org/religioustheory/${pdf}` } }
+			: {}),
 		...(about ? { about } : {}),
 	};
 }

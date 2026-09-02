@@ -32,6 +32,11 @@
     "url": "https://jcrt.org/religioustheory/"
   },
   "identifier": "a5QXA5",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/religioustheory/9780593493205.pdf"
+  },
   "about": [
     {
       "@type": "DefinedTerm",

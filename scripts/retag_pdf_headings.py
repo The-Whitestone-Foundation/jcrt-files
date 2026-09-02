@@ -447,6 +447,7 @@ def determine_heading_targets(
     content_dir: Path,
     xml_lines_by_page: dict[int, list[XmlLine]],
     pdf_lines_by_page: dict[int, list[PdfLine]],
+    title_page: int = 0,
 ) -> tuple[list[HeadingTarget], set[tuple[int, int]], set[tuple[int, int]]]:
     frontmatter = parse_frontmatter(content_dir / f"{pdf_path.stem}.md")
     canonical_title = frontmatter.get("title", pdf_path.stem)
@@ -466,7 +467,10 @@ def determine_heading_targets(
     selected_heading_mcids: set[tuple[int, int]] = set()
     targets: list[HeadingTarget] = []
 
-    page0_lines = xml_lines_by_page.get(0, [])
+    # The article's title page, which is page 1 once a flyleaf is prepended. Reading
+    # page 0 unconditionally made the flyleaf's own "WHITESTONE PUBLICATIONS" imprint
+    # the detected H1, and it became the document's only root bookmark.
+    page0_lines = xml_lines_by_page.get(title_page, [])
     caps_page0 = [line for line in page0_lines if line.is_all_caps]
 
     title_block: list[XmlLine] = []
@@ -528,13 +532,18 @@ def determine_heading_targets(
                 level="H1",
                 title=bookmark_title,
                 page_index=page_index,
+                # A title block whose lines all failed to match a PDF line used to
+                # raise from min() on an empty sequence and abort the whole run.
                 top=min(
-                    matched_pdf_by_line_key[(line.page_index, line.normalized, line.top)].y
-                    for line in title_block
-                    if (line.page_index, line.normalized, line.top) in matched_pdf_by_line_key
+                    (matched_pdf_by_line_key[(line.page_index, line.normalized, line.top)].y
+                     for line in title_block
+                     if (line.page_index, line.normalized, line.top) in matched_pdf_by_line_key),
+                    default=0.0,
                 ),
                 xml_line=title_block[0],
-                pdf_line=matched_pdf_by_line_key[(title_block[0].page_index, title_block[0].normalized, title_block[0].top)],
+                pdf_line=matched_pdf_by_line_key.get(
+                    (title_block[0].page_index, title_block[0].normalized, title_block[0].top)
+                ),
                 primary_mcids=primary_mcids,
                 auxiliary_mcids=auxiliary_mcids,
             )
@@ -687,10 +696,12 @@ def retag_pdf(
     dry_run: bool = False,
 ) -> dict[str, int]:
     reader = PdfReader(str(pdf_path))
+    has_flyleaf = "Stable URL:" in (reader.pages[0].extract_text() or "")
+    title_page = 1 if has_flyleaf and len(reader.pages) > 1 else 0
     xml_lines_by_page = build_xml_lines(pdf_path, reader)
     pdf_lines_by_page = build_pdf_lines(reader)
     targets, selected_heading_mcids, ignored_heading_mcids = determine_heading_targets(
-        pdf_path, content_dir, xml_lines_by_page, pdf_lines_by_page
+        pdf_path, content_dir, xml_lines_by_page, pdf_lines_by_page, title_page
     )
 
     if dry_run:
@@ -755,13 +766,21 @@ def retag_pdf(
 
     with pdf.open_outline() as outline:
         outline.root.clear()
-        if title_targets:
-            root_target = title_targets[0]
+        if has_flyleaf:
+            # check_flyleafs.py requires the two root bookmarks to be Flyleaf and the
+            # article title, in that order; section headings hang off the title.
+            outline.root.append(OutlineItem("Flyleaf", destination=0, page_location="Fit"))
+        # The root bookmark is the document's own /Title, not the visually detected
+        # heading. Detection sweeps up whatever shares the title block -- an author
+        # line, an ORCID -- and check_flyleafs.py compares this label against /Title.
+        root_label = normalize_space(str((reader.metadata or {}).get("/Title", "")))
+        if root_label or title_targets:
+            root_target = title_targets[0] if title_targets else None
             root_item = OutlineItem(
-                root_target.title,
-                destination=root_target.page_index,
+                root_label or root_target.title,
+                destination=root_target.page_index if root_target else title_page,
                 page_location="FitH",
-                top=root_target.top + 12,
+                top=(root_target.top + 12) if root_target else None,
             )
             outline.root.append(root_item)
             current_h2_item = None

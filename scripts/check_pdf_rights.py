@@ -32,6 +32,16 @@ from pypdf import PdfReader
 
 NOTICE = "Copyright © held by the author(s). Published in the Journal for Cultural and Religious Theory."
 URL = "https://jcrt.org/copyright/"
+# Keep in sync with update_pdf_metadata.py. PDFs whose /PublicationDate is on/after
+# CC_BY_SINCE must carry the CC BY notice; earlier PDFs may carry either (a backfile
+# author who consented gets the CC notice via `license: cc-by`).
+CC_BY_SINCE = "2026-08-24"
+CC_NOTICE = (
+    "© the author(s). Published in the Journal for Cultural and Religious Theory "
+    "under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. "
+    "Authors retain copyright."
+)
+CC_URL = "https://creativecommons.org/licenses/by/4.0/"
 CONFLICT = re.compile(r"creative\s+commons|cc[- ]by|by-nc-nd|creativecommons\.org|fair-use provisions", re.I)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -87,11 +97,16 @@ def validate(path):
         return [f"{rel}: could not read PDF ({exc.__class__.__name__}: {exc})"]
 
     combined = "\n".join(str(value) for value in info.values()) + "\n" + xmp
-    if info.get("/Rights") != NOTICE or info.get("/CopyrightURL") != URL:
+    pub_date = str(info.get("/PublicationDate") or "")[:10]
+    is_cc = info.get("/Rights") == CC_NOTICE
+    if pub_date >= CC_BY_SINCE and not is_cc:
+        problems.append(f"{rel}: published {pub_date or '(no date)'} but missing CC BY notice")
+    notice, url = (CC_NOTICE, CC_URL) if is_cc else (NOTICE, URL)
+    if info.get("/Rights") != notice or info.get("/CopyrightURL") != url:
         problems.append(f"{rel}: incorrect PDF Info rights")
-    if NOTICE not in xmp or URL not in xmp:
+    if notice not in xmp or url not in xmp:
         problems.append(f"{rel}: incorrect XMP rights")
-    if CONFLICT.search(combined):
+    if not is_cc and CONFLICT.search(combined):
         problems.append(f"{rel}: conflicting rights assertion")
     return problems
 

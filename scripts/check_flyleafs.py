@@ -43,6 +43,7 @@ def check(path: Path) -> list[str]:
     if hasattr(mark_info, "get_object"):
         mark_info = mark_info.get_object()
     struct_root = root.get("/StructTreeRoot")
+    parent_tree_keys: set[int] = set()
     if not struct_root or not mark_info.get("/Marked"):
         errors.append("document is not tagged")
     else:
@@ -50,6 +51,7 @@ def check(path: Path) -> list[str]:
         parent_tree = struct_root.get("/ParentTree").get_object()
         numbers = parent_tree.get("/Nums") or []
         keys = [int(numbers[index]) for index in range(0, len(numbers), 2)]
+        parent_tree_keys = set(keys)
         if keys != sorted(keys) or len(keys) != len(set(keys)):
             errors.append("structure parent tree keys are not sorted and unique")
     for number, current_page in enumerate(reader.pages, 1):
@@ -71,7 +73,15 @@ def check(path: Path) -> list[str]:
             errors.append(f"page {number} annotation tab order is not structural")
         for annotation_ref in annotations:
             annotation = annotation_ref.get_object()
-            if annotation.get("/StructParent") is not None:
+            # An annotation must be reachable from the structure tree or Acrobat's
+            # "Tagged annotations" check fails it. This used to assert the opposite --
+            # that /StructParent was absent -- which kept the tree clean of dangling
+            # references at the cost of leaving every link untagged. Require the key,
+            # and require it to resolve.
+            struct_parent = annotation.get("/StructParent")
+            if struct_parent is None:
+                errors.append(f"page {number} has an untagged annotation")
+            elif int(struct_parent) not in parent_tree_keys:
                 errors.append(f"page {number} has a dangling annotation structure reference")
             if annotation.get("/Subtype") == "/Link" and not annotation.get("/Contents"):
                 errors.append(f"page {number} has an undescribed link")
@@ -82,7 +92,9 @@ def check(path: Path) -> list[str]:
     visible_author = ", ".join(part.strip() for part in author.split(";") if part.strip())
     if author and fold(visible_author) not in fold(text):
         errors.append("visible author does not match metadata")
-    if "Copyright © held by the author(s). All rights reserved." not in text:
+    # ponytail: accepts either notice until the jcrt-meta flyleaf template emits the CC BY
+    # line; then require the CC line for PDFs dated >= 2026-08-24 (see check_pdf_rights.py).
+    if not any(n in text for n in ("Copyright © held by the author(s). All rights reserved.", "Creative Commons Attribution 4.0")):
         errors.append("copyright notice missing")
 
     data = page.get_contents().get_data().decode("latin-1")

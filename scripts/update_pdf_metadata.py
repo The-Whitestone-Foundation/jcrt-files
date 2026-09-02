@@ -37,6 +37,16 @@ COPYRIGHT_NOTICE = (
     "and Religious Theory."
 )
 COPYRIGHT_URL = "https://jcrt.org/copyright/"
+# Articles dated on/after CC_BY_SINCE (or with `license: cc-by` in front matter) carry the
+# open license; must match `license.since` in jcrt-v2/_data/metadata.yaml and
+# check_pdf_rights.py. `license: none` in front matter opts a file out.
+CC_BY_SINCE = "2026-08-24"
+CC_BY_NOTICE = (
+    "\u00a9 the author(s). Published in the Journal for Cultural and Religious Theory "
+    "under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. "
+    "Authors retain copyright."
+)
+CC_BY_URL = "https://creativecommons.org/licenses/by/4.0/"
 JOURNAL_NAME = "The Journal for Cultural and Religious Theory"
 PUBLISHER = "Whitestone Publications"
 ISSN = "1530-5228"
@@ -50,6 +60,7 @@ XMP_TEMPLATE = """\
     <rdf:Description rdf:about=""
         xmlns:dc="http://purl.org/dc/elements/1.1/"
         xmlns:xmpRights="http://ns.adobe.com/xap/1.0/rights/"
+        xmlns:cc="http://creativecommons.org/ns#"
         xmlns:pdfuaid="http://www.aiim.org/pdfua/ns/id/"
         xmlns:prism="http://prismstandard.org/namespaces/basic/2.0/">
       <dc:title><rdf:Alt><rdf:li xml:lang="x-default">{title}</rdf:li></rdf:Alt></dc:title>
@@ -65,6 +76,7 @@ XMP_TEMPLATE = """\
       <dc:relation><rdf:Bag><rdf:li>{permalink}</rdf:li></rdf:Bag></dc:relation>
       <xmpRights:WebStatement>{copyright_url}</xmpRights:WebStatement>
       <xmpRights:Marked>True</xmpRights:Marked>
+      {license_xmp}
       <pdfuaid:part>1</pdfuaid:part>
       <prism:publicationName>{journal_name}</prism:publicationName>
       <prism:issn>{issn}</prism:issn>
@@ -99,6 +111,11 @@ class ArticleMetadata:
     doi: str
     article_type: str
     generated: bool
+    cc_by: bool = False
+
+    @property
+    def rights(self) -> tuple[str, str]:
+        return (CC_BY_NOTICE, CC_BY_URL) if self.cc_by else (COPYRIGHT_NOTICE, COPYRIGHT_URL)
 
 
 def clean_text(value: Any) -> str:
@@ -288,6 +305,8 @@ def collect_article_metadata(
     doi = clean_text(frontmatter.get("doi"))
     layout = clean_text(frontmatter.get("layout")).casefold()
     article_type = "Review" if "review" in layout or title.casefold().startswith("review") else "Article"
+    license_flag = clean_text(frontmatter.get("license")).casefold()
+    cc_by = license_flag == "cc-by" or (license_flag != "none" and bool(publication_date) and publication_date[:10] >= CC_BY_SINCE)
 
     return ArticleMetadata(
         slug=slug,
@@ -306,11 +325,18 @@ def collect_article_metadata(
         doi=doi,
         article_type=article_type,
         generated=frontmatter.get("pdf") is False,
+        cc_by=cc_by,
     )
 
 
 def build_xmp(meta: ArticleMetadata) -> bytes:
     author_seq = "".join(f"<rdf:li>{xml_text(author)}</rdf:li>" for author in meta.authors)
+    notice, notice_url = meta.rights
+    license_xmp = (
+        f'<xmpRights:UsageTerms><rdf:Alt><rdf:li xml:lang="x-default">{xml_text(notice)}</rdf:li></rdf:Alt></xmpRights:UsageTerms>'
+        f'<cc:license rdf:resource="{xml_text(notice_url)}"/>'
+        if meta.cc_by else ""
+    )
     keyword_items = "".join(f"<rdf:li>{xml_text(keyword)}</rdf:li>" for keyword in meta.keywords)
     xml = XMP_TEMPLATE.format(
         title=xml_text(meta.title),
@@ -321,8 +347,9 @@ def build_xmp(meta: ArticleMetadata) -> bytes:
         journal_name=xml_text(JOURNAL_NAME),
         issn=xml_text(ISSN),
         identifier=xml_text(meta.doi or meta.permalink),
-        copyright=xml_text(COPYRIGHT_NOTICE),
-        copyright_url=xml_text(COPYRIGHT_URL),
+        copyright=xml_text(notice),
+        copyright_url=xml_text(notice_url),
+        license_xmp=license_xmp,
         permalink=xml_text(meta.permalink),
         prism_doi=f"<prism:doi>{xml_text(meta.doi)}</prism:doi>" if meta.doi else "",
         prism_volume=f"<prism:volume>{xml_text(meta.volume)}</prism:volume>" if meta.volume else "",
@@ -344,8 +371,8 @@ def build_info_metadata(meta: ArticleMetadata) -> dict[str, str]:
         "/Publisher": PUBLISHER,
         "/JournalTitle": JOURNAL_NAME,
         "/ISSN": ISSN,
-        "/Rights": COPYRIGHT_NOTICE,
-        "/CopyrightURL": COPYRIGHT_URL,
+        "/Rights": meta.rights[0],
+        "/CopyrightURL": meta.rights[1],
         "/Permalink": meta.permalink,
         "/URL": meta.permalink,
     }

@@ -30,6 +30,16 @@ const PERIODICAL = { "@type": "Periodical", "name": "The Journal for Cultural an
 const BLOG = { "@type": "Blog", "@id": "https://jcrt.org/religioustheory/", "name": "Religious Theory", "url": "https://jcrt.org/religioustheory/" };
 const RIGHTS = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory.";
 const RIGHTS_URL = "https://jcrt.org/copyright/";
+// Mirror of jcrt-v2/_config/license.js: CC BY from this date, or front matter `license: cc-by`.
+const CC_BY_SINCE = "2026-08-24";
+const CC_RIGHTS = "© the author(s). Published in the Journal for Cultural and Religious Theory under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. Authors retain copyright.";
+const CC_URL = "https://creativecommons.org/licenses/by/4.0/";
+const isCcBy = (data, dateStr) => {
+	const flag = String(data?.license || "").toLowerCase();
+	if (flag === "cc-by") return true;
+	if (flag === "none") return false;
+	return Boolean(dateStr) && String(dateStr).slice(0, 10) >= CC_BY_SINCE;
+};
 
 const CLI_ARGS = process.argv.slice(2);
 const FLAG_ARGS = new Set(CLI_ARGS.filter((arg) => arg.startsWith("--")));
@@ -158,8 +168,8 @@ function buildArchiveMetadata(entry, data) {
 		"inLanguage": "en",
 		"datePublished": dateStr,
 		"dateModified": dateStr,
-		"copyrightNotice": RIGHTS,
-		"license": RIGHTS_URL,
+		"copyrightNotice": isCcBy(data, dateStr) ? CC_RIGHTS : RIGHTS,
+		"license": isCcBy(data, dateStr) ? CC_URL : RIGHTS_URL,
 		"image": OG_IMAGE,
 		"author": authorsOf(data),
 		"publisher": PUBLISHER,

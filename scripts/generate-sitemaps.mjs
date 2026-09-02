@@ -41,6 +41,16 @@ const JOURNAL_TITLE_OAI = "Journal for Cultural &amp; Religious Theory";
 const DOAJ_SKIP_SLUGS = new Set(["index", "author-bios", "table-of-contents", "abstracts"]);
 const RIGHTS_TEXT =
 	"Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/";
+// Mirror of jcrt-v2/_config/license.js: CC BY from this date, or front matter `license: cc-by`.
+const CC_BY_SINCE = "2026-08-24";
+const CC_RIGHTS_TEXT =
+	"© the author(s). Published in the Journal for Cultural and Religious Theory under a Creative Commons Attribution 4.0 International (CC BY 4.0) license (https://creativecommons.org/licenses/by/4.0/). Authors retain copyright.";
+const isCcBy = (data, dateStr) => {
+	const flag = String(data?.license || "").toLowerCase();
+	if (flag === "cc-by") return true;
+	if (flag === "none") return false;
+	return Boolean(dateStr) && String(dateStr).slice(0, 10) >= CC_BY_SINCE;
+};
 
 // ── Helpers ────────────────────────────────────────────────────────
 function parseFrontMatter(content) {
@@ -227,6 +237,7 @@ function readArchiveEntries() {
 			canonicalFormat,
 			sitemapIgnore,
 			published,
+			ccBy: isCcBy(data, dateStr),
 		});
 	}
 
@@ -351,7 +362,7 @@ function generateOAI(entries) {
 		for (const subject of [...new Set([...e.keywords, ...e.subjects])]) {
 			lines.push(`          <dc:subject>${escXml(subject)}</dc:subject>`);
 		}
-		lines.push(`          <dc:rights>${escXml(RIGHTS_TEXT)}</dc:rights>`);
+		lines.push(`          <dc:rights>${escXml(e.ccBy ? CC_RIGHTS_TEXT : RIGHTS_TEXT)}</dc:rights>`);
 		const citation = e.volume ? `, Vol. ${e.volume}${e.issueNum ? ", No. " + e.issueNum : ""}${e.sp ? ", pp. " + e.sp + (e.ep ? "-" + e.ep : "") : ""}` : "";
 		lines.push(`          <dc:source>${JOURNAL_TITLE_OAI}, ISSN ${ISSN_DASH}${escXml(citation)}</dc:source>`);
 

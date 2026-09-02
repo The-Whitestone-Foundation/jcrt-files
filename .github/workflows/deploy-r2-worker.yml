@@ -18,6 +18,10 @@ on:
         description: "Force a Worker deploy even when src/wrangler.toml did not change."
         required: false
         default: "false"
+      archive_all:
+        description: "Ask the Internet Archive to capture every archive PDF (one-time backfill)."
+        required: false
+        default: "false"
   push:
     branches: [main, master]
     # Deliberately an ignore-list, not an allow-list: this is a CDN, so any new folder
@@ -167,6 +171,34 @@ jobs:
             # Normal deploys: additive checksum copy of the tracked file list. Never deletes.
             rclone copy . "r2:${R2_BUCKET}" --files-from-raw /tmp/asset-files.txt "${RCLONE_FLAGS[@]}"
           fi
+
+      # Long-term preservation (DOAJ best practice, stated on jcrt.org/archiving/): ask the
+      # Wayback Machine to capture every archive PDF added or changed in this push. Best
+      # effort — a failed save never fails the deploy. Full backfill: dispatch with
+      # archive_all=true once (~830 requests; keep the sleep so SPN2 doesn't rate-limit).
+      - name: Save new PDFs to the Internet Archive
+        if: github.event_name == 'push' || github.event.inputs.archive_all == 'true'
+        continue-on-error: true
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          ARCHIVE_ALL: ${{ github.event.inputs.archive_all }}
+        run: |
+          set -uo pipefail
+          if [[ "${ARCHIVE_ALL:-false}" == "true" ]]; then
+            git ls-files 'archives/*/*.pdf' > /tmp/ia-files.txt
+          elif git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
+            git diff --name-only --diff-filter=AMRC "${BEFORE_SHA}" HEAD -- 'archives/*/*.pdf' > /tmp/ia-files.txt
+          else
+            : > /tmp/ia-files.txt
+          fi
+          echo "$(wc -l < /tmp/ia-files.txt) PDF(s) to archive"
+          while read -r f; do
+            [[ -n "$f" ]] || continue
+            url="https://files.jcrt.org/${f}"
+            code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 60 "https://web.archive.org/save/${url}")
+            echo "${code} ${url}"
+            sleep 5
+          done < /tmp/ia-files.txt
 
       - name: Decide whether to deploy the Worker
         id: worker

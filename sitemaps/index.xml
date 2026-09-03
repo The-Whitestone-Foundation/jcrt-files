@@ -11,7 +11,7 @@
 	</sitemap>
 	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/citations.xml</loc>
-		<lastmod>2026-09-02</lastmod>
+		<lastmod>2026-09-03</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/docs.xml</loc>
@@ -19,7 +19,7 @@
 	</sitemap>
 	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/images.xml</loc>
-		<lastmod>2026-09-02</lastmod>
+		<lastmod>2026-09-03</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/metadata.xml</loc>
@@ -27,6 +27,6 @@
 	</sitemap>
 	<sitemap>
 		<loc>https://files.jcrt.org/sitemaps/religioustheory.xml</loc>
-		<lastmod>2026-08-29</lastmod>
+		<lastmod>2026-09-03</lastmod>
 	</sitemap>
 </sitemapindex>

@@ -20,6 +20,7 @@ const TRACKED_KEYS = new Set([
   "archives/10.2/scan1.jpg",
 ]);
 
+const listCalls = [];
 const env = {
   JCRT_FILES: {
     async get(key) {
@@ -33,10 +34,13 @@ const env = {
         },
       };
     },
-    async list({ prefix = "" } = {}) {
+    async list({ prefix = "", delimiter } = {}) {
+      listCalls.push({ prefix, delimiter });
+      if (delimiter !== "/") throw new Error("R2 fallback list must be directory-bounded");
       return {
         objects: [...TRACKED_KEYS]
           .filter((key) => key.startsWith(prefix))
+          .filter((key) => !key.slice(prefix.length).includes(delimiter))
           .map((key) => ({ key })),
         truncated: false,
       };
@@ -66,6 +70,7 @@ const cases = [
     name: "real keller.ris is not shadowed by the legacy alias",
     path: "/citations/archives/08.3/keller.ris",
     status: 200,
+    listCalls: 0,
   },
   {
     name: "root sitemap.xml serves the sitemap index",
@@ -90,6 +95,7 @@ const cases = [
     path: "/citations/archives/19.2/McAvan.csl.json",
     status: 301,
     location: "https://files.jcrt.org/citations/archives/19.2/mcavan.csl.json",
+    listCalls: 1,
   },
   {
     name: "legacy Prewitt-Davis citation",
@@ -143,6 +149,7 @@ const cases = [
     path: "/archives/03.1/Anderson.pdf",
     status: 301,
     location: "https://files.jcrt.org/archives/03.1/anderson.pdf",
+    listCalls: 1,
   },
   {
     name: "PDF canonical link header",
@@ -174,6 +181,20 @@ const cases = [
     name: "true missing file",
     path: "/citations/archives/99.9/not-real.ris",
     status: 404,
+    listCalls: 1,
+  },
+  {
+    name: "root-level miss does not scan the bucket",
+    path: "/favicon.ico",
+    status: 404,
+    listCalls: 1,
+  },
+  {
+    name: "indexing bot gets only the synchronous allow marker",
+    path: "/archives/03.1/anderson.pdf",
+    requestHeaders: { "User-Agent": "Googlebot" },
+    status: 200,
+    botAllowed: true,
   },
   {
     name: "bare files host",
@@ -269,6 +290,7 @@ const failures = [];
 
 for (const testCase of cases) {
   subrequests.length = 0;
+  listCalls.length = 0;
   subrequestMode = testCase.subrequestMode ?? "ok";
 
   const request = new Request(`https://files.jcrt.org${testCase.path}`, {
@@ -314,6 +336,19 @@ for (const testCase of cases) {
     const actual = response.headers.get("access-control-allow-origin");
     if (actual !== testCase.cors) {
       failures.push(`${testCase.name}: expected CORS ${testCase.cors}, got ${actual || "<none>"}`);
+    }
+  }
+
+  if (testCase.listCalls !== undefined && listCalls.length !== testCase.listCalls) {
+    failures.push(`${testCase.name}: expected ${testCase.listCalls} R2 list call(s), got ${listCalls.length}`);
+  }
+
+  if (testCase.botAllowed) {
+    if (response.headers.get("x-bot-allowed") !== "true") {
+      failures.push(`${testCase.name}: expected x-bot-allowed: true`);
+    }
+    for (const removed of ["x-bot-name", "x-bot-verified"]) {
+      if (response.headers.has(removed)) failures.push(`${testCase.name}: unexpected ${removed} header`);
     }
   }
 

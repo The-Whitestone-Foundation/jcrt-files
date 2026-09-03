@@ -65,7 +65,7 @@ export async function findCaseInsensitiveKey(bucket, key) {
   const matches = [];
 
   do {
-    const listed = await bucket.list({ prefix, cursor });
+    const listed = await bucket.list({ prefix, cursor, delimiter: '/' });
     for (const object of listed.objects || []) {
       const candidate = object.key.slice(prefix.length);
       if (candidate.includes('/')) continue;

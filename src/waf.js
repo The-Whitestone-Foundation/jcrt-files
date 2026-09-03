@@ -23,7 +23,7 @@ export function isTrustedOrigin(origin) {
 }
 
 // ─── Known indexing bots ──────────────────────────────────────────────────────
-// Keep in sync with botVerifier.js.
+// Keep in sync with jcrt-v2/cloudflare/waf.js.
 
 export const INDEXING_BOT_RE =
   /googlebot|google-extended|adsbot-google|googleother|claudebot|claude-searchbot|anthropic-ai|chatgpt-user|oai-searchbot|gptbot|bingbot|msnbot|applebot|baiduspider|duckassistbot|duckduckbot|bytespider|perplexitybot|ccbot/i;

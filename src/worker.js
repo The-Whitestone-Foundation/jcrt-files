@@ -1,4 +1,3 @@
-import { verifyBot } from './botVerifier.js';
 import { wafInspect, blockResponse, INDEXING_BOT_RE } from './waf.js';
 import {
   FILES_BASE_URL, contentTypeFor, cacheControlFor,
@@ -23,17 +22,13 @@ export default {
     }
 
     const ua = request.headers.get('User-Agent') ?? '';
+    const isIndexingBot = INDEXING_BOT_RE.test(ua);
 
     // Known indexing bots bypass WAF entirely so crawlers are never blocked.
-    // IP verification still runs below via verifyBot() for trust-level headers.
-    if (!INDEXING_BOT_RE.test(ua)) {
+    if (!isIndexingBot) {
       const waf = wafInspect(request);
       if (waf.blocked) return blockResponse(waf.status, waf.reason);
     }
-
-    // Identify and verify known indexing bots; results are attached to the
-    // response as x-bot-* headers so Cloudflare Analytics / WAF can see them.
-    const botResult = await verifyBot(request);
 
     const url = new URL(request.url);
     let key = normalizeKey(url.pathname);
@@ -135,11 +130,7 @@ export default {
     applyCors(headers, request);
     headers.set('accept-ranges', 'bytes');
 
-    if (botResult.allowed) {
-      headers.set('x-bot-allowed',   'true');
-      headers.set('x-bot-name',       botResult.botName);
-      headers.set('x-bot-verified',   botResult.verified ? 'true' : 'false');
-    }
+    if (isIndexingBot) headers.set('x-bot-allowed', 'true');
 
     const hasBody = 'body' in object && object.body !== undefined;
     const isPartial = hasBody && request.headers.has('range') && applyRangeHeaders(object, headers);

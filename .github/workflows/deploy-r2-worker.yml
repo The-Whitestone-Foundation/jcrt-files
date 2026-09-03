@@ -19,7 +19,7 @@ on:
         required: false
         default: "false"
       archive_all:
-        description: "Ask the Internet Archive to capture every archive PDF (one-time backfill)."
+        description: "Ask the Internet Archive to capture PDFs published in the last 30 days."
         required: false
         default: "false"
   push:
@@ -174,8 +174,8 @@ jobs:
 
       # Long-term preservation (DOAJ best practice, stated on jcrt.org/archiving/): ask the
       # Wayback Machine to capture every archive PDF added or changed in this push. Best
-      # effort — a failed save never fails the deploy. Full backfill: dispatch with
-      # archive_all=true once (~830 requests; keep the sleep so SPN2 doesn't rate-limit).
+      # effort — a failed save never fails the deploy. Manual backfills are limited to
+      # PDFs touched in the last 30 days; keep the sleep so SPN2 doesn't rate-limit.
       - name: Save new PDFs to the Internet Archive
         if: github.event_name == 'push' || github.event.inputs.archive_all == 'true'
         continue-on-error: true
@@ -184,13 +184,20 @@ jobs:
           ARCHIVE_ALL: ${{ github.event.inputs.archive_all }}
         run: |
           set -uo pipefail
+          cutoff="$(date -u -d '30 days ago' +%F)"
+          find metadata/archives -name metadata.json -exec jq -r --arg cutoff "$cutoff" \
+            'select(.datePublished >= $cutoff) | .encoding.contentUrl // empty' {} + \
+            | sed 's#^https://files.jcrt.org/##' | sort -u > /tmp/ia-recent.txt
+
           if [[ "${ARCHIVE_ALL:-false}" == "true" ]]; then
-            git ls-files 'archives/*/*.pdf' > /tmp/ia-files.txt
+            git ls-files 'archives/*/*.pdf' > /tmp/ia-candidates.txt
           elif git cat-file -e "${BEFORE_SHA}^{commit}" 2>/dev/null; then
-            git diff --name-only --diff-filter=AMRC "${BEFORE_SHA}" HEAD -- 'archives/*/*.pdf' > /tmp/ia-files.txt
+            git diff --name-only --diff-filter=AMRC "${BEFORE_SHA}" HEAD -- 'archives/*/*.pdf' > /tmp/ia-candidates.txt
           else
-            : > /tmp/ia-files.txt
+            : > /tmp/ia-candidates.txt
           fi
+          sort -u /tmp/ia-candidates.txt -o /tmp/ia-candidates.txt
+          comm -12 /tmp/ia-candidates.txt /tmp/ia-recent.txt > /tmp/ia-files.txt
           echo "$(wc -l < /tmp/ia-files.txt) PDF(s) to archive"
           while read -r f; do
             [[ -n "$f" ]] || continue

@@ -15,6 +15,18 @@ All notable changes to jcrt-files (files.jcrt.org). One version per commit; vers
 - Same rebuild: per-folder file-inventory sitemaps plus an XSLT stylesheet served at the canonical /sitemap.xml via a worker rewrite; a legacy citation alias shadowing real files (causing 404s) fixed; CDN folder deployment made auto-discovering instead of hardcoded.
 - Same rebuild: the worker refactored into explicit ponyfill helper modules (http-meta, keys) and a new imageTransform module added for on-the-fly image transforms (w/h/q/f, scale-down, via-guard); the PDF rights check restored as incremental; worker deploy hardened to trim and fall back across Cloudflare API tokens.
 
+## [00.01.61] — 2026-09-09
+Merge branch 'main' of https://github.com/The-Whitestone-Foundation/jcrt-files
+- Notes: Merge branch 'main' of https://github.com/The-Whitestone-Foundation/jcrt-files.
+
+## [00.01.60] — 2026-09-09
+Create 9781350602502.webp
+- Notes: Create 9781350602502.webp.
+
+## [00.01.59] — 2026-09-09
+chore: regenerate citation and metadata files
+- Notes: chore: regenerate citation and metadata files.
+
 ## [00.01.58] — 2026-09-09
 chore: regenerate file sitemaps and changelog
 - Notes: chore: regenerate file sitemaps and changelog.

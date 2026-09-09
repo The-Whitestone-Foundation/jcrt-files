@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "William W Young"
+      "name": "William W. Young"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "vJHshV",
   "volumeNumber": "1",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-10",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

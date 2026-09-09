@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Steven G Smith"
+      "name": "Steven G. Smith"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "hFghCo",
   "volumeNumber": "1",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-7",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

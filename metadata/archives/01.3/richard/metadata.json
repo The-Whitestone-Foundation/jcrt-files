@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Alan J Richard"
+      "name": "Alan J. Richard"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "s6LQr3",
   "volumeNumber": "1",
   "issueNumber": "3",
-  "pagination": "",
+  "pagination": "2-19",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Frederick J Ruf"
+      "name": "Frederick J. Ruf"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "DNCMs3",
   "volumeNumber": "1",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-13",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

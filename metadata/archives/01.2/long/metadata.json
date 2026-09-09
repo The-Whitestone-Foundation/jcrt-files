@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Charles H Long"
+      "name": "Charles H. Long"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "fqpD6r",
   "volumeNumber": "1",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-12",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

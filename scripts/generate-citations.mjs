@@ -21,6 +21,28 @@ const PUBLISHER = "Whitestone Foundation";
 const ISSN = "1530-5228";
 const LANGUAGE = "en";
 const RIGHTS = "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/";
+// Mirror of jcrt-v2/_config/license.js and its _data/metadata.yaml `license`
+// block, the same way generate-metadata.mjs mirrors them. From 25.2 (2026-08-24)
+// onward the author retains copyright and the issue is published CC BY 4.0, so
+// the citation formats must say so rather than the older all-rights text.
+// Front matter `license: cc-by` forces it on for a backfile article whose author
+// consented; `license: none` forces it off.
+const RIGHTS_URL = "https://jcrt.org/copyright/";
+const CC_BY_SINCE = "2026-08-24";
+const CC_LICENSE_NAME = "Creative Commons Attribution 4.0 International";
+const CC_LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/";
+
+function isCcBy(data, dateStr) {
+	const flag = String(data?.license || "").toLowerCase();
+	if (flag === "cc-by") return true;
+	if (flag === "none") return false;
+	return Boolean(dateStr) && String(dateStr).slice(0, 10) >= CC_BY_SINCE;
+}
+
+function rightsFor(ccBy, year) {
+	if (!ccBy) return RIGHTS;
+	return `© ${year ? `${year} ` : ""}the author(s). Published in the Journal for Cultural and Religious Theory under a ${CC_LICENSE_NAME} license (${CC_LICENSE_URL}). Authors retain copyright.`;
+}
 const RT_TITLE = "Religious theory by JCRT";
 // Religious Theory posts are blog posts, not journal articles. The container
 // name and website type below match the values jcrt.org emits in its
@@ -177,7 +199,7 @@ function makeArchiveRIS(e) {
 		`C6  - ${escRIS(e.season)}`, `SP  - ${escRIS(e.sp)}`, `EP  - ${escRIS(e.ep)}`,
 		`J2  - ${JOURNAL_ABBR}`, `PB  - ${PUBLISHER}`, `SN  - ${ISSN}`,
 		...(e.doi ? [`DO  - ${escRIS(e.doi)}`] : []),
-		`UR  - ${escRIS(e.url)}`, `N1  - ${RIGHTS}`, "ER  -",
+		`UR  - ${escRIS(e.url)}`, `N1  - ${escRIS(e.rights)}`, "ER  -",
 	].join("\n") + "\n";
 }
 
@@ -186,7 +208,7 @@ function makeArchiveCSL(e, id) {
 		id, type: "article-journal", title: e.title || id,
 		"container-title": JOURNAL_TITLE, "short-container-title": JOURNAL_ABBR,
 		publisher: PUBLISHER, ISSN, URL: e.url,
-		note: RIGHTS,
+		note: e.rights,
 	};
 	const al = e.authors.map(parseAuthorName).filter(Boolean);
 	if (al.length) obj.author = al;
@@ -364,7 +386,7 @@ function makeArchiveBib(e, id) {
 		// reader. biblatex's data model does not define it, so `biber
 		// --validate-datamodel` warns and ignores it -- accepted deliberately,
 		// because unlike `publisher` this field has a consumer that uses it.
-		["copyright", escBib(RIGHTS)],
+		["copyright", escBib(e.rights)],
 	]);
 }
 
@@ -457,12 +479,17 @@ function generateArchiveCitations() {
 			? (/^https?:\/\//i.test(pdfName) ? pdfName : `https://files.jcrt.org/archives/${issueSlug}/${pdfName}`)
 			: "";
 
+		const dateIso = dateParts.map((part, index) => index ? pad2(part) : String(part)).join("-");
+		const ccBy = isCcBy(data, dateIso);
+
 		const entry = {
 			title: String(data.title || fileSlug).trim(),
 			authors: splitAuthors(data.author),
 			year, volume, issue, season, sp, ep, url, dateParts, pdfUrl, hasRealDate,
-			dateIso: dateParts.map((part, index) => index ? pad2(part) : String(part)).join("-"),
+			dateIso,
 			doi: normalizeDoi(data.doi),
+			rights: rightsFor(ccBy, year),
+			licenseUrl: ccBy ? CC_LICENSE_URL : RIGHTS_URL,
 		};
 		const legacyDate = resolveLegacyDate(entry, legacyLookup);
 		entry.season = entry.season || "unknown";

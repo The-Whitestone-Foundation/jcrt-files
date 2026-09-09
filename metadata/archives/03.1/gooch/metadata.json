@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Todd A Gooch",
+      "name": "Todd A. Gooch",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -48,7 +48,7 @@
   "identifier": "IZUwOE",
   "volumeNumber": "3",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-24",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

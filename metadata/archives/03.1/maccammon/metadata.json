@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Linda M MacCammon"
+      "name": "Linda M. MacCammon"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "xFua_n",
   "volumeNumber": "3",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-6",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Jeffrey F Keuss"
+      "name": "Jeffrey F. Keuss"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "l0kLpJ",
   "volumeNumber": "3",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-13",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

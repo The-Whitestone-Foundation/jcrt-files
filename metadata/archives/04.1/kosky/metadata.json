@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Jeffrey L Kosky"
+      "name": "Jeffrey L. Kosky"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "cUJzHt",
   "volumeNumber": "4",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-18",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

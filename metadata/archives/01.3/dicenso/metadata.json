@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "James J DiCenso"
+      "name": "James J. DiCenso"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "OnGARJ",
   "volumeNumber": "1",
   "issueNumber": "3",
-  "pagination": "",
+  "pagination": "2-15",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

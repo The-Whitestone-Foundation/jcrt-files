@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Stephen G Nichols"
+      "name": "Stephen G. Nichols"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "DdfSFU",
   "volumeNumber": "4",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-10",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

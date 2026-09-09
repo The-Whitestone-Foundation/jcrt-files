@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Philip P Arnold",
+      "name": "Philip P. Arnold",
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -48,7 +48,7 @@
   "identifier": "6zQb2r",
   "volumeNumber": "2",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-6",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

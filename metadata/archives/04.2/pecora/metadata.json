@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Vincent P Pecora"
+      "name": "Vincent P. Pecora"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "wf7xHC",
   "volumeNumber": "4",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-16",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

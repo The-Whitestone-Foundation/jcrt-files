@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Michael J Zerbe"
+      "name": "Michael J. Zerbe"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "itzSh-",
   "volumeNumber": "3",
   "issueNumber": "3",
-  "pagination": "",
+  "pagination": "2-4",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

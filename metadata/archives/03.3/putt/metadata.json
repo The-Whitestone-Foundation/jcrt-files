@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "B Keith Putt"
+      "name": "B. Keith Putt"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "ehFOUK",
   "volumeNumber": "3",
   "issueNumber": "3",
-  "pagination": "",
+  "pagination": "2-14",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

@@ -15,11 +15,11 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Christopher M Taylor"
+      "name": "Christopher M. Taylor"
     },
     {
       "@type": "Person",
-      "name": "Christopher M Taylor"
+      "name": "Christopher M. Taylor"
     }
   ],
   "publisher": {
@@ -41,7 +41,7 @@
   "identifier": "4V6x0f",
   "volumeNumber": "2",
   "issueNumber": "1",
-  "pagination": "",
+  "pagination": "2-3",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

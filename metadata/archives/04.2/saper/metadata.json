@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Craig J Saper"
+      "name": "Craig J. Saper"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "h7lrvN",
   "volumeNumber": "4",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-12",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

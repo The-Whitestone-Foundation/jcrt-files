@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "Martin H Katchen"
+      "name": "Martin H. Katchen"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "mGQQdZ",
   "volumeNumber": "2",
   "issueNumber": "3",
-  "pagination": "",
+  "pagination": "2-6",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

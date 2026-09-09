@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "C Jason Lee"
+      "name": "C. Jason Lee"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "txpvEu",
   "volumeNumber": "3",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-17",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

@@ -15,7 +15,7 @@
   "author": [
     {
       "@type": "Person",
-      "name": "David A Adcock"
+      "name": "David A. Adcock"
     }
   ],
   "publisher": {
@@ -37,7 +37,7 @@
   "identifier": "jN40op",
   "volumeNumber": "1",
   "issueNumber": "2",
-  "pagination": "",
+  "pagination": "2-9",
   "encoding": {
     "@type": "MediaObject",
     "encodingFormat": "application/pdf",

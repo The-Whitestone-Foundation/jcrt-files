@@ -1,0 +1,138 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/9781350602502/#article",
+  "name": "Book Review: Kant Machine: Critical Philosophy after AI",
+  "headline": "Book Review: Kant Machine: Critical Philosophy after AI",
+  "description": "David Roome reviews Yuk Hui’s Kant Machine, which recovers Kant’s critical philosophy as a diagnostic of what machine learning, artificial moral agency, and algorithmic governance can and cannot accomplish.",
+  "url": "https://jcrt.org/religioustheory/posts/9781350602502/",
+  "inLanguage": "en",
+  "datePublished": "2026-09-07",
+  "dateModified": "2026-09-07",
+  "image": "https://jcrt.orghttps://files.jcrt.org/images/books/9781350602502.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "David Roome"
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/9781350602502/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "onDM9dk",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/religioustheory/9781350602502.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Artificial intelligence",
+      "termCode": "fst00817247",
+      "url": "https://id.worldcat.org/fast/817247",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Artificial intelligence--Moral and ethical aspects",
+      "termCode": "fst00817273",
+      "url": "https://id.worldcat.org/fast/817273",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Kant, Immanuel, 1724-1804",
+      "termCode": "fst00031763",
+      "url": "https://id.worldcat.org/fast/31763",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "personal"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Technology--Philosophy",
+      "termCode": "fst01145171",
+      "url": "https://id.worldcat.org/fast/1145171",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Ethics",
+      "termCode": "fst00915833",
+      "url": "https://id.worldcat.org/fast/915833",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Philosophy",
+      "termCode": "fst01060777",
+      "url": "https://id.worldcat.org/fast/1060777",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Book reviews",
+      "termCode": "fst01423756",
+      "url": "https://id.worldcat.org/fast/1423756",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Reviews",
+      "termCode": "fst01423760",
+      "url": "https://id.worldcat.org/fast/1423760",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}

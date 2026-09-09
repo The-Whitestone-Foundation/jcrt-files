@@ -1,0 +1,28 @@
+[
+  {
+    "id": "religioustheory-9781350602502",
+    "type": "post-weblog",
+    "title": "Book Review: Kant Machine: Critical Philosophy after AI",
+    "container-title": "JCRT - Religious Theory Blog",
+    "genre": "Editor Reviewed Magazine",
+    "language": "en",
+    "URL": "https://jcrt.org/religioustheory/posts/9781350602502/",
+    "abstract": "David Roome reviews Yuk Hui’s Kant Machine, which recovers Kant’s critical philosophy as a diagnostic of what machine learning, artificial moral agency, and algorithmic governance can and cannot accomplish.",
+    "author": [
+      {
+        "family": "Roome",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          7
+        ]
+      ]
+    },
+    "DOI": "10.17613/hcm64-85h06"
+  }
+]

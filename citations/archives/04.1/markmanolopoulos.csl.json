@@ -9,6 +9,12 @@
     "ISSN": "1530-5228",
     "URL": "https://jcrt.org/archives/04.1/markmanolopoulos/",
     "note": "Copyright held by the author(s). Published in the Journal for Cultural and Religious Theory. https://jcrt.org/copyright/",
+    "author": [
+      {
+        "family": "Editors",
+        "given": "JCRT"
+      }
+    ],
     "issued": {
       "date-parts": [
         [
@@ -21,6 +27,7 @@
     "season": "winter",
     "volume": "4",
     "issue": "1",
+    "page": "2-12",
     "DOI": "10.17613/9rcfj-qja02"
   }
 ]

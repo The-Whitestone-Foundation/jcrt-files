@@ -46,7 +46,7 @@ export function archivePdfCanonicalLink(key) {
 }
 
 export function legacyCitationAlias(key) {
-  const match = key.match(/^(citations\/archives\/[^/]+\/)(.+?)(\.(?:ris|csl\.json))$/i);
+  const match = key.match(/^(citations\/archives\/[^/]+\/)(.+?)(\.(?:ris|csl\.json|bib))$/i);
   if (!match) return null;
 
   const [, prefix, stem, ext] = match;

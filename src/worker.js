@@ -121,7 +121,12 @@ export default {
     const detectedContentType = contentTypeFor(key);
     const storedContentType = headers.get('content-type');
     const storedMime = (storedContentType || '').split(';', 1)[0].trim().toLowerCase();
-    if (!storedContentType || storedMime === 'application/octet-stream' || key.toLowerCase().endsWith('.webmanifest')) {
+    // citations/ is always retyped from http-meta.js. rclone stamps whatever
+    // /etc/mime.types says at deploy time -- text/x-bibtex for .bib, a
+    // charset-less application/json for .csl.json -- so without this the
+    // canonical citation types here would never reach a client.
+    const isCitation = key.toLowerCase().startsWith('citations/');
+    if (!storedContentType || storedMime === 'application/octet-stream' || isCitation || key.toLowerCase().endsWith('.webmanifest')) {
       headers.set('content-type', detectedContentType);
     }
     headers.set('cache-control', cacheControlFor(key));

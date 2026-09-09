@@ -11,6 +11,7 @@
  *   metadata/oai_dc.xml
  *   metadata/ris-sitemap.xml
  *   metadata/csl-json-sitemap.xml
+ *   metadata/bibtex-sitemap.xml
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -429,5 +430,9 @@ console.log(`[sitemaps] ✅ ris-sitemap.xml — ${ris.count} URLs`);
 const csl = generateCitationSitemap(".csl.json");
 fs.writeFileSync(path.join(OUT_DIR, "csl-json-sitemap.xml"), csl.xml, "utf8");
 console.log(`[sitemaps] ✅ csl-json-sitemap.xml — ${csl.count} URLs`);
+
+const bib = generateCitationSitemap(".bib");
+fs.writeFileSync(path.join(OUT_DIR, "bibtex-sitemap.xml"), bib.xml, "utf8");
+console.log(`[sitemaps] ✅ bibtex-sitemap.xml — ${bib.count} URLs`);
 
 console.log(`[sitemaps] Done.`);

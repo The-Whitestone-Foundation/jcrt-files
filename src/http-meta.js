@@ -12,6 +12,7 @@ export function contentTypeFor(key) {
   if (lower.startsWith('metadata/') && lower.endsWith('.json')) return 'application/ld+json; charset=utf-8';
   if (lower.endsWith('.pdf')) return 'application/pdf';
   if (lower.endsWith('.ris')) return 'application/x-research-info-systems; charset=utf-8';
+  if (lower.endsWith('.bib')) return 'application/x-bibtex; charset=utf-8';
   if (lower.endsWith('.json')) return 'application/json; charset=utf-8';
   if (lower.endsWith('.webmanifest')) return 'application/manifest+json; charset=utf-8';
   if (lower.endsWith('.xsl')) return 'text/xsl; charset=utf-8';

@@ -35,6 +35,7 @@ for (const { name, entries } of sections) {
 		const wanted = [
 			path.join(root, entry.citationDir, `${entry.citationStem}.ris`),
 			path.join(root, entry.citationDir, `${entry.citationStem}.csl.json`),
+			path.join(root, entry.citationDir, `${entry.citationStem}.bib`),
 			path.join(root, entry.metadataDir, "metadata.json"),
 		];
 		if (entry.issueSlug && typeof entry.data?.pdf === "string" && !/^https?:\/\//i.test(entry.data.pdf)) {
@@ -66,9 +67,9 @@ const counts = sections.map(({ name, entries }) => `${entries.length} ${name}`).
 		for (const e of fsMod.readdirSync(dir, { withFileTypes: true })) {
 			const full = pathMod.join(dir, e.name);
 			if (e.isDirectory()) walk(full);
-			else if (e.name.endsWith(".ris") || e.name.endsWith(".csl.json")) {
+			else if (e.name.endsWith(".ris") || e.name.endsWith(".csl.json") || e.name.endsWith(".bib")) {
 				const text = fsMod.readFileSync(full, "utf8");
-				if (/^TI  - >-\s*$/m.test(text) || text.includes('"title": ">-"')) bad.push(full);
+				if (/^TI  - >-\s*$/m.test(text) || text.includes('"title": ">-"') || text.includes("title = {{>-}}")) bad.push(full);
 			}
 		}
 	};

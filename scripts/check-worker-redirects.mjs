@@ -1,10 +1,19 @@
 import worker from "../src/worker.js";
 
+// What rclone actually stamps on these objects in R2, which the worker must
+// override for citations/ to serve its own canonical types.
+const STORED_CONTENT_TYPES = new Map([
+  ["citations/archives/22.1/gaetano.bib", "text/x-bibtex"],
+  ["citations/archives/22.1/gaetano.csl.json", "application/json"],
+]);
+
 const TRACKED_KEYS = new Set([
   "citations/archives/19.2/mcavan.csl.json",
   "citations/archives/23.1/prewitt_davis.ris",
   "citations/archives/22.2/keller_raschke.ris",
   "citations/archives/22.1/gaetano.csl.json",
+  "citations/archives/22.1/gaetano.bib",
+  "citations/archives/19.2/mcavan.bib",
   "citations/archives/22.1/westin_sedmak.ris",
   "citations/archives/17.2/hagedorn_staudigl.ris",
   "citations/archives/14.1/featherston.csl.json",
@@ -30,7 +39,10 @@ const env = {
         httpEtag: `"${key}"`,
         size: 2,
         writeHttpMetadata(headers) {
-          headers.set("content-type", "application/octet-stream");
+          // rclone sets Content-Type from /etc/mime.types at deploy time, so a
+          // stored type is the norm, not the exception. STORED_CONTENT_TYPES
+          // reproduces that for keys where it matters.
+          headers.set("content-type", STORED_CONTENT_TYPES.get(key) || "application/octet-stream");
         },
       };
     },
@@ -114,6 +126,31 @@ const cases = [
     path: "/citations/archives/22.1/Degaetano.csl.json",
     status: 301,
     location: "https://files.jcrt.org/citations/archives/22.1/gaetano.csl.json",
+  },
+  {
+    name: "BibTeX content type overrides the type rclone stored",
+    path: "/citations/archives/22.1/gaetano.bib",
+    status: 200,
+    contentType: "application/x-bibtex; charset=utf-8",
+  },
+  {
+    name: "CSL-JSON content type overrides the type rclone stored",
+    path: "/citations/archives/22.1/gaetano.csl.json",
+    status: 200,
+    contentType: "application/json; charset=utf-8",
+  },
+  {
+    name: "legacy Degaetano BibTeX citation",
+    path: "/citations/archives/22.1/Degaetano.bib",
+    status: 301,
+    location: "https://files.jcrt.org/citations/archives/22.1/gaetano.bib",
+  },
+  {
+    name: "BibTeX case mismatch",
+    path: "/citations/archives/19.2/McAvan.bib",
+    status: 301,
+    location: "https://files.jcrt.org/citations/archives/19.2/mcavan.bib",
+    listCalls: 1,
   },
   {
     name: "legacy Westin citation",

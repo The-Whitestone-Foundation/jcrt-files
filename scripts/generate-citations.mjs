@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Generate RIS and CSL-JSON citation files for all JCRT archive and
+ * Generate RIS, BibTeX and CSL-JSON citation files for all JCRT archive and
  * Religious Theory articles.  Reads markdown frontmatter from a local
  * jcrt-v2 checkout and writes citation files into citations/ in this repo.
  *
@@ -98,6 +98,10 @@ function normalizeDoi(v) {
 
 const SUFFIXES = new Set(["jr", "sr", "ii", "iii", "iv", "v"]);
 
+function isSuffix(value) {
+	return SUFFIXES.has(String(value || "").replace(/\.$/, "").toLowerCase());
+}
+
 function nameKey(value) {
 	return String(value || "").normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, "");
 }
@@ -114,6 +118,22 @@ function parseAuthorName(author) {
 	if (!raw) return null;
 	const ORCID = authorOrcids.get(nameKey(raw));
 	if (raw.includes(",")) {
+		const segments = raw.split(",").map((s) => s.trim()).filter(Boolean);
+		const last = segments[segments.length - 1];
+		if (segments.length <= 3 && segments.length > 1 && isSuffix(last)) {
+			// Two comma forms carry a generational suffix, and the plain
+			// "Family, Given" split below reads the suffix as the given name
+			// ("Bell, Jr." cites as "Jr., D. M. B."):
+			//   "Family, Suffix, Given" — BibTeX's own three-part form
+			//   "Given Family, Suffix"  — how an editor writes "Daniel M. Bell, Jr."
+			const rest = segments.length === 3
+				? { family: segments[0], given: segments[2] }
+				: parseAuthorName(segments[0]) || {};
+			const base = rest.literal ? { family: rest.literal } : rest;
+			const suffixed = { ...base, suffix: last };
+			const orcid = ORCID || authorOrcids.get(nameKey(segments.slice(0, -1).join(" ")));
+			return { ...suffixed, ...(orcid ? { ORCID: orcid } : {}) };
+		}
 		const [family, ...rest] = raw.split(",");
 		return { family: family.trim(), given: rest.join(",").trim(), ...(ORCID ? { ORCID } : {}) };
 	}
@@ -125,7 +145,7 @@ function parseAuthorName(author) {
 	// A generational suffix is not the family name: "John B. Cobb Jr." must parse
 	// as Cobb / John B. / Jr., or it cites as "Jr., J. B. C."
 	let suffix = "";
-	if (parts.length > 2 && SUFFIXES.has(parts[parts.length - 1].replace(/\.$/, "").toLowerCase())) {
+	if (parts.length > 2 && isSuffix(parts[parts.length - 1])) {
 		suffix = parts.pop();
 	}
 	const family = parts.pop();
@@ -218,6 +238,167 @@ function makeTheoryCSL(e, id) {
 	return JSON.stringify([obj], null, 2) + "\n";
 }
 
+// ── BibTeX builders ────────────────────────────────────────────────
+const MONTH_MACROS = ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"];
+
+// LaTeX-special ASCII. Non-ASCII stays UTF-8 on purpose: biber, Zotero and
+// pandoc all read UTF-8 .bib, and transliterating would mangle author names.
+const LATEX_ESCAPES = {
+	"\\": "\\textbackslash{}", "{": "\\{", "}": "\\}",
+	"$": "\\$", "&": "\\&", "%": "\\%", "#": "\\#", "_": "\\_",
+	"~": "\\textasciitilde{}", "^": "\\textasciicircum{}",
+};
+
+function escBib(v) {
+	return String(v ?? "")
+		.replace(/[\\{}$&%#_~^]/g, (c) => LATEX_ESCAPES[c])
+		.replace(/\s+/g, " ")
+		.trim();
+}
+
+// url and doi are verbatim fields in biblatex; backslash-escaping them would
+// corrupt the value, so they only get whitespace/brace stripping.
+function verbatimBib(v) {
+	// Braces would end the field early, so they go. Internal whitespace is
+	// percent-encoded rather than deleted: a filename with a space should yield
+	// a working URL, not two halves silently welded into a dead one.
+	return String(v ?? "").replace(/[{}]/g, "").trim().replace(/\s+/g, "%20");
+}
+
+// BibTeX name form is "Family, Suffix, Given"; names with no given part are
+// braced so BibTeX does not re-split them into first/last.
+function bibAuthor(author) {
+	const parsed = parseAuthorName(author);
+	if (!parsed) return "";
+	if (parsed.literal) return `{${escBib(parsed.literal)}}`;
+	const family = escBib(parsed.family);
+	const given = escBib(parsed.given);
+	const suffix = escBib(parsed.suffix);
+	// Braced so BibTeX does not re-split a bare family name into first/last --
+	// but a suffix still has to survive, or "Bell, Jr." cites as plain "Bell".
+	if (!given) return suffix ? `{${family}}, ${suffix}` : `{${family}}`;
+	return suffix ? `${family}, ${suffix}, ${given}` : `${family}, ${given}`;
+}
+
+function bibAuthors(authors) {
+	return authors.map(bibAuthor).filter(Boolean).join(" and ");
+}
+
+// Fields flagged `raw` (the month macro) are emitted unbraced so .bst styles
+// expand them to a month name instead of printing the literal "mar".
+function bibEntry(type, id, fields) {
+	const lines = fields
+		.filter(([, value]) => String(value ?? "").trim() !== "")
+		.map(([name, value, raw]) => `  ${name} = ${raw ? value : `{${value}}`},`);
+	return `@${type}{${id},\n${lines.join("\n")}\n}\n`;
+}
+
+// JabRef and Zotero both parse `file` as "description:path:type", splitting on
+// unescaped colons. A bare https URL splits into two junk fields and Zotero
+// discards it, so the colon after the scheme is escaped.
+function bibFile(url) {
+	const clean = verbatimBib(url);
+	return clean ? `Full Text PDF:${clean.replace(/:/g, "\\:")}:PDF` : "";
+}
+
+// biblatex reads `date` in preference to year+month and keeps day precision,
+// which year+month alone throws away. Plain .bst styles ignore it and use year.
+function bibDate(e) {
+	if (!e.hasRealDate || e.dateParts.length < 3) return "";
+	const [y, m, d] = e.dateParts;
+	return `${y}-${pad2(m)}-${pad2(d)}`;
+}
+
+function bibMonth(dateParts) {
+	const month = dateParts?.[1];
+	return month >= 1 && month <= 12 ? MONTH_MACROS[month - 1] : "";
+}
+
+function titleCaseSeason(season) {
+	return String(season || "").replace(/\b[a-z]/g, (c) => c.toUpperCase());
+}
+
+// biblatex's \MakeSentenceCase* ignores a brace group whose first token is a
+// control sequence, so a title starting with an escape (e.g. "\#Subjectivities")
+// loses its case protection under APA. A leading empty group restores it.
+function bibTitle(value, fallback) {
+	const escaped = escBib(value || fallback);
+	return escaped.startsWith("\\") ? `{{}${escaped}}` : `{${escaped}}`;
+}
+
+function makeArchiveBib(e, id) {
+	const page = e.sp && e.ep ? `${e.sp}--${e.ep}` : e.sp || "";
+	const authors = bibAuthors(e.authors);
+	return bibEntry("article", id, [
+		["author", authors],
+		// Legacy BibTeX sorts and labels on `author`; without a `key` the two
+		// authorless front-matter pages raise "to sort, need author or key".
+		["key", authors ? "" : escBib(e.title || id)],
+		// The extra brace pair stops BibTeX styles from lowercasing capitals
+		// inside the title.
+		["title", bibTitle(e.title, id)],
+		["journal", escBib(JOURNAL_TITLE)],
+		["shortjournal", escBib(JOURNAL_ABBR)],
+		["year", escBib(e.py || e.year)],
+		// Only a date the front matter actually stated. Most archive issues give
+		// a year and a season, and the generator fills the rest in as January 1
+		// -- printing "Jan. 2023" on a Fall issue.
+		["month", e.hasRealDate ? bibMonth(e.dateParts) : "", true],
+		["date", bibDate(e)],
+		// No `issue` for the season: pandoc concatenates biblatex `number` +
+		// `issue` into a single CSL issue, so APA renders "24(2, Winter)", and
+		// Zotero maps both onto one field where the later one wins. The season
+		// stays available in the RIS C6 and CSL `season` siblings.
+		["number", escBib(e.issue)],
+		["volume", escBib(e.volume)],
+		["pages", escBib(page)],
+		// No `publisher`: biblatex's data model rejects it on @article. The
+		// RIS/CSL-JSON siblings carry it verbatim.
+		["issn", ISSN],
+		["doi", verbatimBib(e.doi)],
+		["url", verbatimBib(e.url)],
+		["file", bibFile(e.pdfUrl)],
+		// `copyright`, not `note`: biblatex prints `note` mid-citation, wedging
+		// the rights statement between the issue and the page range. Zotero maps
+		// `copyright` onto its Rights field, so the statement still reaches a
+		// reader. biblatex's data model does not define it, so `biber
+		// --validate-datamodel` warns and ignores it -- accepted deliberately,
+		// because unlike `publisher` this field has a consumer that uses it.
+		["copyright", escBib(RIGHTS)],
+	]);
+}
+
+function makeTheoryBib(e, id) {
+	const authors = bibAuthors(e.authors);
+	// @online, not @misc: the RIS and CSL-JSON siblings both type these as blog
+	// posts, and @online is the entry type that says so -- it gets the title
+	// quoted, keeps day precision, and puts the blog in the container slot
+	// rather than the publisher slot. Legacy plain.bst does not define @online:
+	// it warns and falls back to author + title, losing the date and venue.
+	return bibEntry("online", id, [
+		["author", authors],
+		["key", authors ? "" : escBib(e.title || id)],
+		// Only `title` gets the extra case-protection brace pair; on other fields
+		// citeproc prints the inner braces literally ("{Editor Reviewed Magazine}").
+		["title", bibTitle(e.title, id)],
+		// `organization` is the venue slot biblatex's online driver prints;
+		// `journaltitle` and `howpublished` are both dropped there. `type` is not
+		// valid on @online either -- the "Editor Reviewed Magazine" designation
+		// stays in the RIS M3 and CSL `genre` siblings.
+		["organization", escBib(RT_BLOG_TITLE)],
+		["year", escBib(e.year)],
+		["month", e.hasRealDate ? bibMonth(e.dateParts) : "", true],
+		["date", bibDate(e)],
+		// `langid`, not `language`: biblatex typesets `language` verbatim (a bare
+		// "en." mid-entry) while `langid` only selects hyphenation.
+		["langid", "english"],
+		["abstract", escBib(e.abstract)],
+		["doi", verbatimBib(e.doi)],
+		["url", verbatimBib(e.url)],
+		["file", bibFile(e.pdfUrl)],
+	]);
+}
+
 // ── Legacy date lookup (for archive RIS dates) ────────────────────
 function loadLegacyDates() {
 	try { return JSON.parse(fs.readFileSync(LEGACY_DATE_PATH, "utf8")); }
@@ -260,6 +441,7 @@ function generateArchiveCitations() {
 		const season = parseSeason(data) || parseSeason(issueMeta);
 		const parsedDateParts = parseDateParts(data);
 		const issueDateParts = parseDateParts(issueMeta);
+		const hasRealDate = parsedDateParts.length === 3 || issueDateParts.length === 3;
 		const dateParts = parsedDateParts.length === 3
 			? parsedDateParts
 			: issueDateParts.length === 3
@@ -268,10 +450,17 @@ function generateArchiveCitations() {
 
 		const url = pageUrl;
 
+		// `pdf:` is a filename when a PDF exists and the YAML boolean false when
+		// it does not, so only a non-empty string yields a URL.
+		const pdfName = typeof data.pdf === "string" ? data.pdf.trim() : "";
+		const pdfUrl = pdfName
+			? (/^https?:\/\//i.test(pdfName) ? pdfName : `https://files.jcrt.org/archives/${issueSlug}/${pdfName}`)
+			: "";
+
 		const entry = {
 			title: String(data.title || fileSlug).trim(),
 			authors: splitAuthors(data.author),
-			year, volume, issue, season, sp, ep, url, dateParts,
+			year, volume, issue, season, sp, ep, url, dateParts, pdfUrl, hasRealDate,
 			dateIso: dateParts.map((part, index) => index ? pad2(part) : String(part)).join("-"),
 			doi: normalizeDoi(data.doi),
 		};
@@ -282,10 +471,11 @@ function generateArchiveCitations() {
 		const issueOutDir = path.join(OUT_ARCHIVES, issueSlug);
 		const risPath = path.join(issueOutDir, `${fileSlug}.ris`);
 		const cslPath = path.join(issueOutDir, `${fileSlug}.csl.json`);
+		const bibPath = path.join(issueOutDir, `${fileSlug}.bib`);
 
 		// Check if output is already current (content hash)
 		const sig = sha256(`${content}|${JSON.stringify(issueMeta)}`);
-		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath)) {
+		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath) && fs.existsSync(bibPath)) {
 			const markerPath = path.join(issueOutDir, `.${fileSlug}.sig`);
 			try {
 				if (fs.readFileSync(markerPath, "utf8").trim() === sig) {
@@ -299,6 +489,7 @@ function generateArchiveCitations() {
 		const citId = `archives-${issueSlug}-${fileSlug}`.replace(/[^a-zA-Z0-9_.-]/g, "-");
 		fs.writeFileSync(risPath, makeArchiveRIS(entry), "utf8");
 		fs.writeFileSync(cslPath, makeArchiveCSL(entry, citId), "utf8");
+		fs.writeFileSync(bibPath, makeArchiveBib(entry, citId), "utf8");
 		// Write signature marker for incremental builds
 		fs.writeFileSync(path.join(issueOutDir, `.${fileSlug}.sig`), sig, "utf8");
 		generated++;
@@ -323,9 +514,10 @@ function generateTheoryCitations() {
 
 		const risPath = path.join(OUT_THEORY, `${fileSlug}.ris`);
 		const cslPath = path.join(OUT_THEORY, `${fileSlug}.csl.json`);
+		const bibPath = path.join(OUT_THEORY, `${fileSlug}.bib`);
 
 		const sig = sha256(`${content}|${pageUrl}`);
-		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath)) {
+		if (!FORCE && fs.existsSync(risPath) && fs.existsSync(cslPath) && fs.existsSync(bibPath)) {
 			const markerPath = path.join(OUT_THEORY, `.${fileSlug}.sig`);
 			try {
 				if (fs.readFileSync(markerPath, "utf8").trim() === sig) {
@@ -340,6 +532,7 @@ function generateTheoryCitations() {
 			authors: splitAuthors(data.author),
 			year: parseYear(data),
 			dateParts: parseDateParts(data),
+			hasRealDate: parseDateParts(data).length === 3,
 			abstract: String(data.description || "").trim(),
 			doi: normalizeDoi(data.doi),
 			url: pageUrl,
@@ -349,6 +542,7 @@ function generateTheoryCitations() {
 		const citId = `religioustheory-${fileSlug}`.replace(/[^a-zA-Z0-9_.-]/g, "-");
 		fs.writeFileSync(risPath, makeTheoryRIS(entry), "utf8");
 		fs.writeFileSync(cslPath, makeTheoryCSL(entry, citId), "utf8");
+		fs.writeFileSync(bibPath, makeTheoryBib(entry, citId), "utf8");
 		fs.writeFileSync(path.join(OUT_THEORY, `.${fileSlug}.sig`), sig, "utf8");
 		generated++;
 	}

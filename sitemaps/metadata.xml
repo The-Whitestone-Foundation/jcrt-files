@@ -639,7 +639,7 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/05.3/vahanian/metadata.json</loc>
-		<lastmod>2026-08-30</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/06.1/blanton/metadata.json</loc>
@@ -991,7 +991,7 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/08.1/vahanian/metadata.json</loc>
-		<lastmod>2026-08-30</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/08.1/waggoner/metadata.json</loc>
@@ -1139,7 +1139,7 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/09.1/malabou/metadata.json</loc>
-		<lastmod>2026-08-30</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/09.1/negri/metadata.json</loc>
@@ -1571,7 +1571,7 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/12.1/nelson/metadata.json</loc>
-		<lastmod>2026-08-30</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/archives/12.1/rust/metadata.json</loc>
@@ -3327,11 +3327,11 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/doaj-archives.xml</loc>
-		<lastmod>2026-09-09</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/oai_dc.xml</loc>
-		<lastmod>2026-09-09</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/religioustheory/live/a-new-project-for-correlational-continental-theology-again/metadata.json</loc>
@@ -4839,38 +4839,38 @@
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search-sitemap.xml</loc>
-		<lastmod>2026-04-16</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/archives.search.json</loc>
-		<lastmod>2026-04-16</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/authors.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/blog.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/json/archives-01.search.json</loc>
-		<lastmod>2026-04-16</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/json/authors-01.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/json/blog-01.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/json/religioustheory-01.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 	<url>
 		<loc>https://files.jcrt.org/metadata/search/religioustheory.search.json</loc>
-		<lastmod>2026-03-15</lastmod>
+		<lastmod>2026-09-11</lastmod>
 	</url>
 </urlset>

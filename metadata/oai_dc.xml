@@ -2,7 +2,7 @@
 <OAI-PMH xmlns="http://www.openarchives.org/OAI/2.0/"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd">
-  <responseDate>2026-09-09T15:34:27.766Z</responseDate>
+  <responseDate>2026-09-09T18:32:30.286Z</responseDate>
   <request verb="ListRecords" metadataPrefix="oai_dc">https://jcrt.org/sitemaps/oai_dc.xml</request>
   <ListRecords>
     <record>
@@ -6976,7 +6976,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>Aristotle’s Children: How Christians, Muslims, and Jews Rediscovered Ancient Wisdom and Illuminated the Dark Ages</dc:title>
-          <dc:creator>Nöelle Vahanian</dc:creator>
+          <dc:creator>Noëlle Vahanian</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2004-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -10676,7 +10676,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>ThÉOrie-RÉBellion: UN Ultimatum</dc:title>
-          <dc:creator>Nöelle Vahanian</dc:creator>
+          <dc:creator>Noëlle Vahanian</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2006-01-01</dc:date>
           <dc:type>article</dc:type>
@@ -12305,7 +12305,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>A Conversation with Catherine Malabou</dc:title>
-          <dc:creator>Nöelle Vahanian</dc:creator>
+          <dc:creator>Noëlle Vahanian</dc:creator>
           <dc:creator>Catherine Malabou</dc:creator>
           <dc:creator>Carissa Devine</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
@@ -17282,7 +17282,7 @@
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd">
           <dc:title>The Flesh Might Look Funny – If You Look at It</dc:title>
-          <dc:creator>Jennifer (Art Nelson</dc:creator>
+          <dc:creator>Jennifer Art Nelson</dc:creator>
           <dc:publisher>Whitestone Foundation</dc:publisher>
           <dc:date>2012-01-01</dc:date>
           <dc:type>article</dc:type>

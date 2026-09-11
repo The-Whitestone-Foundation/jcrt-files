@@ -1,17 +1,17 @@
 {
   "site": "JCRT",
   "section": "religioustheory",
-  "generated_at": "2026-03-15T05:41:30.013Z",
+  "generated_at": "2026-09-09T18:32:52.723Z",
   "chunk_size_limit_bytes": 5242880,
-  "total_items": 177,
-  "new_items_added": 0,
+  "total_items": 180,
+  "new_items_added": 180,
   "chunks": [
     {
       "file": "religioustheory-01.search.json",
       "url": "https://files.jcrt.org/metadata/search/json/religioustheory-01.search.json",
-      "item_count": 177,
-      "size_bytes": 132918,
-      "lastmod": "2026-03-15"
+      "item_count": 180,
+      "size_bytes": 136031,
+      "lastmod": "2026-09-09"
     }
   ]
 }

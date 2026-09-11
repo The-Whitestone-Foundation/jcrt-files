@@ -1,17 +1,17 @@
 {
   "site": "JCRT",
   "section": "blog",
-  "generated_at": "2026-03-15T05:41:30.014Z",
+  "generated_at": "2026-09-09T18:32:52.726Z",
   "chunk_size_limit_bytes": 5242880,
-  "total_items": 6,
-  "new_items_added": 0,
+  "total_items": 7,
+  "new_items_added": 7,
   "chunks": [
     {
       "file": "blog-01.search.json",
       "url": "https://files.jcrt.org/metadata/search/json/blog-01.search.json",
-      "item_count": 6,
-      "size_bytes": 2747,
-      "lastmod": "2026-03-15"
+      "item_count": 7,
+      "size_bytes": 5477,
+      "lastmod": "2026-09-09"
     }
   ]
 }

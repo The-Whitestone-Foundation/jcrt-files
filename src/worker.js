@@ -5,7 +5,7 @@ import {
 } from './http-meta.js';
 import {
   normalizeKey, redirectToCanonical, archivePdfCanonicalLink,
-  legacyCitationAlias, findCaseInsensitiveKey,
+  legacyCitationAlias, findCaseInsensitiveKey, DUPLICATE_PDF_KEYS,
 } from './keys.js';
 import { isResizingSubrequest, isTransformableImageKey, parseImageTransform, serveTransformedImage } from './imageTransform.js';
 
@@ -82,6 +82,10 @@ export default {
       }
     }
 
+    // Retired duplicate PDFs: the object still exists, but the primary copy is canonical.
+    const primaryKey = DUPLICATE_PDF_KEYS.get(key);
+    if (primaryKey) return redirectToCanonical(primaryKey);
+
     const object = await env.JCRT_FILES.get(key, {
       range: request.headers,
       onlyIf: request.headers,
@@ -130,6 +134,8 @@ export default {
       headers.set('content-type', detectedContentType);
     }
     headers.set('cache-control', cacheControlFor(key));
+    // Machine-readable JSON-LD records: fetchable by anyone, never a search result.
+    if (/^metadata\//i.test(key)) headers.set('x-robots-tag', 'noindex');
     const canonicalLink = archivePdfCanonicalLink(key);
     if (canonicalLink) headers.append('link', canonicalLink);
     applyCors(headers, request);

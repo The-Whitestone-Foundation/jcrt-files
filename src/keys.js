@@ -15,6 +15,30 @@ export const LEGACY_CITATION_STEMS = new Map([
   ['cook1', 'cook'],
 ]);
 
+// Duplicate archive PDFs retired 2026-09-22: same article text under two keys/DOIs.
+// The objects stay in R2; requests for the duplicate 301 to the primary. Keys are
+// exact (case-sensitive) R2 keys, so match the on-disk filename.
+export const DUPLICATE_PDF_KEYS = new Map([
+  ['archives/08.1/mejido.pdf', 'archives/08.1/costoya.pdf'],
+  ['archives/12.2/crockett_2.pdf', 'archives/12.2/crockett.pdf'],
+  ['archives/12.2/montel_hurlin.pdf', 'archives/12.2/hurlin.pdf'],
+  ['archives/13.1/v_squez.pdf', 'archives/13.1/vasquez.pdf'],
+  ['archives/16.1/stowe_sousanis.pdf', 'archives/16.1/InterviewSousanis.pdf'],
+  ['archives/16.1/clay_robinson.pdf', 'archives/16.1/InterviewGaia.pdf'],
+  ['archives/16.1/InterviewUlmer.pdf', 'archives/16.1/figueiredo_2.pdf'],
+  ['archives/18.1/komkov.pdf', 'archives/18.1/Komkov2.pdf'],
+  ['archives/18.1/burke.pdf', 'archives/18.1/Burke2.pdf'],
+  ['archives/18.1/ramos.pdf', 'archives/18.1/Ramos1.pdf'],
+  ['archives/18.1/l_land.pdf', 'archives/18.1/Loland1.pdf'],
+  ['archives/18.1/sharma.pdf', 'archives/18.1/Sharma2.pdf'],
+  ['archives/18.1/spickard.pdf', 'archives/18.1/Spickard2.pdf'],
+  ['archives/19.3/lebovic.pdf', 'archives/19.3/5-Leibovic.pdf'],
+  ['archives/21.3/bradley_2.pdf', 'archives/21.3/Bradley2.pdf'],
+  ['archives/21.3/Bradley3.pdf', 'archives/21.3/gildea.pdf'],
+  ['archives/21.3/Bradley5.pdf', 'archives/21.3/bielik_robson.pdf'],
+  ['archives/21.3/Bradley7.pdf', 'archives/21.3/nedoh.pdf'],
+]);
+
 export function normalizeKey(pathname) {
   let decoded = pathname;
   try {

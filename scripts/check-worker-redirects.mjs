@@ -189,6 +189,13 @@ const cases = [
     listCalls: 1,
   },
   {
+    name: "retired duplicate PDF redirects to the primary",
+    path: "/archives/12.2/crockett_2.pdf",
+    status: 301,
+    location: "https://files.jcrt.org/archives/12.2/crockett.pdf",
+    listCalls: 0,
+  },
+  {
     name: "PDF canonical link header",
     path: "/archives/03.1/anderson.pdf",
     status: 200,

@@ -36,7 +36,10 @@ const BASE_URL = "https://files.jcrt.org";
 // else at the top level is treated as CDN content and gets a sitemap automatically.
 // This is an EXCLUDE list on purpose: an include list meant every new folder was silently
 // left out of the sitemaps (and, in the deploy workflow, never uploaded at all).
-const NON_ASSET_DIRS = new Set([".git", ".github", "node_modules", "scripts", "src", "sitemaps"]);
+// metadata/ is served (worker robots.txt allows it, article pages link it rel=describedby)
+// but its JSON is not an indexable file type; listing 1,218 of them in a Google-facing
+// sitemap only filled Search Console with "Crawled - currently not indexed" rows.
+const NON_ASSET_DIRS = new Set([".git", ".github", ".githooks", "node_modules", "scripts", "src", "sitemaps", "metadata"]);
 
 /** Top-level git-tracked directories that hold served files. */
 function discoverServedFolders() {

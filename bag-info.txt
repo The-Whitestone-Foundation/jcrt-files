@@ -1,0 +1,8 @@
+Source-Organization: The Whitestone Foundation
+Contact-Name: Adam DJ Brett
+Contact-Email: adam@adamdjbrett.com
+External-Description: Files served at files.jcrt.org: the complete PDF archive of the Journal for Cultural and Religious Theory (ISSN 1530-5228) since 1999, citation files (RIS, CSL JSON, BibTeX), JSON-LD metadata records and CDN sitemaps.
+External-Identifier: https://github.com/The-Whitestone-Foundation/jcrt-files
+External-Identifier: https://files.jcrt.org/
+Bag-Group-Identifier: The Whitestone Foundation
+Bag-Count: 1 of 1

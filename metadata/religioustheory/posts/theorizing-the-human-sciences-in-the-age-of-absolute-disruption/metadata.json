@@ -1,0 +1,125 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "https://jcrt.org/religioustheory/posts/theorizing-the-human-sciences-in-the-age-of-absolute-disruption/#article",
+  "name": "Theorizing the Human Sciences in the Age of Absolute Disruption: Historical Criticism and Its Remainders",
+  "headline": "Theorizing the Human Sciences in the Age of Absolute Disruption: Historical Criticism and Its Remainders",
+  "description": "Adam DJ Brett reads Jason Ānanda Josephson-Storm’s trilogy — The Myth of Disenchantment, Metamodernism, and The Genealogy of Genealogy — as one project asking whether a thing exists, how it arose, what grounds our claims about it, and whether it is desirable.",
+  "url": "https://jcrt.org/religioustheory/posts/theorizing-the-human-sciences-in-the-age-of-absolute-disruption/",
+  "inLanguage": "en",
+  "datePublished": "2026-09-28",
+  "dateModified": "2026-09-28",
+  "image": "https://files.jcrt.org/images/jcrt-open-graph.webp",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Adam DJ Brett",
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "propertyID": "ORCID",
+          "value": "0009-0004-6725-8425",
+          "url": "https://orcid.org/0009-0004-6725-8425"
+        }
+      ],
+      "sameAs": [
+        "https://orcid.org/0009-0004-6725-8425"
+      ]
+    }
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Whitestone Publications",
+    "url": "https://thewhitestonefoundation.org/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://jcrt.org/religioustheory/posts/theorizing-the-human-sciences-in-the-age-of-absolute-disruption/"
+  },
+  "isPartOf": {
+    "@type": "Blog",
+    "@id": "https://jcrt.org/religioustheory/",
+    "name": "Religious Theory",
+    "url": "https://jcrt.org/religioustheory/"
+  },
+  "identifier": "P2XWAfD",
+  "encoding": {
+    "@type": "MediaObject",
+    "encodingFormat": "application/pdf",
+    "contentUrl": "https://files.jcrt.org/religioustheory/theorizing-the-human-sciences-in-the-age-of-absolute-disruption.pdf"
+  },
+  "about": [
+    {
+      "@type": "DefinedTerm",
+      "name": "Genealogy",
+      "termCode": "fst00939652",
+      "url": "https://id.worldcat.org/fast/939652",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Critical theory",
+      "termCode": "fst00883690",
+      "url": "https://id.worldcat.org/fast/883690",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Postmodernism",
+      "termCode": "fst01073164",
+      "url": "https://id.worldcat.org/fast/1073164",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Knowledge, Theory of",
+      "termCode": "fst00988194",
+      "url": "https://id.worldcat.org/fast/988194",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Occultism",
+      "termCode": "fst01043123",
+      "url": "https://id.worldcat.org/fast/1043123",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "Religion and science",
+      "termCode": "fst01093848",
+      "url": "https://id.worldcat.org/fast/1093848",
+      "inDefinedTermSet": "https://id.worldcat.org/fast/",
+      "additionalProperty": {
+        "@type": "PropertyValue",
+        "name": "authority category",
+        "value": "topical"
+      }
+    }
+  ]
+}
